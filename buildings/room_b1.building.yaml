@@ -17,19 +17,19 @@ graphs:
 levels:
   L1:
     doors:
-      - [239, 240, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [241, 242, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [239, 240, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a11], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [241, 242, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a12], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [29, 243, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
       - [244, 245, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [211, 246, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_sliding]}]
-      - [223, 247, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_sliding]}]
-      - [119, 117, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [135, 139, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [138, 143, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [142, 105, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [104, 251, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [250, 249, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [252, 99, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [211, 246, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_sliding]}]
+      - [223, 247, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a44], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_sliding]}]
+      - [119, 117, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, a44], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [135, 139, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a10], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [138, 143, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a9], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [142, 105, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [104, 251, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [250, 249, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [252, 99, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, a5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
     drawing:
       filename: ../../rmf_demos_ws/buildings/plano.png
     elevation: 0
@@ -720,12 +720,12 @@ levels:
       - [253, 254, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2:
     doors:
-      - [102, 103, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [104, 105, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [18, 106, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [107, 108, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, SLIDING]}]
-      - [48, 109, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [110, 111, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, SLIDING]}]
+      - [102, 103, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, b3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [104, 105, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, b4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [18, 106, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, b6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [107, 108, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, b1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, SLIDING]}]
+      - [48, 109, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, b5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [110, 111, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, b2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, SLIDING]}]
     drawing:
       filename: ../../rmf_demos_ws/buildings/conference_room_b1_balcony.png
     elevation: 8
