@@ -517,6 +517,12 @@ levels:
       - [221.31800000000001, 411.65600000000001, 0, ""]
       - [222.053, 446.61599999999999, 0, ""]
       - [220.99299999999999, 356.41500000000002, 0, ""]
+      - [374.30200000000002, 671.47699999999998, 0, ""]
+      - [374.30200000000002, 811.96299999999997, 0, ""]
+      - [287.74099999999999, 698.88, 0, ""]
+      - [322.596, 698.49900000000002, 0, ""]
+      - [322.97699999999998, 732.97400000000005, 0, ""]
+      - [304.50200000000001, 715.83199999999999, 0, ""]
     walls:
       - [23, 24, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [24, 25, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -714,6 +720,8 @@ levels:
       - [248, 249, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [250, 102, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [251, 102, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [82, 253, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [253, 254, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2:
     doors:
       - [102, 103, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "null"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
@@ -1003,5 +1011,50 @@ levels:
       - [116, 117, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [117, 118, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [118, 119, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-lifts: {}
+lifts:
+  lift:
+    depth: 1.8
+    doors:
+      {}
+    highest_floor: L2
+    initial_floor_name: L1
+    level_doors:
+      {}
+    lowest_floor: L1
+    plugins: true
+    reference_floor_name: L1
+    width: 1.8
+    x: 305
+    y: 715
+    yaw: 0
+  lift2:
+    depth: 1.6000000000000001
+    doors:
+      {}
+    highest_floor: ""
+    initial_floor_name: L1
+    level_doors:
+      {}
+    lowest_floor: ""
+    plugins: true
+    reference_floor_name: L1
+    width: 2.7999999999999998
+    x: 442
+    y: 985
+    yaw: 0
+  lift3:
+    depth: 1.5
+    doors:
+      {}
+    highest_floor: ""
+    initial_floor_name: L1
+    level_doors:
+      {}
+    lowest_floor: ""
+    plugins: true
+    reference_floor_name: L1
+    width: 2.7999999999999998
+    x: 442
+    y: 953
+    yaw: 0
 name: room_b1
