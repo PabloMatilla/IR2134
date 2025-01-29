@@ -448,7 +448,7 @@
           <model name="a1" />
           <model name="a2" />
           <model name="a4" />
-          <model name="a4" />
+          <model name="c1" />
           <model name="a44" />
           <model name="a10" />
           <model name="a9" />
@@ -2316,7 +2316,7 @@
         </component>
       </plugin>
     </model>
-    <model name="a4">
+    <model name="c1">
       <pose>26.704619663456896 -13.72830284666555 0.0 0 0 0.0</pose>
       <link name="right">
         <pose>0.4459475856813233 0 1.11 0 0 0</pose>
@@ -2428,7 +2428,7 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="a4" type="DoubleSlidingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="c1" type="DoubleSlidingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
