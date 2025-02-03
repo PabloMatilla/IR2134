@@ -29,6 +29,9 @@ levels:
       - [48, 49, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D12], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
       - [167, 163, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [164, 168, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [73, 174, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, dorz2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [100, 175, {motion_axis: [1, END], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, DOOR2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [136, 176, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, doorz1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
     drawing:
       filename: conference_room_b1.png
     elevation: 0
@@ -435,6 +438,9 @@ levels:
       - [593.26999999999998, 1194.7439999999999, 0, ""]
       - [593.26999999999998, 1172.654, 0, ""]
       - [593.26999999999998, 1126.5809999999999, 0, ""]
+      - [680.47799999999995, 1389.1600000000001, 0, ""]
+      - [925.39800000000002, 1395.595, 0, ""]
+      - [202.54900000000001, 1251.223, 0, ""]
     walls:
       - [2, 35, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [35, 36, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -567,6 +573,9 @@ levels:
     doors:
       - [56, 57, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D21], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [53, 58, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D22], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [29, 64, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [18, 19, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [39, 40, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
     drawing:
       filename: conference_room_b1_balcony.png
     elevation: 8
@@ -689,6 +698,7 @@ levels:
       - [592.68399999999997, 1195.3099999999999, 0, ""]
       - [592.68399999999997, 1174.28, 0, ""]
       - [592.68399999999997, 1127.76, 0, ""]
+      - [683.52200000000005, 1392.6179999999999, 0, ""]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
