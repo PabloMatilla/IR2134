@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [TinyRobot], agents_number: 1, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -589,7 +589,7 @@ levels:
       - [729.14099999999996, 403.15800000000002, 0, ""]
       - [729.14099999999996, 1037.134, 0, ""]
       - [878.48400000000004, 395.83699999999999, 0, ""]
-      - [878.48400000000004, 1041.527, 0, ""]
+      - [878.48400000000004, 1041.527, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
       - [577.75199999999995, 308.08199999999999, 0, ""]
       - [859.01900000000001, 308.08199999999999, 0, ""]
       - [805.04499999999996, 404.036, 0, ""]

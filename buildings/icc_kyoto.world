@@ -1828,6 +1828,11 @@
       <pose>16.21740538788844 -29.868083054444714 0.0 0 0 1.5708</pose>
       <static>True</static>
     </include>
+    <include>
+      <name>tinyRobot1</name>
+      <uri>model://TinyRobot</uri>
+      <pose>22.439684283535403 -26.604396952907255 0.0 0 0 -1.5707963267948966</pose>
+    </include>
     <model name="D1">
       <pose>18.720044101489805 -4.684742985787809 0.0 0 0 -3.1257893716102303</pose>
       <link name="right">
@@ -4251,6 +4256,8 @@
       </plugin>
       <pose>14.049005281763208 -29.375192861868527 0 0 0 0.0</pose>
     </model>
-    <rmf_charger_waypoints name="charger_waypoints" />
+    <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="tinyRobot1_charger" x="22.439684283535403" y="-26.604396952907255" level="L1" />
+    </rmf_charger_waypoints>
   </world>
 </sdf>
