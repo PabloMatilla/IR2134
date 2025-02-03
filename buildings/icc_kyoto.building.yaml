@@ -16,6 +16,18 @@ graphs:
   {}
 levels:
   L1:
+    constraints:
+      - {ids: ["{e1bc6abe-b612-41c1-8534-67fb145a977b}", "{65bf764f-02ff-4cbe-b342-89f10d450f36}"]}
+      - {ids: ["{8c1640b4-84fd-4d04-8a03-bddb8b9af691}", "{553ae032-721f-4d21-8786-e9b885ee43d5}"]}
+      - {ids: ["{0f37d8a8-fec0-4894-bc72-9d7015c044b0}", "{2405622c-1947-442e-9465-f7597bc69e6f}"]}
+      - {ids: ["{12447aef-0e4d-432c-8088-6ff71bb62ab3}", "{560b1664-f384-45dc-8d88-0df3bb27ff51}"]}
+      - {ids: ["{3558de73-954f-4329-b1f2-eed6b193c53e}", "{bfed41d8-78aa-4d09-8ecf-02a68555993e}"]}
+      - {ids: ["{e45cdfb1-c17d-47a0-b254-031f193a18d2}", "{27acefc8-653b-41b7-b31f-9f6fe8a7944b}"]}
+      - {ids: ["{bac81fab-2e30-4506-b103-a812eec7674e}", "{d1a2be0f-908d-401a-a12d-b902516bcb75}"]}
+      - {ids: ["{a68ef240-9c2c-461b-a9aa-3c2c4acb66c5}", "{cfe93770-d6fd-43b8-87e7-11863977fba8}"]}
+      - {ids: ["{792a7aae-0928-41ce-ab4b-2293726b873d}", "{39730f51-10db-4aba-bf25-4b3f17039e05}"]}
+      - {ids: ["{e054f96f-f99c-4529-92f1-284647972566}", "{e970185b-2390-4d18-8fef-0f0bb910ca27}"]}
+      - {ids: ["{e0434e0e-6b59-44b3-9ea9-9b2c921e83a7}", "{7409d701-f2e7-4ab1-9413-9ac310f422d5}"]}
     doors:
       - [81, 125, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
       - [126, 121, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, D2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
@@ -35,14 +47,141 @@ levels:
     drawing:
       filename: conference_room_b1.png
     elevation: 0
+    features:
+      - {id: "{8c1640b4-84fd-4d04-8a03-bddb8b9af691}", name: "", x: 926.42600000000004, y: 1195.191}
+      - {id: "{e1bc6abe-b612-41c1-8534-67fb145a977b}", name: "", x: 494.57900000000001, y: 1195.172}
+      - {id: "{0f37d8a8-fec0-4894-bc72-9d7015c044b0}", name: "", x: 859.16800000000001, y: 1065.9590000000001}
+      - {id: "{560b1664-f384-45dc-8d88-0df3bb27ff51}", name: "", x: 681.45500000000004, y: 1517.8030000000001}
+      - {id: "{27acefc8-653b-41b7-b31f-9f6fe8a7944b}", name: "", x: 220.88999999999999, y: 1743.2829999999999}
+      - {id: "{bfed41d8-78aa-4d09-8ecf-02a68555993e}", name: "", x: 339.32600000000002, y: 1630.6089999999999}
+      - {id: "{d1a2be0f-908d-401a-a12d-b902516bcb75}", name: "", x: 1262.6510000000001, y: 1745.354}
+      - {id: "{cfe93770-d6fd-43b8-87e7-11863977fba8}", name: "", x: 411.85599999999999, y: 1569.9690000000001}
+      - {id: "{39730f51-10db-4aba-bf25-4b3f17039e05}", name: "", x: 399.863, y: 1556.9179999999999}
+      - {id: "{7409d701-f2e7-4ab1-9413-9ac310f422d5}", name: "", x: 930.91600000000005, y: 1595.663}
+      - {id: "{e970185b-2390-4d18-8fef-0f0bb910ca27}", name: "", x: 682.38400000000001, y: 1593.355}
     fiducials:
       - [738.43700000000001, 1233.693, P1]
       - [865.50999999999999, 1240.154, P2]
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+    lanes:
+      - [179, 180, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [180, 181, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [181, 182, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [183, 184, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [185, 186, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [187, 188, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [188, 189, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [187, 178, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [178, 183, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [183, 189, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [189, 185, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [185, 179, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [186, 190, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [190, 191, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [191, 192, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [192, 193, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [193, 194, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [194, 195, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [195, 196, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [196, 197, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [197, 198, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [198, 199, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [199, 200, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [200, 201, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [201, 202, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [204, 205, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [205, 206, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [206, 207, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [203, 207, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [207, 204, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [203, 208, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [208, 209, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [210, 211, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [211, 212, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [212, 213, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [214, 215, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [216, 217, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [217, 218, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [218, 219, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [202, 219, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [219, 203, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [220, 221, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [222, 223, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [224, 225, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [226, 227, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [228, 229, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [210, 230, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [215, 228, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [228, 226, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [226, 224, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [224, 222, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [222, 220, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [220, 216, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [231, 232, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [232, 233, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [233, 234, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [234, 235, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [235, 236, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [236, 237, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [237, 238, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [238, 239, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [239, 240, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [240, 241, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [241, 242, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [242, 243, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [243, 244, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [244, 245, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [245, 246, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [246, 247, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [247, 248, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [248, 249, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [249, 250, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [250, 251, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [251, 252, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [252, 253, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [252, 231, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [232, 254, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [254, 179, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [179, 180, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [180, 184, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [184, 255, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [255, 256, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [256, 257, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [257, 258, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [258, 259, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [259, 260, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [260, 261, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [184, 262, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [262, 263, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [263, 264, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [181, 265, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [265, 266, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [266, 263, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [263, 264, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
-      {}
+      sim_scan:
+        color: [1, 0, 0, 0.5]
+        features:
+          - {id: "{553ae032-721f-4d21-8786-e9b885ee43d5}", name: "", x: 353.87700000000001, y: 513.26800000000003}
+          - {id: "{65bf764f-02ff-4cbe-b342-89f10d450f36}", name: "", x: 113.274, y: 516.06899999999996}
+          - {id: "{2405622c-1947-442e-9465-f7597bc69e6f}", name: "", x: 323.14400000000001, y: 446.19099999999997}
+          - {id: "{12447aef-0e4d-432c-8088-6ff71bb62ab3}", name: "", x: 231.904, y: 677.21600000000001}
+          - {id: "{e45cdfb1-c17d-47a0-b254-031f193a18d2}", name: "", x: -0.17399999999999999, y: 818.51199999999994}
+          - {id: "{3558de73-954f-4329-b1f2-eed6b193c53e}", name: "", x: 63.813000000000002, y: 728.346}
+          - {id: "{bac81fab-2e30-4506-b103-a812eec7674e}", name: "", x: 521.65099999999995, y: 817.66200000000003}
+          - {id: "{a68ef240-9c2c-461b-a9aa-3c2c4acb66c5}", name: "", x: 95.849999999999994, y: 699.96900000000005}
+          - {id: "{792a7aae-0928-41ce-ab4b-2293726b873d}", name: "", x: 91.929000000000002, y: 695.92100000000005}
+          - {id: "{e0434e0e-6b59-44b3-9ea9-9b2c921e83a7}", name: "", x: 357.62099999999998, y: 716.35199999999998}
+          - {id: "{e054f96f-f99c-4529-92f1-284647972566}", name: "", x: 229.91800000000001, y: 716.40099999999995}
+        filename: scans/sim_hall.png
+        transform:
+          scale: 0.049570260255059527
+          translation_x: 6.0610149979073213
+          translation_y: 4.9826897767969118
+          yaw: -0.00173461240012136
+        visible: true
     measurements:
       - [0, 1, {distance: [3, 12]}]
     models:
@@ -441,6 +580,96 @@ levels:
       - [680.47799999999995, 1389.1600000000001, 0, ""]
       - [925.39800000000002, 1395.595, 0, ""]
       - [202.54900000000001, 1251.223, 0, ""]
+      - [1031.8620000000001, 623.35900000000004, 0, ""]
+      - [610.48599999999999, 402.18400000000003, 0, ""]
+      - [1056.1079999999999, 402.18400000000003, 0, ""]
+      - [1056.1079999999999, 1037.817, 0, carga12, {is_parking_spot: [4, true]}]
+      - [553.93499999999995, 1037.817, 0, ""]
+      - [553.93499999999995, 546.95399999999995, 0, ""]
+      - [729.14099999999996, 403.15800000000002, 0, ""]
+      - [729.14099999999996, 1037.134, 0, ""]
+      - [878.48400000000004, 395.83699999999999, 0, ""]
+      - [878.48400000000004, 1041.527, 0, ""]
+      - [577.75199999999995, 308.08199999999999, 0, ""]
+      - [859.01900000000001, 308.08199999999999, 0, ""]
+      - [805.04499999999996, 404.036, 0, ""]
+      - [896.92100000000005, 1110.9680000000001, 0, ""]
+      - [1057.2619999999999, 1112.1880000000001, 0, ""]
+      - [1057.2619999999999, 1171.325, 0, ""]
+      - [883.50900000000001, 1171.325, 0, ""]
+      - [853.94899999999996, 1336.4300000000001, 0, ""]
+      - [853.94899999999996, 1464.779, 0, ""]
+      - [1086.702, 1464.779, 0, clean, {is_cleaning_zone: [4, true]}]
+      - [1086.702, 1692.7429999999999, 0, direccion]
+      - [989.96100000000001, 1692.7429999999999, 0, ""]
+      - [989.96100000000001, 1549.069, 0, ""]
+      - [811.80499999999995, 1549.069, 0, ""]
+      - [811.80499999999995, 1456.1590000000001, 0, ""]
+      - [512.00300000000004, 1456.1590000000001, 0, ""]
+      - [512.00300000000004, 1693.701, 0, ""]
+      - [897.69000000000005, 1693.701, 0, ""]
+      - [897.69000000000005, 1630.6969999999999, 0, ""]
+      - [718.89499999999998, 1630.6969999999999, 0, ""]
+      - [718.89499999999998, 1688.5930000000001, 0, ""]
+      - [265.77199999999999, 1693.701, 0, ""]
+      - [265.77199999999999, 258.44400000000002, 0, escaleras]
+      - [266.26299999999998, 431.745, 0, ""]
+      - [151.26400000000001, 431.745, 0, ""]
+      - [151.26400000000001, 676.452, 0, ""]
+      - [262.25099999999998, 676.452, 0, ""]
+      - [266.31299999999999, 486.39800000000002, 0, ""]
+      - [329.60399999999998, 486.39800000000002, 0, ""]
+      - [329.60399999999998, 1069.0050000000001, 0, ""]
+      - [373.20499999999998, 1069.0050000000001, 0, ""]
+      - [373.20499999999998, 1595.521, 0, ""]
+      - [512.74699999999996, 1595.521, 0, ""]
+      - [329.137, 956.29700000000003, 0, ""]
+      - [438.57499999999999, 956.29700000000003, 0, room_318]
+      - [327.68700000000001, 846.85799999999995, 0, ""]
+      - [445.82299999999998, 846.85799999999995, 0, room_319]
+      - [328.04700000000003, 747.56200000000001, 0, ""]
+      - [439.08600000000001, 747.56200000000001, 0, room_320]
+      - [329.90899999999999, 630.47900000000004, 0, ""]
+      - [439.35599999999999, 630.47900000000004, 0, room_321]
+      - [330.88499999999999, 534.48599999999999, 0, ""]
+      - [441.97800000000001, 534.48599999999999, 0, room_322]
+      - [445.19, 431.745, 0, room_323]
+      - [657.13300000000004, 347.70100000000002, 0, ""]
+      - [865.99699999999996, 347.70100000000002, 0, profesor]
+      - [893.83500000000004, 300.58999999999997, 0, ""]
+      - [976.07799999999997, 282.64699999999999, 0, ""]
+      - [976.07799999999997, 242.273, 0, ""]
+      - [865.42399999999998, 242.273, 0, ""]
+      - [865.42399999999998, 116.666, 0, ""]
+      - [1005.984, 116.666, 0, almacen]
+      - [1005.984, 180.965, 0, ""]
+      - [961.12400000000002, 180.965, 0, ""]
+      - [961.12400000000002, 77.787999999999997, 0, ""]
+      - [771.21799999999996, 77.787999999999997, 0, ""]
+      - [771.21799999999996, 154.04900000000001, 0, ""]
+      - [871.40499999999997, 154.04900000000001, 0, ""]
+      - [871.40499999999997, 215.357, 0, ""]
+      - [732.34000000000003, 215.357, 0, ""]
+      - [732.34000000000003, 91.245000000000005, 0, ""]
+      - [478.13600000000002, 91.245000000000005, 0, control_room]
+      - [478.13600000000002, 146.572, 0, ""]
+      - [730.84500000000003, 146.572, 0, ""]
+      - [730.84500000000003, 239.28200000000001, 0, ""]
+      - [632.154, 239.28200000000001, 0, ""]
+      - [469.16399999999999, 239.28200000000001, 0, ""]
+      - [928.85199999999998, 403.803, 0, ""]
+      - [729.14099999999996, 1422.2249999999999, 0, ""]
+      - [572.67200000000003, 1422.2249999999999, 0, ""]
+      - [572.67200000000003, 1688.3030000000001, 0, ""]
+      - [309.61700000000002, 1688.3030000000001, 0, ""]
+      - [309.61700000000002, 365.80799999999999, 0, ""]
+      - [349.93200000000002, 365.80799999999999, 0, ""]
+      - [349.93200000000002, 261.75299999999999, 0, ""]
+      - [635.75800000000004, 1037.134, 0, ""]
+      - [635.75800000000004, 1146.5809999999999, 0, ""]
+      - [547.09400000000005, 1146.5809999999999, 0, ""]
+      - [553.93499999999995, 1086.4090000000001, 0, carga11, {is_parking_spot: [4, true]}]
+      - [632.95699999999999, 1086.4090000000001, 0, ""]
     walls:
       - [2, 35, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [35, 36, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -585,6 +814,41 @@ levels:
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 1, 2, 3, 4, 5, 6, 7]
+    lanes:
+      - [65, 66, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [66, 67, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [67, 68, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [68, 69, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [67, 70, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [70, 71, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [71, 72, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [72, 73, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [73, 74, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [74, 75, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [75, 76, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [75, 77, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [77, 78, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [79, 80, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [65, 81, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [81, 82, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [82, 83, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [85, 86, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [87, 88, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [88, 89, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [89, 90, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [90, 91, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [91, 92, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [92, 93, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [93, 94, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [89, 95, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [95, 96, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [96, 97, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [97, 98, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [98, 99, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [83, 68, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [68, 87, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [87, 99, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [99, 85, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     models:
@@ -699,6 +963,41 @@ levels:
       - [592.68399999999997, 1174.28, 0, ""]
       - [592.68399999999997, 1127.76, 0, ""]
       - [683.52200000000005, 1392.6179999999999, 0, ""]
+      - [553.30700000000002, 1147.7550000000001, 0, ""]
+      - [642.00900000000001, 1147.7550000000001, 0, ""]
+      - [642.00900000000001, 1021.037, 0, ""]
+      - [535.29899999999998, 1021.037, 0, ""]
+      - [535.29899999999998, 906.32399999999996, 0, ""]
+      - [1032.1669999999999, 1021.037, 0, ""]
+      - [1032.1669999999999, 903.65700000000004, 0, ""]
+      - [1072.8499999999999, 903.65700000000004, 0, ""]
+      - [1072.8499999999999, 1051.049, 0, carga22, {is_parking_spot: [4, true]}]
+      - [736.04700000000003, 1051.049, 0, ""]
+      - [736.04700000000003, 1375.0319999999999, 0, ""]
+      - [519.58900000000006, 1375.0319999999999, 0, movil]
+      - [735.95399999999995, 1470.7170000000001, 0, ""]
+      - [499.43299999999999, 1471.0709999999999, 0, ""]
+      - [735.95399999999995, 1470.7170000000001, 0, ""]
+      - [1088.7080000000001, 1469.885, 0, salida]
+      - [636.97000000000003, 1147.7550000000001, 0, ""]
+      - [636.97000000000003, 1069.1310000000001, 0, ""]
+      - [537.37400000000002, 1069.1310000000001, 0, carga21, {is_parking_spot: [4, true]}]
+      - [537.37400000000002, 1015.776, 0, ""]
+      - [1048.396, 1015.776, 0, ""]
+      - [1048.396, 912.62300000000005, 0, ""]
+      - [820.74800000000005, 1013.405, 0, ""]
+      - [820.74800000000005, 1207.8530000000001, 0, ""]
+      - [875.28899999999999, 1207.8530000000001, 0, ""]
+      - [875.28899999999999, 1373.846, 0, ""]
+      - [1129.021, 1373.846, 0, ""]
+      - [1129.021, 1238.681, 0, habitacion]
+      - [978.44100000000003, 1238.681, 0, ""]
+      - [978.44100000000003, 1378.5889999999999, 0, ""]
+      - [901.37300000000005, 1166.355, 0, ""]
+      - [1061.4380000000001, 1166.355, 0, ""]
+      - [1061.4380000000001, 1108.258, 0, ""]
+      - [897.81600000000003, 1108.258, 0, ""]
+      - [897.81600000000003, 1016.962, 0, ""]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
