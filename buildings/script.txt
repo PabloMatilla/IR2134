@@ -1,0 +1,5 @@
+ros2 run rmf_building_map_tools building_map_generator   gazebo simple.building.yaml simple.world ./simple_world
+ros2 run rmf_building_map_tools building_map_model_downloader   simple.building.yaml -e ./models
+export GZ_SIM_RESOURCE_PATH=/rmf_demos_ws/buildings/simple_world:/rmf_demos_ws/buildings/models
+export GZ_SIM_RESOURCE_PATH=/rmf_demos_ws/buildings/simple_world:/rmf_demos_ws/buildings/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models
+gz sim -r -v 4 simple.world
