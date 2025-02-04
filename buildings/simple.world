@@ -39,7 +39,7 @@
         <scene>scene</scene>
         <ambient_light>0.4 0.4 0.4</ambient_light>
         <background_color>0.8 0.8 0.8</background_color>
-        <camera_pose>71.2685 -68.404 10 0 0.6 1.57</camera_pose>
+        <camera_pose>5.007060757643885 -23.40068570143885 10 0 0.6 1.57</camera_pose>
       </plugin>
       <plugin filename="EntityContextMenuPlugin" name="Entity context menu">
         <gz-gui>
@@ -242,7 +242,7 @@
     <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>50.0 -50.0 0.0 0 0 0.0</pose>
+      <pose>3.5128147482014387 -3.5128147482014387 0.0 0 0 0.0</pose>
     </include>
     <include>
       <name>simple_L1</name>
@@ -250,7 +250,7 @@
       <pose>0 0 0.0 0 0 0</pose>
     </include>
     <rmf_charger_waypoints name="charger_waypoints">
-      <rmf_vertex name="tiniRobot1_charger" x="50.0" y="-50.0" level="L1" />
+      <rmf_vertex name="tiniRobot1_charger" x="3.5128147482014387" y="-3.5128147482014387" level="L1" />
     </rmf_charger_waypoints>
   </world>
 </sdf>
