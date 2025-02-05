@@ -39,11 +39,17 @@ levels:
       - [150, 100, 0, ""]
       - [0, 100, 0, ""]
       - [50, 50, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
-      - [100, 50, 0, waypoint1]
+      - [113.20699999999999, 50.043999999999997, 0, lift_L1, {dock_name: [1, false], is_holding_point: [4, false], is_passthrough_point: [4, false]}]
       - [74.489000000000004, 40.073, 0, ""]
       - [74.489000000000004, 59.713000000000001, 0, ""]
       - [74.489000000000004, 99.314999999999998, 0, ""]
       - [74.489000000000004, 0.53000000000000003, 0, ""]
+      - [83.900000000000006, 58.170999999999999, 0, ""]
+      - [83.900000000000006, 81.647999999999996, 0, ""]
+      - [146.69900000000001, 81.647999999999996, 0, ""]
+      - [146.69900000000001, 18.359999999999999, 0, ""]
+      - [83.706000000000003, 18.359999999999999, 0, ""]
+      - [83.706000000000003, 40.264000000000003, 0, ""]
     walls:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -51,8 +57,13 @@ levels:
       - [3, 0, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [7, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [6, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-    x_meters: 23.600000000000001
-    y_meters: 23.600000000000001
+      - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [14, 15, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+    x_meters: 41.93333333333333
+    y_meters: 41.93333333333333
   L2:
     elevation: 10
     fiducials:
@@ -71,11 +82,17 @@ levels:
       - [150, 100, 0, ""]
       - [0, 100, 0, ""]
       - [50, 50, 0, ""]
-      - [108.05500000000001, 50, 0, ""]
+      - [115.444, 49.976999999999997, 0, ""]
       - [75, 100.11, 0, ""]
       - [75, 62.502000000000002, 0, ""]
       - [75, 0.53000000000000003, 0, ""]
       - [75, 37.343000000000004, 0, ""]
+      - [84.850999999999999, 57.780999999999999, 0, ""]
+      - [84.850999999999999, 82.021000000000001, 0, ""]
+      - [146.541, 82.021000000000001, 0, ""]
+      - [146.541, 17.509, 0, ""]
+      - [83.441000000000003, 17.509, 0, ""]
+      - [83.375, 40.744, 0, ""]
     walls:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -83,6 +100,11 @@ levels:
       - [3, 0, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [6, 7, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [14, 15, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
     x_meters: 10
     y_meters: 10
 lifts:
