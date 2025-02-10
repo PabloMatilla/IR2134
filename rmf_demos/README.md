@@ -1,4 +1,4 @@
-# RMF Demos
+# RMF Icc Kyoto
 
 ![](https://github.com/open-rmf/rmf_demos/workflows/build/badge.svg)
 ![](https://github.com/open-rmf/rmf_demos/workflows/style/badge.svg)
