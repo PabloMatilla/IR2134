@@ -16,7 +16,7 @@ docker run --network host -it \
 > Note: The API server is also configurable by mounting the configuration file and setting the environment variable `RMF_API_SERVER_CONFIG`. In the default configuration, the API serer will use an internal non-persistent database.
 
 
-## Terminal 2 (dashboard):
+## Terminal 2 (Dashboard):
 
 Start the frontend dashboard via `docker` with host network access, using the default configuration. The dashboard will be accessible at `localhost:3000` by default.
 
@@ -72,7 +72,7 @@ docker run --network host -it \
 > Note: The API server is also configurable by mounting the configuration file and setting the environment variable `RMF_API_SERVER_CONFIG`. In the default configuration, the API serer will use an internal non-persistent database.
 
 
-## Terminal 2 (dashboard):
+## Terminal 2 (Dashboard):
 
 Start the frontend dashboard via `docker` with host network access, using the default configuration. The dashboard will be accessible at `localhost:3000` by default.
 
