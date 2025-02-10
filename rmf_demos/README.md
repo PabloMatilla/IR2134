@@ -36,13 +36,14 @@ In order to interact with the default configuration of the web application, the 
 ```rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   --network host --user \
-  --volume `pwd`/rmf_ws:/home/usuario/rmf_ws --  \
+  --volume `pwd`/rmf_demos:/home/usuario/rmf_demos --  \
   ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
     bash
 ```
-```cd rmf_ws/
+```cd rmf_demos/
+colcon build
 source install/setup.bash
-ros2 launch project_simulation \
+ros2 launch rmf_demos \
   icc_kyoto.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
