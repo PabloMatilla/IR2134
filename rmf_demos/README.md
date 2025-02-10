@@ -54,3 +54,60 @@ ros2 launch rmf_demos \
 
 By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` with the latest task and robot states. User can then monitor on-going states and initiate rmf task with an interactive web dashboard.
 
+
+# RMF Simple
+
+
+## Terminal 1:
+
+Start the backend API server via `docker` with host network access, using the default configuration. The API server will be accessible at `localhost:8000` by default.
+
+```
+docker run --network host -it \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
+	ghcr.io/open-rmf/rmf-web/api-server:latest
+
+```
+
+> Note: The API server is also configurable by mounting the configuration file and setting the environment variable `RMF_API_SERVER_CONFIG`. In the default configuration, the API serer will use an internal non-persistent database.
+
+
+## Terminal 2:
+
+Start the frontend dashboard via `docker` with host network access, using the default configuration. The dashboard will be accessible at `localhost:3000` by default.
+
+```
+docker run --network host -it \
+  -e RMF_SERVER_URL=http://localhost:8000 \
+  -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
+	ghcr.io/open-rmf/rmf-web/dashboard:latest
+
+```
+
+> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/rmf_demos/tree/rmf-web-dashboard-resources/rmf_demos_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
+
+
+## Terminal 3:
+
+In order to interact with the default configuration of the web application, the `server_uri` launch parameter will need to be changed to `ws://localhost:8000/_internal`, for example,
+
+```
+rocker --nvidia --x11 \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  --network host --user \
+  --volume `pwd`/rmf_demos:/home/usuario/rmf_demos --  \
+  ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
+    bash
+```
+```
+cd rmf_demos/
+colcon build
+source install/setup.bash
+ros2 launch rmf_demos \
+  simple.launch.xml \
+  server_uri:="ws://localhost:8000/_internal"
+```
+
+By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` with the latest task and robot states. User can then monitor on-going states and initiate rmf task with an interactive web dashboard.
+
