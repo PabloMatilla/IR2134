@@ -1,1 +1,0 @@
-Invoking command in '/home/usuario/rmf_demos/build/rmf_demos_maps': /usr/bin/cmake /home/usuario/rmf_demos/rmf_demos_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_demos/install/rmf_demos_maps

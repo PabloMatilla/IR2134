@@ -1,6 +1,0 @@
-[0.037s] Invoking command in '/home/usuario/rmf_ws/build/rmf_ws_assets': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_assets -- -j6 -l6
-[0.546s] [0mCMake Error: The current CMakeCache.txt directory /home/usuario/rmf_ws/build/rmf_ws_assets/CMakeCache.txt is different than the directory /home/usuario/rmf_ws/build/rmf_ws_assets where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.546s] [0mCMake Error: The source directory "/home/usuario/rmf_ws/rmf_ws_assets" does not exist.
-[0.547s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.548s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.806s] Invoked command in '/home/usuario/rmf_ws/build/rmf_ws_assets' returned '2': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_assets -- -j6 -l6

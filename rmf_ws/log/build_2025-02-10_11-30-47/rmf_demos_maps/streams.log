@@ -1,5 +1,0 @@
-[0.294s] Invoking command in '/home/usuario/rmf_ws/build/rmf_demos_maps': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_demos_maps -- -j6 -l6
-[0.302s] [0mCMake Error: The current CMakeCache.txt directory /home/usuario/rmf_ws/build/rmf_demos_maps/CMakeCache.txt is different than the directory /home/usuario/rmf_demos/build/rmf_demos_maps where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.323s] [0mCMake Error: The source directory "/home/usuario/rmf_demos/rmf_demos_maps" does not exist.
-[0.323s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.324s] gmake: *** [Makefile:450: cmake_check_build_system] Error 1
