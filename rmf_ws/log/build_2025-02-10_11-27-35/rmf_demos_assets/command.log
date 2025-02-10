@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/rmf_ws/build/rmf_ws_assets': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_assets -- -j6 -l6
+Invoked command in '/home/usuario/rmf_ws/build/rmf_ws_assets' returned '2': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_assets -- -j6 -l6

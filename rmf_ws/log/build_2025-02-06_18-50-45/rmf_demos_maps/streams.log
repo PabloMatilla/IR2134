@@ -1,0 +1,20 @@
+[0.507s] Invoking command in '/home/usuario/rmf_demos/build/rmf_demos_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/rmf_demos/build/rmf_demos_maps -- -j4 -l4
+[0.680s] [  4%] [34m[1mGenerating maps/airport_terminal/nav_graphs/phony[0m
+[0.687s] [  8%] [34m[1mGenerating maps/battle_royale/nav_graphs/phony[0m
+[0.692s] [ 12%] [34m[1mGenerating maps/battle_royale/battle_royale.world[0m
+[0.733s] [ 16%] [34m[1mGenerating maps/airport_terminal/airport_terminal.world[0m
+[1.343s] Package 'rmf_building_map_tools' not found
+[1.367s] gmake[2]: *** [CMakeFiles/generate_airport_terminal_nav_graphs.dir/build.make:73: maps/airport_terminal/nav_graphs/phony] Error 1
+[1.367s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/generate_airport_terminal_nav_graphs.dir/all] Error 2
+[1.367s] gmake[1]: *** Se espera a que terminen otras tareas....
+[1.404s] Package 'rmf_building_map_tools' not found
+[1.429s] gmake[2]: *** [CMakeFiles/generate_battle_royale_nav_graphs.dir/build.make:73: maps/battle_royale/nav_graphs/phony] Error 1
+[1.429s] gmake[1]: *** [CMakeFiles/Makefile2:245: CMakeFiles/generate_battle_royale_nav_graphs.dir/all] Error 2
+[1.461s] Package 'rmf_building_map_tools' not found
+[1.487s] gmake[2]: *** [CMakeFiles/generate_battle_royale_crowdsim.dir/build.make:77: maps/battle_royale/battle_royale.world] Error 1
+[1.489s] gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/generate_battle_royale_crowdsim.dir/all] Error 2
+[1.490s] Package 'rmf_building_map_tools' not found
+[1.510s] gmake[2]: *** [CMakeFiles/generate_airport_terminal_crowdsim.dir/build.make:77: maps/airport_terminal/airport_terminal.world] Error 1
+[1.510s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/generate_airport_terminal_crowdsim.dir/all] Error 2
+[1.510s] gmake: *** [Makefile:146: all] Error 2
+[1.983s] Invoked command in '/home/usuario/rmf_demos/build/rmf_demos_maps' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/rmf_demos/build/rmf_demos_maps -- -j4 -l4

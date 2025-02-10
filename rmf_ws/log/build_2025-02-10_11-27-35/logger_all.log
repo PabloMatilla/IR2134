@@ -1,0 +1,291 @@
+[0.139s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.139s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79476cc70790>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79476cc70160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79476cc70160>>, mixin_verb=('build',))
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usuario/rmf_ws'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws' with type 'ros.ament_cmake' and name 'rmf_ws'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_assets) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws_assets' with type 'ros.ament_cmake' and name 'rmf_ws_assets'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_bridges) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws_bridges' with type 'ros.ament_python' and name 'rmf_ws_bridges'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_fleet_adapter) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws_fleet_adapter' with type 'ros.ament_python' and name 'rmf_ws_fleet_adapter'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_gz) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws_gz' with type 'ros.ament_cmake' and name 'rmf_ws_gz'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_maps) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws_maps' with type 'ros.ament_cmake' and name 'rmf_ws_maps'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(rmf_ws_tasks) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'rmf_ws_tasks' with type 'ros.ament_python' and name 'rmf_ws_tasks'
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws_assets', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws_assets', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_bridges' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws_bridges' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws_bridges', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws_bridges', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws_bridges', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_fleet_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws_fleet_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws_fleet_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws_fleet_adapter', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws_fleet_adapter', 'symlink_install': False, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_maps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws_maps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws_maps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws_maps', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws_maps', 'symlink_install': False, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_tasks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws_tasks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws_tasks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws_tasks', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws_tasks', 'symlink_install': False, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws', 'symlink_install': False, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'rmf_ws_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'rmf_ws_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/usuario/rmf_ws/build/rmf_ws_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/usuario/rmf_ws/install/rmf_ws_gz', 'merge_install': False, 'path': '/home/usuario/rmf_ws/rmf_ws_gz', 'symlink_install': False, 'test_result_base': None}
+[0.360s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/rmf_ws/rmf_ws_assets' with build type 'ament_cmake'
+[0.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/rmf_ws/rmf_ws_assets'
+[0.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usuario/rmf_ws/rmf_ws_fleet_adapter' with build type 'ament_python'
+[0.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_ws_fleet_adapter', 'ament_prefix_path')
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_fleet_adapter/share/rmf_ws_fleet_adapter/hook/ament_prefix_path.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/rmf_ws/install/rmf_ws_fleet_adapter/share/rmf_ws_fleet_adapter/hook/ament_prefix_path.dsv'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_fleet_adapter/share/rmf_ws_fleet_adapter/hook/ament_prefix_path.sh'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/usuario/rmf_ws/rmf_ws_maps' with build type 'ament_cmake'
+[0.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/usuario/rmf_ws/rmf_ws_maps'
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usuario/rmf_ws/rmf_ws_tasks' with build type 'ament_python'
+[0.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_ws_tasks', 'ament_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_tasks/share/rmf_ws_tasks/hook/ament_prefix_path.ps1'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/rmf_ws/install/rmf_ws_tasks/share/rmf_ws_tasks/hook/ament_prefix_path.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_tasks/share/rmf_ws_tasks/hook/ament_prefix_path.sh'
+[0.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/usuario/rmf_ws/rmf_ws_bridges' with build type 'ament_python'
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_ws_bridges', 'ament_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_bridges/share/rmf_ws_bridges/hook/ament_prefix_path.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/rmf_ws/install/rmf_ws_bridges/share/rmf_ws_bridges/hook/ament_prefix_path.dsv'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_bridges/share/rmf_ws_bridges/hook/ament_prefix_path.sh'
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/rmf_ws/build/rmf_ws_assets': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_assets -- -j6 -l6
+[0.644s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/usuario/rmf_ws/rmf_ws_fleet_adapter'
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usuario/rmf_ws/build/rmf_ws_maps': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_maps -- -j6 -l6
+[0.904s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/usuario/rmf_ws/rmf_ws_tasks'
+[0.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/usuario/rmf_ws/rmf_ws_bridges'
+[1.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/rmf_ws/build/rmf_ws_assets' returned '2': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_assets -- -j6 -l6
+[1.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_ws_assets)
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_assets' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_assets' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_ws_assets', 'cmake_prefix_path')
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/hook/cmake_prefix_path.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/hook/cmake_prefix_path.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/hook/cmake_prefix_path.sh'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_assets/bin'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_assets/lib/pkgconfig/rmf_ws_assets.pc'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_assets/lib/python3.10/site-packages'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_assets/bin'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/package.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/package.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/package.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/package.bash'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_assets/share/rmf_ws_assets/package.zsh'
+[1.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/rmf_ws/install/rmf_ws_assets/share/colcon-core/packages/rmf_ws_assets)
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usuario/rmf_ws/build/rmf_ws_maps' returned '2': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_ws_maps -- -j6 -l6
+[1.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmf_ws_maps)
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_maps' for CMake module files
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_maps' for CMake config files
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmf_ws_maps', 'cmake_prefix_path')
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/hook/cmake_prefix_path.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/hook/cmake_prefix_path.dsv'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/hook/cmake_prefix_path.sh'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_maps/bin'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_maps/lib/pkgconfig/rmf_ws_maps.pc'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_maps/lib/python3.10/site-packages'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/usuario/rmf_ws/install/rmf_ws_maps/bin'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/package.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/package.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/package.sh'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/package.bash'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/usuario/rmf_ws/install/rmf_ws_maps/share/rmf_ws_maps/package.zsh'
+[1.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/usuario/rmf_ws/install/rmf_ws_maps/share/colcon-core/packages/rmf_ws_maps)
+[1.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.221s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.227s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.232s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_ws/install/local_setup.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/rmf_ws/install/_local_setup_util_ps1.py'
+[1.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_ws/install/setup.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_ws/install/local_setup.sh'
+[1.239s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/rmf_ws/install/_local_setup_util_sh.py'
+[1.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_ws/install/setup.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_ws/install/local_setup.bash'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_ws/install/setup.bash'
+[1.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_ws/install/local_setup.zsh'
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_ws/install/setup.zsh'

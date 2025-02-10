@@ -1,0 +1,1 @@
+Invoking command in '/home/usuario/rmf_ws/build/rmf_demos_maps': /usr/bin/cmake --build /home/usuario/rmf_ws/build/rmf_demos_maps -- -j6 -l6

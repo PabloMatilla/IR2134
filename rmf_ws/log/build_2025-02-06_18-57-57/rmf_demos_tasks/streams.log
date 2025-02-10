@@ -1,0 +1,37 @@
+[2.181s] Invoking command in '/home/usuario/rmf_ws/rmf_ws_tasks': PYTHONPATH=/home/usuario/rmf_ws/build/rmf_ws_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/rmf_ws/install/rmf_ws_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_ws_tasks build --build-base /home/usuario/rmf_ws/build/rmf_ws_tasks/build install --record /home/usuario/rmf_ws/build/rmf_ws_tasks/install.log --single-version-externally-managed install_data
+[2.923s] running egg_info
+[2.977s] writing ../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/PKG-INFO
+[2.984s] writing dependency_links to ../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/dependency_links.txt
+[2.985s] writing entry points to ../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/entry_points.txt
+[2.987s] writing requirements to ../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/requires.txt
+[2.988s] writing top-level names to ../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/top_level.txt
+[3.110s] reading manifest file '../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/SOURCES.txt'
+[3.121s] writing manifest file '../build/rmf_ws_tasks/rmf_ws_tasks.egg-info/SOURCES.txt'
+[3.121s] running build
+[3.122s] running build_py
+[3.122s] running install
+[3.132s] running install_lib
+[3.190s] running install_data
+[3.190s] running install_egg_info
+[3.250s] removing '/home/usuario/rmf_ws/install/rmf_ws_tasks/lib/python3.12/site-packages/rmf_ws_tasks-2.5.0-py3.12.egg-info' (and everything under it)
+[3.257s] Copying ../build/rmf_ws_tasks/rmf_ws_tasks.egg-info to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/python3.12/site-packages/rmf_ws_tasks-2.5.0-py3.12.egg-info
+[3.418s] running install_scripts
+[3.747s] Installing api_request script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.750s] Installing cancel_task script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.751s] Installing dispatch_action script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.752s] Installing dispatch_cart_delivery script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.754s] Installing dispatch_clean script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.755s] Installing dispatch_delivery script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.756s] Installing dispatch_go_to_place script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.757s] Installing dispatch_json script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.759s] Installing dispatch_loop script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.760s] Installing dispatch_patrol script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.761s] Installing dispatch_teleop script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.763s] Installing get_robot_location script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.764s] Installing mock_docker script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.765s] Installing request_lift script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.767s] Installing request_loop script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.768s] Installing teleop_robot script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.770s] Installing wait_for_task_complete script to /home/usuario/rmf_ws/install/rmf_ws_tasks/lib/rmf_ws_tasks
+[3.771s] writing list of installed files to '/home/usuario/rmf_ws/build/rmf_ws_tasks/install.log'
+[3.828s] Invoked command in '/home/usuario/rmf_ws/rmf_ws_tasks' returned '0': PYTHONPATH=/home/usuario/rmf_ws/build/rmf_ws_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/rmf_ws/install/rmf_ws_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_ws_tasks build --build-base /home/usuario/rmf_ws/build/rmf_ws_tasks/build install --record /home/usuario/rmf_ws/build/rmf_ws_tasks/install.log --single-version-externally-managed install_data

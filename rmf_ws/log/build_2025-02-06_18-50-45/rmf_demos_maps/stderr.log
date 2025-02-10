@@ -1,0 +1,14 @@
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_airport_terminal_nav_graphs.dir/build.make:73: maps/airport_terminal/nav_graphs/phony] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/generate_airport_terminal_nav_graphs.dir/all] Error 2
+gmake[1]: *** Se espera a que terminen otras tareas....
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_battle_royale_nav_graphs.dir/build.make:73: maps/battle_royale/nav_graphs/phony] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:245: CMakeFiles/generate_battle_royale_nav_graphs.dir/all] Error 2
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_battle_royale_crowdsim.dir/build.make:77: maps/battle_royale/battle_royale.world] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/generate_battle_royale_crowdsim.dir/all] Error 2
+Package 'rmf_building_map_tools' not found
+gmake[2]: *** [CMakeFiles/generate_airport_terminal_crowdsim.dir/build.make:77: maps/airport_terminal/airport_terminal.world] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/generate_airport_terminal_crowdsim.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

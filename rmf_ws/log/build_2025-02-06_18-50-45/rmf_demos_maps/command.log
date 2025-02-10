@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/rmf_demos/build/rmf_demos_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/rmf_demos/build/rmf_demos_maps -- -j4 -l4
+Invoked command in '/home/usuario/rmf_demos/build/rmf_demos_maps' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/usuario/rmf_demos/build/rmf_demos_maps -- -j4 -l4

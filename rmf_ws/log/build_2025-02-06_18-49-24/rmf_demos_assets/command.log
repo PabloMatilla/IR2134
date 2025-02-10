@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/rmf_demos/build/rmf_demos_assets': /usr/bin/cmake /home/usuario/rmf_demos/rmf_demos_assets -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_demos/install/rmf_demos_assets
+Invoked command in '/home/usuario/rmf_demos/build/rmf_demos_assets' returned '1': /usr/bin/cmake /home/usuario/rmf_demos/rmf_demos_assets -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_demos/install/rmf_demos_assets

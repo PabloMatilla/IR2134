@@ -1,0 +1,19 @@
+TERMINAL 1:
+
+
+
+rocker --nvidia --x11 \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  --network host --user \
+  --volume `pwd`/rmf_ws:/home/usuario/rmf_ws --  \
+  ghcr.io/open-rmf/rmf/rmf_ws:latest         \
+    bash
+
+
+
+cd rmf_ws/
+
+
+colcon build
+. install/setup.bash
+ros2 launch rmf_ws_gz   icc_kyoto.launch.xml   server_uri:="ws://localhost:8000/_internal"
