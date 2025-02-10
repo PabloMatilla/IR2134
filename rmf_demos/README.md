@@ -5,7 +5,8 @@
 
 Start the backend API server via `docker` with host network access, using the default configuration. The API server will be accessible at `localhost:8000` by default.
 
-```docker run --network host -it \
+```
+docker run --network host -it \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
 	ghcr.io/open-rmf/rmf-web/api-server:latest
@@ -19,7 +20,8 @@ Start the backend API server via `docker` with host network access, using the de
 
 Start the frontend dashboard via `docker` with host network access, using the default configuration. The dashboard will be accessible at `localhost:3000` by default.
 
-```docker run --network host -it \
+```
+docker run --network host -it \
   -e RMF_SERVER_URL=http://localhost:8000 \
   -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
 	ghcr.io/open-rmf/rmf-web/dashboard:latest
@@ -33,14 +35,16 @@ Start the frontend dashboard via `docker` with host network access, using the de
 
 In order to interact with the default configuration of the web application, the `server_uri` launch parameter will need to be changed to `ws://localhost:8000/_internal`, for example,
 
-```rocker --nvidia --x11 \
+```
+rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   --network host --user \
   --volume `pwd`/rmf_demos:/home/usuario/rmf_demos --  \
   ghcr.io/open-rmf/rmf/rmf_demos:latest 	\
     bash
 ```
-```cd rmf_demos/
+```
+cd rmf_demos/
 colcon build
 source install/setup.bash
 ros2 launch rmf_demos \
