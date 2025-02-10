@@ -1,7 +1,7 @@
 # RMF Icc Kyoto
 
 
-## Terminal 1:
+## Terminal 1 (API Server):
 
 Start the backend API server via `docker` with host network access, using the default configuration. The API server will be accessible at `localhost:8000` by default.
 
@@ -16,7 +16,7 @@ docker run --network host -it \
 > Note: The API server is also configurable by mounting the configuration file and setting the environment variable `RMF_API_SERVER_CONFIG`. In the default configuration, the API serer will use an internal non-persistent database.
 
 
-## Terminal 2:
+## Terminal 2 (dashboard):
 
 Start the frontend dashboard via `docker` with host network access, using the default configuration. The dashboard will be accessible at `localhost:3000` by default.
 
@@ -31,7 +31,7 @@ docker run --network host -it \
 > Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/rmf_demos/tree/rmf-web-dashboard-resources/rmf_demos_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
 
 
-## Terminal 3:
+## Terminal 3 (Launch ICC_Kyoto world):
 
 In order to interact with the default configuration of the web application, the `server_uri` launch parameter will need to be changed to `ws://localhost:8000/_internal`, for example,
 
@@ -57,8 +57,7 @@ By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` 
 
 # RMF Simple
 
-
-## Terminal 1:
+## Terminal 1 (API Server):
 
 Start the backend API server via `docker` with host network access, using the default configuration. The API server will be accessible at `localhost:8000` by default.
 
@@ -73,7 +72,7 @@ docker run --network host -it \
 > Note: The API server is also configurable by mounting the configuration file and setting the environment variable `RMF_API_SERVER_CONFIG`. In the default configuration, the API serer will use an internal non-persistent database.
 
 
-## Terminal 2:
+## Terminal 2 (dashboard):
 
 Start the frontend dashboard via `docker` with host network access, using the default configuration. The dashboard will be accessible at `localhost:3000` by default.
 
@@ -88,7 +87,7 @@ docker run --network host -it \
 > Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/rmf_demos/tree/rmf-web-dashboard-resources/rmf_demos_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
 
 
-## Terminal 3:
+## Terminal 3 (Launch Simple world):
 
 In order to interact with the default configuration of the web application, the `server_uri` launch parameter will need to be changed to `ws://localhost:8000/_internal`, for example,
 
