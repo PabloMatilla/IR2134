@@ -44,6 +44,7 @@ rocker --nvidia --x11 \
     bash
 ```
 ```
+sudo cp -R /root/.gazebo .
 cd rmf_demos/
 colcon build
 source install/setup.bash
@@ -100,6 +101,7 @@ rocker --nvidia --x11 \
     bash
 ```
 ```
+sudo cp -R /root/.gazebo .
 cd rmf_demos/
 colcon build
 source install/setup.bash
