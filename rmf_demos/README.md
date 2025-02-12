@@ -48,7 +48,7 @@ sudo cp -R /root/.gazebo .
 cd rmf_demos/
 colcon build
 source install/setup.bash
-ros2 launch rmf_demos \
+ros2 launch rmf_demos_gz \
   icc_kyoto.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
@@ -105,7 +105,7 @@ sudo cp -R /root/.gazebo .
 cd rmf_demos/
 colcon build
 source install/setup.bash
-ros2 launch rmf_demos \
+ros2 launch rmf_demos_gz \
   simple.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
