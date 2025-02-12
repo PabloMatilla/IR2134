@@ -1,0 +1,44 @@
+building_name: simple
+doors:
+  'null':
+    endpoints:
+    - [4.965933333333334, -2.6715333333333335]
+    - [4.965933333333334, -3.9808666666666666]
+    map: L1
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: 'null'}
+    - - 1
+      - 0
+      - {door_name: 'null'}
+    vertices:
+    - - 3.3333333333333335
+      - -3.3333333333333335
+      - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
+        spawn_robot_type: TinyRobot}
+    - - 7.547133333333333
+      - -3.3362666666666665
+      - {dock_name: false, is_holding_point: false, is_passthrough_point: false, lift: lift1,
+        name: lift_L1}
+  L2:
+    lanes:
+    - - 0
+      - 1
+      - {}
+    - - 1
+      - 0
+      - {}
+    vertices:
+    - - 3.3290780833040263
+      - -3.288067246205661
+      - {name: ''}
+    - - 7.682622509203842
+      - -3.34078420139
+      - {lift: lift1, name: ''}
+lifts:
+  lift1:
+    dims: [4.0, 4.0]
+    position: [7.666666666666667, -3.3333333333333335, 0.0]
