@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findeigen3_cmake_module.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "eigen3_cmake_module", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "eigen3_cmake_module" with any of the following names:
+
+    eigen3_cmake_moduleConfig.cmake
+    eigen3_cmake_module-config.cmake
+
+  Add the installation prefix of "eigen3_cmake_module" to CMAKE_PREFIX_PATH
+  or set "eigen3_cmake_module_DIR" to a directory containing one of the above
+  files.  If "eigen3_cmake_module" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

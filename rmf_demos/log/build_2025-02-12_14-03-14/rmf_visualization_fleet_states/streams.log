@@ -1,0 +1,33 @@
+[0.266s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_fleet_states': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/rmf_demos/rmf_visualization/rmf_visualization_fleet_states -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/rmf_demos/install/rmf_visualization_fleet_states
+[0.509s] -- The C compiler identification is GNU 10.5.0
+[0.736s] -- The CXX compiler identification is GNU 10.5.0
+[0.769s] -- Detecting C compiler ABI info
+[1.289s] -- Detecting C compiler ABI info - done
+[1.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.311s] -- Detecting C compile features
+[1.311s] -- Detecting C compile features - done
+[1.346s] -- Detecting CXX compiler ABI info
+[1.817s] -- Detecting CXX compiler ABI info - done
+[1.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.841s] -- Detecting CXX compile features
+[1.841s] -- Detecting CXX compile features - done
+[1.891s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.891s]   By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[1.891s]   asked CMake to find a package configuration file provided by "rclcpp", but
+[1.891s]   CMake did not find one.
+[1.891s] 
+[1.891s]   Could not find a package configuration file provided by "rclcpp" with any
+[1.892s]   of the following names:
+[1.892s] 
+[1.892s]     rclcppConfig.cmake
+[1.892s]     rclcpp-config.cmake
+[1.892s] 
+[1.892s]   Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set
+[1.892s]   "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"
+[1.892s]   provides a separate development package or SDK, be sure it has been
+[1.892s]   installed.
+[1.892s] 
+[1.892s] [0m
+[1.892s] -- Configuring incomplete, errors occurred!
+[1.892s] See also "/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_fleet_states/CMakeFiles/CMakeOutput.log".
+[1.899s] Invoked command in '/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_fleet_states' returned '1': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/rmf_demos/rmf_visualization/rmf_visualization_fleet_states -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/rmf_demos/install/rmf_visualization_fleet_states

@@ -1,0 +1,1 @@
+Invoking command in '/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_rviz2_plugins': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/rmf_demos/rmf_visualization/rmf_visualization_rviz2_plugins -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/rmf_demos/install/rmf_visualization_rviz2_plugins

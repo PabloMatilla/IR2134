@@ -1,0 +1,32 @@
+[0.273s] Invoking command in '/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_navgraphs': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/rmf_demos/rmf_visualization/rmf_visualization_navgraphs -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/rmf_demos/install/rmf_visualization_navgraphs
+[0.517s] -- The C compiler identification is GNU 10.5.0
+[0.750s] -- The CXX compiler identification is GNU 10.5.0
+[0.786s] -- Detecting C compiler ABI info
+[1.342s] -- Detecting C compiler ABI info - done
+[1.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.369s] -- Detecting C compile features
+[1.369s] -- Detecting C compile features - done
+[1.409s] -- Detecting CXX compiler ABI info
+[1.904s] -- Detecting CXX compiler ABI info - done
+[1.921s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.923s] -- Detecting CXX compile features
+[1.923s] -- Detecting CXX compile features - done
+[1.950s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.950s]   By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[1.950s]   asked CMake to find a package configuration file provided by "rclcpp", but
+[1.950s]   CMake did not find one.
+[1.951s] 
+[1.951s]   Could not find a package configuration file provided by "rclcpp" with any
+[1.951s]   of the following names:
+[1.951s] 
+[1.951s]     rclcppConfig.cmake
+[1.951s]     rclcpp-config.cmake
+[1.951s] 
+[1.951s]   Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set
+[1.951s]   "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"
+[1.951s]   provides a separate development package or SDK, be sure it has been
+[1.951s]   installed.
+[1.951s] 
+[1.951s] [0m
+[1.951s] -- Configuring incomplete, errors occurred!
+[1.951s] See also "/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_navgraphs/CMakeFiles/CMakeOutput.log".
