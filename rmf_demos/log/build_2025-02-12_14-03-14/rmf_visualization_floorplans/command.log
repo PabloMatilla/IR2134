@@ -1,1 +1,0 @@
-Invoking command in '/home/usuario/Documentos/GitHub/IR2134/rmf_demos/build/rmf_visualization_floorplans': /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2134/rmf_demos/rmf_visualization/rmf_visualization_floorplans -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2134/rmf_demos/install/rmf_visualization_floorplans

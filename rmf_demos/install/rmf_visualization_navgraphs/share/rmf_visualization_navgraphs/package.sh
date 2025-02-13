@@ -80,6 +80,7 @@ _colcon_package_sh_source_script() {
 # source sh hooks
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmf_visualization_navgraphs/hook/cmake_prefix_path.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmf_visualization_navgraphs/hook/ld_library_path_lib.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmf_visualization_navgraphs/local_setup.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX
