@@ -1,0 +1,119 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/usuario/rmf_demos/build/rmf_demos_assets
+-- Install configuration: ""
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/environment/rmf_demos_assets.dsv
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/FatWheel.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/HospitalRobot.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/FatWheel.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/HospitalRobot.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/SmallWheel.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/SmallWheel.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/meshes/HospitalRobot_Diffuse.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/4.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/1.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/3.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/2.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/HospitalRobot/thumbnails/5.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportIngestor
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportIngestor/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportIngestor/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelMain.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/body.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/body.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/DeliveryRobot_Diffuse.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelSide.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelSide.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/meshes/WheelMain.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/DeliveryRobot/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/meshes/CleanerBotA_Diffuse.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotA/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/meshes
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/meshes/polaris.dae
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/Ranger_Diffuse.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/FNR_switch_R.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/FNR_switch_F.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/textures/Ranger_Spec.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/scripts
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/materials/scripts/polaris.material
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model-1_3.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/Caddy/model-1_4.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportDispenser
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportDispenser/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TeleportDispenser/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/tinyRobot_body.dae
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/caster_wheel.dae
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/front_wheel.dae
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/sensors
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/sensors/sonar_hc-sr04.dae
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/meshes/sensors/raspi_camera.dae
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/TinyRobot/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/RobotPlaceholder
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/RobotPlaceholder/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/RobotPlaceholder/model.sdf
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Col.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Col.obj
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE.mtl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/meshes/CleanerBotE_Diffuse.png
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/model.config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/models/CleanerBotE/model.sdf
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/ament_index/resource_index/package_run_dependencies/rmf_demos_assets
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/ament_index/resource_index/parent_prefix_path/rmf_demos_assets
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/environment/ament_prefix_path.sh
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/environment/ament_prefix_path.dsv
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/environment/path.sh
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/environment/path.dsv
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.bash
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.sh
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.zsh
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/local_setup.dsv
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/package.dsv
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/ament_index/resource_index/packages/rmf_demos_assets
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/cmake/rmf_demos_assetsConfig.cmake
+-- Installing: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/cmake/rmf_demos_assetsConfig-version.cmake
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_demos_assets/share/rmf_demos_assets/package.xml
