@@ -25,8 +25,6 @@ levels:
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 1, 2, 3]
-    lanes:
-      - [15, 4, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     measurements:
@@ -49,7 +47,6 @@ levels:
       - [146.69900000000001, 18.359999999999999, 0, ""]
       - [83.706000000000003, 18.359999999999999, 0, ""]
       - [83.706000000000003, 40.264000000000003, 0, ""]
-      - [115, 50, 0, "", {lift_cabin: [1, lift1]}]
     walls:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -62,8 +59,8 @@ levels:
       - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-    x_meters: 55.866666666666667
-    y_meters: 55.866666666666667
+    x_meters: 132.33333333333334
+    y_meters: 132.33333333333334
   L2:
     elevation: 10
     fiducials:
@@ -73,7 +70,9 @@ levels:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 1, 2, 3]
     lanes:
-      - [15, 4, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [4, 15, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [15, 16, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [16, 4, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     vertices:
@@ -92,7 +91,8 @@ levels:
       - [146.541, 17.509, 0, ""]
       - [83.441000000000003, 17.509, 0, ""]
       - [83.375, 40.744, 0, ""]
-      - [114.587, 51.308, 0, "", {lift_cabin: [1, lift1]}]
+      - [27.725000000000001, 20.684000000000001, 0, ""]
+      - [26.184999999999999, 79.213999999999999, 0, ""]
     walls:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -107,26 +107,5 @@ levels:
       - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
     x_meters: 10
     y_meters: 10
-lifts:
-  lift1:
-    depth: 4
-    doors:
-      lift1_door:
-        door_type: 2
-        motion_axis_orientation: 1.5700000000000001
-        width: 1
-        x: -2
-        y: 0
-    highest_floor: L2
-    initial_floor_name: L1
-    level_doors:
-      L1: [lift1_door]
-      L2: [lift1_door]
-    lowest_floor: L1
-    plugins: true
-    reference_floor_name: L1
-    width: 4
-    x: 115
-    y: 50
-    yaw: 0
+lifts: {}
 name: simple
