@@ -33,9 +33,9 @@ levels:
     vertices:
     - - 7.624509099760272
       - -3.428615822193472
-      - {lift: lift1, lift_cabin: lift1, name: lift_L2}
-    - - 2.438782127163434
-      - -3.3639992149443785
+      - {lift: lift1, lift_cabin: lift1, name: ''}
+    - - 3.3290780833040263
+      - -3.288067246205661
       - {name: waypoint}
 lifts:
   lift1:
