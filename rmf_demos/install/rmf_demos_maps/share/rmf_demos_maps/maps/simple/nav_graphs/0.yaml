@@ -22,9 +22,9 @@ levels:
     vertices:
     - - 7.666666666666667
       - -3.3333333333333335
-      - {lift: lift1, lift_cabin: lift1, name: waypoint_Lift1}
-    - - 1.9992666666666667
-      - -3.3333333333333335
+      - {is_charger: false, lift: lift1, lift_cabin: lift1, name: waypoint_Lift1}
+    - - 0.9642666666666667
+      - -3.330133333333333
       - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
         spawn_robot_type: TinyRobot}
   L2:
@@ -39,9 +39,9 @@ levels:
     - - 7.666666666666667
       - -3.3333333333333335
       - {lift: lift1, lift_cabin: lift1, name: waypoint_Lift2}
-    - - 2.074466666666667
-      - -3.3333333333333335
-      - {name: waypoint_2}
+    - - 1.054
+      - -3.341333333333333
+      - {is_parking_spot: true, name: waypoint_2}
 lifts:
   lift1:
     dims: [4.0, 4.0]

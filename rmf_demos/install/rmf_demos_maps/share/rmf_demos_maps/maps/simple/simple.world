@@ -256,7 +256,7 @@
     <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>1.9992666666666667 -3.3333333333333335 0.0 0 0 3.141592653589793</pose>
+      <pose>0.9642666666666667 -3.330133333333333 0.0 0 0 3.141115212709384</pose>
     </include>
     <model name="door_L1">
       <pose>4.965933333333334 -3.3262 0.0 0 0 1.5707963267948966</pose>
@@ -299,27 +299,27 @@
           </inertia>
         </inertial>
       </link>
-      <joint name="right_joint" type="revolute">
+      <joint name="right_joint" type="prismatic">
         <parent>world</parent>
         <child>right</child>
         <axis>
-          <xyz>0 0 -1</xyz>
+          <xyz>1 0 0</xyz>
           <limit>
-            <lower>0</lower>
-            <upper>1.57</upper>
+            <lower>0.0</lower>
+            <upper>1.309333333333333</upper>
+            <effort>500.0</effort>
           </limit>
         </axis>
-        <pose>0.6546666666666665 0 0 0 0 0</pose>
       </joint>
       <plugin name="register_component" filename="libregister_component.so">
         <component name="Door">
-          <v_max_door>0.5</v_max_door>
-          <a_max_door>0.3</a_max_door>
-          <a_nom_door>0.15</a_nom_door>
-          <dx_min_door>0.01</dx_min_door>
-          <f_max_door>500.0</f_max_door>
+          <v_max_door>0.2</v_max_door>
+          <a_max_door>0.2</a_max_door>
+          <a_nom_door>0.08</a_nom_door>
+          <dx_min_door>0.001</dx_min_door>
+          <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="door_L1" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="door_L1" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
@@ -936,7 +936,8 @@
       <pose>7.666666666666667 -3.3333333333333335 0 0 0 0.0</pose>
     </model>
     <rmf_charger_waypoints name="charger_waypoints">
-      <rmf_vertex name="tinyRobot1_charger" x="1.9992666666666667" y="-3.3333333333333335" level="L1" />
+      <rmf_vertex name="waypoint_Lift1" x="7.666666666666667" y="-3.3333333333333335" level="L1" />
+      <rmf_vertex name="tinyRobot1_charger" x="0.9642666666666667" y="-3.330133333333333" level="L1" />
     </rmf_charger_waypoints>
   </world>
 </sdf>

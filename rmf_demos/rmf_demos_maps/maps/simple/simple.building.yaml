@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [tinyRobot1], agents_number: 1, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -17,7 +17,7 @@ graphs:
 levels:
   L1:
     doors:
-      - [4, 5, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_L1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [4, 5, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_L1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
     elevation: 0
     fiducials:
       - [150.001, 101.876, P2]
@@ -48,8 +48,8 @@ levels:
       - [146.69900000000001, 18.359999999999999, 0, ""]
       - [83.706000000000003, 18.359999999999999, 0, ""]
       - [83.706000000000003, 40.264000000000003, 0, ""]
-      - [115, 50, 0, waypoint_Lift1, {lift_cabin: [1, lift1]}]
-      - [29.989000000000001, 50, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
+      - [115, 50, 0, waypoint_Lift1, {is_charger: [4, false], lift_cabin: [1, lift1]}]
+      - [14.464, 49.951999999999998, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
     walls:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -62,8 +62,8 @@ levels:
       - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-    x_meters: 1761.2
-    y_meters: 1761.2
+    x_meters: 2348.2666666666664
+    y_meters: 2348.2666666666664
   L2:
     doors:
       - [16, 15, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door_L2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
@@ -100,7 +100,7 @@ levels:
       - [83.533000000000001, 40.564999999999998, 0, ""]
       - [75, 62.256, 0, ""]
       - [75, 36.061, 0, ""]
-      - [31.117000000000001, 50, 0, waypoint_2]
+      - [15.81, 50.119999999999997, 0, waypoint_2, {is_parking_spot: [4, true]}]
     walls:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
