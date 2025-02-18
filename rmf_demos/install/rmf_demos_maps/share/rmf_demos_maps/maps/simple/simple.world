@@ -225,10 +225,11 @@
       <plugin name="toggle_floors" filename="toggle_floors">
         <floor name="L1" model_name="simple_L1">
           <model name="OpenRobotics/Sofa" />
-          <model name="null" />
+          <model name="door_L1" />
           <model name="ShaftDoor_lift1_L1_lift1_door" />
         </floor>
         <floor name="L2" model_name="simple_L2">
+          <model name="door_L2" />
           <model name="ShaftDoor_lift1_L2_lift1_door" />
         </floor>
       </plugin>
@@ -255,9 +256,9 @@
     <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>3.3333333333333335 -3.3333333333333335 0.0 0 0 3.141592653589793</pose>
+      <pose>1.9992666666666667 -3.3333333333333335 0.0 0 0 3.141592653589793</pose>
     </include>
-    <model name="null">
+    <model name="door_L1">
       <pose>4.965933333333334 -3.3262 0.0 0 0 1.5707963267948966</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -318,7 +319,7 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="door_L1" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
@@ -327,6 +328,71 @@
       <uri>model://simple_L1</uri>
       <pose>0 0 0.0 0 0 0</pose>
     </include>
+    <model name="door_L2">
+      <pose>5.0 -3.277233333333333 10.0 0 0 1.5707963267948966</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>1.7363333333333337 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>1.7363333333333337 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>32.728556018518525</iyy>
+            <izz>12.565639351851859</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.8731666666666669 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="door_L2" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
     <include>
       <name>simple_L2</name>
       <uri>model://simple_L2</uri>
@@ -870,7 +936,7 @@
       <pose>7.666666666666667 -3.3333333333333335 0 0 0 0.0</pose>
     </model>
     <rmf_charger_waypoints name="charger_waypoints">
-      <rmf_vertex name="tinyRobot1_charger" x="3.3333333333333335" y="-3.3333333333333335" level="L1" />
+      <rmf_vertex name="tinyRobot1_charger" x="1.9992666666666667" y="-3.3333333333333335" level="L1" />
     </rmf_charger_waypoints>
   </world>
 </sdf>
