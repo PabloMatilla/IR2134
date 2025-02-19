@@ -68,7 +68,7 @@ At this point we will be able to send tasks to our fleet of robots.
 
 ![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
 
-More information
+More information:
 https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
 
 ### Terminal
