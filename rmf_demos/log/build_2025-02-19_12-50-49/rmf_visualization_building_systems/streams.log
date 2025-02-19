@@ -1,0 +1,18 @@
+[0.872s] Invoking command in '/home/usuario/rmf_demos/rmf_visualization/rmf_visualization_building_systems': PYTHONPATH=/home/usuario/rmf_demos/build/rmf_visualization_building_systems/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_visualization_building_systems build --build-base /home/usuario/rmf_demos/build/rmf_visualization_building_systems/build install --record /home/usuario/rmf_demos/build/rmf_visualization_building_systems/install.log --single-version-externally-managed install_data
+[0.879s] Fatal Python error: init_sys_streams: can't initialize sys standard streams
+[0.879s] Python runtime state: core initialized
+[0.879s] Traceback (most recent call last):
+[0.879s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[0.879s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[0.879s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[0.879s]   File "<frozen importlib._bootstrap>", line 1176, in exec_module
+[0.879s]   File "<frozen io>", line 53, in <module>
+[0.879s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[0.880s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[0.880s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[0.880s]   File "<frozen importlib._bootstrap>", line 1176, in exec_module
+[0.880s]   File "<frozen abc>", line 85, in <module>
+[0.880s]   File "<frozen importlib._bootstrap>", line 1357, in _find_and_load
+[0.880s]   File "<frozen importlib._bootstrap>", line 418, in __enter__
+[0.880s]   File "<frozen importlib._bootstrap>", line 311, in acquire
+[0.880s] KeyboardInterrupt

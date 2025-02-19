@@ -1,0 +1,39 @@
+[ 22%] Built target schedule_visualizer_node
+[ 77%] Built target test_submit_trajectory
+[ 77%] Built target rmf_visualization_schedule
+[100%] Built target schedule_visualizer
+-- Install configuration: ""
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/library_path.sh
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/library_path.dsv
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/schedule_visualizer_node
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule/CommonData.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule/TrajectoryServer.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule/ScheduleDataNode.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/parameters.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/exceptions.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/detail
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/detail/meta.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/short_string.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/assertions.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/jwt.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/json
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/json/json.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/base64.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/error_codes.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/algorithm.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/stack_alloc.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/config.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/string_view.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/jwt.ipp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/string_view.ipp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/error_codes.ipp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/stack_alloc.ipp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/include/json.hpp
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/config
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/config/rmf.rviz
+-- Up-to-date: /home/usuario/rmf_demos/install/rmf_visualization_schedule/lib/librmf_visualization_schedule.so

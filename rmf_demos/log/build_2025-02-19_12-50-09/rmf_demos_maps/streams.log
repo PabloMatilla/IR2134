@@ -1,0 +1,1775 @@
+[0.235s] Invoking command in '/home/usuario/rmf_demos/build/rmf_demos_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/rmf_demos/build/rmf_demos_maps -- -j6 -l6
+[0.384s] [  3%] Generating maps/campus/nav_graphs/phony
+[0.384s] [  7%] Generating airport_terminal_crowdsim
+[0.384s] [ 11%] Generating battle_royale_crowdsim
+[0.845s] [ 14%] Generating maps/airport_terminal/nav_graphs/phony
+[0.846s] [ 18%] Generating maps/battle_royale/nav_graphs/phony
+[0.846s] [ 22%] Generating campus_crowdsim
+[1.321s] building name: battle_royale
+[1.321s] coordinate system: reference_image
+[1.321s] parsing level L1
+[1.321s] calculating levels relative to L1
+[1.321s] level L1 scale: 0.05241419500892942
+[1.322s] generating nav data
+[1.322s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/battle_royale/nav_graphs/0.yaml
+[1.322s] [ 22%] Built target generate_battle_royale_nav_graphs
+[1.322s] building name: campus
+[1.322s] coordinate system: wgs84
+[1.322s] WGS84Transform(EPSG:3414, (22000, 31500))
+[1.322s] parsing level L1
+[1.322s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.322s] generating nav data
+[1.322s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/campus/nav_graphs/0.yaml
+[1.399s] building name: airport_terminal
+[1.399s] coordinate system: reference_image
+[1.399s] parsing level L1
+[1.399s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.399s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.399s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.400s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.400s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.400s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.400s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.400s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.400s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.401s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.402s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.403s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.404s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.405s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.406s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.406s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.406s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.406s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.407s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.408s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.409s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.410s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.417s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.418s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.419s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.420s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.426s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.427s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.427s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.427s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.427s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.428s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.428s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.428s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.428s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.429s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.430s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.431s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.432s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.432s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.437s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.437s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.437s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.438s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.439s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.440s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.440s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.441s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.441s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.441s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.441s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.441s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.442s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.448s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.448s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.448s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.448s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.449s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.449s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.449s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.449s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.449s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.449s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.452s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.453s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.454s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.454s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.454s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.454s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.454s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.454s] [ 25%] Generating clinic_crowdsim
+[1.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[1.487s] calculating levels relative to L1
+[1.487s] level L1 scale: 0.0821218733149518
+[1.488s] generating nav data
+[1.488s] hooray, we found an intersection: t=0.609, u=0.532
+[1.488s]   (1429.672,-631.172),(1540.508,-631.344) and (1497.124,-619.042),(1497.26,-642.032)
+[1.488s] found intersection with door zone_4_door!
+[1.488s] hooray, we found an intersection: t=0.219, u=0.518
+[1.488s]   (1132.252,-524.857),(1131.675,-587.942) and (1147.506,-539.38),(1117.794,-537.955)
+[1.488s] found intersection with door s08_door!
+[1.488s] hooray, we found an intersection: t=0.402, u=0.569
+[1.488s]   (179.111,-162.995),(228.176,-162.572) and (198.896,-144.477),(198.794,-176.729)
+[1.488s] found intersection with door n02_door!
+[1.488s] hooray, we found an intersection: t=0.613, u=0.538
+[1.490s]   (19.488,-470.118),(19.734,-506.719) and (4.211,-492.453),(32.893,-492.665)
+[1.490s] found intersection with door n01_door!
+[1.490s] hooray, we found an intersection: t=0.619, u=0.517
+[1.490s]   (18.874,-469.749),(19.12,-506.596) and (4.211,-492.453),(32.893,-492.665)
+[1.490s] found intersection with door n01_door!
+[1.490s] hooray, we found an intersection: t=0.401, u=0.544
+[1.490s]   (179.098,-162.166),(228.367,-161.794) and (198.896,-144.477),(198.794,-176.729)
+[1.491s] found intersection with door n02_door!
+[1.491s] hooray, we found an intersection: t=0.143, u=0.478
+[1.491s]   (349.547,-567.686),(349.72,-623.377) and (342.521,-575.905),(357.266,-575.412)
+[1.491s] found intersection with door s04_door!
+[1.491s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/airport_terminal/nav_graphs/0.yaml
+[1.491s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/airport_terminal/nav_graphs/1.yaml
+[1.491s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/airport_terminal/nav_graphs/2.yaml
+[1.491s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/airport_terminal/nav_graphs/4.yaml
+[1.494s] [ 25%] Built target generate_campus_nav_graphs
+[1.497s] crowdsim unable to parse, not attempting to proceed
+[1.497s] crowdsim unable to parse, not attempting to proceed
+[1.633s] [ 29%] Generating maps/clinic/nav_graphs/phony
+[1.648s] crowdsim unable to parse, not attempting to proceed
+[1.648s] crowdsim unable to parse, not attempting to proceed
+[1.649s] [ 29%] Built target generate_airport_terminal_nav_graphs
+[1.671s] [ 33%] Built target generate_battle_royale_crowdsim
+[1.785s] [ 37%] Generating hotel_crowdsim
+[1.785s] [ 40%] Built target generate_campus_crowdsim
+[1.822s] [ 44%] Generating maps/hotel/nav_graphs/phony
+[1.933s] [ 48%] Generating icc_kyoto_crowdsim
+[2.356s] parsing level L1
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.357s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.358s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.359s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.360s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.361s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.362s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.363s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.363s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.363s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.363s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.363s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.363s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.364s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.365s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.366s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.367s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.368s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.369s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.369s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.369s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.369s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.373s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.374s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.375s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.376s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.377s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.378s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.379s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.380s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.381s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.382s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.383s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.384s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.385s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.385s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.385s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.385s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.385s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.463s] building name: clinic
+[2.463s] coordinate system: reference_image
+[2.463s] parsing level L1
+[2.463s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.463s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.463s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.464s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.465s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.466s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.467s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.468s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.469s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.469s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.470s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.471s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.472s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.473s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.481s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.481s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.481s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.481s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.482s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.483s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.484s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.485s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.486s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.487s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.488s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.489s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.490s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.491s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.491s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.491s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.491s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.491s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.491s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.501s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.501s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.501s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.501s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.501s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.501s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.502s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.503s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.504s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.505s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.506s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.507s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.508s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.509s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.517s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.517s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.517s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.517s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.517s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.517s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.518s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.519s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.520s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.521s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.522s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.523s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsing level L2
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.524s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.525s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.531s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.531s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.532s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.533s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.534s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.535s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.536s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.537s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.538s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.539s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.540s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.541s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.557s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.558s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.558s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.558s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.559s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.560s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.561s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.562s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.563s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.564s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.565s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.566s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.567s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.568s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.569s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.569s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.581s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.582s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.583s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.584s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.585s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.585s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.585s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.585s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.585s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.585s] calculating levels relative to L1
+[2.585s] level L1 scale: 0.026922041459943872
+[2.585s] calculating level L2 offset and scale...
+[2.585s]   5 common fiducials:
+[2.585s] Transform.set_from_fiducials()
+[2.585s]   5 fiducial pairs:
+[2.585s]     (422.07, -221.68) -> (422.07, -221.68)   1
+[2.586s]     (1154.9, -952.56) -> (1154.9, -952.56)   5
+[2.586s]     (1882.9, -221.68) -> (1882.9, -221.68)   3
+[2.586s]     (1154.0, -224.0) -> (1154.0, -224.0)   2
+[2.586s]     (1155.0, -585.0) -> (1155.0, -585.0)   4
+[2.586s]     calc dist 1 <=> 5
+[2.586s]     calc dist 1 <=> 3
+[2.586s]     calc dist 1 <=> 2
+[2.586s]     calc dist 1 <=> 4
+[2.586s]     calc dist 5 <=> 3
+[2.586s]     calc dist 5 <=> 2
+[2.586s]     calc dist 5 <=> 4
+[2.586s]     calc dist 3 <=> 2
+[2.587s]     calc dist 3 <=> 4
+[2.587s]     calc dist 2 <=> 4
+[2.587s] Bearings:
+[2.587s] [(-0.7840754797205807, -0.7840754797205807), (0.0, 0.0), (-0.0031655883689601, -0.0031655883689601), (-0.4602050945585731, -0.4602050945585731), (0.7873887698095439, 0.7873887698095439), (1.5720069334286988, 1.5720069334286988), (1.570475290784596, 1.570475290784596), (-3.1384137055205374, -3.1384137055205374), (-2.6786162824632034, -2.6786162824632034), (-1.568026250777653, -1.568026250777653)]
+[2.587s]   0.0
+[2.587s]   0.0
+[2.587s]   0.0
+[2.587s]   0.0
+[2.587s]   0.0
+[2.587s]   0.0
+[2.587s]   0.0
+[2.587s]   0.0
+[2.588s]   0.0
+[2.588s]   0.0
+[2.588s]   Circular mean: -0.0
+[2.588s] Distances:
+[2.588s] [(1034.986029904752, 1034.986029904752), (1460.786, 1460.786), (731.934667337188, 731.934667337188), (818.0385646471688, 818.0385646471688), (1031.5647715281866, 1031.5647715281866), (728.5605338775906, 728.5605338775906), (367.5600189411247, 367.5600189411247), (728.8586828144397, 728.8586828144397), (813.4937882454911, 813.4937882454911), (361.0013850388943, 361.0013850388943)]
+[2.588s] mean relative scale: 1.0
+[2.588s] translation: (-0.0, -0.0)
+[2.588s] parsing lift lift_1
+[2.588s] parsing lift lift_2
+[2.588s] parsing lift lift_24
+[2.588s] parsing lift lift_25
+[2.588s] generating nav data
+[2.589s] hooray, we found an intersection: t=0.48, u=0.468
+[2.589s]   (627.861,-1601.084),(627.408,-1497.723) and (566.535,-1551.478),(697.158,-1551.478)
+[2.589s] found intersection with door L1_clinic_a!
+[2.589s] hooray, we found an intersection: t=0.459, u=0.524
+[2.589s]   (490.668,-994.175),(379.739,-997.569) and (439.458,-1026.67),(439.949,-967.671)
+[2.589s] found intersection with door L1_left_negative_air_pressure!
+[2.589s] hooray, we found an intersection: t=0.456, u=0.481
+[2.589s]   (491.752,-501.971),(375.127,-505.417) and (438.534,-478.021),(438.534,-531.067)
+[2.589s] found intersection with door L1_left_treatment_1!
+[2.589s] hooray, we found an intersection: t=0.473, u=0.435
+[2.589s]   (796.952,-430.722),(797.929,-549.851) and (831.38,-487.11),(753.359,-487.11)
+[2.589s] found intersection with door L1_left_inner!
+[2.590s] hooray, we found an intersection: t=0.431, u=0.471
+[2.590s]   (1524.204,-426.739),(1520.237,-579.945) and (1477.473,-492.765),(1573.085,-492.798)
+[2.590s] found intersection with door L1_right_inner!
+[2.590s] hooray, we found an intersection: t=0.53, u=0.591
+[2.590s]   (1815.358,-736.521),(1914.743,-735.042) and (1868.031,-705.577),(1868.031,-756.601)
+[2.590s] found intersection with door L1_right_treatment!
+[2.590s] hooray, we found an intersection: t=0.58, u=0.554
+[2.590s]   (1820.613,-1154.315),(1896.752,-1153.905) and (1864.835,-1121.808),(1864.723,-1180.08)
+[2.590s] found intersection with door L1_right_negative_air_pressure!
+[2.590s] hooray, we found an intersection: t=0.487, u=0.487
+[2.590s]   (1450.332,-1609.811),(1311.819,-1610.258) and (1382.909,-1580.118),(1382.909,-1641.559)
+[2.590s] found intersection with door L1_clinic_b!
+[2.591s] hooray, we found an intersection: t=0.553, u=0.492
+[2.591s]   (1812.642,-507.302),(1943.079,-499.601) and (1884.728,-480.075),(1884.728,-526.802)
+[2.591s] found intersection with door L1_right_procedure!
+[2.591s] hooray, we found an intersection: t=0.396, u=0.486
+[2.591s]   (1521.424,-399.253),(1512.116,-635.98) and (1483.768,-492.964),(1553.612,-492.964)
+[2.591s] found intersection with door L2_right_inner!
+[2.591s] hooray, we found an intersection: t=0.475, u=0.517
+[2.591s]   (782.939,-398.332),(788.876,-585.107) and (824.093,-487.11),(749.991,-487.11)
+[2.591s] found intersection with door m!
+[2.591s] hooray, we found an intersection: t=0.428, u=0.52
+[2.591s]   (633.928,-1501.354),(635.211,-1618.429) and (566.535,-1551.478),(697.158,-1551.478)
+[2.591s] found intersection with door L2_clinic_a!
+[2.592s] hooray, we found an intersection: t=0.445, u=0.592
+[2.592s]   (1327.592,-1616.631),(1452.02,-1616.307) and (1382.909,-1580.118),(1382.909,-1641.559)
+[2.592s] found intersection with door L2_clinic_b!
+[2.592s] hooray, we found an intersection: t=0.473, u=0.435
+[2.592s]   (796.952,-430.722),(797.929,-549.851) and (831.38,-487.11),(753.359,-487.11)
+[2.592s] found intersection with door L1_left_inner!
+[2.592s] hooray, we found an intersection: t=0.52, u=0.468
+[2.592s]   (627.408,-1497.723),(627.861,-1601.084) and (566.535,-1551.478),(697.158,-1551.478)
+[2.592s] found intersection with door L1_clinic_a!
+[2.592s] hooray, we found an intersection: t=0.513, u=0.487
+[2.592s]   (1311.819,-1610.258),(1450.332,-1609.811) and (1382.909,-1580.118),(1382.909,-1641.559)
+[2.592s] found intersection with door L1_clinic_b!
+[2.593s] hooray, we found an intersection: t=0.431, u=0.471
+[2.593s]   (1524.204,-426.739),(1520.237,-579.945) and (1477.473,-492.765),(1573.085,-492.798)
+[2.605s] found intersection with door L1_right_inner!
+[2.605s] hooray, we found an intersection: t=0.572, u=0.52
+[2.605s]   (635.211,-1618.429),(633.928,-1501.354) and (566.535,-1551.478),(697.158,-1551.478)
+[2.605s] found intersection with door L2_clinic_a!
+[2.605s] hooray, we found an intersection: t=0.445, u=0.592
+[2.605s]   (1327.592,-1616.631),(1452.02,-1616.307) and (1382.909,-1580.118),(1382.909,-1641.559)
+[2.605s] found intersection with door L2_clinic_b!
+[2.605s] hooray, we found an intersection: t=0.396, u=0.486
+[2.606s]   (1521.424,-399.253),(1512.116,-635.98) and (1483.768,-492.964),(1553.612,-492.964)
+[2.606s] found intersection with door L2_right_inner!
+[2.606s] hooray, we found an intersection: t=0.475, u=0.517
+[2.606s]   (782.939,-398.332),(788.876,-585.107) and (824.093,-487.11),(749.991,-487.11)
+[2.606s] found intersection with door m!
+[2.606s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/clinic/nav_graphs/0.yaml
+[2.606s] writing /home/usuario/rmf_demos/build/rmf_demos_maps/maps/clinic/nav_graphs/1.yaml
+[2.657s] Traceback (most recent call last):
+[2.657s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_crowdsim", line 33, in <module>
+[2.658s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.658s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.658s] parsed a deprecated .building.yaml, model should have a  [dispensable] field, setting [dispensable] to false for now
+[2.658s] level L1 scale: 0.0821218733149518
+[2.658s] Load lane vertices of  1297
+[2.658s] Load human lanes of 7
+[2.658s] Generate:  /home/usuario/rmf_demos/build/rmf_demos_maps/maps/airport_terminal/config_resource//L1_navmesh.nav
+[2.658s] Traceback (most recent call last):
+[2.658s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_crowdsim", line 33, in <module>
+[2.659s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_crowdsim')())
+[2.659s] Traceback (most recent call last):
+[2.659s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 33, in <module>
+[2.659s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.659s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_crowdsim.py", line 42, in main
+[2.659s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_crowdsim')())
+[2.659s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.659s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_crowdsim.py", line 45, in main
+[2.659s] Traceback (most recent call last):
+[2.659s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_crowdsim", line 33, in <module>
+[2.660s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_map_generator')())
+[2.660s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_crowdsim')())
+[2.660s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.660s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_generator/building_map_generator.py", line 25, in main
+[2.660s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.660s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_crowdsim.py", line 42, in main
+[2.662s] Traceback (most recent call last):
+[2.662s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_crowdsim", line 33, in <module>
+[2.662s]     g.generate_nav(args.INPUT, args.OUTPUT_DIR)
+[2.662s]     navmesh_main(
+[2.662s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/navmesh/navmesh_generator.py", line 93, in navmesh_main
+[2.662s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 54, in generate_nav
+[2.662s]     configfile_main(
+[2.663s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/config/configfile_generator.py", line 137, in configfile_main
+[2.663s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_crowdsim')())
+[2.663s]     building = self.parse_editor_yaml(input_filename)
+[2.663s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.663s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_crowdsim", line 25, in importlib_load_entry_point
+[2.663s]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.663s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 17, in parse_editor_yaml
+[2.663s]     y = yaml.load(f, Loader=yaml.CLoader)
+[2.663s]     return next(matches).load()
+[2.663s]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.663s]     yaml_parse = BuildingYamlParse(map_file)
+[2.663s]   File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+[2.664s]            ^^^^^^^^^^^^^^^^^^^^
+[2.664s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.664s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_yaml_parse.py", line 57, in __init__
+[2.664s]     yaml_parse = BuildingYamlParse(map_file)
+[2.664s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.664s]     navmesh_main(
+[2.664s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_yaml_parse.py", line 57, in __init__
+[2.664s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/navmesh/navmesh_generator.py", line 93, in navmesh_main
+[2.664s]     self.yaml_node = yaml.load(f, yaml.SafeLoader)
+[2.664s]     yaml_parse = BuildingYamlParse(map_file)
+[2.664s]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.664s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.665s]   File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+[2.665s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_yaml_parse.py", line 57, in __init__
+[2.665s]     self.yaml_node = yaml.load(f, yaml.SafeLoader)
+[2.665s]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.665s]     self.yaml_node = yaml.load(f, yaml.SafeLoader)
+[2.665s]   File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+[2.665s]                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.665s]   File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+[2.665s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+[2.665s]     return loader.get_single_data()
+[2.665s]     return loader.get_single_data()
+[2.666s]            ^^^^^^^^^^^^^^^^^^^^^^^^
+[2.666s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 51, in get_single_data
+[2.666s]            ^^^^^^^^^^^^^^^^^^^^^^^^
+[2.666s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 49, in get_single_data
+[2.666s]     return loader.get_single_data()
+[2.666s]            ^^^^^^^^^^^^^^^^^^^^^^^^
+[2.666s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 49, in get_single_data
+[2.666s]     return loader.get_single_data()
+[2.666s]            ^^^^^^^^^^^^^^^^^^^^^^^^
+[2.666s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 49, in get_single_data
+[2.666s]     module = import_module(match.group('module'))
+[2.666s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.667s]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+[2.667s]     node = self.get_single_node()
+[2.667s]            ^^^^^^^^^^^^^^^^^^^^^^
+[2.667s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 36, in get_single_node
+[2.667s]     node = self.get_single_node()
+[2.667s]            ^^^^^^^^^^^^^^^^^^^^^^
+[2.667s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 36, in get_single_node
+[2.667s] gmake[1]: *** [CMakeFiles/Makefile2:354: CMakeFiles/generate_clinic_nav_graphs.dir/all] Interrupt
+[2.670s]     return self.construct_document(node)
+[2.670s]     document = self.compose_document()
+[2.670s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.670s]     document = self.compose_document()
+[2.670s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 60, in construct_document
+[2.670s]                ^^^^^^^^^^^^^^^^^^^^^^^
+[2.670s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 55, in compose_document
+[2.671s]                ^^^^^^^^^^^^^^^^^^^^^^^
+[2.671s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 55, in compose_document
+[2.671s]     for dummy in generator:
+[2.671s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 413, in construct_yaml_map
+[2.671s]     node = self.compose_node(None, None)
+[2.671s]     node = self.compose_node(None, None)
+[2.671s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.671s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.671s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.671s]     value = self.construct_mapping(node)
+[2.671s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.671s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.672s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 218, in construct_mapping
+[2.672s]     node = self.compose_mapping_node(anchor)
+[2.672s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.672s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.672s]     return super().construct_mapping(node, deep=deep)
+[2.672s]     node = self.compose_mapping_node(anchor)
+[2.672s]     item_value = self.compose_node(node, item_key)
+[2.672s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.672s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 140, in construct_mapping
+[2.673s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.673s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.673s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.673s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.673s]     if not isinstance(key, collections.abc.Hashable):
+[2.673s]     node = self.compose_mapping_node(anchor)
+[2.673s]     return _bootstrap._gcd_import(name[level:], package, level)
+[2.673s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.673s]   File "<frozen abc>", line 119, in __instancecheck__
+[2.673s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.673s] KeyboardInterrupt
+[2.674s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.674s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.674s]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[2.674s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[2.674s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[2.674s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[2.674s]     item_value = self.compose_node(node, item_key)
+[2.674s]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+[2.674s]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[2.674s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_crowdsim.py", line 33, in <module>
+[2.674s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.674s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.675s]     node = self.get_single_node()
+[2.675s]            ^^^^^^^^^^^^^^^^^^^^^^
+[2.675s]     node = self.compose_mapping_node(anchor)
+[2.675s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 36, in get_single_node
+[2.675s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.675s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.675s]     item_value = self.compose_node(node, item_key)
+[2.675s]     document = self.compose_document()
+[2.675s]     item_value = self.compose_node(node, item_key)
+[2.675s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.675s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+[2.675s]                ^^^^^^^^^^^^^^^^^^^^^^^
+[2.676s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 55, in compose_document
+[2.676s]     from .config.configfile_generator import configfile_main
+[2.676s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/config/configfile_generator.py", line 15, in <module>
+[2.676s]     node = self.compose_sequence_node(anchor)
+[2.676s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.676s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+[2.676s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.676s]     node = self.compose_node(None, None)
+[2.676s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.676s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.676s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.676s]     node.value.append(self.compose_node(node, index))
+[2.677s]     node = self.compose_mapping_node(anchor)
+[2.677s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.677s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+[2.677s]     node = self.compose_mapping_node(anchor)
+[2.677s]     from building_crowdsim.building_yaml_parse import\
+[2.677s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_crowdsim/building_yaml_parse.py", line 6, in <module>
+[2.677s]     node = self.compose_sequence_node(anchor)
+[2.677s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.677s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.677s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.677s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+[2.677s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.678s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.678s]     node.value.append(self.compose_node(node, index))
+[2.678s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.678s]     item_value = self.compose_node(node, item_key)
+[2.678s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.678s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.678s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.678s]     node = self.compose_mapping_node(anchor)
+[2.678s]     from building_map.building import Building
+[2.678s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.678s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/building.py", line 5, in <module>
+[2.678s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 127, in compose_mapping_node
+[2.679s]     node = self.compose_mapping_node(anchor)
+[2.679s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.679s]     while not self.check_event(MappingEndEvent):
+[2.679s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.679s]     item_value = self.compose_node(node, item_key)
+[2.679s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.679s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 98, in check_event
+[2.679s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.679s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.679s]     item_value = self.compose_node(node, item_key)
+[2.679s]     node = self.compose_mapping_node(anchor)
+[2.679s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.680s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.680s]     item_value = self.compose_node(node, item_key)
+[2.680s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.680s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.680s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.680s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+[2.680s]     self.current_event = self.state()
+[2.680s]                          ^^^^^^^^^^^^
+[2.680s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 540, in parse_flow_mapping_first_key
+[2.680s]     node = self.compose_mapping_node(anchor)
+[2.680s]     import numpy as np
+[2.680s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.680s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.681s]   File "/usr/lib/python3/dist-packages/numpy/__init__.py", line 159, in <module>
+[2.681s]     item_value = self.compose_node(node, item_key)
+[2.681s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.681s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+[2.681s]     node = self.compose_sequence_node(anchor)
+[2.681s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.681s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 110, in compose_sequence_node
+[2.681s]     node = self.compose_sequence_node(anchor)
+[2.681s]     return self.parse_flow_mapping_key(first=True)
+[2.681s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.681s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+[2.681s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.682s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 556, in parse_flow_mapping_key
+[2.682s]     while not self.check_event(SequenceEndEvent):
+[2.682s]     node.value.append(self.compose_node(node, index))
+[2.682s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.682s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+[2.682s]     return self.parse_flow_node()
+[2.682s]     node = self.compose_sequence_node(anchor)
+[2.682s]            ^^^^^^^^^^^^^^^^^^^^^^
+[2.682s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 268, in parse_flow_node
+[2.682s]     from . import ma
+[2.682s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.682s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+[2.683s]   File "/usr/lib/python3/dist-packages/numpy/ma/__init__.py", line 42, in <module>
+[2.683s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.683s]     return self.parse_node()
+[2.683s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 98, in check_event
+[2.683s]            ^^^^^^^^^^^^^^^^^
+[2.683s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 274, in parse_node
+[2.683s]     node.value.append(self.compose_node(node, index))
+[2.683s]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.683s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+[2.683s]     self.current_event = self.state()
+[2.683s]     if self.check_token(AliasToken):
+[2.684s]                          ^^^^^^^^^^^^
+[2.684s]        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.684s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 384, in parse_block_sequence_entry
+[2.684s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 121, in check_token
+[2.684s]     node = self.compose_mapping_node(anchor)
+[2.684s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.684s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+[2.684s]     item_value = self.compose_node(node, item_key)
+[2.684s]     if not self.check_token(BlockEntryToken, BlockEndToken):
+[2.684s]                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.685s]   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 64, in compose_node
+[2.685s]     from . import core
+[2.686s]     if self.check_event(AliasEvent):
+[2.687s]   File "/usr/lib/python3/dist-packages/numpy/ma/core.py", line 8450, in <module>
+[2.687s]        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.687s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 98, in check_event
+[2.688s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.688s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 116, in check_token
+[2.690s]     self.current_event = self.state()
+[2.690s]                          ^^^^^^^^^^^^
+[2.690s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 574, in parse_flow_mapping_value
+[2.690s]     self.fetch_more_tokens()
+[2.690s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 207, in fetch_more_tokens
+[2.690s]     return self.parse_flow_node()
+[2.690s]            ^^^^^^^^^^^^^^^^^^^^^^
+[2.690s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 268, in parse_flow_node
+[2.690s]     return self.parse_node()
+[2.691s]            ^^^^^^^^^^^^^^^^^
+[2.691s]   File "/usr/lib/python3/dist-packages/yaml/parser.py", line 337, in parse_node
+[2.691s]     elif self.check_token(FlowSequenceStartToken):
+[2.691s]     return self.fetch_flow_mapping_end()
+[2.691s]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.691s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 115, in check_token
+[2.691s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.691s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 451, in fetch_flow_mapping_end
+[2.691s]     while self.need_more_tokens():
+[2.691s]           ^^^^^^^^^^^^^^^^^^^^^^^
+[2.691s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 153, in need_more_tokens
+[2.691s]     self.fetch_flow_collection_end(FlowMappingEndToken)
+[2.692s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 468, in fetch_flow_collection_end
+[2.692s]     if self.next_possible_simple_key() == self.tokens_taken:
+[2.692s]        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.692s]   File "/usr/lib/python3/dist-packages/yaml/scanner.py", line 264, in next_possible_simple_key
+[2.692s]     self.tokens.append(TokenClass(start_mark, end_mark))
+[2.692s]     def next_possible_simple_key(self):
+[2.692s] 
+[2.692s]                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.692s] KeyboardInterrupt
+[2.692s] KeyboardInterrupt
+[2.692s]     arange = _convert2ma(
+[2.693s]              ^^^^^^^^^^^^
+[2.693s]   File "/usr/lib/python3/dist-packages/numpy/ma/core.py", line 8391, in __init__
+[2.695s]     if isinstance(self.tokens[0], choice):
+[2.695s]        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.695s] KeyboardInterrupt
+[2.695s]     self.__doc__ = self.getdoc(np_ret, np_ma_ret)
+[2.695s]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.695s]   File "/usr/lib/python3/dist-packages/numpy/ma/core.py", line 8397, in getdoc
+[2.695s]     sig = get_object_signature(self._func)
+[2.695s]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.695s]   File "/usr/lib/python3/dist-packages/numpy/ma/core.py", line 137, in get_object_signature
+[2.695s]     sig = formatargspec(*getargspec(obj))
+[2.696s]                          ^^^^^^^^^^^^^^^
+[2.696s]   File "/usr/lib/python3/dist-packages/numpy/_utils/_inspect.py", line 109, in getargspec
+[2.696s]     raise TypeError('arg is not a Python function')
+[2.696s]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.696s] KeyboardInterrupt
+[2.729s] [ros2run]: Interrupt
+[2.751s] gmake[2]: *** [CMakeFiles/generate_icc_kyoto_crowdsim.dir/build.make:73: icc_kyoto_crowdsim] Error 254
+[2.751s] gmake[1]: *** [CMakeFiles/Makefile2:431: CMakeFiles/generate_icc_kyoto_crowdsim.dir/all] Interrupt
+[2.771s] [ros2run]: Interrupt
+[2.771s] [ros2run]: Interrupt
+[2.793s] gmake[2]: *** [CMakeFiles/generate_hotel_crowdsim.dir/build.make:73: hotel_crowdsim] Error 254
+[2.793s] gmake[2]: *** [CMakeFiles/generate_hotel_nav_graphs.dir/build.make:73: maps/hotel/nav_graphs/phony] Error 254
+[2.793s] gmake[1]: *** [CMakeFiles/Makefile2:405: CMakeFiles/generate_hotel_nav_graphs.dir/all] Interrupt
+[2.793s] gmake[1]: *** [CMakeFiles/Makefile2:379: CMakeFiles/generate_hotel_crowdsim.dir/all] Interrupt
+[2.821s] [ros2run]: Interrupt
+[2.821s] [ros2run]: Interrupt
+[2.825s] gmake: *** [Makefile:146: all] Interrupt
+[2.827s] gmake[2]: *** [CMakeFiles/generate_clinic_crowdsim.dir/build.make:73: clinic_crowdsim] Interrupt
+[2.827s] gmake[2]: *** [CMakeFiles/generate_airport_terminal_crowdsim.dir/build.make:73: airport_terminal_crowdsim] Interrupt

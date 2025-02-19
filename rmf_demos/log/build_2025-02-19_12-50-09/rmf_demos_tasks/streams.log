@@ -1,0 +1,42 @@
+[1.972s] Invoking command in '/home/usuario/rmf_demos/rmf_demos_tasks': PYTHONPATH=/home/usuario/rmf_demos/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_tasks build --build-base /home/usuario/rmf_demos/build/rmf_demos_tasks/build install --record /home/usuario/rmf_demos/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data
+[2.369s] Traceback (most recent call last):
+[2.369s]   File "/home/usuario/rmf_demos/rmf_demos_tasks/setup.py", line 6, in <module>
+[2.370s]     setup(
+[2.370s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[2.399s]     return distutils.core.setup(**attrs)
+[2.399s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.399s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 172, in setup
+[2.399s]     ok = dist.parse_command_line()
+[2.399s]          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.399s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 475, in parse_command_line
+[2.404s]     args = self._parse_command_opts(parser, args)
+[2.404s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.404s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1133, in _parse_command_opts
+[2.404s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[2.404s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.404s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 534, in _parse_command_opts
+[2.404s]     cmd_class = self.get_command_class(command)
+[2.405s]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.405s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 978, in get_command_class
+[2.405s]     eps = metadata.entry_points(group='distutils.commands', name=command)
+[2.405s]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.405s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[2.405s]     return EntryPoints(eps).select(**params)
+[2.405s]            ^^^^^^^^^^^^^^^^
+[2.405s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+[2.405s]     dist.entry_points for dist in _unique(distributions())
+[2.405s]     ^^^^^^^^^^^^^^^^^
+[2.405s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 471, in entry_points
+[2.405s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[2.406s]                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.406s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 819, in read_text
+[2.406s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[2.406s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.406s]   File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+[2.407s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[2.407s]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.407s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[2.407s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[2.408s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.408s]   File "<frozen codecs>", line 309, in __init__
+[2.408s] KeyboardInterrupt
