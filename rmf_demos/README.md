@@ -77,9 +77,19 @@ We must observe in which docker we have executed rmf_demos.
 ```
 docker ps 
 ```
+In our case it is `infallible_nobel`.
 
 ```
-docker run --rm -it   ghcr.io/open-rmf/rmf/rmf_demos:latest     ros2 run rmf_demos_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
+ docker exec -it infallible_nobel bash
+```
+
+```
+source /opt/ros/jazzy/setup.bash
+cd rmf_demos
+colcon build
+source install/setup.bash
+ros2 run rmf_demos_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
+
 ```
 
 
