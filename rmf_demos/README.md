@@ -55,10 +55,16 @@ ros2 launch rmf_demos_gz \
 By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` with the latest task and robot states. User can then monitor on-going states and initiate rmf task with an interactive web dashboard.
 
 At this point Gazebo will open with our `icc_kyoto` model.
+
 ![Captura desde 2025-02-19 11-18-58](https://github.com/user-attachments/assets/bfb16650-a14d-4cff-84d3-a143d4c17407)
 
 And Rviz also opens.
+
 ![Captura desde 2025-02-19 11-21-11](https://github.com/user-attachments/assets/1ee4adba-376b-4b4a-9b50-66c91ba8e193)
+
+At this point we will be able to send tasks to our fleet of robots.
+### aiidj
+### ffff
 
 # RMF Simple
 
