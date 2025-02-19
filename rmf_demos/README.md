@@ -164,8 +164,28 @@ And Rviz also opens.
 At this point we will be able to send tasks to our fleet of robots.
 ### Open-RMF Web
 ![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
+![ezgif com-animated-gif-maker2](https://github.com/user-attachments/assets/650cceaf-a4f2-4c27-84c3-0342155cbe66)
 
-![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
 
-More information
-https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
+### Terminal
+
+We must observe in which docker we have executed rmf_demos.
+```
+docker ps 
+```
+In our case it is `infallible_nobel`.
+
+```
+ docker exec -it infallible_nobel bash
+```
+
+```
+source /opt/ros/jazzy/setup.bash
+cd rmf_demos
+colcon build
+source install/setup.bash
+ros2 run rmf_demos_tasks dispatch_patrol  -p waypoint_2 -n 3 --use_sim_time
+
+```
+
+
