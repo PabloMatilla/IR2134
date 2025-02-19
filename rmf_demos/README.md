@@ -67,6 +67,8 @@ At this point we will be able to send tasks to our fleet of robots.
 ![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
 
 
+https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
+
 ### Terminal
 
 # RMF Simple
