@@ -66,12 +66,15 @@ At this point we will be able to send tasks to our fleet of robots.
 ### Open-RMF Web
 ![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
 
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
 
+More information
 https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
 
 ### Terminal
 
 # RMF Simple
+
 
 ## Terminal 1 (API Server):
 
