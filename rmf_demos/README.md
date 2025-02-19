@@ -45,6 +45,7 @@ rocker --nvidia --x11 \
 ```
 ```
 cd rmf_demos/
+sudo cp -R /root/.gazebo .
 colcon build
 source install/setup.bash
 ros2 launch rmf_demos_gz \
@@ -143,6 +144,7 @@ rocker --nvidia --x11 \
 ```
 ```
 cd rmf_demos/
+sudo cp -R /root/.gazebo .
 colcon build
 source install/setup.bash
 ros2 launch rmf_demos_gz \
