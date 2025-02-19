@@ -76,6 +76,10 @@ https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=shari
 docker run --rm -it   ghcr.io/open-rmf/rmf/rmf_demos:latest     ros2 run rmf_demos_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
 ```
 
+
+
+
+
 # RMF Simple
 
 
@@ -132,3 +136,20 @@ ros2 launch rmf_demos_gz \
 
 By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` with the latest task and robot states. User can then monitor on-going states and initiate rmf task with an interactive web dashboard.
 
+At this point Gazebo will open with our `simple` model.
+
+![Captura desde 2025-02-19 12-36-05](https://github.com/user-attachments/assets/c3b95b2b-c5fe-41a8-9bac-b3231624ca14)
+
+And Rviz also opens.
+
+![Captura desde 2025-02-19 12-35-42](https://github.com/user-attachments/assets/a9895875-efa4-4cf2-9882-c24d528b6f7b)
+
+
+At this point we will be able to send tasks to our fleet of robots.
+### Open-RMF Web
+![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
+
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
+
+More information
+https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
