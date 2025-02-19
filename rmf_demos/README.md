@@ -57,6 +57,8 @@ By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` 
 At this point Gazebo will open with our icc_kyoto model.
 ![Captura desde 2025-02-19 11-18-58](https://github.com/user-attachments/assets/bfb16650-a14d-4cff-84d3-a143d4c17407)
 
+And Rviz also opens.
+![Captura desde 2025-02-19 11-21-11](https://github.com/user-attachments/assets/1ee4adba-376b-4b4a-9b50-66c91ba8e193)
 
 # RMF Simple
 
