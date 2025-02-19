@@ -72,6 +72,9 @@ More information
 https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
 
 ### Terminal
+```
+docker run --rm -it   ghcr.io/open-rmf/rmf/rmf_demos:latest     ros2 run rmf_demos_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
+```
 
 # RMF Simple
 
