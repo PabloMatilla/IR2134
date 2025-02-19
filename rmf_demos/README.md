@@ -167,8 +167,9 @@ At this point we will be able to send tasks to our fleet of robots.
 
 ### Open-RMF Web
 
-![ezgif com-animated-gif-maker2](https://github.com/user-attachments/assets/650cceaf-a4f2-4c27-84c3-0342155cbe66)
 ![Captura desde 2025-02-19 13-57-32](https://github.com/user-attachments/assets/f9472f13-1eab-403e-af35-fcb8d7d91a3d)
+![ezgif com-animated-gif-maker2](https://github.com/user-attachments/assets/650cceaf-a4f2-4c27-84c3-0342155cbe66)
+
 
 ### Terminal
 
