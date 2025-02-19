@@ -63,8 +63,11 @@ And Rviz also opens.
 ![Captura desde 2025-02-19 11-21-11](https://github.com/user-attachments/assets/1ee4adba-376b-4b4a-9b50-66c91ba8e193)
 
 At this point we will be able to send tasks to our fleet of robots.
-### aiidj
-### ffff
+### Open-RMF Web
+![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
+
+
+### Terminal
 
 # RMF Simple
 
