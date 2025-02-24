@@ -10872,6 +10872,36 @@
       <pose>34.64056918544645 -74.68565140016528 5.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
+    <include>
+      <name>tinyRobot1</name>
+      <uri>model://TinyRobot</uri>
+      <pose>33.17070905453181 -54.66918950583264 5.0 0 0 1.5385511208138938</pose>
+    </include>
+    <include>
+      <name>tinyRobot2</name>
+      <uri>model://TinyRobot</uri>
+      <pose>34.32406687628182 -54.47170799968157 5.0 0 0 1.594705350845552</pose>
+    </include>
+    <include>
+      <name>tinyRobot3</name>
+      <uri>model://TinyRobot</uri>
+      <pose>35.916476139964516 -54.48272918679075 5.0 0 0 1.5764825348110332</pose>
+    </include>
+    <include>
+      <name>tinyRobot4</name>
+      <uri>model://TinyRobot</uri>
+      <pose>37.145785855715445 -54.294923907854 5.0 0 0 1.5772074766730608</pose>
+    </include>
+    <include>
+      <name>tinyRobot5</name>
+      <uri>model://TinyRobot</uri>
+      <pose>38.43079778534961 -54.59999246818451 5.0 0 0 1.5707971886137333</pose>
+    </include>
+    <include>
+      <name>tinyRobot6</name>
+      <uri>model://TinyRobot</uri>
+      <pose>39.808786003386764 -54.59999128060831 5.0 0 0 1.5707971886137362</pose>
+    </include>
     <model name="anull2">
       <pose>27.942064443301362 -58.42850383275716 5.0 0 0 -1.5707954649760567</pose>
       <link name="right">
@@ -17286,6 +17316,13 @@
       <uri>model://TD_L1</uri>
       <pose>0 0 5.0 0 0 0</pose>
     </include>
-    <rmf_charger_waypoints name="charger_waypoints" />
+    <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="tinyRobot1_charger" x="33.17070905453181" y="-54.66918950583264" level="L1" />
+      <rmf_vertex name="tinyRobot2_charger" x="34.32406687628182" y="-54.47170799968157" level="L1" />
+      <rmf_vertex name="tinyRobot3_charger" x="35.916476139964516" y="-54.48272918679075" level="L1" />
+      <rmf_vertex name="tinyRobot4_charger" x="37.145785855715445" y="-54.294923907854" level="L1" />
+      <rmf_vertex name="tinyRobot5_charger" x="38.43079778534961" y="-54.59999246818451" level="L1" />
+      <rmf_vertex name="tinyRobot6_charger" x="39.808786003386764" y="-54.59999128060831" level="L1" />
+    </rmf_charger_waypoints>
   </world>
 </sdf>
