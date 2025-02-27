@@ -1,0 +1,37 @@
+[1.086s] Invoking command in '/home/usuario/IR2134/rmf_demos/rmf_visualization/rmf_visualization_building_systems': PYTHONPATH=/home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_visualization_building_systems build --build-base /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build install --record /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/install.log --single-version-externally-managed install_data
+[1.501s] running egg_info
+[1.502s] creating ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info
+[1.525s] writing ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/PKG-INFO
+[1.526s] writing dependency_links to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/dependency_links.txt
+[1.528s] writing entry points to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/entry_points.txt
+[1.528s] writing requirements to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/requires.txt
+[1.528s] writing top-level names to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/top_level.txt
+[1.537s] writing manifest file '../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[1.587s] reading manifest file '../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[1.588s] writing manifest file '../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[1.589s] running build
+[1.589s] running build_py
+[1.589s] creating /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build
+[1.589s] creating /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build/lib
+[1.589s] creating /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[1.590s] copying rmf_visualization_building_systems/rmf_visualization_building_systems.py -> /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[1.591s] copying rmf_visualization_building_systems/__init__.py -> /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[1.591s] running install
+[1.600s] running install_lib
+[1.623s] creating /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems
+[1.624s] copying /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems/rmf_visualization_building_systems.py -> /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems
+[1.624s] copying /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems/__init__.py -> /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems
+[1.625s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems/rmf_visualization_building_systems.py to rmf_visualization_building_systems.cpython-312.pyc
+[1.628s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems/__init__.py to __init__.cpython-312.pyc
+[1.628s] running install_data
+[1.628s] creating /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/share/ament_index
+[1.628s] creating /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/share/ament_index/resource_index
+[1.629s] creating /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/share/ament_index/resource_index/packages
+[1.629s] copying resource/rmf_visualization_building_systems -> /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/share/ament_index/resource_index/packages
+[1.636s] copying package.xml -> /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/share/rmf_visualization_building_systems
+[1.637s] running install_egg_info
+[1.662s] Copying ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info to /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems-2.4.1-py3.12.egg-info
+[1.667s] running install_scripts
+[1.839s] Installing rmf_visualization_building_systems script to /home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/rmf_visualization_building_systems
+[1.839s] writing list of installed files to '/home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/install.log'
+[1.878s] Invoked command in '/home/usuario/IR2134/rmf_demos/rmf_visualization/rmf_visualization_building_systems' returned '0': PYTHONPATH=/home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/IR2134/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_visualization_building_systems build --build-base /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/build install --record /home/usuario/IR2134/rmf_demos/build/rmf_visualization_building_systems/install.log --single-version-externally-managed install_data
