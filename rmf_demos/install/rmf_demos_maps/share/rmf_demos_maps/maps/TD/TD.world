@@ -704,8 +704,8 @@
           <model name="OpenRobotics/Nurse_4" />
           <model name="OpenRobotics/Nurse_5" />
           <model name="OpenRobotics/Nurse_6" />
-          <model name="OpenRobotics/TeleportDispenser" />
-          <model name="OpenRobotics/TeleportIngestor" />
+          <model name="coke_dispenser" />
+          <model name="coke_ingestor" />
           <model name="anull2" />
           <model name="anull3" />
           <model name="anull4" />
@@ -11421,16 +11421,22 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/TeleportDispenser</name>
+      <name>coke_dispenser</name>
       <uri>model://TeleportDispenser</uri>
       <pose>26.76776487089017 -37.13572465677595 5.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/TeleportIngestor</name>
+      <name>coke_ingestor</name>
       <uri>model://TeleportIngestor</uri>
       <pose>33.78933147173376 -37.00008222471155 5.0 0 0 1.5708008618188398</pose>
       <static>True</static>
+    </include>
+    <include>
+      <name>Coke</name>
+      <uri>model://Coke</uri>
+      <pose>61.55362522936356 -14.935081906527525 6.08 0 0 1.5708008618188398</pose>
+      <static>False</static>
     </include>
     <include>
       <name>deliveryRobot_2</name>
