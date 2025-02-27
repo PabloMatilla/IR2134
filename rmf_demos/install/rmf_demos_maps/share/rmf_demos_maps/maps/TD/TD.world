@@ -12215,13 +12215,13 @@
       </plugin>
     </model>
     <model name="anull12">
-      <pose>21.518147028781954 -47.965576174601644 5.0 0 0 1.5677632973814248</pose>
+      <pose>20.838871359412785 -48.053925519185 5.0 0 0 1.5707971886137366</pose>
       <link name="right">
-        <pose>0.3189404884485488 0 1.11 0 0 0</pose>
+        <pose>0.3050556441653263 0 1.11 0 0 0</pose>
         <visual name="right_visual">
           <geometry>
             <box>
-              <size>0.6278809768970975 0.03 2.2</size>
+              <size>0.6001112883306526 0.03 2.2</size>
             </box>
           </geometry>
           <material>
@@ -12237,7 +12237,7 @@
         <collision name="right_collision">
           <geometry>
             <box>
-              <size>0.6278809768970975 0.03 2.2</size>
+              <size>0.6001112883306526 0.03 2.2</size>
             </box>
           </geometry>
           <surface>
@@ -12250,8 +12250,8 @@
           <mass>50.0</mass>
           <inertia>
             <ixx>20.17041666666667</ixx>
-            <iyy>21.80931050478856</iyy>
-            <izz>1.6463938381218899</izz>
+            <iyy>21.66722315992449</iyy>
+            <izz>1.5043064932578156</izz>
           </inertia>
         </inertial>
       </link>
@@ -12265,14 +12265,14 @@
             <upper>1.57</upper>
           </limit>
         </axis>
-        <pose>0.3189404884485488 0 0 0 0 0</pose>
+        <pose>0.3050556441653263 0 0 0 0 0</pose>
       </joint>
       <link name="left">
-        <pose>-0.3189404884485488 0 1.11 0 0 0</pose>
+        <pose>-0.3050556441653263 0 1.11 0 0 0</pose>
         <visual name="left_visual">
           <geometry>
             <box>
-              <size>0.6278809768970975 0.03 2.2</size>
+              <size>0.6001112883306526 0.03 2.2</size>
             </box>
           </geometry>
           <material>
@@ -12288,7 +12288,7 @@
         <collision name="left_collision">
           <geometry>
             <box>
-              <size>0.6278809768970975 0.03 2.2</size>
+              <size>0.6001112883306526 0.03 2.2</size>
             </box>
           </geometry>
           <surface>
@@ -12301,8 +12301,8 @@
           <mass>50.0</mass>
           <inertia>
             <ixx>20.17041666666667</ixx>
-            <iyy>21.80931050478856</iyy>
-            <izz>1.6463938381218899</izz>
+            <iyy>21.66722315992449</iyy>
+            <izz>1.5043064932578156</izz>
           </inertia>
         </inertial>
       </link>
@@ -12316,7 +12316,7 @@
             <upper>0</upper>
           </limit>
         </axis>
-        <pose>-0.3189404884485488 0 0 0 0 0</pose>
+        <pose>-0.3050556441653263 0 0 0 0 0</pose>
       </joint>
       <plugin name="register_component" filename="libregister_component.so">
         <component name="Door">
@@ -12331,13 +12331,13 @@
       </plugin>
     </model>
     <model name="anull13">
-      <pose>21.527831695926736 -41.41067320389757 5.0 0 0 1.558060930960046</pose>
+      <pose>20.838865601827912 -41.37318868127049 5.0 0 0 1.5707971886137346</pose>
       <link name="right">
-        <pose>0.3044562863433009 0 1.11 0 0 0</pose>
+        <pose>0.3304804537489103 0 1.11 0 0 0</pose>
         <visual name="right_visual">
           <geometry>
             <box>
-              <size>0.5989125726866018 0.03 2.2</size>
+              <size>0.6509609074978205 0.03 2.2</size>
             </box>
           </geometry>
           <material>
@@ -12353,7 +12353,7 @@
         <collision name="right_collision">
           <geometry>
             <box>
-              <size>0.5989125726866018 0.03 2.2</size>
+              <size>0.6509609074978205 0.03 2.2</size>
             </box>
           </geometry>
           <surface>
@@ -12366,8 +12366,8 @@
           <mass>50.0</mass>
           <inertia>
             <ixx>20.17041666666667</ixx>
-            <iyy>21.661234457175354</iyy>
-            <izz>1.4983177905086837</izz>
+            <iyy>21.932292096209945</iyy>
+            <izz>1.7693754295432755</izz>
           </inertia>
         </inertial>
       </link>
@@ -12381,14 +12381,14 @@
             <upper>1.57</upper>
           </limit>
         </axis>
-        <pose>0.3044562863433009 0 0 0 0 0</pose>
+        <pose>0.3304804537489103 0 0 0 0 0</pose>
       </joint>
       <link name="left">
-        <pose>-0.3044562863433009 0 1.11 0 0 0</pose>
+        <pose>-0.3304804537489103 0 1.11 0 0 0</pose>
         <visual name="left_visual">
           <geometry>
             <box>
-              <size>0.5989125726866018 0.03 2.2</size>
+              <size>0.6509609074978205 0.03 2.2</size>
             </box>
           </geometry>
           <material>
@@ -12404,7 +12404,7 @@
         <collision name="left_collision">
           <geometry>
             <box>
-              <size>0.5989125726866018 0.03 2.2</size>
+              <size>0.6509609074978205 0.03 2.2</size>
             </box>
           </geometry>
           <surface>
@@ -12417,8 +12417,8 @@
           <mass>50.0</mass>
           <inertia>
             <ixx>20.17041666666667</ixx>
-            <iyy>21.661234457175354</iyy>
-            <izz>1.4983177905086837</izz>
+            <iyy>21.932292096209945</iyy>
+            <izz>1.7693754295432755</izz>
           </inertia>
         </inertial>
       </link>
@@ -12432,7 +12432,7 @@
             <upper>0</upper>
           </limit>
         </axis>
-        <pose>-0.3044562863433009 0 0 0 0 0</pose>
+        <pose>-0.3304804537489103 0 0 0 0 0</pose>
       </joint>
       <plugin name="register_component" filename="libregister_component.so">
         <component name="Door">
