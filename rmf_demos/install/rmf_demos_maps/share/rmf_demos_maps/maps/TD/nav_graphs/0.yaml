@@ -3831,6 +3831,18 @@ levels:
     - - 162
       - 171
       - {}
+    - - 99
+      - 263
+      - {}
+    - - 263
+      - 99
+      - {}
+    - - 99
+      - 264
+      - {}
+    - - 264
+      - 99
+      - {}
     vertices:
     - - 30.264946932821232
       - -71.54489885347493
@@ -4028,10 +4040,10 @@ levels:
       - {name: ''}
     - - 26.58403923932029
       - -50.75840229862217
-      - {name: ''}
+      - {is_holding_point: true, name: ''}
     - - 34.342518378675074
       - -50.32728171469034
-      - {name: ''}
+      - {is_holding_point: true, name: ''}
     - - 23.768931489656353
       - -41.750701806382565
       - {name: ''}
@@ -4049,10 +4061,10 @@ levels:
       - {name: ''}
     - - 20.174174451167822
       - -41.41702706699764
-      - {name: ''}
+      - {is_holding_point: true, name: ''}
     - - 22.312831462052376
       - -41.41702522386274
-      - {name: ''}
+      - {is_cleaning_zone: true, name: clean_hall}
     - - 30.56507644330993
       - -34.53840810068562
       - {name: ''}
@@ -4136,13 +4148,13 @@ levels:
       - {name: ''}
     - - 39.519584482230364
       - -46.96172242586755
-      - {name: ''}
+      - {name: TD1117CI}
     - - 39.5195820015688
       - -44.08331985208524
       - {name: TD1116CT}
-    - - 39.51958644368538
-      - -49.2376706037809
-      - {name: TD1117CI}
+    - - 39.54064974911606
+      - -49.051268727390344
+      - {name: ''}
     - - 38.470865379824595
       - -40.803309965416716
       - {name: ''}
@@ -4626,4 +4638,12 @@ levels:
     - - 114.5931160614029
       - -47.967655597175096
       - {name: ''}
+    - - 41.40180571371874
+      - -46.961720803733826
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger2,
+        spawn_robot_name: cleanerBotA_2, spawn_robot_type: CleanerBotA}
+    - - 41.1815805914942
+      - -48.922137888690195
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger1,
+        spawn_robot_name: cleanerBotA_1, spawn_robot_type: CleanerBotA}
 lifts: {}

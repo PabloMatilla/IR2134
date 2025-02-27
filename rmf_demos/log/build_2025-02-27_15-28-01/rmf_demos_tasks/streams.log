@@ -1,0 +1,101 @@
+[1.886s] Invoking command in '/home/usuario/IR2134/rmf_demos/rmf_demos_tasks': PYTHONPATH=/home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_tasks build --build-base /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build install --record /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data
+[2.491s] running egg_info
+[2.491s] creating ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info
+[2.529s] writing ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/PKG-INFO
+[2.538s] writing dependency_links to ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/dependency_links.txt
+[2.538s] writing entry points to ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/entry_points.txt
+[2.539s] writing requirements to ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/requires.txt
+[2.539s] writing top-level names to ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/top_level.txt
+[2.539s] writing manifest file '../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[2.607s] reading manifest file '../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[2.616s] writing manifest file '../build/rmf_demos_tasks/rmf_demos_tasks.egg-info/SOURCES.txt'
+[2.616s] running build
+[2.616s] running build_py
+[2.616s] creating /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build
+[2.616s] creating /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib
+[2.616s] creating /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.616s] copying rmf_demos_tasks/dispatch_action.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.617s] copying rmf_demos_tasks/request_lift.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.625s] copying rmf_demos_tasks/wait_for_task_complete.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.625s] copying rmf_demos_tasks/dispatch_patrol.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/dispatch_go_to_place.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/dispatch_delivery.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/cancel_task.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/api_request.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/dispatch_loop.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/mock_docker.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/teleop_robot.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/dispatch_cart_delivery.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.629s] copying rmf_demos_tasks/dispatch_json.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.630s] copying rmf_demos_tasks/__init__.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.630s] copying rmf_demos_tasks/dispatch_teleop.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.630s] copying rmf_demos_tasks/request_loop.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.630s] copying rmf_demos_tasks/dispatch_clean.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.630s] copying rmf_demos_tasks/get_robot_location.py -> /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks
+[2.630s] running install
+[2.633s] running install_lib
+[2.681s] creating /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_action.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/request_lift.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/wait_for_task_complete.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_patrol.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_go_to_place.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_delivery.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/cancel_task.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/api_request.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.685s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_loop.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/mock_docker.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/teleop_robot.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_cart_delivery.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_json.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/__init__.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_teleop.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/request_loop.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/dispatch_clean.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.686s] copying /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build/lib/rmf_demos_tasks/get_robot_location.py -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks
+[2.690s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_action.py to dispatch_action.cpython-312.pyc
+[2.702s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/request_lift.py to request_lift.cpython-312.pyc
+[2.703s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/wait_for_task_complete.py to wait_for_task_complete.cpython-312.pyc
+[2.704s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_patrol.py to dispatch_patrol.cpython-312.pyc
+[2.705s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_go_to_place.py to dispatch_go_to_place.cpython-312.pyc
+[2.706s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_delivery.py to dispatch_delivery.cpython-312.pyc
+[2.709s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/cancel_task.py to cancel_task.cpython-312.pyc
+[2.709s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/api_request.py to api_request.cpython-312.pyc
+[2.710s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_loop.py to dispatch_loop.cpython-312.pyc
+[2.711s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/mock_docker.py to mock_docker.cpython-312.pyc
+[2.714s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/teleop_robot.py to teleop_robot.cpython-312.pyc
+[2.715s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_cart_delivery.py to dispatch_cart_delivery.cpython-312.pyc
+[2.719s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_json.py to dispatch_json.cpython-312.pyc
+[2.720s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/__init__.py to __init__.cpython-312.pyc
+[2.725s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_teleop.py to dispatch_teleop.cpython-312.pyc
+[2.725s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/request_loop.py to request_loop.cpython-312.pyc
+[2.729s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/dispatch_clean.py to dispatch_clean.cpython-312.pyc
+[2.741s] byte-compiling /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks/get_robot_location.py to get_robot_location.cpython-312.pyc
+[2.741s] running install_data
+[2.741s] creating /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/share/ament_index
+[2.741s] creating /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/share/ament_index/resource_index
+[2.741s] creating /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/share/ament_index/resource_index/packages
+[2.741s] copying resource/rmf_demos_tasks -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/share/ament_index/resource_index/packages
+[2.741s] copying package.xml -> /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/share/rmf_demos_tasks
+[2.741s] running install_egg_info
+[2.789s] Copying ../build/rmf_demos_tasks/rmf_demos_tasks.egg-info to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages/rmf_demos_tasks-2.5.0-py3.12.egg-info
+[2.789s] running install_scripts
+[3.048s] Installing api_request script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.048s] Installing cancel_task script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.048s] Installing dispatch_action script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.048s] Installing dispatch_cart_delivery script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.048s] Installing dispatch_clean script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.049s] Installing dispatch_delivery script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.049s] Installing dispatch_go_to_place script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.049s] Installing dispatch_json script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.049s] Installing dispatch_loop script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.049s] Installing dispatch_patrol script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.050s] Installing dispatch_teleop script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.050s] Installing get_robot_location script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.050s] Installing mock_docker script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.050s] Installing request_lift script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.050s] Installing request_loop script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.051s] Installing teleop_robot script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.051s] Installing wait_for_task_complete script to /home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/rmf_demos_tasks
+[3.051s] writing list of installed files to '/home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/install.log'
+[3.084s] Invoked command in '/home/usuario/IR2134/rmf_demos/rmf_demos_tasks' returned '0': PYTHONPATH=/home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/IR2134/rmf_demos/install/rmf_demos_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_tasks build --build-base /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/build install --record /home/usuario/IR2134/rmf_demos/build/rmf_demos_tasks/install.log --single-version-externally-managed install_data

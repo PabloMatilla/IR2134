@@ -11443,6 +11443,16 @@
       <uri>model://TinyRobot</uri>
       <pose>38.43079786593781 -54.6935019167798 5.0 0 0 1.5707971886137362</pose>
     </include>
+    <include>
+      <name>cleanerBotA_2</name>
+      <uri>model://CleanerBotA</uri>
+      <pose>41.40180571371874 -46.961720803733826 5.0 0 0 8.618188426561965e-07</pose>
+    </include>
+    <include>
+      <name>cleanerBotA_1</name>
+      <uri>model://CleanerBotA</uri>
+      <pose>41.1815805914942 -48.922137888690195 5.0 0 0 -0.8675939574359482</pose>
+    </include>
     <model name="anull2">
       <pose>27.942064443301362 -58.42850383275716 5.0 0 0 -1.5707954649760567</pose>
       <link name="right">
@@ -19951,6 +19961,8 @@
       <rmf_vertex name="tinyRobot3_charger" x="35.87636873076705" y="-54.62515303058442" level="L1" />
       <rmf_vertex name="tinyRobot4_charger" x="37.18188294661473" y="-54.65712574211995" level="L1" />
       <rmf_vertex name="tinyRobot5_charger" x="38.43079786593781" y="-54.6935019167798" level="L1" />
+      <rmf_vertex name="cleanerbot_charger2" x="41.40180571371874" y="-46.961720803733826" level="L1" />
+      <rmf_vertex name="cleanerbot_charger1" x="41.1815805914942" y="-48.922137888690195" level="L1" />
     </rmf_charger_waypoints>
   </world>
 </sdf>
