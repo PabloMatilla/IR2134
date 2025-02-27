@@ -704,6 +704,8 @@
           <model name="OpenRobotics/Nurse_4" />
           <model name="OpenRobotics/Nurse_5" />
           <model name="OpenRobotics/Nurse_6" />
+          <model name="OpenRobotics/TeleportDispenser" />
+          <model name="OpenRobotics/TeleportIngestor" />
           <model name="anull2" />
           <model name="anull3" />
           <model name="anull4" />
@@ -11419,6 +11421,23 @@
       <static>True</static>
     </include>
     <include>
+      <name>OpenRobotics/TeleportDispenser</name>
+      <uri>model://TeleportDispenser</uri>
+      <pose>26.76776487089017 -37.13572465677595 5.0 0 0 1.5708008618188398</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/TeleportIngestor</name>
+      <uri>model://TeleportIngestor</uri>
+      <pose>33.78933147173376 -37.00008222471155 5.0 0 0 1.5708008618188398</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>deliveryRobot_2</name>
+      <uri>model://DeliveryRobot</uri>
+      <pose>32.256382076519536 -69.2445759206625 5.0 0 0 0.013090632160541217</pose>
+    </include>
+    <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
       <pose>33.17070905453181 -54.66918950583264 5.0 0 0 1.5385511208138938</pose>
@@ -11442,6 +11461,11 @@
       <name>tinyRobot5</name>
       <uri>model://TinyRobot</uri>
       <pose>38.43079786593781 -54.6935019167798 5.0 0 0 1.5707971886137362</pose>
+    </include>
+    <include>
+      <name>deliveryRobot_1</name>
+      <uri>model://DeliveryRobot</uri>
+      <pose>41.0466108505728 -73.93162427882658 5.0 0 0 8.618188406506075e-07</pose>
     </include>
     <include>
       <name>cleanerBotA_1</name>
@@ -19956,11 +19980,13 @@
       <pose>0 0 5.0 0 0 0</pose>
     </include>
     <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="charger_deliveryRobot_2" x="32.256382076519536" y="-69.2445759206625" level="L1" />
       <rmf_vertex name="tinyRobot1_charger" x="33.17070905453181" y="-54.66918950583264" level="L1" />
       <rmf_vertex name="tinyRobot2_charger" x="34.359827266326974" y="-54.67824773474631" level="L1" />
       <rmf_vertex name="tinyRobot3_charger" x="35.87636873076705" y="-54.62515303058442" level="L1" />
       <rmf_vertex name="tinyRobot4_charger" x="37.18188294661473" y="-54.65712574211995" level="L1" />
       <rmf_vertex name="tinyRobot5_charger" x="38.43079786593781" y="-54.6935019167798" level="L1" />
+      <rmf_vertex name="charger_deliveryRobot_1" x="41.0466108505728" y="-73.93162427882658" level="L1" />
       <rmf_vertex name="cleanerbot_charger1" x="41.1815805914942" y="-48.922137888690195" level="L1" />
       <rmf_vertex name="cleanerbot_charger2" x="23.537322720547113" y="-47.803068812014" level="L1" />
     </rmf_charger_waypoints>
