@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [deliveryRobot_2, tinyRobot1, tinyRobot2, tinyRobot3, tinyRobot4, tinyRobot5, cleanerBotA_1, cleanerBotA_2], agents_number: 8, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [deliveryRobot_2, tinyRobot1, tinyRobot2, tinyRobot3, tinyRobot4, tinyRobot5, deliveryRobot_1, cleanerBotA_1, cleanerBotA_2], agents_number: 9, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -2128,6 +2128,11 @@ levels:
     floors:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [106, 105, 107, 108, 109, 114, 115, 116, 104, 103, 146, 145, 144, 143, 161, 162, 163, 97, 96, 95, 94, 66, 65, 64, 63, 60, 59, 58, 52, 366, 388, 389, 390, 391, 392, 393, 394, 439, 448, 449, 463, 646, 438, 504, 437, 494, 493, 512, 513, 639, 638, 434, 433, 432, 431, 421, 417, 406, 377, 378, 44, 47, 50, 51, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+    holes:
+      - parameters: {}
+        vertices: [220, 219, 218, 217, 216, 215, 214, 213, 212, 211, 210, 209, 208, 207, 206, 205, 204, 203, 202, 201, 200, 199, 198, 197, 196, 195, 194, 193, 192, 191, 190, 189, 188, 187, 186, 185, 184, 183, 229, 228, 227, 226, 225, 224, 223, 222, 221]
+      - parameters: {}
+        vertices: [677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 692, 693, 694, 695, 696, 697, 699, 701, 702, 704, 705, 706, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 668, 669, 670, 671, 672, 673, 674, 675, 676]
     lanes:
       - [764, 765, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [765, 766, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
@@ -2652,7 +2657,7 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/Nurse, name: OpenRobotics/Nurse, static: true, x: 1139.087, y: 2780.8780000000002, yaw: 1.5708, z: 0}
       - {dispensable: false, model_name: OpenRobotics/TeleportDispenser, name: coke_dispenser, static: true, x: 858.38999999999999, y: 1442.067, yaw: 1.5708, z: 0}
       - {dispensable: false, model_name: OpenRobotics/TeleportIngestor, name: coke_ingestor, static: true, x: 1108.7380000000001, y: 1437.231, yaw: 1.5708, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/Coke, name: Coke, static: false, x: 858.389, y: 1442.067, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/Coke, name: Coke, static: false, x: 858.38900000000001, y: 1442.067, yaw: 1.5708, z: 1.0800000000000001}
     vertices:
       - [517.005, 224.14599999999999, 0, ""]
       - [339.41800000000001, 3107.8580000000002, 0, ""]
@@ -2878,10 +2883,10 @@ levels:
       - [917.92999999999995, 1556.28, 0, ""]
       - [901.04999999999995, 1563.569, 0, ""]
       - [883.78599999999994, 1576.229, 0, ""]
-      - [873.48299999999995, 1586.674, 0, ""]
+      - [869.90200000000004, 1586.451, 0, ""]
       - [856.548, 1601.1659999999999, 0, ""]
-      - [848.81500000000005, 1612.971, 0, ""]
-      - [836.71299999999997, 1631.124, 0, ""]
+      - [845.67200000000003, 1612.9449999999999, 0, ""]
+      - [832.99099999999999, 1631.287, 0, ""]
       - [825.47400000000005, 1650.655, 0, ""]
       - [820.87, 1665.616, 0, ""]
       - [933.21699999999998, 2673.163, 0, ""]
@@ -3327,10 +3332,10 @@ levels:
       - [3477.085, 1618.7860000000001, 0, ""]
       - [3484.125, 1608.498, 0, ""]
       - [3496.5790000000002, 1592.7950000000001, 0, ""]
-      - [3506.326, 1586.297, 0, ""]
+      - [3510.2190000000001, 1581.182, 0, ""]
       - [3524.1950000000002, 1570.5940000000001, 0, ""]
-      - [3535.0250000000001, 1566.8030000000001, 0, ""]
-      - [3557.7669999999998, 1557.056, 0, ""]
+      - [3537.8829999999998, 1563.057, 0, ""]
+      - [3550.761, 1556.857, 0, ""]
       - [3564.8069999999998, 1552.7249999999999, 0, ""]
       - [3579.4270000000001, 1549.4760000000001, 0, ""]
       - [3596.8499999999999, 1547.461, 0, ""]
