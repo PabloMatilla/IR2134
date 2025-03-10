@@ -1,0 +1,116 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rmf_traffic_ros2: 2.9.0 (/rmf_demos_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'proj'
+--   Found proj, version 9.4.0
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found rmf_visualization_msgs: 1.5.0 (/rmf_demos_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Configuring done (4.8s)
+-- Generating done (0.6s)
+-- Build files have been written to: /home/ususario/IR2134/rmf_demos/build/rmf_visualization_schedule
+[ 11%] [32mBuilding CXX object CMakeFiles/schedule_visualizer_node.dir/rclcpp_components/node_main_schedule_visualizer_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rmf_visualization_schedule.dir/src/rmf_visualization_schedule/ScheduleDataNode.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmf_visualization_schedule.dir/src/rmf_visualization_schedule/TrajectoryServer.cpp.o[0m
+[ 44%] [32mBuilding CXX object test/CMakeFiles/test_submit_trajectory.dir/SubmitTrajectory.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable schedule_visualizer_node[0m
+[ 55%] Built target schedule_visualizer_node
+[ 66%] [32m[1mLinking CXX executable test_submit_trajectory[0m
+[ 66%] Built target test_submit_trajectory
+[ 77%] [32m[1mLinking CXX shared library librmf_visualization_schedule.so[0m
+[ 77%] Built target rmf_visualization_schedule
+[ 88%] [32mBuilding CXX object CMakeFiles/schedule_visualizer.dir/src/ScheduleVisualizer.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libschedule_visualizer.so[0m
+[100%] Built target schedule_visualizer
+-- Install configuration: ""
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/library_path.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/library_path.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/schedule_visualizer_node
+-- Set non-toolchain portion of runtime path of "/home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/schedule_visualizer_node" to ""
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/base64.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/error_codes.ipp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/stack_alloc.ipp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/jwt.ipp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/impl/string_view.ipp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/config.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/string_view.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/exceptions.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/stack_alloc.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/detail
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/detail/meta.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/algorithm.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/parameters.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/jwt.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/assertions.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/short_string.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/error_codes.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/json
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/jwt/json/json.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule/CommonData.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule/ScheduleDataNode.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/rmf_visualization_schedule/TrajectoryServer.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/include/json.hpp
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/config/rmf.rviz
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/librmf_visualization_schedule.so
+-- Set non-toolchain portion of runtime path of "/home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/librmf_visualization_schedule.so" to ""
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/libschedule_visualizer.so
+-- Set non-toolchain portion of runtime path of "/home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/libschedule_visualizer.so" to ""
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_schedule
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_schedule
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/ament_prefix_path.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/ament_prefix_path.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/path.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/path.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.bash
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.zsh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/package.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/ament_index/resource_index/packages/rmf_visualization_schedule
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleExport.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleExport-noconfig.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/ament_index/resource_index/rclcpp_components/rmf_visualization_schedule
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleConfig.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleConfig-version.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/share/rmf_visualization_schedule/package.xml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/test_submit_trajectory
+-- Set non-toolchain portion of runtime path of "/home/ususario/IR2134/rmf_demos/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/test_submit_trajectory" to ""

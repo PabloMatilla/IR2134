@@ -5075,7 +5075,7 @@ levels:
       - [1032, 1250, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [1250, 1251, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [1251, 1027, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [1252, 764, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [764, 1256, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     models:
@@ -6523,11 +6523,11 @@ levels:
       - [698.58000000000004, 1809.079, 0, ""]
       - [859.46199999999999, 1517.308, 0, ""]
       - [858.09000000000003, 1463.8109999999999, 0, ""]
-      - [980.59500000000003, 2734.5819999999999, 0, ""]
       - [1005.26, 2693.8780000000002, 0, ""]
       - [1028.1590000000001, 2693.8780000000002, 0, ""]
       - [932.70799999999997, 2694.6399999999999, 0, ""]
       - [958.17399999999998, 2694.6399999999999, 0, ""]
+      - [980.59500000000003, 2734.5819999999999, 0, "", {lift_cabin: [1, lift_lab]}]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -7246,8 +7246,8 @@ levels:
       - [497, 1231, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [466, 1232, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1233, 467, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-      - [1253, 1254, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-      - [1255, 1256, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1252, 1253, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1254, 1255, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
 lifts:
   lift_lab:
     depth: 2
@@ -7258,11 +7258,12 @@ lifts:
         width: 1
         x: 0
         y: 1
-    highest_floor: L1
+    highest_floor: L2
     initial_floor_name: L0
     level_doors:
       L0: [door_lift_lab]
       L1: [door_lift_lab]
+      L2: [door_lift_lab]
     lowest_floor: L0
     plugins: true
     reference_floor_name: L0
