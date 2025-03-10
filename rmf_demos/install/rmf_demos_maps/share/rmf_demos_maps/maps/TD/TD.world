@@ -922,8 +922,6 @@
           <model name="OpenRobotics/AdjTable_384" />
           <model name="OpenRobotics/AdjTable_385" />
           <model name="OpenRobotics/AdjTable_386" />
-          <model name="OpenRobotics/AdjTable_387" />
-          <model name="OpenRobotics/AdjTable_388" />
           <model name="OpenRobotics/BathroomSink_55" />
           <model name="OpenRobotics/BathroomSink_56" />
           <model name="OpenRobotics/BathroomSink_57" />
@@ -978,8 +976,8 @@
           <model name="OpenRobotics/PotatoChipChair_10" />
           <model name="OpenRobotics/PotatoChipChair_11" />
           <model name="OpenRobotics/PotatoChipChair_12" />
-          <model name="OpenRobotics/AdjTable_389" />
-          <model name="OpenRobotics/AdjTable_390" />
+          <model name="OpenRobotics/AdjTable_387" />
+          <model name="OpenRobotics/AdjTable_388" />
           <model name="OpenRobotics/CleaningSection_9" />
           <model name="OpenRobotics/CleaningSection_10" />
           <model name="OpenRobotics/CleaningSection_11" />
@@ -1045,8 +1043,6 @@
           <model name="2anullA35" />
           <model name="2anull" />
           <model name="2a3null" />
-          <model name="2alga" />
-          <model name="2roa" />
           <model name="2sliding1" />
           <model name="2c4" />
           <model name="2c6" />
@@ -1062,7 +1058,6 @@
           <model name="2c1" />
           <model name="2c2" />
           <model name="2ZS" />
-          <model name="2ZS1" />
           <model name="2m1" />
           <model name="2m12" />
           <model name="2mxv" />
@@ -1073,6 +1068,13 @@
           <model name="2fdshd" />
           <model name="2DLOKF" />
           <model name="2KSLO" />
+          <model name="null123" />
+          <model name="null12345" />
+          <model name="null234" />
+          <model name="nullz23" />
+          <model name="nullz12" />
+          <model name="nullc123" />
+          <model name="nullxsd" />
           <model name="ShaftDoor_lift_lab_L2_door_lift_lab" />
         </floor>
       </plugin>
@@ -11711,13 +11713,13 @@
     <include>
       <name>coke_ingestor</name>
       <uri>model://TeleportIngestor</uri>
-      <pose>33.78933147173376 -37.00008222471155 5.0 0 0 1.5708008618188398</pose>
+      <pose>33.79258495794675 -37.00947804232738 5.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>Coke</name>
       <uri>model://Coke</uri>
-      <pose>26.767736823665036 -37.135724656800114 6.08 0 0 1.5708008618188398</pose>
+      <pose>26.764034597513117 -37.14450344145758 6.08 0 0 1.5708008618188398</pose>
       <static>False</static>
     </include>
     <include>
@@ -11758,7 +11760,7 @@
     <include>
       <name>cleanerBotA_1</name>
       <uri>model://CleanerBotA</uri>
-      <pose>41.1815805914942 -48.922137888690195 5.0 0 0 -0.8675939574359482</pose>
+      <pose>40.603133944114134 -48.13748921686924 5.0 0 0 -0.8261919961513964</pose>
     </include>
     <include>
       <name>cleanerBotA_2</name>
@@ -20270,43 +20272,43 @@
     <include>
       <name>OpenRobotics/AdjTable_261</name>
       <uri>model://AdjTable</uri>
-      <pose>39.26775784116458 -57.86123894373446 10.0 0 0 8.618188398521744e-07</pose>
+      <pose>38.8837634192283 -58.02063165510225 10.0 0 0 -1.5282991381811601</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_262</name>
       <uri>model://AdjTable</uri>
-      <pose>39.37980808772702 -59.697069968286264 10.0 0 0 3.12610086181884</pose>
+      <pose>36.63631114458059 -57.93074223544582 10.0 0 0 -1.5884991381811602</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_263</name>
       <uri>model://AdjTable</uri>
-      <pose>37.69817902824005 -57.86124029642705 10.0 0 0 0.01160086181883985</pose>
+      <pose>38.848337546420844 -55.43602379512278 10.0 0 0 -1.53669913818116</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_264</name>
       <uri>model://AdjTable</uri>
-      <pose>36.09211077541674 -57.86124168056693 10.0 0 0 -0.01829913818116015</pose>
+      <pose>36.57056625098981 -55.38046420515938 10.0 0 0 -1.54299913818116</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_265</name>
       <uri>model://AdjTable</uri>
-      <pose>36.22876238924959 -64.28136358477619 10.0 0 0 -3.13719913818116</pose>
+      <pose>36.13592658364373 -64.87265526505007 10.0 0 0 -1.5687991381811601</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_266</name>
       <uri>model://AdjTable</uri>
-      <pose>37.70643038880148 -64.2156757100312 10.0 0 0 -3.13839913818116</pose>
+      <pose>37.693332933588685 -64.91062986567883 10.0 0 0 -1.5825991381811602</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_267</name>
       <uri>model://AdjTable</uri>
-      <pose>39.34825879706012 -64.14998769380969 10.0 0 0 -3.09239913818116</pose>
+      <pose>39.42168713711107 -64.96762033762204 10.0 0 0 -1.6020991381811602</pose>
       <static>True</static>
     </include>
     <include>
@@ -20402,637 +20404,625 @@
     <include>
       <name>OpenRobotics/AdjTable_283</name>
       <uri>model://AdjTable</uri>
-      <pose>20.440456656496895 -76.10777014126307 10.0 0 0 1.5708008618188398</pose>
+      <pose>21.067687208844937 -55.69682221811431 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_284</name>
       <uri>model://AdjTable</uri>
-      <pose>21.067687208844937 -55.69682221811431 10.0 0 0 1.5708008618188398</pose>
+      <pose>21.06701565745055 -57.53248505646107 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_285</name>
       <uri>model://AdjTable</uri>
-      <pose>21.091697413412852 -57.76205157290829 10.0 0 0 1.5708008618188398</pose>
+      <pose>22.632638190222682 -55.65110389244232 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_286</name>
       <uri>model://AdjTable</uri>
-      <pose>22.632638190222682 -55.65110389244232 10.0 0 0 1.5708008618188398</pose>
+      <pose>22.728028405964235 -57.5111957810926 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_287</name>
       <uri>model://AdjTable</uri>
-      <pose>22.738658467569195 -57.700654777708806 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.237584510652564 -55.60075774015456 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_288</name>
       <uri>model://AdjTable</uri>
-      <pose>24.237584510652564 -55.60075774015456 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.31451964976656 -57.45796078052103 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_289</name>
       <uri>model://AdjTable</uri>
-      <pose>24.333620010054386 -57.68999545759013 10.0 0 0 1.5708008618188398</pose>
+      <pose>27.230145341394334 -62.62156460377344 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_290</name>
       <uri>model://AdjTable</uri>
-      <pose>23.40534573396699 -63.18321358335786 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.511640284266363 -62.95361804498885 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_291</name>
       <uri>model://AdjTable</uri>
-      <pose>23.466939125291898 -65.13830145266235 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.411768332766634 -62.932864046280365 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_292</name>
       <uri>model://AdjTable</uri>
-      <pose>22.158394085426902 -63.10625307223771 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.53627182511705 -65.09106986578516 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_293</name>
       <uri>model://AdjTable</uri>
-      <pose>22.189191769479272 -65.230662066214 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.865276757373692 -63.090856260072265 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_294</name>
       <uri>model://AdjTable</uri>
-      <pose>20.865276757373692 -63.090856260072265 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.81908486151532 -65.27685702679295 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_295</name>
       <uri>model://AdjTable</uri>
-      <pose>20.81908486151532 -65.27685702679295 10.0 0 0 1.5708008618188398</pose>
+      <pose>19.590474259501093 -63.06637213117944 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_296</name>
       <uri>model://AdjTable</uri>
-      <pose>19.590474259501093 -63.06637213117944 10.0 0 0 1.5708008618188398</pose>
+      <pose>19.565149489545956 -65.24123813153841 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_297</name>
       <uri>model://AdjTable</uri>
-      <pose>19.565149489545956 -65.24123813153841 10.0 0 0 1.5708008618188398</pose>
+      <pose>39.75188674575312 -31.99075853553535 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_298</name>
       <uri>model://AdjTable</uri>
-      <pose>39.75188674575312 -31.99075853553535 10.0 0 0 1.5708008618188398</pose>
+      <pose>39.87821324423837 -34.07528429304312 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_299</name>
       <uri>model://AdjTable</uri>
-      <pose>39.87821324423837 -34.07528429304312 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.2358781872682 -32.05392219306093 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_300</name>
       <uri>model://AdjTable</uri>
-      <pose>38.2358781872682 -32.05392219306093 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.36220468575344 -34.13844795056868 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_301</name>
       <uri>model://AdjTable</uri>
-      <pose>38.36220468575344 -34.13844795056868 10.0 0 0 1.5708008618188398</pose>
+      <pose>36.846194330784854 -32.11708574171749 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_302</name>
       <uri>model://AdjTable</uri>
-      <pose>36.846194330784854 -32.11708574171749 10.0 0 0 1.5708008618188398</pose>
+      <pose>36.909358478269304 -34.20161155365975 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_303</name>
       <uri>model://AdjTable</uri>
-      <pose>36.909358478269304 -34.20161155365975 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.393348068866224 -32.11708699380776 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_304</name>
       <uri>model://AdjTable</uri>
-      <pose>35.393348068866224 -32.11708699380776 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.39334981091538 -34.13845050918375 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_305</name>
       <uri>model://AdjTable</uri>
-      <pose>35.39334981091538 -34.13845050918375 10.0 0 0 1.5708008618188398</pose>
+      <pose>39.87820736482849 -27.253189440455436 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_306</name>
       <uri>model://AdjTable</uri>
-      <pose>39.87820736482849 -27.253189440455436 10.0 0 0 1.5708008618188398</pose>
+      <pose>39.941371621206116 -29.464068001624412 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_307</name>
       <uri>model://AdjTable</uri>
-      <pose>39.941371621206116 -29.464068001624412 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.614876148702834 -27.190028178217254 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_308</name>
       <uri>model://AdjTable</uri>
-      <pose>38.614876148702834 -27.190028178217254 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.55171548531671 -29.14822939702696 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_309</name>
       <uri>model://AdjTable</uri>
-      <pose>38.55171548531671 -29.14822939702696 10.0 0 0 1.5708008618188398</pose>
+      <pose>37.098867590217914 -27.253191835742822 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_310</name>
       <uri>model://AdjTable</uri>
-      <pose>37.098867590217914 -27.253191835742822 10.0 0 0 1.5708008618188398</pose>
+      <pose>37.225194143161836 -29.400907991476508 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_311</name>
       <uri>model://AdjTable</uri>
-      <pose>37.225194143161836 -29.400907991476508 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.64599322663964 -27.19003073685649 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_312</name>
       <uri>model://AdjTable</uri>
-      <pose>35.64599322663964 -27.19003073685649 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.64599507755781 -29.33771895423405 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_313</name>
       <uri>model://AdjTable</uri>
-      <pose>35.64599507755781 -29.33771895423405 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.485857317905218 -34.51746550997177 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_314</name>
       <uri>model://AdjTable</uri>
-      <pose>20.485857317905218 -34.51746550997177 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.485855521421556 -32.432939643595 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_315</name>
       <uri>model://AdjTable</uri>
-      <pose>20.485855521421556 -32.432939643595 10.0 0 0 1.5708008618188398</pose>
+      <pose>21.81237713577312 -32.496100851374514 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_316</name>
       <uri>model://AdjTable</uri>
-      <pose>21.81237713577312 -32.496100851374514 10.0 0 0 1.5708008618188398</pose>
+      <pose>21.875541283257572 -34.580626663316785 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_317</name>
       <uri>model://AdjTable</uri>
-      <pose>21.875541283257572 -34.580626663316785 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.075708079702075 -32.24342231138363 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_318</name>
       <uri>model://AdjTable</uri>
-      <pose>23.075708079702075 -32.24342231138363 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.202062843174634 -34.580625520095516 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_319</name>
       <uri>model://AdjTable</uri>
-      <pose>23.202062843174634 -34.580625520095516 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.465392153947608 -32.43293621395536 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_320</name>
       <uri>model://AdjTable</uri>
-      <pose>24.465392153947608 -32.43293621395536 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.591718761301852 -34.643786673464696 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_321</name>
       <uri>model://AdjTable</uri>
-      <pose>24.591718761301852 -34.643786673464696 10.0 0 0 1.5708008618188398</pose>
+      <pose>39.91872577744637 -15.84974861072282 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_322</name>
       <uri>model://AdjTable</uri>
-      <pose>39.91872577744637 -15.84974861072282 10.0 0 0 1.5708008618188398</pose>
+      <pose>39.956815551325576 -17.75519291179672 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_323</name>
       <uri>model://AdjTable</uri>
-      <pose>39.956815551325576 -17.75519291179672 10.0 0 0 1.5708008618188398</pose>
+      <pose>40.07113784731567 -19.85116194750443 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_324</name>
       <uri>model://AdjTable</uri>
-      <pose>40.07113784731567 -19.85116194750443 10.0 0 0 1.5708008618188398</pose>
+      <pose>37.784612646929794 -16.11650760818725 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_325</name>
       <uri>model://AdjTable</uri>
-      <pose>37.784612646929794 -16.11650760818725 10.0 0 0 1.5708008618188398</pose>
+      <pose>37.74652602597345 -17.869515306310365 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_326</name>
       <uri>model://AdjTable</uri>
-      <pose>37.74652602597345 -17.869515306310365 10.0 0 0 1.5708008618188398</pose>
+      <pose>37.746527700946345 -19.81304777194071 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_327</name>
       <uri>model://AdjTable</uri>
-      <pose>37.746527700946345 -19.81304777194071 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.68864344702422 -16.040305103845043 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_328</name>
       <uri>model://AdjTable</uri>
-      <pose>35.68864344702422 -16.040305103845043 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.650528811667805 -17.83140093372371 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_329</name>
       <uri>model://AdjTable</uri>
-      <pose>35.650528811667805 -17.83140093372371 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.68864656707366 -19.660612876860405 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_330</name>
       <uri>model://AdjTable</uri>
-      <pose>35.68864656707366 -19.660612876860405 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.62215796697474 -16.25739930186583 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_331</name>
       <uri>model://AdjTable</uri>
-      <pose>25.62215796697474 -16.25739930186583 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.674776193949516 -18.1517929837162 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_332</name>
       <uri>model://AdjTable</uri>
-      <pose>25.674776193949516 -18.1517929837162 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.674777781227746 -19.993570116561976 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_333</name>
       <uri>model://AdjTable</uri>
-      <pose>25.674777781227746 -19.993570116561976 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.09628087518008 -16.152140242787947 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_334</name>
       <uri>model://AdjTable</uri>
-      <pose>23.09628087518008 -16.152140242787947 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.148899102154854 -18.04653392463832 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_335</name>
       <uri>model://AdjTable</uri>
-      <pose>23.148899102154854 -18.04653392463832 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.09628427649058 -20.09880552745747 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_336</name>
       <uri>model://AdjTable</uri>
-      <pose>23.09628427649058 -20.09880552745747 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.728281613686427 -16.046909094873115 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_337</name>
       <uri>model://AdjTable</uri>
-      <pose>20.728281613686427 -16.046909094873115 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.67566669730604 -17.993919461765998 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_338</name>
       <uri>model://AdjTable</uri>
-      <pose>20.67566669730604 -17.993919461765998 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.67566846599233 -20.046191019239174 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_339</name>
       <uri>model://AdjTable</uri>
-      <pose>20.67566846599233 -20.046191019239174 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.434374409346184 -6.483098584352662 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_340</name>
       <uri>model://AdjTable</uri>
-      <pose>38.434374409346184 -6.483098584352662 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.4809345487428 -8.508669143373783 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_341</name>
       <uri>model://AdjTable</uri>
-      <pose>38.4809345487428 -8.508669143373783 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.50421537087969 -10.394536494067072 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_342</name>
       <uri>model://AdjTable</uri>
-      <pose>38.50421537087969 -10.394536494067072 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.48093771904505 -12.187287097441828 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_343</name>
       <uri>model://AdjTable</uri>
-      <pose>38.48093771904505 -12.187287097441828 10.0 0 0 1.5708008618188398</pose>
+      <pose>36.87444386193005 -6.506379125591074 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_344</name>
       <uri>model://AdjTable</uri>
-      <pose>36.87444386193005 -6.506379125591074 10.0 0 0 1.5708008618188398</pose>
+      <pose>36.82788711357098 -8.415553780557705 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_345</name>
       <uri>model://AdjTable</uri>
-      <pose>36.82788711357098 -8.415553780557705 10.0 0 0 1.5708008618188398</pose>
+      <pose>36.897726389616935 -10.371258681708666 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_346</name>
       <uri>model://AdjTable</uri>
-      <pose>36.897726389616935 -10.371258681708666 10.0 0 0 1.5708008618188398</pose>
+      <pose>36.87444875784475 -12.187288481944279 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_347</name>
       <uri>model://AdjTable</uri>
-      <pose>36.87444875784475 -12.187288481944279 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.19811733020962 -6.529659767141736 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_348</name>
       <uri>model://AdjTable</uri>
-      <pose>35.19811733020962 -6.529659767141736 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.22139817243313 -8.438834361921016 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_349</name>
       <uri>model://AdjTable</uri>
-      <pose>35.22139817243313 -8.438834361921016 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.1981206008483 -10.324701752739204 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_350</name>
       <uri>model://AdjTable</uri>
-      <pose>35.1981206008483 -10.324701752739204 10.0 0 0 1.5708008618188398</pose>
+      <pose>35.244680599783585 -12.187289886509182 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_351</name>
       <uri>model://AdjTable</uri>
-      <pose>35.244680599783585 -12.187289886509182 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.227917518215122 -6.21783931061257 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_352</name>
       <uri>model://AdjTable</uri>
-      <pose>25.227917518215122 -6.21783931061257 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.239670897489443 -8.065029547781212 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_353</name>
       <uri>model://AdjTable</uri>
-      <pose>25.239670897489443 -8.065029547781212 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.286735834631063 -10.029905911178211 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_354</name>
       <uri>model://AdjTable</uri>
-      <pose>25.286735834631063 -10.029905911178211 10.0 0 0 1.5708008618188398</pose>
+      <pose>25.286737527974395 -11.994754267910062 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_355</name>
       <uri>model://AdjTable</uri>
-      <pose>25.286737527974395 -11.994754267910062 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.81602019483941 -6.206060692856177 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_356</name>
       <uri>model://AdjTable</uri>
-      <pose>23.81602019483941 -6.206060692856177 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.82780162136303 -8.05327897722578 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_357</name>
       <uri>model://AdjTable</uri>
-      <pose>23.82780162136303 -8.05327897722578 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.82780331470636 -10.018127333957635 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_358</name>
       <uri>model://AdjTable</uri>
-      <pose>23.82780331470636 -10.018127333957635 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.851336609680935 -11.95947209574757 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_359</name>
       <uri>model://AdjTable</uri>
-      <pose>23.851336609680935 -11.95947209574757 10.0 0 0 1.5708008618188398</pose>
+      <pose>22.36883944198984 -6.170778530845766 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_360</name>
       <uri>model://AdjTable</uri>
-      <pose>22.36883944198984 -6.170778530845766 10.0 0 0 1.5708008618188398</pose>
+      <pose>22.33355761458726 -8.00621702121926 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_361</name>
       <uri>model://AdjTable</uri>
-      <pose>22.33355761458726 -8.00621702121926 10.0 0 0 1.5708008618188398</pose>
+      <pose>22.368842707020708 -9.959313560212246 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_362</name>
       <uri>model://AdjTable</uri>
-      <pose>22.368842707020708 -9.959313560212246 10.0 0 0 1.5708008618188398</pose>
+      <pose>22.380624194360145 -11.877098663017897 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_363</name>
       <uri>model://AdjTable</uri>
-      <pose>22.380624194360145 -11.877098663017897 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.82284833711177 -6.161159664989205 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_364</name>
       <uri>model://AdjTable</uri>
-      <pose>20.82284833711177 -6.161159664989205 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.86231241472541 -8.054655846971794 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_365</name>
       <uri>model://AdjTable</uri>
-      <pose>20.86231241472541 -8.054655846971794 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.901748411080263 -9.908661535990495 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_366</name>
       <uri>model://AdjTable</uri>
-      <pose>20.901748411080263 -9.908661535990495 10.0 0 0 1.5708008618188398</pose>
+      <pose>20.90175011092576 -11.881054596283281 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_367</name>
       <uri>model://AdjTable</uri>
-      <pose>20.90175011092576 -11.881054596283281 10.0 0 0 1.5708008618188398</pose>
+      <pose>34.23154204224313 -57.908250433364 10.0 0 0 -1.5697991381811602</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_368</name>
       <uri>model://AdjTable</uri>
-      <pose>37.75851013088873 -59.626560641565554 10.0 0 0 3.0662008618188397</pose>
+      <pose>39.42168520562887 -62.726450718874325 10.0 0 0 -1.57129913818116</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_369</name>
       <uri>model://AdjTable</uri>
-      <pose>36.24295033433891 -59.69707267168938 10.0 0 0 3.12360086181884</pose>
+      <pose>37.73130704317082 -62.783444137145516 10.0 0 0 -1.6010991381811601</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_370</name>
       <uri>model://AdjTable</uri>
-      <pose>39.47960228270547 -62.21262550451302 10.0 0 0 3.08420086181884</pose>
+      <pose>36.23089268742566 -62.78344543023088 10.0 0 0 -1.57299913818116</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_371</name>
       <uri>model://AdjTable</uri>
-      <pose>37.804930488900496 -62.17978364714528 10.0 0 0 3.09110086181884</pose>
+      <pose>20.35787126990045 -26.905981616295062 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_372</name>
       <uri>model://AdjTable</uri>
-      <pose>36.195917249133196 -62.146941733191774 10.0 0 0 3.09520086181884</pose>
+      <pose>20.482515000479466 -29.06662754426562 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_373</name>
       <uri>model://AdjTable</uri>
-      <pose>20.35787126990045 -26.905981616295062 10.0 0 0 1.5708008618188398</pose>
+      <pose>21.853685773304992 -26.781338458680295 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_374</name>
       <uri>model://AdjTable</uri>
-      <pose>20.482515000479466 -29.06662754426562 10.0 0 0 1.5708008618188398</pose>
+      <pose>21.93679177829863 -29.19126815943615 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_375</name>
       <uri>model://AdjTable</uri>
-      <pose>21.853685773304992 -26.781338458680295 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.391066550815435 -26.98908293030104 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_376</name>
       <uri>model://AdjTable</uri>
-      <pose>21.93679177829863 -29.19126815943615 10.0 0 0 1.5708008618188398</pose>
+      <pose>23.3495023894306 -29.10816301386472 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_377</name>
       <uri>model://AdjTable</uri>
-      <pose>23.391066550815435 -26.98908293030104 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.803777484227716 -27.27993143743542 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_378</name>
       <uri>model://AdjTable</uri>
-      <pose>23.3495023894306 -29.10816301386472 10.0 0 0 1.5708008618188398</pose>
+      <pose>24.886883166941043 -29.315907485485468 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_379</name>
       <uri>model://AdjTable</uri>
-      <pose>24.803777484227716 -27.27993143743542 10.0 0 0 1.5708008618188398</pose>
+      <pose>26.13341654742325 -32.22445975200257 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_380</name>
       <uri>model://AdjTable</uri>
-      <pose>24.886883166941043 -29.315907485485468 10.0 0 0 1.5708008618188398</pose>
+      <pose>26.258060170559382 -34.26043576425443 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_381</name>
       <uri>model://AdjTable</uri>
-      <pose>26.13341654742325 -32.22445975200257 10.0 0 0 1.5708008618188398</pose>
+      <pose>26.465799915394296 -27.23839206465033 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_382</name>
       <uri>model://AdjTable</uri>
-      <pose>26.258060170559382 -34.26043576425443 10.0 0 0 1.5708008618188398</pose>
+      <pose>26.382697670345593 -29.191264327870684 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_383</name>
       <uri>model://AdjTable</uri>
-      <pose>26.465799915394296 -27.23839206465033 10.0 0 0 1.5708008618188398</pose>
+      <pose>34.65447218481725 -64.91063248462629 10.0 0 0 1.5766008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_384</name>
       <uri>model://AdjTable</uri>
-      <pose>26.382697670345593 -29.191264327870684 10.0 0 0 1.5708008618188398</pose>
+      <pose>34.635482347400554 -62.74544281512956 10.0 0 0 -1.5987991381811602</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_385</name>
       <uri>model://AdjTable</uri>
-      <pose>34.58460599703251 -64.2724740313738 10.0 0 0 3.11550086181884</pose>
+      <pose>40.99636494533828 -58.47011466441329 10.0 0 0 -1.6029991381811601</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/AdjTable_386</name>
       <uri>model://AdjTable</uri>
-      <pose>34.58690403767088 -62.14694311986967 10.0 0 0 3.1367008618188397</pose>
-      <static>True</static>
-    </include>
-    <include>
-      <name>OpenRobotics/AdjTable_387</name>
-      <uri>model://AdjTable</uri>
-      <pose>34.65687978339541 -59.73230135336263 10.0 0 0 -3.14159913818116</pose>
-      <static>True</static>
-    </include>
-    <include>
-      <name>OpenRobotics/AdjTable_388</name>
-      <uri>model://AdjTable</uri>
-      <pose>34.6685458794563 -57.93424983444471 10.0 0 0 -3.04729913818116</pose>
+      <pose>34.27428386676118 -55.41748852131512 10.0 0 0 -1.5707991381811601</pose>
       <static>True</static>
     </include>
     <include>
@@ -21296,37 +21286,37 @@
     <include>
       <name>OpenRobotics/MaleVisitorSit_63</name>
       <uri>model://MaleVisitorSit</uri>
-      <pose>39.37980772321888 -59.27411781327212 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.299427511434146 -57.99816633136194 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/MaleVisitorSit_64</name>
       <uri>model://MaleVisitorSit</uri>
-      <pose>37.617544321756434 -59.0978986165096 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.16457422555237 -55.41358660429602 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/MaleVisitorSit_65</name>
       <uri>model://MaleVisitorSit</uri>
-      <pose>36.17246714119979 -59.097899861904345 10.0 0 0 1.5708008618188398</pose>
+      <pose>33.71462953308618 -55.413590439342194 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/MaleVisitorSit_66</name>
       <uri>model://MaleVisitorSit</uri>
-      <pose>39.37473329752102 -61.73641175934794 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.72574938315455 -62.69717001560546 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/MaleVisitorSit_67</name>
       <uri>model://MaleVisitorSit</uri>
-      <pose>37.715936261446615 -61.73641318893048 10.0 0 0 1.5708008618188398</pose>
+      <pose>37.23086243274956 -65.1361860487689 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/MaleVisitorSit_68</name>
       <uri>model://MaleVisitorSit</uri>
-      <pose>37.01750621742871 -64.00633181536196 10.0 0 0 1.5708008618188398</pose>
+      <pose>38.78868934986087 -65.01030875980479 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
@@ -21360,13 +21350,13 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/AdjTable_389</name>
+      <name>OpenRobotics/AdjTable_387</name>
       <uri>model://AdjTable</uri>
       <pose>26.725076720638235 -36.81825815227835 10.0 0 0 8.618188398521744e-07</pose>
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/AdjTable_390</name>
+      <name>OpenRobotics/AdjTable_388</name>
       <uri>model://AdjTable</uri>
       <pose>33.79412728366419 -36.69425527772181 10.0 0 0 -3.14159913818116</pose>
       <static>True</static>
@@ -21398,7 +21388,7 @@
     <include>
       <name>OpenRobotics/Nurse_7</name>
       <uri>model://Nurse</uri>
-      <pose>41.48596260322491 -64.61520517478706 10.0 0 0 1.5708008618188398</pose>
+      <pose>41.06378944801454 -57.278977002107354 10.0 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
@@ -27019,136 +27009,6 @@
         </component>
       </plugin>
     </model>
-    <model name="2alga">
-      <pose>24.295914083304396 -61.82942935310138 10.0 0 0 8.618188196644127e-07</pose>
-      <link name="right">
-        <pose>0 0 1.11 0 0 0</pose>
-        <visual name="right_visual">
-          <geometry>
-            <box>
-              <size>0.8217965557864325 0.03 2.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0.5 0.25 0 0.6</ambient>
-            <diffuse>0.5 0.25 0 0.6</diffuse>
-            <pbr>
-              <metal>
-                <metalness>0.0</metalness>
-              </metal>
-            </pbr>
-          </material>
-        </visual>
-        <collision name="right_collision">
-          <geometry>
-            <box>
-              <size>0.8217965557864325 0.03 2.2</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <collide_bitmask>0x02</collide_bitmask>
-            </contact>
-          </surface>
-        </collision>
-        <inertial>
-          <mass>50.0</mass>
-          <inertia>
-            <ixx>20.17041666666667</ixx>
-            <iyy>22.980623246260183</iyy>
-            <izz>2.817706579593513</izz>
-          </inertia>
-        </inertial>
-      </link>
-      <joint name="right_joint" type="revolute">
-        <parent>world</parent>
-        <child>right</child>
-        <axis>
-          <xyz>0 0 1</xyz>
-          <limit>
-            <lower>0</lower>
-            <upper>1.57</upper>
-          </limit>
-        </axis>
-        <pose>0.41589827789321626 0 0 0 0 0</pose>
-      </joint>
-      <plugin name="register_component" filename="libregister_component.so">
-        <component name="Door">
-          <v_max_door>0.5</v_max_door>
-          <a_max_door>0.3</a_max_door>
-          <a_nom_door>0.15</a_nom_door>
-          <dx_min_door>0.01</dx_min_door>
-          <f_max_door>500.0</f_max_door>
-          <ros_interface>true</ros_interface>
-          <door name="2alga" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
-        </component>
-      </plugin>
-    </model>
-    <model name="2roa">
-      <pose>26.285964367317323 -63.564709457053475 10.0 0 0 8.618188410113658e-07</pose>
-      <link name="right">
-        <pose>0 0 1.11 0 0 0</pose>
-        <visual name="right_visual">
-          <geometry>
-            <box>
-              <size>0.8695609801889055 0.03 2.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0.5 0.25 0 0.6</ambient>
-            <diffuse>0.5 0.25 0 0.6</diffuse>
-            <pbr>
-              <metal>
-                <metalness>0.0</metalness>
-              </metal>
-            </pbr>
-          </material>
-        </visual>
-        <collision name="right_collision">
-          <geometry>
-            <box>
-              <size>0.8695609801889055 0.03 2.2</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <collide_bitmask>0x02</collide_bitmask>
-            </contact>
-          </surface>
-        </collision>
-        <inertial>
-          <mass>50.0</mass>
-          <inertia>
-            <ixx>20.17041666666667</ixx>
-            <iyy>23.317234576112877</iyy>
-            <izz>3.154317909446209</izz>
-          </inertia>
-        </inertial>
-      </link>
-      <joint name="right_joint" type="revolute">
-        <parent>world</parent>
-        <child>right</child>
-        <axis>
-          <xyz>0 0 1</xyz>
-          <limit>
-            <lower>0</lower>
-            <upper>1.57</upper>
-          </limit>
-        </axis>
-        <pose>0.43978049009445275 0 0 0 0 0</pose>
-      </joint>
-      <plugin name="register_component" filename="libregister_component.so">
-        <component name="Door">
-          <v_max_door>0.5</v_max_door>
-          <a_max_door>0.3</a_max_door>
-          <a_nom_door>0.15</a_nom_door>
-          <dx_min_door>0.01</dx_min_door>
-          <f_max_door>500.0</f_max_door>
-          <ros_interface>true</ros_interface>
-          <door name="2roa" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
-        </component>
-      </plugin>
-    </model>
     <model name="2sliding1">
       <pose>67.0690011384105 -32.68711954597331 10.0 0 0 -3.141591791770956</pose>
       <link name="right">
@@ -28736,71 +28596,6 @@
         </component>
       </plugin>
     </model>
-    <model name="2ZS1">
-      <pose>25.898839079378554 -59.54642591663428 10.0 0 0 3.0960462210991215</pose>
-      <link name="right">
-        <pose>0 0 1.11 0 0 0</pose>
-        <visual name="right_visual">
-          <geometry>
-            <box>
-              <size>0.7396664363763678 0.03 2.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0.5 0.25 0 0.6</ambient>
-            <diffuse>0.5 0.25 0 0.6</diffuse>
-            <pbr>
-              <metal>
-                <metalness>0.0</metalness>
-              </metal>
-            </pbr>
-          </material>
-        </visual>
-        <collision name="right_collision">
-          <geometry>
-            <box>
-              <size>0.7396664363763678 0.03 2.2</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <collide_bitmask>0x02</collide_bitmask>
-            </contact>
-          </surface>
-        </collision>
-        <inertial>
-          <mass>50.0</mass>
-          <inertia>
-            <ixx>20.17041666666667</ixx>
-            <iyy>22.44627682125715</iyy>
-            <izz>2.2833601545904805</izz>
-          </inertia>
-        </inertial>
-      </link>
-      <joint name="right_joint" type="revolute">
-        <parent>world</parent>
-        <child>right</child>
-        <axis>
-          <xyz>0 0 -1</xyz>
-          <limit>
-            <lower>0</lower>
-            <upper>1.57</upper>
-          </limit>
-        </axis>
-        <pose>0.3748332181881839 0 0 0 0 0</pose>
-      </joint>
-      <plugin name="register_component" filename="libregister_component.so">
-        <component name="Door">
-          <v_max_door>0.5</v_max_door>
-          <a_max_door>0.3</a_max_door>
-          <a_nom_door>0.15</a_nom_door>
-          <dx_min_door>0.01</dx_min_door>
-          <f_max_door>500.0</f_max_door>
-          <ros_interface>true</ros_interface>
-          <door name="2ZS1" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
-        </component>
-      </plugin>
-    </model>
     <model name="2m1">
       <pose>92.0987864500637 -40.65915710512763 10.0 0 0 1.5707971886137306</pose>
       <link name="right">
@@ -29910,6 +29705,461 @@
         </component>
       </plugin>
     </model>
+    <model name="null123">
+      <pose>40.48217606648757 -59.5138645436722 10.0 0 0 3.1330971420936824</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.7030422938676476 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.7030422938676476 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>22.226118612361187</iyy>
+            <izz>2.063201945694516</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.3565211469338238 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="null123" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
+    <model name="null12345">
+      <pose>40.44309379537396 -61.29742969443642 10.0 0 0 -0.03585155621779391</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.7278637687157218 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.7278637687157218 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>22.374106940871062</iyy>
+            <izz>2.211190274204391</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.3689318843578609 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="null12345" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
+    <model name="null234">
+      <pose>21.925838569942414 -77.11769334374308 10.0 0 0 -1.5804829982950435</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.6153702763178858 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.6153702763178858 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>21.7445024040648</iyy>
+            <izz>1.5815857373981297</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.3126851381589429 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="null234" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
+    <model name="nullz23">
+      <pose>21.927049290482802 -66.2873975934914 10.0 0 0 -1.5776192304973005</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.6846337499804754 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.6846337499804754 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>22.119680715051373</iyy>
+            <izz>1.9567640483847006</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.3473168749902377 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="nullz23" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
+    <model name="nullz12">
+      <pose>21.929094390925087 -63.56409617293317 10.0 0 0 -1.56988058854078</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.695107534945197 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.695107534945197 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>22.17989368807329</iyy>
+            <izz>2.0169770214066176</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.3525537674725985 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="nullz12" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
+    <model name="nullc123">
+      <pose>23.84114081628453 -60.048206571249814 10.0 0 0 -1.597528759827896</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.6972110525936988 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.6972110525936988 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>22.192096882745062</iyy>
+            <izz>2.029180216078389</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.3536055262968494 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="nullc123" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
+    <model name="nullxsd">
+      <pose>26.031124284937512 -60.089714577078524 10.0 0 0 1.5707971886137357</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.71008445807941 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+            <pbr>
+              <metal>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.71008445807941 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>22.267583073358047</iyy>
+            <izz>2.104666406691373</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>1.57</upper>
+          </limit>
+        </axis>
+        <pose>0.360042229039705 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="register_component" filename="libregister_component.so">
+        <component name="Door">
+          <v_max_door>0.5</v_max_door>
+          <a_max_door>0.3</a_max_door>
+          <a_nom_door>0.15</a_nom_door>
+          <dx_min_door>0.01</dx_min_door>
+          <f_max_door>500.0</f_max_door>
+          <ros_interface>true</ros_interface>
+          <door name="nullxsd" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+        </component>
+      </plugin>
+    </model>
     <include>
       <name>TD_L2</name>
       <uri>model://TD_L2</uri>
@@ -30586,7 +30836,7 @@
       <rmf_vertex name="tinyRobot4_charger" x="37.18188294661473" y="-54.65712574211995" level="L1" />
       <rmf_vertex name="tinyRobot5_charger" x="38.43079786593781" y="-54.6935019167798" level="L1" />
       <rmf_vertex name="charger_deliveryRobot_1" x="41.0466108505728" y="-73.93162427882658" level="L1" />
-      <rmf_vertex name="cleanerbot_charger1" x="41.1815805914942" y="-48.922137888690195" level="L1" />
+      <rmf_vertex name="cleanerbot_charger1" x="40.603133944114134" y="-48.13748921686924" level="L1" />
       <rmf_vertex name="cleanerbot_charger2" x="23.537322720547113" y="-47.803068812014" level="L1" />
     </rmf_charger_waypoints>
   </world>

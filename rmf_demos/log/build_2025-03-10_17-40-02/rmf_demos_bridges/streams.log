@@ -1,0 +1,41 @@
+[1.814s] Invoking command in '/home/ususario/IR2134/rmf_demos/rmf_demos_bridges': PYTHONPATH=/home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_bridges build --build-base /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build install --record /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
+[2.252s] running egg_info
+[2.253s] creating ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info
+[2.280s] writing ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/PKG-INFO
+[2.280s] writing dependency_links to ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/dependency_links.txt
+[2.280s] writing entry points to ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/entry_points.txt
+[2.281s] writing requirements to ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/requires.txt
+[2.281s] writing top-level names to ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/top_level.txt
+[2.284s] writing manifest file '../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[2.335s] reading manifest file '../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[2.335s] writing manifest file '../build/rmf_demos_bridges/rmf_demos_bridges.egg-info/SOURCES.txt'
+[2.336s] running build
+[2.336s] running build_py
+[2.336s] creating /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build
+[2.336s] creating /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib
+[2.336s] creating /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.336s] copying rmf_demos_bridges/fleet_socketio_bridge.py -> /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.336s] copying rmf_demos_bridges/__init__.py -> /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.336s] copying rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges
+[2.336s] running install
+[2.350s] running install_lib
+[2.387s] creating /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[2.387s] copying /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_socketio_bridge.py -> /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[2.388s] copying /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/__init__.py -> /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[2.388s] copying /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build/lib/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py -> /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges
+[2.388s] byte-compiling /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/fleet_socketio_bridge.py to fleet_socketio_bridge.cpython-312.pyc
+[2.388s] byte-compiling /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/__init__.py to __init__.cpython-312.pyc
+[2.388s] byte-compiling /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges/fleet_robotmanager_mqtt_bridge.py to fleet_robotmanager_mqtt_bridge.cpython-312.pyc
+[2.390s] running install_data
+[2.390s] creating /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/share/ament_index
+[2.390s] creating /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/share/ament_index/resource_index
+[2.390s] creating /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[2.390s] copying resource/rmf_demos_bridges -> /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/share/ament_index/resource_index/packages
+[2.390s] copying package.xml -> /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/share/rmf_demos_bridges
+[2.391s] running install_egg_info
+[2.422s] Copying ../build/rmf_demos_bridges/rmf_demos_bridges.egg-info to /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages/rmf_demos_bridges-2.5.0-py3.12.egg-info
+[2.425s] running install_scripts
+[2.772s] Installing fleet_robotmanager_mqtt_bridge script to /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[2.772s] Installing fleet_socketio_bridge script to /home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/rmf_demos_bridges
+[2.775s] writing list of installed files to '/home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/install.log'
+[2.993s] Invoked command in '/home/ususario/IR2134/rmf_demos/rmf_demos_bridges' returned '0': PYTHONPATH=/home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ususario/IR2134/rmf_demos/install/rmf_demos_bridges/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rmf_demos_bridges build --build-base /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/build install --record /home/ususario/IR2134/rmf_demos/build/rmf_demos_bridges/install.log --single-version-externally-managed install_data
