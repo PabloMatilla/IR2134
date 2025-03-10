@@ -249,17 +249,17 @@
     </include>
     <include>
       <name>deliveryRobot_3</name>
-      <uri>model://Open-RMF/DeliveryRobot</uri>
+      <uri>model://DeliveryRobot</uri>
       <pose>218.5474509939304 -134.26362169555796 0.0 0 0 -0.5085803392856613</pose>
     </include>
     <include>
       <name>deliveryRobot_1</name>
-      <uri>model://Open-RMF/DeliveryRobot</uri>
+      <uri>model://DeliveryRobot</uri>
       <pose>119.37797654412498 -72.65872019586095 0.0 0 0 2.6431873391870266</pose>
     </include>
     <include>
       <name>deliveryRobot_2</name>
-      <uri>model://Open-RMF/DeliveryRobot</uri>
+      <uri>model://DeliveryRobot</uri>
       <pose>109.92107150696393 -86.53008319262153 0.0 0 0 2.5825455802526696</pose>
     </include>
     <include>

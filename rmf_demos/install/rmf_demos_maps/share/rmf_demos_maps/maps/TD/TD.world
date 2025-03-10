@@ -11435,7 +11435,7 @@
     <include>
       <name>Coke</name>
       <uri>model://Coke</uri>
-      <pose>61.55362522936356 -14.935081906527525 6.08 0 0 1.5708008618188398</pose>
+      <pose>26.767736823665036 -37.135724656800114 6.08 0 0 1.5708008618188398</pose>
       <static>False</static>
     </include>
     <include>

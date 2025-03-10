@@ -812,22 +812,22 @@
     </include>
     <include>
       <name>cleanerBotA_2</name>
-      <uri>model://Open-RMF/CleanerBotA</uri>
+      <uri>model://CleanerBotA</uri>
       <pose>29.239395125069194 -27.6631445578858 0.0 0 0 1.3444867767299777</pose>
     </include>
     <include>
       <name>cleanerBotA_1</name>
-      <uri>model://Open-RMF/CleanerBotA</uri>
+      <uri>model://CleanerBotA</uri>
       <pose>26.364960871641816 -27.752566946910367 0.0 0 0 -1.1937327924690353</pose>
     </include>
     <include>
       <name>tinyBot_1</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>23.541641034854884 -27.420434599132314 0.0 0 0 1.5663800247253201</pose>
     </include>
     <include>
       <name>deliveryBot_1</name>
-      <uri>model://Open-RMF/DeliveryRobot</uri>
+      <uri>model://DeliveryRobot</uri>
       <pose>14.55719654654451 -38.97630173372704 0.0 0 0 1.6902065055720645</pose>
     </include>
     <model name="L1_door1">

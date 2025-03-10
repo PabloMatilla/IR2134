@@ -3514,12 +3514,12 @@
     </include>
     <include>
       <name>deliveryRobot_1</name>
-      <uri>model://Open-RMF/DeliveryRobot</uri>
+      <uri>model://DeliveryRobot</uri>
       <pose>8.007099726933587 -31.734248682743 0.0 0 0 -3.1398367647873493</pose>
     </include>
     <include>
       <name>deliveryRobot_2</name>
-      <uri>model://Open-RMF/DeliveryRobot</uri>
+      <uri>model://DeliveryRobot</uri>
       <pose>12.832498750048087 -38.5468712741818 0.0 0 0 0.16346282455971387</pose>
     </include>
     <model name="L1_clinic_a">
@@ -9815,12 +9815,12 @@
     </include>
     <include>
       <name>tinyRobot_1</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>54.763282181454606 -10.800073074112543 10.0 0 0 3.1342610340162236</pose>
     </include>
     <include>
       <name>tinyRobot_2</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>54.78936963962929 -12.92131456482444 10.0 0 0 3.141592653589793</pose>
     </include>
     <model name="L2_clinic_a">

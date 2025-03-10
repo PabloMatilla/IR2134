@@ -241,22 +241,22 @@
     </light>
     <include>
       <name>tinyRobotTopLeft</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>7.353899819419558 -1.7822188821673408 0.0 0 0 -1.5708108172384483</pose>
     </include>
     <include>
       <name>tinyRobotBottomLeft</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>7.35045489406558 -12.405794519608175 0.0 0 0 -1.5709991136631158</pose>
     </include>
     <include>
       <name>tinyRobotTopRight</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>12.654800790707212 -1.7776256483620376 0.0 0 0 -1.5707817612133665</pose>
     </include>
     <include>
       <name>tinyRobotBottomRight</name>
-      <uri>model://Open-RMF/TinyRobot</uri>
+      <uri>model://TinyRobot</uri>
       <pose>12.652680836643228 -12.385831618838973 0.0 0 0 -1.5705923432912494</pose>
     </include>
     <include>

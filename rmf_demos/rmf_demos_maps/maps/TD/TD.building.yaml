@@ -2652,7 +2652,7 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/Nurse, name: OpenRobotics/Nurse, static: true, x: 1139.087, y: 2780.8780000000002, yaw: 1.5708, z: 0}
       - {dispensable: false, model_name: OpenRobotics/TeleportDispenser, name: coke_dispenser, static: true, x: 858.38999999999999, y: 1442.067, yaw: 1.5708, z: 0}
       - {dispensable: false, model_name: OpenRobotics/TeleportIngestor, name: coke_ingestor, static: true, x: 1108.7380000000001, y: 1437.231, yaw: 1.5708, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/Coke, name: Coke, static: false, x: 2098.6509999999998, y: 650.52300000000002, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/Coke, name: Coke, static: false, x: 858.389, y: 1442.067, yaw: 1.5708, z: 1.0800000000000001}
     vertices:
       - [517.005, 224.14599999999999, 0, ""]
       - [339.41800000000001, 3107.8580000000002, 0, ""]
