@@ -117,7 +117,7 @@
         index: 1
       shape_context:
         - 0.59999999999999998
-        - 0.80000000000000004
+        - 2.2000000000000002
 - operation: Add
   participant_description:
     name: deliveryRobot_2
@@ -132,4 +132,4 @@
         index: 1
       shape_context:
         - 0.59999999999999998
-        - 0.80000000000000004
+        - 2.2000000000000002

@@ -2367,7 +2367,7 @@ levels:
       - {name: ''}
     - - 30.195231992273133
       - -73.38721163490477
-      - {lift: lift_lab, lift_cabin: lift_lab, name: ''}
+      - {lift_cabin: lift_lab, name: ''}
   L1:
     lanes:
     - - 0
@@ -4489,7 +4489,8 @@ levels:
       - {is_cleaning_zone: false, name: ''}
     - - 36.86962267950018
       - -42.46233275927454
-      - {name: ''}
+      - {dropoff_ingestor: maleta_ingestor, is_holding_point: true, is_parking_spot: false,
+        name: maleta}
     - - 30.56507920907584
       - -37.747627694918336
       - {name: ''}
@@ -4603,7 +4604,7 @@ levels:
       - {name: TD1117CI}
     - - 39.5195820015688
       - -44.08331985208524
-      - {name: TD1116CT}
+      - {is_holding_point: true, is_parking_spot: false, name: TD1116CT, pickup_dispenser: maleta_dispenser}
     - - 38.470865379824595
       - -40.803309965416716
       - {name: ''}
@@ -5095,7 +5096,7 @@ levels:
       - {is_holding_point: true, is_parking_spot: false, name: mesa_A, pickup_dispenser: coke_dispenser}
     - - 30.195307260527915
       - -73.38718089639127
-      - {lift: lift_lab, lift_cabin: lift_lab, name: ''}
+      - {lift_cabin: lift_lab, name: ''}
     - - 33.712510684421666
       - -37.652572936424875
       - {dropoff_ingestor: coke_ingestor, is_holding_point: true, is_parking_spot: false,
@@ -6929,6 +6930,30 @@ levels:
     - - 12
       - 5
       - {}
+    - - 0
+      - 12
+      - {}
+    - - 12
+      - 0
+      - {}
+    - - 12
+      - 1
+      - {}
+    - - 1
+      - 12
+      - {}
+    - - 0
+      - 5
+      - {}
+    - - 5
+      - 0
+      - {}
+    - - 0
+      - 7
+      - {}
+    - - 7
+      - 0
+      - {}
     vertices:
     - - 30.264946932821232
       - -71.54489885347493
@@ -7676,8 +7701,5 @@ levels:
       - {name: ''}
     - - 30.195307260527915
       - -73.38718089639127
-      - {lift: lift_lab, lift_cabin: lift_lab, name: ''}
-lifts:
-  lift_lab:
-    dims: [2.0, 2.0]
-    position: [30.195231992273133, -73.38721163490477, 0.0]
+      - {lift_cabin: lift_lab, name: ''}
+lifts: {}

@@ -1,0 +1,37 @@
+[1.896s] Invoking command in '/home/ususario/rmf_demos/rmf_visualization/rmf_visualization_building_systems': PYTHONPATH=/home/ususario/rmf_demos/build/rmf_visualization_building_systems/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_visualization_building_systems build --build-base /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build install --record /home/ususario/rmf_demos/build/rmf_visualization_building_systems/install.log --single-version-externally-managed install_data
+[2.416s] running egg_info
+[2.416s] creating ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info
+[2.446s] writing ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/PKG-INFO
+[2.446s] writing dependency_links to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/dependency_links.txt
+[2.446s] writing entry points to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/entry_points.txt
+[2.447s] writing requirements to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/requires.txt
+[2.447s] writing top-level names to ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/top_level.txt
+[2.447s] writing manifest file '../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[2.502s] reading manifest file '../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[2.503s] writing manifest file '../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt'
+[2.503s] running build
+[2.504s] running build_py
+[2.504s] creating /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build
+[2.504s] creating /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build/lib
+[2.504s] creating /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[2.504s] copying rmf_visualization_building_systems/rmf_visualization_building_systems.py -> /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[2.505s] copying rmf_visualization_building_systems/__init__.py -> /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems
+[2.506s] running install
+[2.517s] running install_lib
+[2.545s] creating /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems
+[2.545s] copying /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems/rmf_visualization_building_systems.py -> /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems
+[2.545s] copying /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build/lib/rmf_visualization_building_systems/__init__.py -> /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems
+[2.545s] byte-compiling /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems/rmf_visualization_building_systems.py to rmf_visualization_building_systems.cpython-312.pyc
+[2.550s] byte-compiling /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems/__init__.py to __init__.cpython-312.pyc
+[2.550s] running install_data
+[2.550s] creating /home/ususario/rmf_demos/install/rmf_visualization_building_systems/share/ament_index
+[2.551s] creating /home/ususario/rmf_demos/install/rmf_visualization_building_systems/share/ament_index/resource_index
+[2.551s] creating /home/ususario/rmf_demos/install/rmf_visualization_building_systems/share/ament_index/resource_index/packages
+[2.551s] copying resource/rmf_visualization_building_systems -> /home/ususario/rmf_demos/install/rmf_visualization_building_systems/share/ament_index/resource_index/packages
+[2.551s] copying package.xml -> /home/ususario/rmf_demos/install/rmf_visualization_building_systems/share/rmf_visualization_building_systems
+[2.551s] running install_egg_info
+[2.579s] Copying ../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info to /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf_visualization_building_systems-2.4.1-py3.12.egg-info
+[2.580s] running install_scripts
+[2.994s] Installing rmf_visualization_building_systems script to /home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/rmf_visualization_building_systems
+[2.994s] writing list of installed files to '/home/ususario/rmf_demos/build/rmf_visualization_building_systems/install.log'
+[3.178s] Invoked command in '/home/ususario/rmf_demos/rmf_visualization/rmf_visualization_building_systems' returned '0': PYTHONPATH=/home/ususario/rmf_demos/build/rmf_visualization_building_systems/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ususario/rmf_demos/install/rmf_visualization_building_systems/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rmf_visualization_building_systems build --build-base /home/ususario/rmf_demos/build/rmf_visualization_building_systems/build install --record /home/ususario/rmf_demos/build/rmf_visualization_building_systems/install.log --single-version-externally-managed install_data
