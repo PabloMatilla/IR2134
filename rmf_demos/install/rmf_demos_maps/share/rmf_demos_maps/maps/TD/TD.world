@@ -11707,19 +11707,19 @@
     <include>
       <name>coke_dispenser</name>
       <uri>model://TeleportDispenser</uri>
-      <pose>26.76776487089017 -37.13572465677595 5.0 0 0 1.5708008618188398</pose>
+      <pose>26.76358583869616 -37.14077316090156 6.08 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>coke_ingestor</name>
       <uri>model://TeleportIngestor</uri>
-      <pose>33.79258495794675 -37.00947804232738 5.0 0 0 1.5708008618188398</pose>
+      <pose>33.79258495794675 -37.00947804232738 6.08 0 0 1.5708008618188398</pose>
       <static>True</static>
     </include>
     <include>
       <name>Coke</name>
       <uri>model://Coke</uri>
-      <pose>26.764034597513117 -37.14450344145758 6.08 0 0 1.5708008618188398</pose>
+      <pose>26.76358583869616 -37.14077316090156 6.08 0 0 1.5708008618188398</pose>
       <static>False</static>
     </include>
     <include>
