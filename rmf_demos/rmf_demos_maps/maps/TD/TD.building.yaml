@@ -237,6 +237,7 @@ levels:
       - [937, 938, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [938, 939, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [939, 838, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [855, 940, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     measurements:
@@ -1376,6 +1377,11 @@ levels:
       - [2776.0059999999999, 1507.8430000000001, 0, ""]
       - [3318.9679999999998, 1507.8430000000001, 0, ""]
       - [3445.8069999999998, 1507.8430000000001, 0, ""]
+      - [1076.5899999999999, 2616.5700000000002, 0, "", {lift_cabin: [1, lift_lab]}]
+      - [1101.7639999999999, 2576.6039999999998, 0, ""]
+      - [1124.9349999999999, 2576.6039999999998, 0, ""]
+      - [1053.0129999999999, 2576.152, 0, ""]
+      - [1029.8409999999999, 2576.152, 0, ""]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -2031,6 +2037,8 @@ levels:
       - [920, 921, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [922, 923, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [461, 924, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [941, 942, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [943, 944, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L1:
     doors:
       - [251, 260, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, anull2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
@@ -2461,6 +2469,7 @@ levels:
       - [1032, 1250, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [1250, 1251, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [1251, 1027, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [1252, 764, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     models:
@@ -3425,7 +3434,7 @@ levels:
       - [1065.856, 2507.1970000000001, 0, ""]
       - [983.07799999999997, 2668.8969999999999, 0, ""]
       - [937.02099999999996, 2638.2359999999999, 0, ""]
-      - [929.48699999999997, 2588.5120000000002, 0, ""]
+      - [930.25599999999997, 2589.9609999999998, 0, ""]
       - [849.62800000000004, 2588.5120000000002, 0, TD1115CPB]
       - [873.73599999999999, 2547.8290000000002, 0, ""]
       - [1054.0809999999999, 2586.8809999999999, 0, charger_deliveryRobot_2, {is_charger: [4, true], is_holding_point: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, deliveryRobot_2], spawn_robot_type: [1, DeliveryRobot]}]
@@ -3911,6 +3920,11 @@ levels:
       - [698.58000000000004, 1809.079, 0, ""]
       - [859.46199999999999, 1517.308, 0, ""]
       - [858.09000000000003, 1463.8109999999999, 0, mesa_A, {is_holding_point: [4, true], is_parking_spot: [4, false], pickup_dispenser: [1, coke_dispenser]}]
+      - [980.59500000000003, 2734.5819999999999, 0, "", {lift_cabin: [1, lift_lab]}]
+      - [1005.26, 2693.8780000000002, 0, ""]
+      - [1028.1590000000001, 2693.8780000000002, 0, ""]
+      - [932.70799999999997, 2694.6399999999999, 0, ""]
+      - [958.17399999999998, 2694.6399999999999, 0, ""]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -4629,5 +4643,28 @@ levels:
       - [497, 1231, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [466, 1232, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [1233, 467, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-lifts: {}
+      - [1253, 1254, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1255, 1256, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+lifts:
+  lift_lab:
+    depth: 2
+    doors:
+      door_lift_lab:
+        door_type: 2
+        motion_axis_orientation: 0
+        width: 1
+        x: 0
+        y: 1
+    highest_floor: L1
+    initial_floor_name: L0
+    level_doors:
+      L0: [door_lift_lab]
+      L1: [door_lift_lab]
+    lowest_floor: L0
+    plugins: true
+    reference_floor_name: L0
+    width: 2
+    x: 1076.5899999999999
+    y: 2616.5700000000002
+    yaw: 0
 name: TD

@@ -975,4 +975,7 @@ levels:
     - - 22.222155621080837
       - -42.38925431403949
       - {is_cleaning_zone: true, name: clean_hall}
-lifts: {}
+lifts:
+  lift_lab:
+    dims: [2.0, 2.0]
+    position: [30.195231992273133, -73.38721163490477, 0.0]
