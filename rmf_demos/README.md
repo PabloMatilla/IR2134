@@ -241,6 +241,7 @@ rocker --nvidia --x11 \
 ```
 ```
 cd IR2134/rmf_demos/
+
 sudo cp -R /root/.gazebo .
 colcon build
 source install/setup.bash
@@ -253,7 +254,8 @@ By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` 
 
 At this point Gazebo will open with our `TD` model.
 
-![Screenshot from 2025-03-11 21-47-51](https://github.com/user-attachments/assets/59b3c3df-1d37-4dab-a9ae-0e2fe807c640)
+![Screenshot from 2025-03-11 21-50-44](https://github.com/user-attachments/assets/dda9613a-480f-477c-8e3b-4ab1868bb2e6)
+
 
 
 And Rviz also opens.
