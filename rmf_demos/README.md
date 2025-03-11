@@ -268,11 +268,7 @@ At this point we will be able to send tasks to our fleet of robots.
 
 ![Screenshot from 2025-03-11 21-54-20](https://github.com/user-attachments/assets/0b11161b-d224-4130-9971-d582ff46b79c)
 
-
-![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
-
-More information:
-https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
+![ezgif com-optimize](https://github.com/user-attachments/assets/236d1f9f-7678-4735-bf60-ec81c0897785)
 
 
 
