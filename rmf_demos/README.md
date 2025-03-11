@@ -243,6 +243,7 @@ rocker --nvidia --x11 \
 cd IR2134/rmf_demos/
 
 sudo cp -R /root/.gazebo .
+rm -rf log/ build/ install/
 colcon build
 source install/setup.bash
 ros2 launch rmf_demos_gz \
