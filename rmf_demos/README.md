@@ -265,7 +265,9 @@ And Rviz also opens.
 
 At this point we will be able to send tasks to our fleet of robots.
 ### Open-RMF Web
-![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
+
+![Screenshot from 2025-03-11 21-54-20](https://github.com/user-attachments/assets/0b11161b-d224-4130-9971-d582ff46b79c)
+
 
 ![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
 
