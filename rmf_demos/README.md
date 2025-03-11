@@ -251,13 +251,15 @@ ros2 launch rmf_demos_gz \
 
 By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` with the latest task and robot states. User can then monitor on-going states and initiate rmf task with an interactive web dashboard.
 
-At this point Gazebo will open with our `icc_kyoto` model.
+At this point Gazebo will open with our `TD` model.
 
-![Captura desde 2025-02-19 11-18-58](https://github.com/user-attachments/assets/bfb16650-a14d-4cff-84d3-a143d4c17407)
+![Screenshot from 2025-03-11 21-47-51](https://github.com/user-attachments/assets/59b3c3df-1d37-4dab-a9ae-0e2fe807c640)
+
 
 And Rviz also opens.
 
-![Captura desde 2025-02-19 11-21-11](https://github.com/user-attachments/assets/1ee4adba-376b-4b4a-9b50-66c91ba8e193)
+![Screenshot from 2025-03-11 21-49-25](https://github.com/user-attachments/assets/f0ced798-c66c-4087-837f-ec96d2ae16fc)
+
 
 At this point we will be able to send tasks to our fleet of robots.
 ### Open-RMF Web
@@ -268,24 +270,5 @@ At this point we will be able to send tasks to our fleet of robots.
 More information:
 https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
 
-### Terminal
 
-We must observe in which docker we have executed rmf_demos.
-```
-docker ps 
-```
-In our case it is `infallible_nobel`.
-
-```
- docker exec -it infallible_nobel bash
-```
-
-```
-source /opt/ros/jazzy/setup.bash
-cd rmf_demos
-colcon build
-source install/setup.bash
-ros2 run rmf_demos_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
-
-```
 
