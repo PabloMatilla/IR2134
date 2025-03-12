@@ -274,8 +274,6 @@ At this point we will be able to send tasks to our fleet of robots.
 
 
 
-Result: 
+Result: https://drive.google.com/file/d/1ngdiwsknoQ57snws-ugN_6zhotYw9JvX/view?usp=sharing
 
-https://drive.google.com/file/d/1XNhSgxK-OM9JjaOOk3THcZT7ukPgOcOG/view?usp=sharing
-https://drive.google.com/file/d/1cjfZ04LozAoFpIiPdsF6qUrSiGD6mbl-/view?usp=sharing
 
