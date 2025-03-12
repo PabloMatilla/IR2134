@@ -1,2 +1,0 @@
-[console_scripts]
-rmf_visualization_building_systems = rmf_visualization_building_systems.rmf_visualization_building_systems:main
