@@ -28,6 +28,7 @@ docker run --network host -it \
 
 ```
 
+
 > Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/exam_ws/tree/rmf-web-dashboard-resources/exam_ws_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
 
 
