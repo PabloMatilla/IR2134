@@ -1,0 +1,87 @@
+coordinate_system: reference_image
+crowd_sim:
+  agent_groups:
+    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L0_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L0:
+    drawing:
+      filename: CD_n0.png
+    elevation: 4
+    fiducials:
+      - [1591.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+  L1:
+    drawing:
+      filename: CD_n1.png
+    elevation: 8
+    fiducials:
+      - [1591.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+  L2:
+    drawing:
+      filename: CD_n2.png
+    elevation: 12
+    fiducials:
+      - [1591.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+  L3:
+    drawing:
+      filename: CD_n3.png
+    elevation: 16
+    fiducials:
+      - [1616.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+  L4:
+    drawing:
+      filename: CD_n4.png
+    elevation: 20
+    fiducials:
+      - [1616.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+  L5:
+    drawing:
+      filename: CD_n5.png
+    elevation: 24
+    fiducials:
+      - [1616.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+  LS:
+    drawing:
+      filename: CD_n0.png
+    elevation: 0
+    fiducials:
+      - [1591.806, 3001.3820000000001, fidu_2]
+      - [401.59399999999999, 3001.3820000000001, fidu_1]
+    layers:
+      {}
+    measurements:
+      - [0, 1, {distance: [3, 2]}]
+    vertices:
+      - [811.30200000000002, 499.47199999999998, 0, ""]
+      - [811.30200000000002, 553.03800000000001, 0, ""]
+lifts: {}
+name: library
