@@ -36,15 +36,12 @@ docker run --network host -it \
 In order to interact with the default configuration of the web application, the `server_uri` launch parameter will need to be changed to `ws://localhost:8000/_internal`, for example,
 
 ```
-rocker --nvidia --x11 \
-  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
-  --network host --user \
-  --volume `pwd`/exam_ws:/home/usuario/exam_ws --  \
-  ghcr.io/open-rmf/rmf/exam_ws:latest 	\
-    bash
+rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/exam_ws:/exam_ws -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+
 ```
 ```
 cd exam_ws/
+rm -rf /install /build /log
 sudo cp -R /root/.gazebo .
 colcon build
 source install/setup.bash
