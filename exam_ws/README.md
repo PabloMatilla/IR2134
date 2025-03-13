@@ -29,7 +29,7 @@ docker run --network host -it \
 ```
 
 
-> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/exam_ws/tree/rmf-web-dashboard-resources/exam_ws_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
+> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/rmf_library/tree/rmf-web-dashboard-resources/rmf_library_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
 
 
 ## Terminal 3 (Launch ICC_Kyoto world):
@@ -37,16 +37,16 @@ docker run --network host -it \
 In order to interact with the default configuration of the web application, the `server_uri` launch parameter will need to be changed to `ws://localhost:8000/_internal`, for example,
 
 ```
-rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/exam_ws:/exam_ws -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
+rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST --network host --user --volume `pwd`/rmf_library:/rmf_library -- ghcr.io/open-rmf/rmf/rmf_demos:latest bash
 
 ```
 ```
-cd /exam_ws
+cd /rmf_library
 rm -rf /install /build /log
 sudo cp -R /root/.gazebo .
 colcon build
 source install/setup.bash
-ros2 launch exam_ws_gz \
+ros2 launch rmf_library_gz \
   icc_kyoto.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
@@ -72,7 +72,7 @@ https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=shari
 
 ### Terminal
 
-We must observe in which docker we have executed exam_ws.
+We must observe in which docker we have executed rmf_library.
 ```
 docker ps 
 ```
@@ -84,10 +84,10 @@ In our case it is `infallible_nobel`.
 
 ```
 source /opt/ros/jazzy/setup.bash
-cd exam_ws
+cd rmf_library
 colcon build
 source install/setup.bash
-ros2 run exam_ws_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
+ros2 run rmf_library_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
 
 ```
 
@@ -125,7 +125,7 @@ docker run --network host -it \
 
 ```
 
-> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/exam_ws/tree/rmf-web-dashboard-resources/exam_ws_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
+> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/rmf_library/tree/rmf-web-dashboard-resources/rmf_library_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
 
 
 ## Terminal 3 (Launch Simple world):
@@ -136,16 +136,16 @@ In order to interact with the default configuration of the web application, the 
 rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   --network host --user \
-  --volume `pwd`/exam_ws:/home/usuario/exam_ws --  \
-  ghcr.io/open-rmf/rmf/exam_ws:latest 	\
+  --volume `pwd`/rmf_library:/home/usuario/rmf_library --  \
+  ghcr.io/open-rmf/rmf/rmf_library:latest 	\
     bash
 ```
 ```
-cd exam_ws/
+cd rmf_library/
 sudo cp -R /root/.gazebo .
 colcon build
 source install/setup.bash
-ros2 launch exam_ws_gz \
+ros2 launch rmf_library_gz \
   simple.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
@@ -171,7 +171,7 @@ At this point we will be able to send tasks to our fleet of robots.
 
 ### Terminal
 
-We must observe in which docker we have executed exam_ws.
+We must observe in which docker we have executed rmf_library.
 ```
 docker ps 
 ```
@@ -183,10 +183,10 @@ In our case it is `infallible_nobel`.
 
 ```
 source /opt/ros/jazzy/setup.bash
-cd exam_ws
+cd rmf_library
 colcon build
 source install/setup.bash
-ros2 run exam_ws_tasks dispatch_patrol  -p waypoint_2 -n 3 --use_sim_time
+ros2 run rmf_library_tasks dispatch_patrol  -p waypoint_2 -n 3 --use_sim_time
 
 ```
 
@@ -222,7 +222,7 @@ docker run --network host -it \
 
 ```
 
-> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/exam_ws/tree/rmf-web-dashboard-resources/exam_ws_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
+> Note: The dashboard via `docker` is not runtime-configurable and is best used for quick integrations and testing. To configure the dashboard, check out [rmf-web-dashboard-resources](https://github.com/open-rmf/rmf_library/tree/rmf-web-dashboard-resources/rmf_library_dashboard_resources) and the [dashboard configuration section](https://github.com/open-rmf/rmf-web/tree/main/packages/dashboard#configuration).
 
 
 ## Terminal 3 (Launch ICC_Kyoto world):
@@ -234,17 +234,17 @@ rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   --network host --user \
   --volume `pwd`/IR2134:/home/usuario/IR2134 --  \
-  ghcr.io/open-rmf/rmf/exam_ws:latest 	\
+  ghcr.io/open-rmf/rmf/rmf_library:latest 	\
     bash
 ```
 ```
-cd IR2134/exam_ws/
+cd IR2134/rmf_library/
 
 sudo cp -R /root/.gazebo .
 rm -rf log/ build/ install/
 colcon build
 source install/setup.bash
-ros2 launch exam_ws_gz \
+ros2 launch rmf_library_gz \
   TD.launch.xml \
   server_uri:="ws://localhost:8000/_internal"
 ```
