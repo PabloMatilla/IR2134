@@ -40,7 +40,7 @@ rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALH
 
 ```
 ```
-cd exam_ws/
+cd /exam_ws
 rm -rf /install /build /log
 sudo cp -R /root/.gazebo .
 colcon build
