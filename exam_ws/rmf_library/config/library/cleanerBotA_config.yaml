@@ -38,6 +38,8 @@ rmf_fleet:
       charger: "cleanerbot_charger1"
     cleanerBotA_2:
       charger: "cleanerbot_charger2"
+    cleanerBotA_3:
+      charger: "cleanerbot_charger3"
 
 fleet_manager:
   ip: "127.0.0.1"
