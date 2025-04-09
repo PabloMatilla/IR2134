@@ -6,7 +6,7 @@
 [0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usuario/rmf_library/rmf_library_maps/maps/TD'
+[0.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ususario/rmf_library/rmf_library_maps/maps/TD'
 [0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -48,13 +48,13 @@
 [0.189s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
 [0.190s] DEBUG:colcon.colcon_core.event_reactor:joined thread
 [0.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
-[0.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.ps1'
-[0.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/_local_setup_util_ps1.py'
-[0.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/setup.ps1'
-[0.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.sh'
-[0.204s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/_local_setup_util_sh.py'
-[0.204s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/setup.sh'
-[0.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.bash'
-[0.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/setup.bash'
-[0.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.zsh'
-[0.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/usuario/rmf_library/rmf_library_maps/maps/TD/install/setup.zsh'
+[0.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/_local_setup_util_ps1.py'
+[0.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/setup.ps1'
+[0.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.sh'
+[0.204s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/_local_setup_util_sh.py'
+[0.204s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/setup.sh'
+[0.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.bash'
+[0.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/setup.bash'
+[0.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/local_setup.zsh'
+[0.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ususario/rmf_library/rmf_library_maps/maps/TD/install/setup.zsh'

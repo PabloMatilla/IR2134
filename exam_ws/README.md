@@ -136,7 +136,7 @@ In order to interact with the default configuration of the web application, the 
 rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   --network host --user \
-  --volume `pwd`/rmf_library:/home/usuario/rmf_library --  \
+  --volume `pwd`/rmf_library:/home/ususario/rmf_library --  \
   ghcr.io/open-rmf/rmf/rmf_library:latest 	\
     bash
 ```
@@ -233,7 +233,7 @@ In order to interact with the default configuration of the web application, the 
 rocker --nvidia --x11 \
   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
   --network host --user \
-  --volume `pwd`/IR2134:/home/usuario/IR2134 --  \
+  --volume `pwd`/IR2134:/home/ususario/IR2134 --  \
   ghcr.io/open-rmf/rmf/rmf_library:latest 	\
     bash
 ```

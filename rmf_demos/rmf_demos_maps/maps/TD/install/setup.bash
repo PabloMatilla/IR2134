@@ -25,7 +25,7 @@ _colcon_prefix_chain_bash_source_script "$COLCON_CURRENT_PREFIX/local_setup.bash
 COLCON_CURRENT_PREFIX="/rmf_demos_ws/install"
 _colcon_prefix_chain_bash_source_script "$COLCON_CURRENT_PREFIX/local_setup.bash"
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced script
-COLCON_CURRENT_PREFIX="/home/usuario/rmf_demos/install"
+COLCON_CURRENT_PREFIX="/home/ususario/rmf_demos/install"
 _colcon_prefix_chain_bash_source_script "$COLCON_CURRENT_PREFIX/local_setup.bash"
 
 # source this prefix
