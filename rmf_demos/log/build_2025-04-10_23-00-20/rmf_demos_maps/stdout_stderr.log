@@ -1,0 +1,2410 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/TD/TD.building.yaml /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/TD.world /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/TD/TD.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.building.yaml /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.world /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/office/office.building.yaml /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/office.world /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/office/office.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/simple/simple.building.yaml /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/simple.world /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/simple/simple.building.yaml[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/triple_H/triple_H.building.yaml /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/triple_H.world /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/triple_H/triple_H.building.yaml[0m
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps
+[  6%] [34m[1mGenerating maps/office/nav_graphs/phony[0m
+[ 13%] [34m[1mGenerating maps/icc_kyoto/nav_graphs/phony[0m
+[ 20%] [34m[1mGenerating maps/icc_kyoto/icc_kyoto.world[0m
+[ 33%] [34m[1mGenerating maps/triple_H/nav_graphs/phony[0m
+[ 33%] [34m[1mGenerating maps/triple_H/triple_H.world[0m
+[ 40%] [34m[1mGenerating maps/simple/simple.world[0m
+[ 53%] [34m[1mGenerating maps/office/office.world[0m
+[ 53%] [34m[1mGenerating maps/simple/nav_graphs/phony[0m
+[ 60%] [34m[1mGenerating maps/TD/nav_graphs/phony[0m
+[ 66%] [34m[1mGenerating maps/TD/TD.world[0m
+generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/office.world from /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/office/office.building.yaml
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.044165709666377735
+generating nav data
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/nav_graphs/0.yaml
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.008465494911979116
+generating model of level L1 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/model.config
+generating floor polygon 1 on floor building_L1
+hole vertices: []
+lift vertices: {}
+[[0, 1, 14], [9, 10, 5], [9, 5, 7], [9, 7, 8], [7, 5, 6], [2, 3, 13], [2, 13, 14], [2, 14, 1], [11, 12, 3], [11, 3, 4], [11, 4, 10], [10, 4, 5], [3, 12, 13]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/blue_linoleum_high_contrast.png
+generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.world from /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.building.yaml
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_1.mtl
+generating floor polygon 2 on floor building_L1
+hole vertices: []
+lift vertices: {}
+[[0, 1, 5], [4, 5, 3], [2, 3, 5], [2, 5, 1]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_2.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/concrete2.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_2.mtl
+generating floor polygon 3 on floor building_L1
+hole vertices: []
+lift vertices: {}
+[[0, 5, 2], [0, 2, 1], [3, 2, 4], [4, 2, 5]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_3.obj
+generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/TD.world from /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/TD/TD.building.yaml
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/blue_linoleum_high_contrast.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_3.mtl
+generating floor polygon 4 on floor building_L1
+hole vertices: []
+lift vertices: {}
+generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/simple.world from /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/simple/simple.building.yaml
+building name: simple
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.06666666666666667
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (150.0, -101.88) -> (150.0, -101.88)   P2
+    (0.002, -101.88) -> (0.002, -101.88)   P1
+    calc dist P2 <=> P1
+Bearings:
+[(-3.1415793201675712, -3.1415793201675712)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(149.99900001333341, 149.99900001333341)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+[[1, 2, 0], [0, 2, 16], [12, 13, 11], [10, 11, 9], [9, 11, 13], [9, 13, 15], [9, 15, 8], [8, 15, 16], [8, 16, 7], [7, 16, 6], [6, 16, 4], [6, 4, 5], [4, 16, 3], [3, 16, 2], [14, 15, 13]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_4.obj
+parsing lift lift1
+generating nav data
+hooray, we found an intersection: t=0.403, u=0.504
+  (115.0,-50.0),(14.464,-49.952) and (74.489,-40.073),(74.489,-59.713)
+found intersection with door door_L1!
+hooray, we found an intersection: t=0.403, u=0.534
+  (115.0,-50.0),(15.81,-50.12) and (75.0,-36.061),(75.0,-62.256)
+found intersection with door door_L2!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/nav_graphs/0.yaml
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/black_concrete.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_4.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7337885c4170>, 'texture_height': <building_map.param_value.ParamValue object at 0x7337885c41a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7337885c41d0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7337885c4200>, 'texture_width': <building_map.param_value.ParamValue object at 0x7337885c4260>}, {'alpha': <building_map.param_value.ParamValue object at 0x7337885c4c20>, 'texture_height': <building_map.param_value.ParamValue object at 0x7337885c4cb0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7337885c4c80>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7337885c4d10>, 'texture_width': <building_map.param_value.ParamValue object at 0x7337885c4ce0>}, {'alpha': <building_map.param_value.ParamValue object at 0x7337885c64b0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7337885c6480>, 'texture_name': <building_map.param_value.ParamValue object at 0x7337885c6510>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7337885c64e0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7337885c6570>}, {'alpha': <building_map.param_value.ParamValue object at 0x7337885c65d0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7337885c65a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7337885c6630>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7337885c6600>, 'texture_width': <building_map.param_value.ParamValue object at 0x7337885c6690>}]
+generating wall: 1 on floor: building_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_white.png
+generate_wall_visual_mesh(building_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_1.obj
+building name: simple
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.06666666666666667
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (150.0, -101.88) -> (150.0, -101.88)   P2
+    (0.002, -101.88) -> (0.002, -101.88)   P1
+    calc dist P2 <=> P1
+Bearings:
+[(-3.1415793201675712, -3.1415793201675712)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(149.99900001333341, 149.99900001333341)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+parsing lift lift1
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_1.mtl
+generating model of level L1 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/model.config
+generating floor polygon 1 on floor simple_L1
+generating wall: 2 on floor: building_L1
+hole vertices: []
+lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_white.png
+generate_wall_visual_mesh(building_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_2.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_2.mtl
+generating wall: 3 on floor: building_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_white.png
+generate_wall_visual_mesh(building_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_3.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_3.mtl
+generating wall: 4 on floor: building_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/blue_linoleum_high_contrast.png
+generate_wall_visual_mesh(building_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_4.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_4.mtl
+[[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/models/building_L1/model.sdf
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x78397ba6bd40>, 'texture_height': <building_map.param_value.ParamValue object at 0x78397ba6be90>, 'texture_name': <building_map.param_value.ParamValue object at 0x78397ba6bec0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x78397ba6bf20>, 'texture_width': <building_map.param_value.ParamValue object at 0x78397ba6bef0>}]
+generating wall: 1 on floor: simple_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/meshes/default.png
+generate_wall_visual_mesh(simple_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/meshes/wall_1.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/meshes/wall_1.mtl
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L1/model.sdf
+generating model of level L2 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/model.config
+generating floor polygon 1 on floor simple_L2
+spawning robot name tinyRobot1 of type Open-RMF/TinyRobot
+hole vertices: []
+spawning robot name tinyRobot2 of type Open-RMF/TinyRobot
+lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+generate door name=main_door type=double_hinged
+Door(main_door)
+generate door name=coe_door type=hinged
+Door(coe_door)
+generate door name=hardware_door type=hinged
+Door(hardware_door)
+39188 bytes written to /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/office.world
+generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/triple_H.world from /home/ususario/IR2134/rmf_demos/rmf_demos_maps/maps/triple_H/triple_H.building.yaml
+[[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_1.mtl
+generating floor polygon 2 on floor simple_L2
+hole vertices: []
+lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.008465494911979116
+generating nav data
+hooray, we found an intersection: t=0.341, u=0.45
+  (1052.727,-730.182),(769.867,-618.148) and (975.293,-648.826),(933.086,-744.676)
+found intersection with door coe_door!
+hooray, we found an intersection: t=0.312, u=0.463
+  (2220.121,-1225.257),(2468.096,-1217.693) and (2297.293,-1271.489),(2297.846,-1166.445)
+found intersection with door hardware_door!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/nav_graphs/0.yaml
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.044165709666377735
+generating model of level L1 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/model.config
+generating floor polygon 1 on floor building_L1
+hole vertices: []
+lift vertices: {}
+[[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_2.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_2.mtl
+generating floor polygon 3 on floor simple_L2
+hole vertices: []
+lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+[[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_3.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_3.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x78397ba91490>, 'texture_height': <building_map.param_value.ParamValue object at 0x78397ba914c0>, 'texture_name': <building_map.param_value.ParamValue object at 0x78397ba914f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x78397ba91520>, 'texture_width': <building_map.param_value.ParamValue object at 0x78397ba91550>}]
+generating wall: 1 on floor: simple_L2
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/default.png
+generate_wall_visual_mesh(simple_L2, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/wall_1.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/meshes/wall_1.mtl
+building name: icc_kyoto
+coordinate system: reference_image
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/models/simple_L2/model.sdf
+parsing level L1
+spawning robot name tinyRobot1 of type TinyRobot
+parsing level L2
+generate door name=door_L1 type=sliding
+Door(door_L1)
+generate door name=door_L2 type=hinged
+Door(door_L2)
+calculating levels relative to L1
+level L1 scale: 0.025543645966842197
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (738.44, -1233.7) -> (738.44, -1233.7)   P1
+    (865.51, -1240.2) -> (865.51, -1240.2)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(-0.05080104331260102, -0.05080104331260102)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(127.23714807398032, 127.23714807398032)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+33432 bytes written to /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/simple.world
+parsing lift lift
+generating nav data
+hooray, we found an intersection: t=0.437, u=0.523
+  (883.509,-1171.325),(853.949,-1336.43) and (809.34,-1243.527),(926.443,-1243.527)
+found intersection with door D6!
+hooray, we found an intersection: t=0.407, u=0.532
+  (329.137,-956.297),(438.575,-956.297) and (373.67,-937.608),(373.624,-972.712)
+found intersection with door D12!
+hooray, we found an intersection: t=0.389, u=0.455
+  (327.687,-846.858),(445.823,-846.858) and (373.579,-829.782),(373.67,-867.288)
+found intersection with door D11!
+hooray, we found an intersection: t=0.408, u=0.591
+  (328.047,-747.562),(439.086,-747.562) and (373.034,-724.982),(373.579,-763.187)
+found intersection with door D10!
+hooray, we found an intersection: t=0.397, u=0.294
+  (329.909,-630.479),(439.356,-630.479) and (373.568,-619.867),(373.034,-655.902)
+found intersection with door D9!
+hooray, we found an intersection: t=0.378, u=0.547
+  (330.885,-534.486),(441.978,-534.486) and (372.163,-514.371),(373.568,-551.176)
+found intersection with door D8!
+hooray, we found an intersection: t=0.595, u=0.638
+  (266.263,-431.745),(445.19,-431.745) and (373.909,-409.099),(372.163,-444.601)
+found intersection with door D7!
+hooray, we found an intersection: t=0.604, u=0.471
+  (736.047,-1051.049),(736.047,-1375.032) and (681.54,-1246.124),(797.199,-1247.2)
+found intersection with door D21!
+hooray, we found an intersection: t=0.243, u=0.512
+  (736.047,-1375.032),(519.589,-1375.032) and (683.522,-1356.545),(683.522,-1392.618)
+found intersection with door door1!
+hooray, we found an intersection: t=0.499, u=0.503
+  (976.078,-282.647),(976.078,-242.273) and (938.74,-264.442),(1012.928,-260.592)
+found intersection with door D4!
+hooray, we found an intersection: t=0.48, u=0.481
+  (865.424,-242.273),(865.424,-116.666) and (843.301,-183.099),(889.271,-180.706)
+found intersection with door D2!
+hooray, we found an intersection: t=0.45, u=0.611
+  (871.405,-154.049),(871.405,-215.357) and (843.301,-183.099),(889.271,-180.706)
+found intersection with door D2!
+hooray, we found an intersection: t=0.257, u=0.486
+  (732.34,-215.357),(732.34,-91.245) and (713.725,-183.704),(752.005,-183.099)
+found intersection with door D1!
+hooray, we found an intersection: t=0.398, u=0.447
+  (730.845,-146.572),(730.845,-239.282) and (713.725,-183.704),(752.005,-183.099)
+found intersection with door D1!
+hooray, we found an intersection: t=0.227, u=0.614
+  (632.154,-239.282),(657.133,-347.701) and (593.604,-263.119),(665.673,-264.442)
+found intersection with door D3!
+hooray, we found an intersection: t=0.534, u=0.416
+  (729.141,-1037.134),(729.141,-1422.225) and (682.207,-1242.325),(794.903,-1243.527)
+found intersection with door D5!
+hooray, we found an intersection: t=0.213, u=0.574
+  (875.289,-1207.853),(875.289,-1373.846) and (810.141,-1243.268),(923.617,-1243.268)
+found intersection with door D22!
+hooray, we found an intersection: t=0.193, u=0.451
+  (875.289,-1373.846),(1129.021,-1373.846) and (923.535,-1354.673),(925.013,-1397.155)
+found intersection with door door2!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/nav_graphs/0.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/nav_graphs/1.yaml
+[[0, 27, 25], [0, 25, 2], [0, 2, 1], [4, 3, 6], [4, 6, 5], [8, 7, 10], [8, 10, 9], [13, 12, 11], [13, 11, 14], [14, 11, 16], [14, 16, 15], [27, 26, 25], [25, 24, 2], [2, 24, 3], [3, 24, 21], [3, 21, 6], [6, 21, 20], [6, 20, 7], [7, 20, 17], [7, 17, 10], [10, 17, 16], [10, 16, 11], [18, 17, 19], [19, 17, 20], [23, 22, 21], [23, 21, 24]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x70ae76b95910>, 'texture_name': <building_map.param_value.ParamValue object at 0x70ae76b95940>}]
+generating wall: 1 on floor: building_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/default.png
+generate_wall_visual_mesh(building_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/wall_1.obj
+building name: icc_kyoto
+coordinate system: reference_image
+parsing level L1
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/wall_1.mtl
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/models/building_L1/model.sdf
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.025543645966842197
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (738.44, -1233.7) -> (738.44, -1233.7)   P1
+    (865.51, -1240.2) -> (865.51, -1240.2)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(-0.05080104331260102, -0.05080104331260102)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(127.23714807398032, 127.23714807398032)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+spawning robot name tinyRobotTopLeft of type Open-RMF/TinyRobot
+spawning robot name tinyRobotBottomLeft of type Open-RMF/TinyRobot
+spawning robot name tinyRobotTopRight of type Open-RMF/TinyRobot
+spawning robot name tinyRobotBottomRight of type Open-RMF/TinyRobot
+[ 66%] Built target generate_triple_H_nav_graphs
+12463 bytes written to /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/triple_H.world
+parsing lift lift
+generating model of level L1 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+generating floor polygon 1 on floor icc_kyoto_L1
+hole vertices: []
+lift vertices: {'lift': [(12.999005281763207, -28.325192861868526), (12.999005281763207, -30.425192861868528), (15.099005281763208, -30.425192861868528), (15.099005281763208, -28.325192861868526)]}
+[ 66%] Built target generate_simple_nav_graphs
+[[28, 27, 26], [28, 26, 29], [0, 33, 2], [0, 2, 1], [12, 11, 13], [13, 11, 14], [17, 16, 18], [18, 16, 19], [19, 16, 34], [19, 34, 20], [26, 25, 24], [26, 24, 29], [29, 24, 33], [29, 33, 32], [29, 32, 30], [30, 32, 31], [33, 24, 35], [33, 35, 7], [33, 7, 6], [33, 6, 3], [33, 3, 2], [4, 3, 6], [4, 6, 5], [9, 8, 10], [10, 8, 7], [10, 7, 35], [10, 35, 11], [11, 35, 15], [11, 15, 14], [16, 15, 34], [34, 15, 35], [34, 36, 20], [20, 36, 23], [20, 23, 22], [20, 22, 21], [24, 23, 37], [24, 37, 35], [37, 23, 36]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7975d40d52e0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7975d40d5310>, 'texture_name': <building_map.param_value.ParamValue object at 0x7975d40d5370>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7975d40d5340>, 'texture_width': <building_map.param_value.ParamValue object at 0x7975d40d53a0>}]
+generating wall: 1 on floor: icc_kyoto_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+generate_wall_visual_mesh(icc_kyoto_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+generating model of level L2 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+generating floor polygon 1 on floor icc_kyoto_L2
+hole vertices: []
+lift vertices: {'lift': [(12.999005281763207, -28.325192861868526), (12.999005281763207, -30.425192861868528), (15.099005281763208, -30.425192861868528), (15.099005281763208, -28.325192861868526)]}
+[ 66%] Built target generate_office_nav_graphs
+[[0, 7, 6], [0, 6, 8], [0, 8, 9], [0, 9, 1], [1, 9, 3], [1, 3, 2], [4, 3, 10], [4, 10, 5], [5, 10, 11], [12, 5, 11], [12, 11, 6], [6, 11, 8], [9, 10, 3]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7975d413aea0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7975d413af00>, 'texture_name': <building_map.param_value.ParamValue object at 0x7975d413af30>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7975d413af60>, 'texture_width': <building_map.param_value.ParamValue object at 0x7975d413af90>}]
+generating wall: 1 on floor: icc_kyoto_L2
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+generate_wall_visual_mesh(icc_kyoto_L2, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+spawning robot name tinyRobot1 of type TinyRobot
+generate door name=D1 type=sliding
+Door(D1)
+generate door name=D2 type=sliding
+Door(D2)
+generate door name=D4 type=double_sliding
+Door(D4)
+generate door name=D3 type=double_sliding
+Door(D3)
+generate door name=D7 type=sliding
+Door(D7)
+generate door name=D8 type=sliding
+Door(D8)
+generate door name=D9 type=sliding
+Door(D9)
+generate door name=D10 type=sliding
+Door(D10)
+generate door name=D11 type=sliding
+Door(D11)
+generate door name=D12 type=sliding
+Door(D12)
+generate door name=D5 type=double_hinged
+Door(D5)
+generate door name=D6 type=double_hinged
+Door(D6)
+generate door name=dorz2 type=hinged
+Door(dorz2)
+generate door name=DOOR2 type=hinged
+Door(DOOR2)
+generate door name=doorz1 type=sliding
+Door(doorz1)
+[ 66%] Built target generate_icc_kyoto_nav_graphs
+generate door name=D21 type=double_hinged
+Door(D21)
+generate door name=D22 type=double_hinged
+Door(D22)
+generate door name=door1 type=hinged
+Door(door1)
+generate door name=door2 type=hinged
+Door(door2)
+generate door name=door3 type=sliding
+Door(door3)
+151076 bytes written to /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.world
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.008465494911979116
+building name: simple
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.06666666666666667
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (150.0, -101.88) -> (150.0, -101.88)   P2
+    (0.002, -101.88) -> (0.002, -101.88)   P1
+    calc dist P2 <=> P1
+Bearings:
+[(-3.1415793201675712, -3.1415793201675712)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(149.99900001333341, 149.99900001333341)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+parsing lift lift1
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.044165709666377735
+Models: [] are used in crowd_sim
+ERROR::building_map_model_downloader.get_crowdsim_models():78: Could not get crowd_sim models, error: 'crowd_sim'. Ignore models in crowd_sim...
+Load success!
+
+Cache found! Model count: 2992 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+Load success!
+
+Cache found! Model count: 2992 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+Models: [] are used in crowd_sim
+Load success!
+
+Cache found! Model count: 2992 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+building name: TD
+coordinate system: reference_image
+parsing level L0
+parsing level L1
+parsing level L2
+building name: TD
+coordinate system: reference_image
+parsing level L0
+calculating levels relative to L0
+level L0 scale: 0.028047104275790352
+calculating level L1 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+parsing level L1
+parsing level L2
+calculating levels relative to L0
+level L0 scale: 0.028047104275790352
+calculating level L1 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+building name: icc_kyoto
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.025543645966842197
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (738.44, -1233.7) -> (738.44, -1233.7)   P1
+    (865.51, -1240.2) -> (865.51, -1240.2)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(-0.05080104331260102, -0.05080104331260102)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(127.23714807398032, 127.23714807398032)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+parsing lift lift
+parsing lift lift_class
+parsing lift lift_lab
+parsing lift lift_lab2
+generating nav data
+hooray, we found an intersection: t=0.267, u=0.5
+  (2275.498,-1559.337),(2265.93,-1672.789) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.758, u=0.515
+  (956.572,-2467.159),(962.079,-2574.165) and (984.497,-2546.955),(938.414,-2549.491)
+found intersection with door null5!
+hooray, we found an intersection: t=0.845, u=0.507
+  (1194.363,-2467.066),(1194.363,-2557.983) and (1213.923,-2543.926),(1175.349,-2543.926)
+found intersection with door null6!
+hooray, we found an intersection: t=0.275, u=0.554
+  (956.718,-2467.066),(956.718,-2187.587) and (931.594,-2392.431),(976.94,-2388.663)
+found intersection with door null4!
+hooray, we found an intersection: t=0.077, u=0.311
+  (951.397,-2120.847),(685.513,-2120.847) and (931.091,-2112.914),(930.318,-2138.414)
+found intersection with door null1!
+hooray, we found an intersection: t=0.353, u=0.547
+  (951.397,-2082.013),(1078.158,-2082.013) and (996.182,-2107.22),(996.182,-2061.158)
+found intersection with door null2!
+hooray, we found an intersection: t=0.726, u=0.429
+  (1078.158,-2082.013),(1178.466,-2082.013) and (1150.472,-2061.81),(1151.729,-2108.943)
+found intersection with door null3!
+hooray, we found an intersection: t=0.638, u=0.51
+  (1194.363,-2467.066),(1194.363,-2346.531) and (1171.366,-2390.132),(1216.427,-2390.132)
+found intersection with door null7!
+hooray, we found an intersection: t=0.408, u=0.455
+  (1078.158,-2082.013),(1078.158,-1845.307) and (1103.811,-1985.768),(1047.418,-1984.788)
+found intersection with door null42!
+parsing lift lift_class
+parsing lift lift_lab
+parsing lift lift_lab2
+hooray, we found an intersection: t=0.598, u=0.484
+  (832.234,-1476.717),(723.978,-1476.717) and (767.765,-1455.724),(767.212,-1499.141)
+found intersection with door null13!
+hooray, we found an intersection: t=0.416, u=0.567
+  (723.978,-1714.183),(827.663,-1714.183) and (767.212,-1688.399),(767.074,-1733.885)
+found intersection with door null12!
+hooray, we found an intersection: t=0.651, u=0.586
+  (1081.456,-1325.683),(1081.456,-1227.485) and (1047.86,-1260.935),(1105.196,-1262.339)
+found intersection with door null41x!
+hooray, we found an intersection: t=0.512, u=0.552
+  (1110.401,-418.037),(1201.739,-418.037) and (1157.435,-394.961),(1156.937,-436.786)
+found intersection with door null38!
+hooray, we found an intersection: t=0.628, u=0.48
+  (1051.967,-418.037),(965.369,-418.037) and (997.484,-439.157),(997.711,-395.12)
+found intersection with door null37!
+hooray, we found an intersection: t=0.601, u=0.432
+  (1081.456,-1227.485),(1203.497,-1227.485) and (1155.169,-1206.472),(1154.321,-1255.062)
+found intersection with door null32!
+hooray, we found an intersection: t=0.745, u=0.531
+  (1081.456,-1227.485),(969.751,-1227.485) and (999.483,-1253.855),(997.118,-1204.193)
+found intersection with door null31!
+hooray, we found an intersection: t=0.579, u=0.487
+  (1081.456,-953.052),(1206.019,-953.052) and (1152.01,-930.57),(1155.169,-976.781)
+found intersection with door null34!
+hooray, we found an intersection: t=0.803, u=0.567
+  (1081.456,-953.052),(976.901,-953.052) and (997.118,-979.451),(997.836,-932.898)
+found intersection with door null33!
+hooray, we found an intersection: t=0.293, u=0.41
+  (1193.14,-842.725),(1193.14,-562.109) and (1173.126,-758.624),(1221.912,-763.412)
+found intersection with door null35!
+hooray, we found an intersection: t=0.339, u=0.633
+  (963.675,-861.195),(963.675,-560.689) and (933.015,-759.638),(981.448,-759.271)
+found intersection with door null36!
+generating model of level L0 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0
+hooray, we found an intersection: t=0.692, u=0.311
+  (1356.197,-1507.843),(1565.953,-1507.843) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/model.config
+generating floor polygon 1 on floor TD_L0
+hooray, we found an intersection: t=0.704, u=0.372
+hole vertices: []
+  (1354.963,-1457.251),(1564.031,-1457.251) and (1501.563,-1474.134),(1503.293,-1428.783)
+found intersection with door AAA!
+lift vertices: {'lift_class': [(49.4387973178796, -44.743196255433), (49.4387973178796, -47.043196255432996), (51.20879731787959, -47.043196255432996), (51.20879731787959, -44.743196255433)], 'lift_lab': [(29.145231992273132, -72.33721163490478), (29.145231992273132, -74.43721163490477), (31.245231992273133, -74.43721163490477), (31.245231992273133, -72.33721163490478)], 'lift_lab2': [(102.95763772799889, -71.88284854563696), (102.95763772799889, -73.98284854563695), (105.05763772799888, -73.98284854563695), (105.05763772799888, -71.88284854563696)]}
+hooray, we found an intersection: t=0.075, u=0.371
+  (2030.406,-1457.251),(2775.043,-1457.251) and (2086.537,-1473.652),(2086.18,-1429.492)
+found intersection with door CCC!
+hooray, we found an intersection: t=0.895, u=0.35
+  (2030.406,-1457.251),(2775.043,-1457.251) and (2697.531,-1473.533),(2695.488,-1427.072)
+found intersection with door W!
+hooray, we found an intersection: t=0.931, u=0.652
+  (2775.043,-1457.251),(3319.973,-1457.251) and (3281.809,-1426.462),(3282.559,-1473.681)
+found intersection with door A!
+hooray, we found an intersection: t=0.23, u=0.391
+  (2029.453,-1507.843),(2270.363,-1507.843) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.844, u=0.391
+  (2270.363,-1507.843),(2776.006,-1507.843) and (2696.687,-1526.76),(2697.531,-1478.378)
+found intersection with door B!
+hooray, we found an intersection: t=0.932, u=0.582
+  (2776.006,-1507.843),(3318.968,-1507.843) and (3282.559,-1478.868),(3281.768,-1528.651)
+found intersection with door Q!
+hooray, we found an intersection: t=0.592, u=0.467
+  (1011.942,-2201.156),(1084.875,-2200.679) and (1054.548,-2178.864),(1055.805,-2225.997)
+found intersection with door anull3!
+hooray, we found an intersection: t=0.467, u=0.575
+  (955.419,-2197.781),(837.312,-2197.781) and (900.258,-2224.274),(900.258,-2178.212)
+found intersection with door anull2!
+hooray, we found an intersection: t=0.819, u=0.651
+  (765.794,-2296.225),(765.794,-2328.289) and (785.086,-2322.5),(755.429,-2322.5)
+found intersection with door alga!
+hooray, we found an intersection: t=0.54, u=0.571
+  (837.312,-2223.09),(822.483,-2256.602) and (814.058,-2240.493),(840.759,-2241.71)
+found intersection with door ZS1!
+hooray, we found an intersection: t=0.458, u=0.537
+  (840.047,-2349.911),(840.047,-2425.106) and (856.891,-2384.37),(825.531,-2384.37)
+found intersection with door roa!
+hooray, we found an intersection: t=0.492, u=0.663
+  (857.972,-2467.403),(873.736,-2547.829) and (835.67,-2509.485),(881.016,-2505.717)
+found intersection with door anull4!
+hooray, we found an intersection: t=0.757, u=0.474
+  (849.628,-2588.512),(872.257,-2689.884) and (888.573,-2664.009),(842.49,-2666.545)
+found intersection with door anull5!
+hooray, we found an intersection: t=0.272, u=0.61
+  (1094.476,-2626.253),(1094.476,-2753.994) and (1117.999,-2660.98),(1079.425,-2660.98)
+found intersection with door anull6!
+hooray, we found an intersection: t=0.607, u=0.498
+  (1097.904,-2455.835),(1097.904,-2540.38) and (1075.442,-2507.186),(1120.503,-2507.186)
+found intersection with door anull7!
+hooray, we found an intersection: t=0.546, u=0.403
+  (837.312,-2197.781),(819.17,-2133.93) and (838.894,-2162.895),(810.394,-2162.895)
+found intersection with door ZS!
+hooray, we found an intersection: t=0.257, u=0.443
+  (982.903,-2152.619),(982.903,-1957.14) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door a3null!
+hooray, we found an intersection: t=0.746, u=0.53
+  (716.498,-1832.65),(623.301,-1832.65) and (647.0,-1809.593),(647.0,-1853.099)
+found intersection with door anull12!
+hooray, we found an intersection: t=0.311, u=0.533
+  (623.301,-1594.713),(699.553,-1594.713) and (647.0,-1569.584),(647.0,-1616.716)
+found intersection with door anull13!
+hooray, we found an intersection: t=0.742, u=0.73
+  (993.78,-1463.884),(993.78,-1349.462) and (951.936,-1377.989),(1009.272,-1379.393)
+found intersection with door anull!
+hooray, we found an intersection: t=0.791, u=0.432
+  (993.78,-1349.462),(878.406,-1349.462) and (903.559,-1370.909),(901.194,-1321.247)
+found intersection with door anull31!
+hooray, we found an intersection: t=0.594, u=0.534
+  (993.78,-1349.462),(1103.238,-1349.462) and (1059.245,-1323.526),(1058.397,-1372.116)
+found intersection with door anull32!
+hooray, we found an intersection: t=0.298, u=0.651
+  (1108.955,-966.189),(1108.955,-672.556) and (1077.202,-875.678),(1125.988,-880.466)
+found intersection with door anull35!
+hooray, we found an intersection: t=0.494, u=0.621
+  (1008.943,-1076.331),(1108.279,-1076.331) and (1056.086,-1047.624),(1059.245,-1093.835)
+found intersection with door anull34!
+hooray, we found an intersection: t=0.839, u=0.433
+  (1008.943,-1076.331),(880.87,-1076.331) and (901.194,-1096.505),(901.912,-1049.952)
+found intersection with door anull33!
+hooray, we found an intersection: t=0.306, u=0.551
+  (863.799,-963.735),(863.799,-678.565) and (837.091,-876.692),(885.524,-876.325)
+found intersection with door anull36!
+hooray, we found an intersection: t=0.565, u=0.616
+  (1008.943,-537.789),(1101.37,-537.789) and (1061.511,-512.015),(1061.013,-553.84)
+found intersection with door anull38!
+hooray, we found an intersection: t=0.36, u=0.519
+  (927.722,-533.354),(855.46,-533.354) and (901.56,-556.211),(901.787,-512.174)
+found intersection with door anull37!
+hooray, we found an intersection: t=0.527, u=0.506
+  (927.722,-533.354),(968.751,-462.722) and (964.836,-495.22),(934.212,-497.022)
+found intersection with door anull39!
+hooray, we found an intersection: t=0.437, u=0.487
+  (1013.889,-462.722),(1008.943,-537.789) and (1024.882,-495.821),(997.861,-495.22)
+found intersection with door anull51!
+hooray, we found an intersection: t=0.694, u=0.4
+  (1275.654,-1572.832),(1461.861,-1572.832) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door fdshd!
+hooray, we found an intersection: t=0.66, u=0.6
+  (1293.68,-1616.936),(1461.835,-1616.936) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door dsfr!
+hooray, we found an intersection: t=0.399, u=0.629
+  (1939.684,-1572.832),(2066.73,-1572.832) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door jk!
+hooray, we found an intersection: t=0.644, u=0.34
+  (2277.942,-1572.832),(2277.942,-1123.672) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door sliding1!
+hooray, we found an intersection: t=0.356, u=0.773
+  (2324.407,-1123.672),(2325.82,-1572.1) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door sliding1!
+hooray, we found an intersection: t=0.808, u=0.393
+  (2325.82,-1572.1),(2669.025,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door nmx!
+hooray, we found an intersection: t=0.583, u=0.59
+  (3109.729,-1572.1),(3243.474,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door m1!
+hooray, we found an intersection: t=0.227, u=0.541
+  (3489.088,-955.76),(3489.088,-1341.582) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door anullA10!
+hooray, we found an intersection: t=0.383, u=0.516
+  (3491.003,-1097.452),(3489.088,-955.76) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door anullA10!
+[[0, 7, 8], [0, 8, 9], [0, 9, 1], [1, 9, 10], [1, 10, 11], [1, 11, 2], [2, 11, 12], [2, 12, 13], [2, 13, 3], [3, 13, 14], [3, 14, 15], [3, 15, 16], [3, 16, 4], [5, 4, 6], [6, 4, 7], [7, 4, 8], [8, 4, 17], [9, 18, 10], [10, 18, 13], [13, 18, 14], [14, 18, 19], [16, 19, 4], [4, 19, 17], [17, 19, 18]]
+hooray, we found an intersection: t=0.668, u=0.679
+  (3734.176,-955.76),(3745.241,-835.981) and (3713.391,-875.719),(3754.913,-875.719)
+found intersection with door anullA8!
+hooray, we found an intersection: t=0.215, u=0.487
+  (3734.176,-955.76),(3734.176,-1349.416) and (3760.27,-1040.466),(3706.694,-1040.466)
+found intersection with door anullA9!
+hooray, we found an intersection: t=0.623, u=0.536
+  (3832.426,-1350.413),(3609.112,-1350.413) and (3693.3,-1328.437),(3693.449,-1369.447)
+found intersection with door anullA27!
+hooray, we found an intersection: t=0.682, u=0.416
+  (3784.573,-1598.65),(3981.967,-1598.65) and (3919.231,-1617.912),(3919.231,-1571.63)
+found intersection with door anullA20!
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/meshes/floor_1.obj
+hooray, we found an intersection: t=0.163, u=0.548
+  (3605.943,-2195.802),(3985.353,-2194.129) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door anullA18!
+hooray, we found an intersection: t=0.455, u=0.467
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door anullA17!
+hooray, we found an intersection: t=0.265, u=0.548
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door anullA18!
+hooray, we found an intersection: t=0.721, u=0.474
+  (3434.89,-2193.621),(3605.943,-2195.802) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door anullA17!
+hooray, we found an intersection: t=0.178, u=0.502
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/meshes/blue_linoleum.png
+  (3601.585,-2352.391),(3972.313,-2356.097) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door anullA16!
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/meshes/floor_1.mtl
+hooray, we found an intersection: t=0.36, u=0.464
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door anullA15!
+hooray, we found an intersection: t=0.141, u=0.508
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door anullA16!
+hooray, we found an intersection: t=0.734, u=0.5
+  (3439.752,-2348.475),(3601.585,-2352.391) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door anullA15!
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x774b1b55afc0>, 'texture_height': <building_map.param_value.ParamValue object at 0x774b1b55aff0>, 'texture_name': <building_map.param_value.ParamValue object at 0x774b1b55b020>, 'texture_scale': <building_map.param_value.ParamValue object at 0x774b1b55b080>, 'texture_width': <building_map.param_value.ParamValue object at 0x774b1b55b0b0>}]
+hooray, we found an intersection: t=0.355, u=0.387
+  (3737.655,-2599.746),(3737.655,-2816.477) and (3756.273,-2675.693),(3708.212,-2678.056)
+found intersection with door anullA13!
+hooray, we found an intersection: t=0.32, u=0.488
+  (3490.993,-2599.746),(3490.993,-2835.979) and (3515.716,-2675.721),(3465.024,-2674.773)
+found intersection with door anullA11!
+generating wall: 1 on floor: TD_L0
+hooray, we found an intersection: t=0.139, u=0.456
+  (1946.567,-1616.936),(2262.414,-1616.936) and (1990.354,-1596.529),(1990.354,-1641.307)
+found intersection with door los!
+hooray, we found an intersection: t=0.803, u=0.538
+  (2322.113,-1616.936),(2672.962,-1616.936) and (2604.694,-1642.588),(2603.309,-1594.926)
+found intersection with door mxv!
+hooray, we found an intersection: t=0.574, u=0.427
+  (3111.24,-1616.936),(3243.933,-1616.936) and (3187.712,-1596.316),(3187.132,-1644.564)
+found intersection with door m12!
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/meshes/default.png
+generate_wall_visual_mesh(TD_L0, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/meshes/wall_1.obj
+hooray, we found an intersection: t=0.135, u=0.592
+  (2262.414,-1616.936),(2262.414,-2042.456) and (2287.988,-1674.349),(2244.794,-1674.349)
+found intersection with door c1!
+hooray, we found an intersection: t=0.813, u=0.49
+  (2322.323,-1924.765),(2322.113,-1616.936) and (2343.607,-1674.349),(2299.822,-1674.349)
+found intersection with door c2!
+hooray, we found an intersection: t=0.12, u=0.539
+  (2262.414,-2042.456),(1921.622,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door c4!
+hooray, we found an intersection: t=0.723, u=0.522
+  (2115.37,-2045.211),(2262.414,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door c4!
+hooray, we found an intersection: t=0.119, u=0.389
+  (2262.414,-2118.681),(1920.137,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door c6!
+hooray, we found an intersection: t=0.665, u=0.391
+  (2140.61,-2118.454),(2262.414,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door c6!
+hooray, we found an intersection: t=0.127, u=0.374
+  (2262.414,-2354.828),(1942.002,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door c8!
+hooray, we found an intersection: t=0.69, u=0.361
+  (2130.819,-2356.714),(2262.414,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door c8!
+hooray, we found an intersection: t=0.127, u=0.442
+  (2262.414,-2590.107),(1941.033,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door c10!
+hooray, we found an intersection: t=0.683, u=0.432
+  (2133.729,-2591.641),(2262.414,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door c10!
+hooray, we found an intersection: t=0.522, u=0.609
+  (2322.323,-1924.765),(2414.412,-1938.77) and (2370.48,-1904.339),(2370.407,-1949.928)
+found intersection with door c3!
+hooray, we found an intersection: t=0.139, u=0.531
+  (2322.323,-2046.0),(2669.49,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door c5!
+hooray, we found an intersection: t=0.568, u=0.546
+  (2433.819,-2047.502),(2322.323,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door c5!
+hooray, we found an intersection: t=0.154, u=0.586
+  (2322.323,-2119.461),(2633.26,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door c7!
+hooray, we found an intersection: t=0.563, u=0.617
+  (2432.066,-2122.664),(2322.323,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door c7!
+hooray, we found an intersection: t=0.144, u=0.402
+  (2322.323,-2346.068),(2656.765,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door c9!
+hooray, we found an intersection: t=0.597, u=0.44
+  (2441.587,-2350.303),(2322.323,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door c9!
+hooray, we found an intersection: t=0.147, u=0.552
+  (2322.323,-2582.636),(2655.079,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door c11!
+hooray, we found an intersection: t=0.599, u=0.558
+  (2444.121,-2581.944),(2322.323,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door c11!
+hooray, we found an intersection: t=0.293, u=0.498
+  (2403.57,-1233.672),(2560.132,-1233.672) and (2449.595,-1261.745),(2449.326,-1205.374)
+found intersection with door anull46!
+hooray, we found an intersection: t=0.285, u=0.426
+  (2560.132,-1233.672),(2560.132,-987.163) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door DLOKF!
+hooray, we found an intersection: t=0.376, u=0.449
+  (2560.132,-1233.672),(2562.379,-1046.858) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door DLOKF!
+hooray, we found an intersection: t=0.248, u=0.475
+  (3489.088,-955.76),(3489.088,-633.107) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door KSLO!
+hooray, we found an intersection: t=0.463, u=0.481
+  (3489.57,-806.786),(3489.088,-955.76) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door KSLO!
+hooray, we found an intersection: t=0.591, u=0.552
+  (3820.613,-1828.273),(3989.728,-1828.273) and (3922.377,-1852.374),(3919.231,-1808.749)
+found intersection with door anullA19!
+hooray, we found an intersection: t=0.715, u=0.472
+  (1218.563,-1807.9),(1315.728,-1808.392) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.329, u=0.463
+  (1315.728,-1808.392),(1313.045,-1689.778) and (1335.771,-1769.318),(1290.53,-1769.526)
+found intersection with door anull15!
+hooray, we found an intersection: t=0.592, u=0.467
+  (1011.942,-2201.156),(1084.875,-2200.679) and (1054.548,-2178.864),(1055.805,-2225.997)
+found intersection with door 2anull3!
+hooray, we found an intersection: t=0.438, u=0.637
+  (955.419,-2197.781),(829.48,-2191.244) and (900.258,-2224.274),(900.258,-2178.212)
+found intersection with door 2anull2!
+hooray, we found an intersection: t=0.122, u=0.366
+  (822.483,-2256.602),(901.476,-2260.196) and (832.125,-2247.635),(832.125,-2273.309)
+found intersection with door nullxsd!
+hooray, we found an intersection: t=0.588, u=0.448
+  (901.476,-2260.196),(783.533,-2258.399) and (832.125,-2247.635),(832.125,-2273.309)
+found intersection with door nullxsd!
+hooray, we found an intersection: t=0.492, u=0.663
+  (857.972,-2467.403),(873.736,-2547.829) and (835.67,-2509.485),(881.016,-2505.717)
+found intersection with door 2anull4!
+hooray, we found an intersection: t=0.757, u=0.474
+  (849.628,-2588.512),(872.257,-2689.884) and (888.573,-2664.009),(842.49,-2666.545)
+found intersection with door 2anull5!
+hooray, we found an intersection: t=0.272, u=0.61
+  (1094.476,-2626.253),(1094.476,-2753.994) and (1117.999,-2660.98),(1079.425,-2660.98)
+found intersection with door 2anull6!
+hooray, we found an intersection: t=0.607, u=0.498
+  (1097.904,-2455.835),(1097.904,-2540.38) and (1075.442,-2507.186),(1120.503,-2507.186)
+found intersection with door 2anull7!
+hooray, we found an intersection: t=0.495, u=0.509
+  (829.48,-2191.244),(819.17,-2133.93) and (838.894,-2162.895),(810.394,-2162.895)
+found intersection with door 2ZS!
+hooray, we found an intersection: t=0.257, u=0.443
+  (982.903,-2152.619),(982.903,-1957.14) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door 2a3null!
+hooray, we found an intersection: t=0.746, u=0.53
+  (716.498,-1832.65),(623.301,-1832.65) and (647.0,-1809.593),(647.0,-1853.099)
+found intersection with door 2anull12!
+hooray, we found an intersection: t=0.311, u=0.533
+  (623.301,-1594.713),(699.553,-1594.713) and (647.0,-1569.584),(647.0,-1616.716)
+found intersection with door 2anull13!
+hooray, we found an intersection: t=0.742, u=0.73
+  (993.78,-1463.884),(993.78,-1349.462) and (951.936,-1377.989),(1009.272,-1379.393)
+found intersection with door 2anull!
+hooray, we found an intersection: t=0.791, u=0.432
+  (993.78,-1349.462),(878.406,-1349.462) and (903.559,-1370.909),(901.194,-1321.247)
+found intersection with door 2anull31!
+hooray, we found an intersection: t=0.594, u=0.534
+  (993.78,-1349.462),(1103.238,-1349.462) and (1059.245,-1323.526),(1058.397,-1372.116)
+found intersection with door 2anull32!
+hooray, we found an intersection: t=0.298, u=0.651
+  (1108.955,-966.189),(1108.955,-672.556) and (1077.202,-875.678),(1125.988,-880.466)
+found intersection with door 2anull35!
+hooray, we found an intersection: t=0.494, u=0.621
+  (1008.943,-1076.331),(1108.279,-1076.331) and (1056.086,-1047.624),(1059.245,-1093.835)
+found intersection with door 2anull34!
+hooray, we found an intersection: t=0.839, u=0.433
+  (1008.943,-1076.331),(880.87,-1076.331) and (901.194,-1096.505),(901.912,-1049.952)
+found intersection with door 2anull33!
+hooray, we found an intersection: t=0.306, u=0.551
+  (863.799,-963.735),(863.799,-678.565) and (837.091,-876.692),(885.524,-876.325)
+found intersection with door 2anull36!
+hooray, we found an intersection: t=0.565, u=0.616
+  (1008.943,-537.789),(1101.37,-537.789) and (1061.511,-512.015),(1061.013,-553.84)
+found intersection with door 2anull38!
+hooray, we found an intersection: t=0.36, u=0.519
+  (927.722,-533.354),(855.46,-533.354) and (901.56,-556.211),(901.787,-512.174)
+found intersection with door 2anull37!
+hooray, we found an intersection: t=0.527, u=0.506
+  (927.722,-533.354),(968.751,-462.722) and (964.836,-495.22),(934.212,-497.022)
+found intersection with door 2anull39!
+hooray, we found an intersection: t=0.437, u=0.487
+  (1013.889,-462.722),(1008.943,-537.789) and (1024.882,-495.821),(997.861,-495.22)
+found intersection with door 2anull51!
+hooray, we found an intersection: t=0.741, u=0.568
+  (1218.563,-1807.9),(1313.045,-1792.405) and (1288.436,-1826.839),(1288.737,-1773.294)
+found intersection with door 2anull14!
+hooray, we found an intersection: t=0.228, u=0.486
+  (1313.045,-1792.405),(1313.045,-1689.778) and (1323.465,-1768.546),(1302.012,-1769.459)
+found intersection with door 2anull15!
+hooray, we found an intersection: t=0.694, u=0.4
+  (1275.654,-1572.832),(1461.861,-1572.832) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door 2fdshd!
+hooray, we found an intersection: t=0.66, u=0.6
+  (1293.68,-1616.936),(1461.835,-1616.936) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door 2dsfr!
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/meshes/wall_1.mtl
+hooray, we found an intersection: t=0.399, u=0.629
+  (1939.684,-1572.832),(2066.73,-1572.832) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door 2jk!
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L0/model.sdf
+hooray, we found an intersection: t=0.644, u=0.34
+  (2277.942,-1572.832),(2277.942,-1123.672) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door 2sliding1!
+generating model of level L1 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1
+hooray, we found an intersection: t=0.356, u=0.773
+  (2324.407,-1123.672),(2325.82,-1572.1) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door 2sliding1!
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/model.config
+generating floor polygon 1 on floor TD_L1
+hooray, we found an intersection: t=0.808, u=0.393
+  (2325.82,-1572.1),(2669.025,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door 2nmx!
+hooray, we found an intersection: t=0.583, u=0.59
+  (3109.729,-1572.1),(3243.474,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door 2m1!
+hole vertices: [[(29.051007958226474, -40.188438767023726), (29.580006568426985, -40.068872990378274), (30.256112941456795, -40.02705399502289), (30.815627063467815, -40.05933586895184), (31.5150408835286, -40.253001355731236), (32.13909180967966, -40.44669495468493), (32.84257265224235, -40.84325406457565), (33.36203567269992, -41.26533630792796), (33.8490761568604, -41.752347905406864), (34.17375126871804, -42.25559898616766), (34.4698182384951, -42.790823928235774), (34.695907460532624, -43.41767921512346), (34.85005560325597, -44.10621041208007), (34.89114562057165, -45.072184857493724), (34.76785067424982, -45.83262937879852), (34.49038009595736, -46.55198484815409), (34.12523382535289, -47.19412638227746), (33.781319189286776, -47.70295943704308), (33.302301080895404, -48.22472237902999), (32.70228718529011, -48.67920013219789), (32.15763835955133, -48.95667179983307), (31.678507791102113, -49.16380097036834), (31.013844797720576, -49.335338372104445), (30.47071030763999, -49.36391896259911), (29.784591002239186, -49.32103534668039), (29.041339437652002, -49.20668745035897), (28.50532872102901, -48.97799083856385), (27.969317992078484, -48.73499014195061), (27.483315397812206, -48.413401077415116), (27.000622298351562, -48.00158408677269), (26.618899213021663, -47.59400214010758), (26.20483752657188, -47.01174210318052), (25.946073347972874, -46.455341473988284), (25.75843694906353, -45.918377510514375), (25.629054659042836, -45.40727303840915), (25.564349169819543, -44.77971643180959), (25.564348768377165, -44.31390811679135), (25.648461956073163, -43.8028034606917), (25.715438387421884, -43.40565469507859), (25.8445674503051, -42.98604004856916), (26.05539797347803, -42.44282121048416), (26.41106439204078, -41.92837870056392), (26.71610572787583, -41.59801017282504), (27.090648016623955, -41.18529493219674), (27.480055443295992, -40.89859586128258), (27.964262431989052, -40.54351757379268), (28.437699416056628, -40.33908094177706)], [(102.67525444998009, -40.23930907710361), (103.08530480289919, -40.14818328925548), (103.57397155769546, -40.091667709469085), (103.95145916076811, -40.09166738414316), (104.25344362565951, -40.08224325624237), (104.56485195004997, -40.063367205349905), (104.81966102292341, -40.101118550780456), (105.13106942050555, -40.167169497592425), (105.39533042451653, -40.223796617392026), (105.65011149894318, -40.318147263166274), (105.8860448624934, -40.44082562256875), (106.09365049614792, -40.52578048857994), (106.25408069710359, -40.610707348022665), (106.45226247935655, -40.71450995744527), (106.7259474730066, -40.9126914143723), (106.92429759132867, -41.07766502166618), (107.06422534003592, -41.24303134046143), (107.22959190001568, -41.38295880413687), (107.34408079362731, -41.52291435888477), (107.49674194964763, -41.65010839329933), (107.68757548874139, -41.904552655247265), (107.87838099155978, -42.17170231020489), (108.04147582828381, -42.429961018676735), (108.27791442087339, -42.9923918205133), (108.36522565847716, -43.254352828014504), (108.48164986561346, -43.45811581827343), (108.575159916324, -44.156772115762315), (108.61697865340555, -44.533193888239985), (108.60303959705757, -45.01420381129392), (108.57493666728956, -45.46652143524288), (108.48975752192834, -45.78836341705976), (108.45256717591842, -46.10689578495323), (108.35067183277117, -46.36885695551625), (108.20513500731609, -46.630818163690314), (108.04504167201671, -46.892779384409444), (107.79912393554157, -47.27974716151407), (107.54692361314328, -47.65802030424172), (107.29475126274802, -47.94901048232954), (106.90677429838803, -48.29817072238341), (106.4800079213802, -48.53096305878747), (106.01240484341167, -48.83202237636051), (105.61677086926112, -49.0450413922149), (105.2579067490554, -49.19052265825867), (104.63713764055244, -49.33600415001709), (104.06489017303521, -49.41361131513538), (103.55081254176936, -49.36511810592119), (103.133750228787, -49.2778074535125), (102.71668788239943, -49.151735535969216), (102.3965848016378, -49.03533982753571), (101.79628984672486, -48.80863462412644), (101.36716711166056, -48.58756676544958), (100.58697688977355, -47.93737666478544), (100.20985348598757, -47.45625488985597), (99.88478573204945, -46.97513307006396), (99.68971691141962, -46.546010693634095), (99.55968962830579, -46.142916086074166), (99.46864792085798, -45.66176601736897), (99.44264781817162, -45.284671097855295), (99.40363374699348, -44.84256272169765), (99.40363337716758, -44.413440177154115), (99.44264673112521, -44.02333128914864), (99.44264645095188, -43.69823590262549), (99.55968717403964, -43.29514108213771), (99.72892376124979, -42.86669152514578), (99.95672299657328, -42.48701604219076), (100.21489736361539, -42.09213893703548), (100.412349579878, -41.803588914693115), (100.76164934212436, -41.36316303738731), (101.14421321224106, -41.03745028221023), (101.53620097477857, -40.7404859246734), (101.92011121022524, -40.52909365798049), (102.2813032256312, -40.35520055087018)]]
+lift vertices: {'lift_class': [(49.4387973178796, -44.743196255433), (49.4387973178796, -47.043196255432996), (51.20879731787959, -47.043196255432996), (51.20879731787959, -44.743196255433)], 'lift_lab': [(29.145231992273132, -72.33721163490478), (29.145231992273132, -74.43721163490477), (31.245231992273133, -74.43721163490477), (31.245231992273133, -72.33721163490478)], 'lift_lab2': [(102.95763772799889, -71.88284854563696), (102.95763772799889, -73.98284854563695), (105.05763772799888, -73.98284854563695), (105.05763772799888, -71.88284854563696)]}
+hooray, we found an intersection: t=0.227, u=0.541
+  (3489.088,-955.76),(3489.088,-1341.582) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door 2anullA10!
+hooray, we found an intersection: t=0.383, u=0.516
+  (3491.003,-1097.452),(3489.088,-955.76) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door 2anullA10!
+hooray, we found an intersection: t=0.668, u=0.679
+  (3734.176,-955.76),(3745.241,-835.981) and (3713.391,-875.719),(3754.913,-875.719)
+found intersection with door 2anullA8!
+hooray, we found an intersection: t=0.215, u=0.487
+  (3734.176,-955.76),(3734.176,-1349.416) and (3760.27,-1040.466),(3706.694,-1040.466)
+found intersection with door 2anullA9!
+hooray, we found an intersection: t=0.623, u=0.536
+  (3832.426,-1350.413),(3609.112,-1350.413) and (3693.3,-1328.437),(3693.449,-1369.447)
+found intersection with door 2anullA27!
+hooray, we found an intersection: t=0.682, u=0.416
+  (3784.573,-1598.65),(3981.967,-1598.65) and (3919.231,-1617.912),(3919.231,-1571.63)
+found intersection with door 2anullA20!
+hooray, we found an intersection: t=0.113, u=0.521
+  (3627.504,-2194.129),(3985.353,-2194.129) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door 2anullA18!
+hooray, we found an intersection: t=0.455, u=0.467
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door 2anullA17!
+hooray, we found an intersection: t=0.265, u=0.548
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door 2anullA18!
+hooray, we found an intersection: t=0.64, u=0.502
+  (3434.89,-2193.621),(3627.504,-2194.129) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door 2anullA17!
+hooray, we found an intersection: t=0.117, u=0.564
+  (3627.504,-2356.097),(3972.313,-2356.097) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door 2anullA16!
+hooray, we found an intersection: t=0.36, u=0.464
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door 2anullA15!
+hooray, we found an intersection: t=0.141, u=0.508
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door 2anullA16!
+hooray, we found an intersection: t=0.633, u=0.466
+  (3439.752,-2348.475),(3627.504,-2356.097) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door 2anullA15!
+hooray, we found an intersection: t=0.355, u=0.387
+  (3737.655,-2599.746),(3737.655,-2816.477) and (3756.273,-2675.693),(3708.212,-2678.056)
+found intersection with door 2anullA13!
+hooray, we found an intersection: t=0.32, u=0.488
+  (3490.993,-2599.746),(3490.993,-2835.979) and (3515.716,-2675.721),(3465.024,-2674.773)
+found intersection with door 2anullA11!
+hooray, we found an intersection: t=0.139, u=0.456
+  (1946.567,-1616.936),(2262.414,-1616.936) and (1990.354,-1596.529),(1990.354,-1641.307)
+found intersection with door 2los!
+hooray, we found an intersection: t=0.803, u=0.538
+  (2322.113,-1616.936),(2672.962,-1616.936) and (2604.694,-1642.588),(2603.309,-1594.926)
+found intersection with door 2mxv!
+hooray, we found an intersection: t=0.574, u=0.427
+  (3111.24,-1616.936),(3243.933,-1616.936) and (3187.712,-1596.316),(3187.132,-1644.564)
+found intersection with door 2m12!
+hooray, we found an intersection: t=0.135, u=0.592
+  (2262.414,-1616.936),(2262.414,-2042.456) and (2287.988,-1674.349),(2244.794,-1674.349)
+found intersection with door 2c1!
+hooray, we found an intersection: t=0.813, u=0.49
+  (2322.323,-1924.765),(2322.113,-1616.936) and (2343.607,-1674.349),(2299.822,-1674.349)
+found intersection with door 2c2!
+hooray, we found an intersection: t=0.12, u=0.539
+  (2262.414,-2042.456),(1921.622,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door 2c4!
+hooray, we found an intersection: t=0.723, u=0.522
+  (2115.37,-2045.211),(2262.414,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door 2c4!
+hooray, we found an intersection: t=0.119, u=0.389
+  (2262.414,-2118.681),(1920.137,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door 2c6!
+hooray, we found an intersection: t=0.665, u=0.391
+  (2140.61,-2118.454),(2262.414,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door 2c6!
+hooray, we found an intersection: t=0.127, u=0.374
+  (2262.414,-2354.828),(1942.002,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door 2c8!
+hooray, we found an intersection: t=0.69, u=0.361
+  (2130.819,-2356.714),(2262.414,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door 2c8!
+hooray, we found an intersection: t=0.127, u=0.442
+  (2262.414,-2590.107),(1941.033,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door 2c10!
+hooray, we found an intersection: t=0.683, u=0.432
+  (2133.729,-2591.641),(2262.414,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door 2c10!
+hooray, we found an intersection: t=0.522, u=0.609
+  (2322.323,-1924.765),(2414.412,-1938.77) and (2370.48,-1904.339),(2370.407,-1949.928)
+found intersection with door 2c3!
+hooray, we found an intersection: t=0.139, u=0.531
+  (2322.323,-2046.0),(2669.49,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door 2c5!
+hooray, we found an intersection: t=0.568, u=0.546
+  (2433.819,-2047.502),(2322.323,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door 2c5!
+hooray, we found an intersection: t=0.154, u=0.586
+  (2322.323,-2119.461),(2633.26,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door 2c7!
+hooray, we found an intersection: t=0.563, u=0.617
+  (2432.066,-2122.664),(2322.323,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door 2c7!
+hooray, we found an intersection: t=0.144, u=0.402
+  (2322.323,-2346.068),(2656.765,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door 2c9!
+hooray, we found an intersection: t=0.597, u=0.44
+  (2441.587,-2350.303),(2322.323,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door 2c9!
+hooray, we found an intersection: t=0.147, u=0.552
+  (2322.323,-2582.636),(2655.079,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door 2c11!
+hooray, we found an intersection: t=0.599, u=0.558
+  (2444.121,-2581.944),(2322.323,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door 2c11!
+hooray, we found an intersection: t=0.293, u=0.498
+  (2403.57,-1233.672),(2560.132,-1233.672) and (2449.595,-1261.745),(2449.326,-1205.374)
+found intersection with door 2anull46!
+hooray, we found an intersection: t=0.285, u=0.426
+  (2560.132,-1233.672),(2560.132,-987.163) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door 2DLOKF!
+hooray, we found an intersection: t=0.376, u=0.449
+  (2560.132,-1233.672),(2562.379,-1046.858) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door 2DLOKF!
+hooray, we found an intersection: t=0.248, u=0.475
+  (3489.088,-955.76),(3489.088,-633.107) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door 2KSLO!
+hooray, we found an intersection: t=0.463, u=0.481
+  (3489.57,-806.786),(3489.088,-955.76) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door 2KSLO!
+hooray, we found an intersection: t=0.591, u=0.552
+  (3820.613,-1828.273),(3989.728,-1828.273) and (3922.377,-1852.374),(3919.231,-1808.749)
+found intersection with door 2anullA19!
+hooray, we found an intersection: t=0.775, u=0.878
+  (1054.297,-2466.166),(1054.297,-1845.068) and (1103.811,-1985.768),(1047.418,-1984.788)
+found intersection with door null42!
+hooray, we found an intersection: t=0.177, u=0.536
+  (1335.784,-1496.188),(2271.561,-1499.875) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.801, u=0.568
+  (1335.784,-1496.188),(2271.561,-1499.875) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.38, u=0.57
+  (2271.561,-1499.875),(2267.128,-1735.688) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.359, u=0.546
+  (2271.54,-1499.857),(3455.561,-1501.25) and (2696.687,-1526.76),(2697.531,-1478.378)
+found intersection with door B!
+hooray, we found an intersection: t=0.854, u=0.445
+  (2271.54,-1499.857),(3455.561,-1501.25) and (3282.559,-1478.868),(3281.768,-1528.651)
+found intersection with door Q!
+hooray, we found an intersection: t=0.364, u=0.559
+  (1335.784,-1496.188),(1790.75,-1494.844) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.613, u=0.593
+  (1790.75,-1494.844),(2271.54,-1499.857) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.62, u=0.57
+  (2267.128,-1735.688),(2271.561,-1499.875) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.443, u=0.659
+  (2271.561,-1499.875),(1851.517,-1488.01) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.888, u=0.638
+  (1348.323,-1572.687),(3420.233,-1574.67) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door m1!
+hooray, we found an intersection: t=0.606, u=0.356
+  (1348.323,-1572.687),(3420.233,-1574.67) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door nmx!
+hooray, we found an intersection: t=0.31, u=0.638
+  (1348.323,-1572.687),(3420.233,-1574.67) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door jk!
+hooray, we found an intersection: t=0.027, u=0.402
+  (1348.323,-1572.687),(3420.233,-1574.67) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door fdshd!
+hooray, we found an intersection: t=0.292, u=0.442
+  (3325.684,-1793.56),(3260.183,-1793.56) and (3306.543,-1779.797),(3306.543,-1810.926)
+found intersection with door anullA21!
+hooray, we found an intersection: t=0.251, u=0.5
+  (973.073,-1923.523),(999.559,-2636.831) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door a3null!
+hooray, we found an intersection: t=0.554, u=0.619
+  (2898.972,-1572.1),(3420.233,-1574.67) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door m1!
+hooray, we found an intersection: t=0.595, u=0.423
+  (1205.774,-1807.666),(1344.006,-1813.121) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.642, u=0.516
+  (1698.096,-1618.269),(1241.13,-1622.785) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door dsfr!
+hooray, we found an intersection: t=0.715, u=0.5
+  (1218.632,-1802.716),(1315.728,-1808.392) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.138, u=0.462
+  (1313.045,-1792.405),(1136.351,-1862.229) and (1288.436,-1826.839),(1288.737,-1773.294)
+found intersection with door 2anull14!
+hooray, we found an intersection: t=0.898, u=0.585
+  (1312.641,-1569.496),(3400.356,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door 2m1!
+hooray, we found an intersection: t=0.618, u=0.413
+  (1312.641,-1569.496),(3400.356,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door 2nmx!
+hooray, we found an intersection: t=0.325, u=0.578
+  (1312.641,-1569.496),(3400.356,-1572.1) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door 2jk!
+hooray, we found an intersection: t=0.044, u=0.468
+  (1312.641,-1569.496),(3400.356,-1572.1) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door 2fdshd!
+hooray, we found an intersection: t=0.532, u=0.391
+  (3346.44,-1791.961),(3271.394,-1791.961) and (3306.543,-1779.797),(3306.543,-1810.926)
+found intersection with door 2anullA21!
+hooray, we found an intersection: t=0.155, u=0.484
+  (980.595,-2002.886),(980.595,-2646.252) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door 2a3null!
+hooray, we found an intersection: t=0.24, u=0.47
+  (1312.641,-1569.496),(1695.998,-1569.496) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door 2fdshd!
+hooray, we found an intersection: t=0.754, u=0.406
+  (1695.998,-1569.496),(2898.972,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door 2nmx!
+hooray, we found an intersection: t=0.245, u=0.574
+  (1695.998,-1569.496),(2898.972,-1572.1) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door 2jk!
+hooray, we found an intersection: t=0.576, u=0.59
+  (2898.972,-1572.1),(3400.356,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door 2m1!
+hooray, we found an intersection: t=0.375, u=0.448
+  (1090.604,-2199.968),(995.989,-2199.968) and (1054.548,-2178.864),(1055.805,-2225.997)
+found intersection with door anull3!
+hooray, we found an intersection: t=0.108, u=0.498
+  (1097.904,-2540.38),(1097.904,-2233.821) and (1075.442,-2507.186),(1120.503,-2507.186)
+found intersection with door anull7!
+hooray, we found an intersection: t=0.812, u=0.521
+  (1076.59,-2616.57),(1073.96,-1839.404) and (1103.811,-1985.768),(1047.418,-1984.788)
+found intersection with door null42!
+hooray, we found an intersection: t=0.177, u=0.536
+  (1335.784,-1496.188),(2271.561,-1499.875) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.801, u=0.568
+  (1335.784,-1496.188),(2271.561,-1499.875) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.38, u=0.57
+  (2271.561,-1499.875),(2267.128,-1735.688) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.557, u=0.659
+  (1851.517,-1488.01),(2271.561,-1499.875) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.38, u=0.57
+  (2271.561,-1499.875),(2267.128,-1735.688) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.859, u=0.422
+  (999.559,-2636.831),(981.572,-2014.726) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door a3null!
+hooray, we found an intersection: t=0.554, u=0.468
+  (1218.632,-1802.716),(1344.006,-1813.121) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.358, u=0.516
+  (1241.13,-1622.785),(1698.096,-1618.269) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door dsfr!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/0.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/1.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/2.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/4.yaml
+[ 66%] Built target generate_TD_nav_graphs
+Models: [] are used in crowd_sim
+Load success!
+
+Cache found! Model count: 2992 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/ususario/.pit_crew/model_cache.json
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/ususario/.pit_crew/model_cache.json
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/ususario/.pit_crew/model_cache.json
+New models cached: 0
+
+WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+WARNING::pit_crew.get_missing_models():224: Model Sofa in local model directory is not by the requested author OpenRobotics!
+New models cached: 0
+
+
+== REQUESTED MODEL REPORT ==
+{'available': [('Sofa', ['/home/ususario/.gazebo/models/Sofa/'])],
+ 'downloadable': [],
+ 'missing': []}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{'sofa': 'openrobotics'}
+
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Sofa already exists, skipping...
+WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+
+== REQUESTED MODEL REPORT ==
+{'available': [], 'downloadable': [], 'missing': []}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{}
+
+New models cached: 0
+
+WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+WARNING::pit_crew.get_missing_models():224: Model Drawer in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairBlue in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairBlack in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model SquareShelf in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model AdjTable in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model MetalCabinet in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model CoffeeTable in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairGrey in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model MetalCabinetYellow in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model WhiteCabinet in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model SmallCubicle in local model directory is not by the requested author OpenRobotics!
+
+== REQUESTED MODEL REPORT ==
+{'available': [('Drawer', ['/home/ususario/.gazebo/models/Drawer/']),
+               ('OfficeChairBlue',
+                ['/home/ususario/.gazebo/models/OfficeChairBlue/']),
+               ('OfficeChairBlack',
+                ['/home/ususario/.gazebo/models/OfficeChairBlack/']),
+               ('SquareShelf', ['/home/ususario/.gazebo/models/SquareShelf/']),
+               ('AdjTable', ['/home/ususario/.gazebo/models/AdjTable/']),
+               ('MetalCabinet',
+                ['/home/ususario/.gazebo/models/MetalCabinet/']),
+               ('CoffeeTable', ['/home/ususario/.gazebo/models/CoffeeTable/']),
+               ('OfficeChairGrey',
+                ['/home/ususario/.gazebo/models/OfficeChairGrey/']),
+               ('MetalCabinetYellow',
+                ['/home/ususario/.gazebo/models/MetalCabinetYellow/']),
+               ('WhiteCabinet',
+                ['/home/ususario/.gazebo/models/WhiteCabinet/']),
+               ('SmallCubicle',
+                ['/home/ususario/.gazebo/models/SmallCubicle/'])],
+ 'downloadable': [('Fridge', ['OpenRobotics']),
+                  ('ConfTable', ['OpenRobotics']),
+                  ('BigCubicle', ['OpenRobotics']),
+                  ('Coke', ['OpenRobotics']),
+                  ('TrashBin', ['OpenRobotics'])],
+ 'missing': ['TeleportIngestor', 'TeleportDispenser']}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{'adjtable': 'openrobotics',
+ 'bigcubicle': 'openrobotics',
+ 'coffeetable': 'openrobotics',
+ 'coke': 'openrobotics',
+ 'conftable': 'openrobotics',
+ 'drawer': 'openrobotics',
+ 'fridge': 'openrobotics',
+ 'metalcabinet': 'openrobotics',
+ 'metalcabinetyellow': 'openrobotics',
+ 'officechairblack': 'openrobotics',
+ 'officechairblue': 'openrobotics',
+ 'officechairgrey': 'openrobotics',
+ 'smallcubicle': 'openrobotics',
+ 'squareshelf': 'openrobotics',
+ 'teleportdispenser': 'openrobotics',
+ 'teleportingestor': 'openrobotics',
+ 'trashbin': 'openrobotics',
+ 'whitecabinet': 'openrobotics'}
+
+
+Downloading Fridge by openrobotics from Fuel
+Downloading model 1 / 5 : Fridge
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[ 73%] [34m[1mGenerating simple_crowdsim[0m
+[ 80%] [34m[1mGenerating triple_H_crowdsim[0m
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/ususario/.pit_crew/model_cache.json
+New models cached: 0
+
+WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairGrey in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Nurse in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model AdjTable in local model directory is not by the requested author OpenRobotics!
+
+== REQUESTED MODEL REPORT ==
+{'available': [('OfficeChairGrey',
+                ['/home/ususario/.gazebo/models/OfficeChairGrey/']),
+               ('Nurse', ['/home/ususario/.gazebo/models/Nurse/']),
+               ('AdjTable', ['/home/ususario/.gazebo/models/AdjTable/'])],
+ 'downloadable': [('Chair', ['Peyman1372', 'OpenRobotics']),
+                  ('MiniSofa', ['OpenRobotics'])],
+ 'missing': []}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{'adjtable': 'openrobotics',
+ 'chair': 'openrobotics',
+ 'minisofa': 'openrobotics',
+ 'nurse': 'openrobotics',
+ 'officechairgrey': 'openrobotics'}
+
+
+Downloading Chair by openrobotics from Fuel
+Downloading model 1 / 2 : Chair
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[[0, 94, 4], [0, 4, 3], [0, 3, 1], [42, 41, 40], [42, 40, 43], [44, 43, 46], [44, 46, 45], [50, 49, 51], [53, 52, 95], [53, 95, 96], [53, 96, 97], [53, 97, 54], [77, 76, 75], [77, 75, 79], [77, 79, 78], [98, 99, 100], [101, 102, 99], [101, 99, 98], [80, 102, 101], [81, 80, 82], [82, 80, 84], [82, 84, 83], [90, 89, 103], [90, 103, 104], [90, 104, 91], [91, 104, 105], [91, 105, 106], [91, 106, 107], [91, 107, 92], [94, 93, 11], [94, 11, 4], [4, 11, 5], [3, 2, 1], [8, 7, 6], [8, 6, 9], [9, 6, 5], [9, 5, 10], [26, 25, 27], [27, 25, 28], [40, 39, 47], [40, 47, 46], [40, 46, 43], [48, 47, 108], [48, 108, 109], [48, 109, 49], [49, 109, 110], [49, 110, 111], [49, 111, 112], [49, 112, 113], [49, 113, 114], [49, 114, 115], [49, 115, 116], [49, 116, 117], [49, 117, 118], [49, 118, 52], [49, 52, 51], [52, 118, 119], [52, 119, 120], [52, 120, 121], [52, 121, 122], [52, 122, 123], [52, 123, 124], [52, 124, 125], [52, 125, 126], [52, 126, 127], [52, 127, 128], [52, 128, 129], [52, 129, 95], [95, 129, 130], [95, 130, 131], [95, 131, 132], [95, 132, 133], [95, 133, 134], [97, 134, 54], [54, 134, 55], [61, 60, 62], [62, 60, 63], [75, 74, 135], [75, 135, 79], [79, 135, 98], [98, 100, 79], [101, 136, 80], [80, 136, 84], [84, 136, 85], [86, 85, 88], [86, 88, 87], [89, 88, 137], [89, 137, 138], [89, 138, 139], [89, 139, 140], [89, 140, 141], [89, 141, 142], [89, 142, 143], [89, 143, 144], [89, 144, 103], [107, 145, 92], [92, 145, 146], [92, 146, 147], [92, 147, 148], [92, 148, 149], [92, 149, 150], [92, 150, 151], [92, 151, 152], [92, 152, 93], [93, 152, 153], [93, 153, 154], [93, 154, 155], [93, 155, 15], [93, 15, 12], [93, 12, 11], [11, 10, 5], [22, 21, 24], [22, 24, 23], [25, 24, 28], [28, 24, 21], [28, 21, 60], [28, 60, 58], [28, 58, 29], [32, 31, 30], [32, 30, 35], [32, 35, 33], [38, 37, 39], [39, 37, 156], [39, 156, 157], [39, 157, 158], [39, 158, 159], [39, 159, 160], [39, 160, 161], [39, 161, 162], [39, 162, 163], [39, 163, 47], [47, 163, 164], [47, 164, 165], [47, 165, 166], [47, 166, 167], [47, 167, 168], [47, 168, 169], [47, 169, 170], [47, 170, 171], [47, 171, 108], [109, 172, 110], [110, 173, 111], [115, 174, 116], [120, 175, 121], [128, 176, 129], [133, 177, 134], [134, 177, 178], [134, 178, 179], [134, 179, 180], [134, 180, 181], [134, 181, 55], [55, 181, 182], [55, 182, 183], [55, 183, 184], [55, 184, 185], [55, 185, 186], [55, 186, 187], [55, 187, 188], [55, 188, 189], [55, 189, 190], [55, 190, 191], [55, 191, 37], [55, 37, 57], [55, 57, 56], [59, 58, 60], [58, 57, 29], [29, 57, 36], [29, 36, 30], [30, 36, 35], [35, 34, 33], [37, 36, 57], [37, 191, 192], [37, 192, 193], [37, 193, 194], [37, 194, 195], [37, 195, 196], [37, 196, 197], [37, 197, 198], [37, 198, 199], [37, 199, 156], [168, 200, 169], [191, 201, 192], [60, 21, 63], [63, 21, 202], [63, 202, 65], [63, 65, 64], [73, 72, 71], [73, 71, 74], [74, 71, 88], [74, 88, 85], [74, 85, 135], [135, 85, 136], [88, 71, 203], [88, 203, 204], [88, 204, 205], [88, 205, 137], [155, 206, 15], [15, 206, 207], [15, 207, 208], [15, 208, 16], [15, 14, 13], [15, 13, 12], [19, 18, 17], [19, 17, 20], [21, 20, 202], [202, 20, 209], [202, 210, 65], [211, 65, 210], [212, 213, 210], [210, 213, 211], [212, 214, 213], [71, 70, 215], [71, 215, 216], [71, 216, 217], [71, 217, 203], [218, 219, 70], [218, 70, 220], [208, 221, 16], [16, 221, 222], [16, 222, 223], [16, 223, 224], [16, 224, 225], [16, 225, 226], [16, 226, 68], [16, 68, 227], [227, 68, 17], [17, 68, 209], [17, 209, 20], [209, 68, 66], [209, 66, 212], [66, 214, 212], [67, 66, 68], [69, 68, 70], [70, 68, 228], [70, 228, 220], [229, 230, 68], [229, 68, 226], [68, 230, 228], [70, 219, 231], [70, 231, 232], [70, 232, 215]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x774b1b220e00>, 'texture_height': <building_map.param_value.ParamValue object at 0x774b1b220e60>, 'texture_name': <building_map.param_value.ParamValue object at 0x774b1b220e90>, 'texture_scale': <building_map.param_value.ParamValue object at 0x774b1b220ef0>, 'texture_width': <building_map.param_value.ParamValue object at 0x774b1b220f50>}]
+generating wall: 1 on floor: TD_L1
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/meshes/default.png
+generate_wall_visual_mesh(TD_L1, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/meshes/wall_1.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/meshes/wall_1.mtl
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L1/model.sdf
+generating model of level L2 in /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/model.config
+generating floor polygon 1 on floor TD_L2
+hole vertices: [[(29.051007958226474, -40.188438767023726), (29.580006568426985, -40.068872990378274), (30.256112941456795, -40.02705399502289), (30.815627063467815, -40.05933586895184), (31.5150408835286, -40.253001355731236), (32.13909180967966, -40.44669495468493), (32.84257265224235, -40.84325406457565), (33.36203567269992, -41.26533630792796), (33.8490761568604, -41.752347905406864), (34.17375126871804, -42.25559898616766), (34.4698182384951, -42.790823928235774), (34.695907460532624, -43.41767921512346), (34.85005560325597, -44.10621041208007), (34.89114562057165, -45.072184857493724), (34.76785067424982, -45.83262937879852), (34.49038009595736, -46.55198484815409), (34.12523382535289, -47.19412638227746), (33.781319189286776, -47.70295943704308), (33.302301080895404, -48.22472237902999), (32.70228718529011, -48.67920013219789), (32.15763835955133, -48.95667179983307), (31.678507791102113, -49.16380097036834), (31.013844797720576, -49.335338372104445), (30.47071030763999, -49.36391896259911), (29.784591002239186, -49.32103534668039), (29.041339437652002, -49.20668745035897), (28.50532872102901, -48.97799083856385), (27.969317992078484, -48.73499014195061), (27.483315397812206, -48.413401077415116), (27.000622298351562, -48.00158408677269), (26.618899213021663, -47.59400214010758), (26.20483752657188, -47.01174210318052), (25.946073347972874, -46.455341473988284), (25.75843694906353, -45.918377510514375), (25.629054659042836, -45.40727303840915), (25.564349169819543, -44.77971643180959), (25.564348768377165, -44.31390811679135), (25.648461956073163, -43.8028034606917), (25.715438387421884, -43.40565469507859), (25.8445674503051, -42.98604004856916), (26.05539797347803, -42.44282121048416), (26.41106439204078, -41.92837870056392), (26.71610572787583, -41.59801017282504), (27.090648016623955, -41.18529493219674), (27.480055443295992, -40.89859586128258), (27.964262431989052, -40.54351757379268), (28.437699416056628, -40.33908094177706)], [(102.67525444998009, -40.23930907710361), (103.08530480289919, -40.14818328925548), (103.57397155769546, -40.091667709469085), (103.95145916076811, -40.09166738414316), (104.25344362565951, -40.08224325624237), (104.56485195004997, -40.063367205349905), (104.81966102292341, -40.101118550780456), (105.13106942050555, -40.167169497592425), (105.39533042451653, -40.223796617392026), (105.65011149894318, -40.318147263166274), (105.8860448624934, -40.44082562256875), (106.09365049614792, -40.52578048857994), (106.25408069710359, -40.610707348022665), (106.45226247935655, -40.71450995744527), (106.7259474730066, -40.9126914143723), (106.92429759132867, -41.07766502166618), (107.06422534003592, -41.24303134046143), (107.22959190001568, -41.38295880413687), (107.34408079362731, -41.52291435888477), (107.49674194964763, -41.65010839329933), (107.68757548874139, -41.904552655247265), (107.87838099155978, -42.17170231020489), (108.04147582828381, -42.429961018676735), (108.27791442087339, -42.9923918205133), (108.36522565847716, -43.254352828014504), (108.48164986561346, -43.45811581827343), (108.575159916324, -44.156772115762315), (108.61697865340555, -44.533193888239985), (108.60303959705757, -45.01420381129392), (108.57493666728956, -45.46652143524288), (108.48975752192834, -45.78836341705976), (108.45256717591842, -46.10689578495323), (108.35067183277117, -46.36885695551625), (108.20513500731609, -46.630818163690314), (108.04504167201671, -46.892779384409444), (107.79912393554157, -47.27974716151407), (107.54692361314328, -47.65802030424172), (107.29475126274802, -47.94901048232954), (106.90677429838803, -48.29817072238341), (106.4800079213802, -48.53096305878747), (106.01240484341167, -48.83202237636051), (105.61677086926112, -49.0450413922149), (105.2579067490554, -49.19052265825867), (104.63713764055244, -49.33600415001709), (104.06489017303521, -49.41361131513538), (103.55081254176936, -49.36511810592119), (103.133750228787, -49.2778074535125), (102.71668788239943, -49.151735535969216), (102.3965848016378, -49.03533982753571), (101.79628984672486, -48.80863462412644), (101.36716711166056, -48.58756676544958), (100.58697688977355, -47.93737666478544), (100.20985348598757, -47.45625488985597), (99.88478573204945, -46.97513307006396), (99.68971691141962, -46.546010693634095), (99.55968962830579, -46.142916086074166), (99.46864792085798, -45.66176601736897), (99.44264781817162, -45.284671097855295), (99.40363374699348, -44.84256272169765), (99.40363337716758, -44.413440177154115), (99.44264673112521, -44.02333128914864), (99.44264645095188, -43.69823590262549), (99.55968717403964, -43.29514108213771), (99.72892376124979, -42.86669152514578), (99.95672299657328, -42.48701604219076), (100.21489736361539, -42.09213893703548), (100.412349579878, -41.803588914693115), (100.76164934212436, -41.36316303738731), (101.14421321224106, -41.03745028221023), (101.53620097477857, -40.7404859246734), (101.92011121022524, -40.52909365798049), (102.2813032256312, -40.35520055087018)]]
+lift vertices: {'lift_class': [(49.4387973178796, -44.743196255433), (49.4387973178796, -47.043196255432996), (51.20879731787959, -47.043196255432996), (51.20879731787959, -44.743196255433)], 'lift_lab': [(29.145231992273132, -72.33721163490478), (29.145231992273132, -74.43721163490477), (31.245231992273133, -74.43721163490477), (31.245231992273133, -72.33721163490478)], 'lift_lab2': [(102.95763772799889, -71.88284854563696), (102.95763772799889, -73.98284854563695), (105.05763772799888, -73.98284854563695), (105.05763772799888, -71.88284854563696)]}
+Creating output folder path:  /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/config_resource/
+Creating output folder path:  /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/config_resource/
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[ 80%] Built target generate_simple_crowdsim
+[ 80%] Built target generate_triple_H_crowdsim
+[[0, 94, 4], [0, 4, 3], [0, 3, 1], [42, 41, 40], [42, 40, 43], [44, 43, 46], [44, 46, 45], [50, 49, 51], [53, 52, 95], [53, 95, 96], [53, 96, 97], [53, 97, 54], [77, 76, 75], [77, 75, 79], [77, 79, 78], [98, 99, 100], [101, 102, 99], [101, 99, 98], [80, 102, 101], [81, 80, 82], [82, 80, 84], [82, 84, 83], [90, 89, 103], [90, 103, 104], [90, 104, 91], [91, 104, 105], [91, 105, 106], [91, 106, 107], [91, 107, 92], [94, 93, 11], [94, 11, 4], [4, 11, 5], [3, 2, 1], [8, 7, 6], [8, 6, 9], [9, 6, 5], [9, 5, 10], [26, 25, 27], [27, 25, 28], [40, 39, 47], [40, 47, 46], [40, 46, 43], [48, 47, 108], [48, 108, 109], [48, 109, 49], [49, 109, 110], [49, 110, 111], [49, 111, 112], [49, 112, 113], [49, 113, 114], [49, 114, 115], [49, 115, 116], [49, 116, 117], [49, 117, 118], [49, 118, 52], [49, 52, 51], [52, 118, 119], [52, 119, 120], [52, 120, 121], [52, 121, 122], [52, 122, 123], [52, 123, 124], [52, 124, 125], [52, 125, 126], [52, 126, 127], [52, 127, 128], [52, 128, 129], [52, 129, 95], [95, 129, 130], [95, 130, 131], [95, 131, 132], [95, 132, 133], [95, 133, 134], [97, 134, 54], [54, 134, 55], [61, 60, 62], [62, 60, 63], [75, 74, 135], [75, 135, 79], [79, 135, 98], [98, 100, 79], [101, 136, 80], [80, 136, 84], [84, 136, 85], [86, 85, 88], [86, 88, 87], [89, 88, 137], [89, 137, 138], [89, 138, 139], [89, 139, 140], [89, 140, 141], [89, 141, 142], [89, 142, 143], [89, 143, 144], [89, 144, 103], [107, 145, 92], [92, 145, 146], [92, 146, 147], [92, 147, 148], [92, 148, 149], [92, 149, 150], [92, 150, 151], [92, 151, 152], [92, 152, 93], [93, 152, 153], [93, 153, 154], [93, 154, 155], [93, 155, 15], [93, 15, 12], [93, 12, 11], [11, 10, 5], [22, 21, 24], [22, 24, 23], [25, 24, 28], [28, 24, 21], [28, 21, 60], [28, 60, 58], [28, 58, 29], [32, 31, 30], [32, 30, 35], [32, 35, 33], [38, 37, 39], [39, 37, 156], [39, 156, 157], [39, 157, 158], [39, 158, 159], [39, 159, 160], [39, 160, 161], [39, 161, 162], [39, 162, 163], [39, 163, 47], [47, 163, 164], [47, 164, 165], [47, 165, 166], [47, 166, 167], [47, 167, 168], [47, 168, 169], [47, 169, 170], [47, 170, 171], [47, 171, 108], [109, 172, 110], [110, 173, 111], [115, 174, 116], [120, 175, 121], [128, 176, 129], [133, 177, 134], [134, 177, 178], [134, 178, 179], [134, 179, 180], [134, 180, 181], [134, 181, 55], [55, 181, 182], [55, 182, 183], [55, 183, 184], [55, 184, 185], [55, 185, 186], [55, 186, 187], [55, 187, 188], [55, 188, 189], [55, 189, 190], [55, 190, 191], [55, 191, 37], [55, 37, 57], [55, 57, 56], [59, 58, 60], [58, 57, 29], [29, 57, 36], [29, 36, 30], [30, 36, 35], [35, 34, 33], [37, 36, 57], [37, 191, 192], [37, 192, 193], [37, 193, 194], [37, 194, 195], [37, 195, 196], [37, 196, 197], [37, 197, 198], [37, 198, 199], [37, 199, 156], [168, 200, 169], [191, 201, 192], [60, 21, 63], [63, 21, 202], [63, 202, 65], [63, 65, 64], [73, 72, 71], [73, 71, 74], [74, 71, 88], [74, 88, 85], [74, 85, 135], [135, 85, 136], [88, 71, 203], [88, 203, 204], [88, 204, 205], [88, 205, 137], [155, 206, 15], [15, 206, 207], [15, 207, 208], [15, 208, 16], [15, 14, 13], [15, 13, 12], [19, 18, 17], [19, 17, 20], [21, 20, 202], [202, 20, 209], [202, 210, 65], [211, 65, 210], [212, 213, 210], [210, 213, 211], [212, 214, 213], [71, 70, 215], [71, 215, 216], [71, 216, 217], [71, 217, 203], [218, 219, 70], [218, 70, 220], [208, 221, 16], [16, 221, 222], [16, 222, 223], [16, 223, 224], [16, 224, 225], [16, 225, 226], [16, 226, 68], [16, 68, 227], [227, 68, 17], [17, 68, 209], [17, 209, 20], [209, 68, 66], [209, 66, 212], [66, 214, 212], [67, 66, 68], [69, 68, 70], [70, 68, 228], [70, 228, 220], [229, 230, 68], [229, 68, 226], [68, 230, 228], [70, 219, 231], [70, 231, 232], [70, 232, 215]]
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/meshes/floor_1.obj
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/meshes/blue_linoleum.png
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x774b1ae37800>, 'texture_height': <building_map.param_value.ParamValue object at 0x774b1ae37830>, 'texture_name': <building_map.param_value.ParamValue object at 0x774b1ae37890>, 'texture_scale': <building_map.param_value.ParamValue object at 0x774b1ae37860>, 'texture_width': <building_map.param_value.ParamValue object at 0x774b1ae378f0>}]
+generating wall: 1 on floor: TD_L2
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/meshes/default.png
+generate_wall_visual_mesh(TD_L2, /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2)
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/meshes/wall_1.obj
+  generating /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/meshes/wall_1.mtl
+  wrote /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/models/TD_L2/model.sdf
+generate door name=null1 type=hinged
+Door(null1)
+generate door name=null2 type=double_hinged
+Door(null2)
+generate door name=null3 type=double_hinged
+Door(null3)
+generate door name=null4 type=double_hinged
+Door(null4)
+generate door name=null5 type=double_hinged
+Door(null5)
+generate door name=null6 type=double_hinged
+Door(null6)
+generate door name=null7 type=double_hinged
+Door(null7)
+generate door name=null8 type=hinged
+Door(null8)
+generate door name=null9 type=hinged
+Door(null9)
+generate door name=null10 type=hinged
+Door(null10)
+generate door name=null11 type=hinged
+Door(null11)
+generate door name=null12 type=double_hinged
+Door(null12)
+generate door name=null13 type=double_hinged
+Door(null13)
+generate door name=null14 type=hinged
+Door(null14)
+generate door name=null15 type=hinged
+Door(null15)
+generate door name=null16 type=hinged
+Door(null16)
+generate door name=null17 type=hinged
+Door(null17)
+generate door name=null18 type=hinged
+Door(null18)
+generate door name=null19 type=hinged
+Door(null19)
+generate door name=null20 type=hinged
+Door(null20)
+generate door name=null21 type=hinged
+Door(null21)
+generate door name=null22 type=hinged
+Door(null22)
+generate door name=null23 type=hinged
+Door(null23)
+generate door name=null24 type=hinged
+Door(null24)
+generate door name=null25 type=hinged
+Door(null25)
+generate door name=null26 type=hinged
+Door(null26)
+generate door name=null27 type=double_hinged
+Door(null27)
+generate door name=null28 type=double_hinged
+Door(null28)
+generate door name=null29 type=double_hinged
+Door(null29)
+generate door name=null30 type=double_hinged
+Door(null30)
+generate door name=null31 type=double_hinged
+Door(null31)
+generate door name=null32 type=double_hinged
+Door(null32)
+generate door name=null33 type=double_hinged
+Door(null33)
+generate door name=null34 type=double_hinged
+Door(null34)
+generate door name=null35 type=double_hinged
+Door(null35)
+generate door name=null36 type=double_hinged
+Door(null36)
+generate door name=null37 type=double_hinged
+Door(null37)
+generate door name=null38 type=double_hinged
+Door(null38)
+generate door name=null39 type=hinged
+Door(null39)
+generate door name=null40 type=double_hinged
+Door(null40)
+generate door name=null41 type=double_hinged
+Door(null41)
+generate door name=null42x type=double_hinged
+Door(null42x)
+generate door name=null43 type=hinged
+Door(null43)
+generate door name=null44 type=hinged
+Door(null44)
+generate door name=null45 type=hinged
+Door(null45)
+generate door name=null46 type=hinged
+Door(null46)
+generate door name=null48 type=double_hinged
+Door(null48)
+generate door name=null50x type=double_hinged
+Door(null50x)
+generate door name=null51 type=hinged
+Door(null51)
+generate door name=nullA1 type=hinged
+Door(nullA1)
+generate door name=nullA2 type=hinged
+Door(nullA2)
+generate door name=nullA3 type=hinged
+Door(nullA3)
+generate door name=nullA4 type=hinged
+Door(nullA4)
+generate door name=nullA5 type=hinged
+Door(nullA5)
+generate door name=nullA6 type=double_hinged
+Door(nullA6)
+generate door name=nullA7 type=double_hinged
+Door(nullA7)
+generate door name=nullA8 type=double_hinged
+Door(nullA8)
+generate door name=nullA9 type=double_hinged
+Door(nullA9)
+generate door name=nullA10 type=double_hinged
+Door(nullA10)
+generate door name=nullA11 type=double_hinged
+Door(nullA11)
+generate door name=nullA12 type=hinged
+Door(nullA12)
+generate door name=nullA13 type=double_hinged
+Door(nullA13)
+generate door name=nullA14 type=hinged
+Door(nullA14)
+generate door name=nullA15 type=double_hinged
+Door(nullA15)
+generate door name=nullA16 type=double_hinged
+Door(nullA16)
+generate door name=nullA17 type=double_hinged
+Door(nullA17)
+generate door name=nullA18 type=double_hinged
+Door(nullA18)
+generate door name=nullA19 type=double_hinged
+Door(nullA19)
+generate door name=nullA20 type=double_hinged
+Door(nullA20)
+generate door name=nullA21 type=hinged
+Door(nullA21)
+generate door name=nullA22 type=hinged
+Door(nullA22)
+generate door name=nullA23 type=hinged
+Door(nullA23)
+generate door name=nullA24 type=hinged
+Door(nullA24)
+generate door name=nullA25 type=hinged
+Door(nullA25)
+generate door name=nullA26 type=double_hinged
+Door(nullA26)
+generate door name=nullA27 type=double_hinged
+Door(nullA27)
+generate door name=nullA28 type=hinged
+Door(nullA28)
+generate door name=nullA29 type=hinged
+Door(nullA29)
+generate door name=nullA30 type=hinged
+Door(nullA30)
+generate door name=nullA31 type=hinged
+Door(nullA31)
+generate door name=nullA32 type=double_hinged
+Door(nullA32)
+generate door name=nullA33 type=sliding
+Door(nullA33)
+generate door name=nullA34 type=sliding
+Door(nullA34)
+generate door name=nullA35 type=hinged
+Door(nullA35)
+generate door name=null41x type=double_hinged
+Door(null41x)
+generate door name=null42 type=double_hinged
+Door(null42)
+generate door name=SSS type=hinged
+Door(SSS)
+generate door name=AAA type=hinged
+Door(AAA)
+generate door name=XXXX type=hinged
+Door(XXXX)
+generate door name=CCC type=hinged
+Door(CCC)
+generate door name=B type=hinged
+Door(B)
+generate door name=W type=hinged
+Door(W)
+generate door name=Q type=hinged
+Door(Q)
+generate door name=A type=hinged
+Door(A)
+spawning robot name deliveryRobot_2 of type DeliveryRobot
+spawning robot name tinyRobot1 of type TinyRobot
+spawning robot name tinyRobot2 of type TinyRobot
+spawning robot name tinyRobot3 of type TinyRobot
+spawning robot name tinyRobot4 of type TinyRobot
+spawning robot name tinyRobot5 of type TinyRobot
+spawning robot name deliveryRobot_1 of type DeliveryRobot
+spawning robot name cleanerBotA_1 of type CleanerBotA
+spawning robot name cleanerBotA_2 of type CleanerBotA
+generate door name=anull2 type=double_hinged
+Door(anull2)
+generate door name=anull3 type=double_hinged
+Door(anull3)
+generate door name=anull4 type=double_hinged
+Door(anull4)
+generate door name=anull5 type=double_hinged
+Door(anull5)
+generate door name=anull6 type=double_hinged
+Door(anull6)
+generate door name=anull7 type=double_hinged
+Door(anull7)
+generate door name=anull10 type=hinged
+Door(anull10)
+generate door name=anull12 type=double_hinged
+Door(anull12)
+generate door name=anull13 type=double_hinged
+Door(anull13)
+generate door name=anull14 type=hinged
+Door(anull14)
+generate door name=anull15 type=hinged
+Door(anull15)
+generate door name=anull16 type=hinged
+Door(anull16)
+generate door name=anull17 type=hinged
+Door(anull17)
+generate door name=anull18 type=hinged
+Door(anull18)
+generate door name=anull19 type=hinged
+Door(anull19)
+generate door name=anull20 type=hinged
+Door(anull20)
+generate door name=anull21 type=hinged
+Door(anull21)
+generate door name=anull22 type=hinged
+Door(anull22)
+generate door name=anull23 type=hinged
+Door(anull23)
+generate door name=anull24 type=hinged
+Door(anull24)
+generate door name=anull25 type=hinged
+Door(anull25)
+generate door name=anull26 type=hinged
+Door(anull26)
+generate door name=anull27 type=double_hinged
+Door(anull27)
+generate door name=anull28 type=double_hinged
+Door(anull28)
+generate door name=anull29 type=double_hinged
+Door(anull29)
+generate door name=anull30 type=double_hinged
+Door(anull30)
+generate door name=anull31 type=double_hinged
+Door(anull31)
+generate door name=anull32 type=double_hinged
+Door(anull32)
+generate door name=anull33 type=double_hinged
+Door(anull33)
+generate door name=anull34 type=double_hinged
+Door(anull34)
+generate door name=anull35 type=double_hinged
+Door(anull35)
+generate door name=anull36 type=double_hinged
+Door(anull36)
+generate door name=anull37 type=double_hinged
+Door(anull37)
+generate door name=anull38 type=double_hinged
+Door(anull38)
+generate door name=anull39 type=hinged
+Door(anull39)
+generate door name=anull46 type=double_hinged
+Door(anull46)
+generate door name=anull51 type=hinged
+Door(anull51)
+generate door name=anullA4 type=hinged
+Door(anullA4)
+generate door name=anullA5 type=hinged
+Door(anullA5)
+generate door name=anullA8 type=double_hinged
+Door(anullA8)
+generate door name=anullA9 type=double_hinged
+Door(anullA9)
+generate door name=anullA10 type=double_hinged
+Door(anullA10)
+generate door name=anullA11 type=double_hinged
+Door(anullA11)
+generate door name=anullA13 type=double_hinged
+Door(anullA13)
+generate door name=anullA15 type=double_hinged
+Door(anullA15)
+generate door name=anullA16 type=double_hinged
+Door(anullA16)
+generate door name=anullA17 type=double_hinged
+Door(anullA17)
+generate door name=anullA18 type=double_hinged
+Door(anullA18)
+generate door name=anullA19 type=double_hinged
+Door(anullA19)
+generate door name=anullA20 type=double_hinged
+Door(anullA20)
+generate door name=anullA21 type=hinged
+Door(anullA21)
+generate door name=anullA26 type=double_hinged
+Door(anullA26)
+generate door name=anullA27 type=double_hinged
+Door(anullA27)
+generate door name=anullA33 type=sliding
+Door(anullA33)
+generate door name=anullA34 type=sliding
+Door(anullA34)
+generate door name=anullA35 type=hinged
+Door(anullA35)
+generate door name=anull type=double_hinged
+Door(anull)
+generate door name=a3null type=double_hinged
+Door(a3null)
+generate door name=alga type=hinged
+Door(alga)
+generate door name=roa type=hinged
+Door(roa)
+generate door name=sliding1 type=double_sliding
+Door(sliding1)
+generate door name=c4 type=double_hinged
+Door(c4)
+generate door name=c6 type=double_hinged
+Door(c6)
+generate door name=c8 type=double_hinged
+Door(c8)
+generate door name=c10 type=double_hinged
+Door(c10)
+generate door name=c12 type=hinged
+Door(c12)
+generate door name=c13 type=hinged
+Door(c13)
+generate door name=c11 type=double_hinged
+Door(c11)
+generate door name=c9 type=double_hinged
+Door(c9)
+generate door name=c7 type=double_hinged
+Door(c7)
+generate door name=c5 type=double_hinged
+Door(c5)
+generate door name=c3 type=double_hinged
+Door(c3)
+generate door name=c1 type=double_hinged
+Door(c1)
+generate door name=c2 type=double_hinged
+Door(c2)
+generate door name=ZS type=hinged
+Door(ZS)
+generate door name=ZS1 type=hinged
+Door(ZS1)
+generate door name=m1 type=double_hinged
+Door(m1)
+generate door name=m12 type=double_hinged
+Door(m12)
+generate door name=mxv type=double_hinged
+Door(mxv)
+generate door name=nmx type=double_hinged
+Door(nmx)
+generate door name=jk type=double_hinged
+Door(jk)
+generate door name=los type=double_hinged
+Door(los)
+generate door name=dsfr type=double_hinged
+Door(dsfr)
+generate door name=fdshd type=double_hinged
+Door(fdshd)
+generate door name=DLOKF type=hinged
+Door(DLOKF)
+generate door name=KSLO type=double_hinged
+Door(KSLO)
+generate door name=2anull2 type=double_hinged
+Door(2anull2)
+generate door name=2anull3 type=double_hinged
+Door(2anull3)
+generate door name=2anull4 type=double_hinged
+Door(2anull4)
+generate door name=2anull5 type=double_hinged
+Door(2anull5)
+generate door name=2anull6 type=double_hinged
+Door(2anull6)
+generate door name=2anull7 type=double_hinged
+Door(2anull7)
+generate door name=2anull10 type=hinged
+Door(2anull10)
+generate door name=2anull12 type=double_hinged
+Door(2anull12)
+generate door name=2anull13 type=double_hinged
+Door(2anull13)
+generate door name=2anull14 type=hinged
+Door(2anull14)
+generate door name=2anull15 type=hinged
+Door(2anull15)
+generate door name=2anull16 type=hinged
+Door(2anull16)
+generate door name=2anull17 type=hinged
+Door(2anull17)
+generate door name=2anull18 type=hinged
+Door(2anull18)
+generate door name=2anull19 type=hinged
+Door(2anull19)
+generate door name=2anull20 type=hinged
+Door(2anull20)
+generate door name=2anull21 type=hinged
+Door(2anull21)
+generate door name=2anull22 type=hinged
+Door(2anull22)
+generate door name=2anull23 type=hinged
+Door(2anull23)
+generate door name=2anull24 type=hinged
+Door(2anull24)
+generate door name=2anull25 type=hinged
+Door(2anull25)
+generate door name=2anull26 type=hinged
+Door(2anull26)
+generate door name=2anull27 type=double_hinged
+Door(2anull27)
+generate door name=2anull28 type=double_hinged
+Door(2anull28)
+generate door name=2anull29 type=double_hinged
+Door(2anull29)
+generate door name=2anull30 type=double_hinged
+Door(2anull30)
+generate door name=2anull31 type=double_hinged
+Door(2anull31)
+generate door name=2anull32 type=double_hinged
+Door(2anull32)
+generate door name=2anull33 type=double_hinged
+Door(2anull33)
+generate door name=2anull34 type=double_hinged
+Door(2anull34)
+generate door name=2anull35 type=double_hinged
+Door(2anull35)
+generate door name=2anull36 type=double_hinged
+Door(2anull36)
+generate door name=2anull37 type=double_hinged
+Door(2anull37)
+generate door name=2anull38 type=double_hinged
+Door(2anull38)
+generate door name=2anull39 type=hinged
+Door(2anull39)
+generate door name=2anull46 type=double_hinged
+Door(2anull46)
+generate door name=2anull51 type=hinged
+Door(2anull51)
+generate door name=2anullA4 type=hinged
+Door(2anullA4)
+generate door name=2anullA5 type=hinged
+Door(2anullA5)
+generate door name=2anullA8 type=double_hinged
+Door(2anullA8)
+generate door name=2anullA9 type=double_hinged
+Door(2anullA9)
+generate door name=2anullA10 type=double_hinged
+Door(2anullA10)
+generate door name=2anullA11 type=double_hinged
+Door(2anullA11)
+generate door name=2anullA13 type=double_hinged
+Door(2anullA13)
+generate door name=2anullA15 type=double_hinged
+Door(2anullA15)
+generate door name=2anullA16 type=double_hinged
+Door(2anullA16)
+generate door name=2anullA17 type=double_hinged
+Door(2anullA17)
+generate door name=2anullA18 type=double_hinged
+Door(2anullA18)
+generate door name=2anullA19 type=double_hinged
+Door(2anullA19)
+generate door name=2anullA20 type=double_hinged
+Door(2anullA20)
+generate door name=2anullA21 type=hinged
+Door(2anullA21)
+generate door name=2anullA26 type=double_hinged
+Door(2anullA26)
+generate door name=2anullA27 type=double_hinged
+Door(2anullA27)
+generate door name=2anullA33 type=sliding
+Door(2anullA33)
+generate door name=2anullA34 type=sliding
+Door(2anullA34)
+generate door name=2anullA35 type=hinged
+Door(2anullA35)
+generate door name=2anull type=double_hinged
+Door(2anull)
+generate door name=2a3null type=double_hinged
+Door(2a3null)
+generate door name=2sliding1 type=double_sliding
+Door(2sliding1)
+generate door name=2c4 type=double_hinged
+Door(2c4)
+generate door name=2c6 type=double_hinged
+Door(2c6)
+generate door name=2c8 type=double_hinged
+Door(2c8)
+generate door name=2c10 type=double_hinged
+Door(2c10)
+generate door name=2c12 type=hinged
+Door(2c12)
+generate door name=2c13 type=hinged
+Door(2c13)
+generate door name=2c11 type=double_hinged
+Door(2c11)
+generate door name=2c9 type=double_hinged
+Door(2c9)
+generate door name=2c7 type=double_hinged
+Door(2c7)
+generate door name=2c5 type=double_hinged
+Door(2c5)
+generate door name=2c3 type=double_hinged
+Door(2c3)
+generate door name=2c1 type=double_hinged
+Door(2c1)
+generate door name=2c2 type=double_hinged
+Door(2c2)
+generate door name=2ZS type=hinged
+Door(2ZS)
+generate door name=2m1 type=double_hinged
+Door(2m1)
+generate door name=2m12 type=double_hinged
+Door(2m12)
+generate door name=2mxv type=double_hinged
+Door(2mxv)
+generate door name=2nmx type=double_hinged
+Door(2nmx)
+generate door name=2jk type=double_hinged
+Door(2jk)
+generate door name=2los type=double_hinged
+Door(2los)
+generate door name=2dsfr type=double_hinged
+Door(2dsfr)
+generate door name=2fdshd type=double_hinged
+Door(2fdshd)
+generate door name=2DLOKF type=hinged
+Door(2DLOKF)
+generate door name=2KSLO type=double_hinged
+Door(2KSLO)
+generate door name=null123 type=hinged
+Door(null123)
+generate door name=null12345 type=hinged
+Door(null12345)
+generate door name=null234 type=hinged
+Door(null234)
+generate door name=nullz23 type=hinged
+Door(nullz23)
+generate door name=nullz12 type=hinged
+Door(nullz12)
+generate door name=nullc123 type=hinged
+Door(nullc123)
+generate door name=nullxsd type=hinged
+Door(nullxsd)
+1029880 bytes written to /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/TD.world
+building name: TD
+coordinate system: reference_image
+parsing level L0
+parsing level L1
+parsing level L2
+calculating levels relative to L0
+level L0 scale: 0.028047104275790352
+calculating level L1 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+parsing lift lift_class
+parsing lift lift_lab
+parsing lift lift_lab2
+ERROR::pit_crew.download_model():595: Could not download model 'Fridge'! ('Connection broken: IncompleteRead(325106 bytes read, 399262 more expected)', IncompleteRead(325106 bytes read, 399262 more expected))
+
+Downloading ConfTable by openrobotics from Fuel
+Downloading model 2 / 5 : ConfTable
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+Chair downloaded to: /home/ususario/.gazebo/models/Chair
+
+Downloading MiniSofa by openrobotics from Fuel
+Downloading model 2 / 2 : MiniSofa
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+ERROR::pit_crew.download_model():595: Could not download model 'ConfTable'! ('Connection broken: IncompleteRead(328444 bytes read, 3555378 more expected)', IncompleteRead(328444 bytes read, 3555378 more expected))
+
+Downloading BigCubicle by openrobotics from Fuel
+Downloading model 3 / 5 : BigCubicle
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+ERROR::pit_crew.download_model():595: Could not download model 'MiniSofa'! ('Connection broken: IncompleteRead(325862 bytes read, 1271472 more expected)', IncompleteRead(325862 bytes read, 1271472 more expected))
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairGrey already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Nurse already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/AdjTable already exists, skipping...
+[ 86%] [34m[1mGenerating icc_kyoto_crowdsim[0m
+Models: [] are used in crowd_sim
+Load success!
+
+Cache found! Model count: 2992 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+Creating output folder path:  /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/config_resource/
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/ususario/.pit_crew/model_cache.json
+New models cached: 0
+
+WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+WARNING::pit_crew.get_missing_models():224: Model BathroomSink in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model CleaningSection in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Oak tree in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model MaleVisitorSit in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model AdjTable in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Nurse in local model directory is not by the requested author OpenRobotics!
+
+== REQUESTED MODEL REPORT ==
+{'available': [('BathroomSink',
+                ['/home/ususario/.gazebo/models/BathroomSink/']),
+               ('CleaningSection',
+                ['/home/ususario/.gazebo/models/CleaningSection/']),
+               ('Oak tree', ['/home/ususario/.gazebo/models/Oak tree/']),
+               ('MaleVisitorSit',
+                ['/home/ususario/.gazebo/models/MaleVisitorSit/']),
+               ('AdjTable', ['/home/ususario/.gazebo/models/AdjTable/']),
+               ('Nurse', ['/home/ususario/.gazebo/models/Nurse/'])],
+ 'downloadable': [('Coke', ['OpenRobotics']),
+                  ('PotatoChipChair', ['OpenRobotics']),
+                  ('Suitcase1H', ['OpenRobotics'])],
+ 'missing': ['TeleportDispenser', 'TeleportIngestor']}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{'adjtable': 'openrobotics',
+ 'bathroomsink': 'openrobotics',
+ 'cleaningsection': 'openrobotics',
+ 'coke': 'openrobotics',
+ 'malevisitorsit': 'openrobotics',
+ 'nurse': 'openrobotics',
+ 'oak tree': 'openrobotics',
+ 'potatochipchair': 'openrobotics',
+ 'suitcase1h': 'openrobotics',
+ 'teleportdispenser': 'openrobotics',
+ 'teleportingestor': 'openrobotics'}
+
+
+Downloading Coke by openrobotics from Fuel
+Downloading model 1 / 3 : Coke
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+BigCubicle downloaded to: /home/ususario/.gazebo/models/BigCubicle
+
+Downloading Coke by openrobotics from Fuel
+Downloading model 4 / 5 : Coke
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[ 86%] Built target generate_icc_kyoto_crowdsim
+ERROR::pit_crew.download_model():595: Could not download model 'Coke'! ('Connection broken: IncompleteRead(666078 bytes read, 5648933 more expected)', IncompleteRead(666078 bytes read, 5648933 more expected))
+
+Downloading TrashBin by openrobotics from Fuel
+Downloading model 5 / 5 : TrashBin
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+ERROR::pit_crew.download_model():595: Could not download model 'Coke'! ('Connection broken: IncompleteRead(349370 bytes read, 5965641 more expected)', IncompleteRead(349370 bytes read, 5965641 more expected))
+
+Downloading PotatoChipChair by openrobotics from Fuel
+Downloading model 2 / 3 : PotatoChipChair
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+ERROR::pit_crew.download_model():595: Could not download model 'PotatoChipChair'! ('Connection broken: IncompleteRead(626974 bytes read, 197769 more expected)', IncompleteRead(626974 bytes read, 197769 more expected))
+
+Downloading Suitcase1H by openrobotics from Fuel
+Downloading model 3 / 3 : Suitcase1H
+WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+ERROR::pit_crew.download_model():595: Could not download model 'TrashBin'! ('Connection broken: IncompleteRead(313885 bytes read, 731738 more expected)', IncompleteRead(313885 bytes read, 731738 more expected))
+WARNING::building_map_model_downloader.download_models():194: 
+Missing models (not in local or Fuel):
+['TeleportIngestor', 'TeleportDispenser']
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Drawer already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairBlue already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairBlack already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/SquareShelf already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/AdjTable already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MetalCabinet already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/CoffeeTable already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairGrey already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MetalCabinetYellow already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/WhiteCabinet already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/SmallCubicle already exists, skipping...
+[ 93%] [34m[1mGenerating office_crowdsim[0m
+Creating output folder path:  /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/config_resource/
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[ 93%] Built target generate_office_crowdsim
+ERROR::pit_crew.download_model():595: Could not download model 'Suitcase1H'! ('Connection broken: IncompleteRead(342246 bytes read, 1329965 more expected)', IncompleteRead(342246 bytes read, 1329965 more expected))
+WARNING::building_map_model_downloader.download_models():194: 
+Missing models (not in local or Fuel):
+['TeleportDispenser', 'TeleportIngestor']
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/BathroomSink already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/CleaningSection already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Oak tree already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MaleVisitorSit already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/AdjTable already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Nurse already exists, skipping...
+[100%] [34m[1mGenerating TD_crowdsim[0m
+Creating output folder path:  /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/config_resource/
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[100%] Built target generate_TD_crowdsim
+-- Install configuration: ""
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/triple_H
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/triple_H/triple_H.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/triple_H/triple_H.building.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office/office_scan.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office/office.building.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office/office.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/simple
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/simple/simple.building.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/conference_room_b1_balcony.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/nav_graphs/1.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/sim_hall.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/icc_kyoto.building.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/conference_room_b1.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/UJI_TD_n2.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/UJI_TD_n0.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/UJI_TD_n1.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD.building.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD.world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/COLCON_IGNORE
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/latest_build
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/build_2025-02-24_13-19-12
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/build_2025-02-24_13-19-12/logger_all.log
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/build_2025-02-24_13-19-12/events.log
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/latest
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/_local_setup_util_ps1.py
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.bash
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/COLCON_IGNORE
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/_local_setup_util_sh.py
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/.colcon_install_layout
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.zsh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.ps1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.ps1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.zsh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.bash
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/ament_index/resource_index/package_run_dependencies/rmf_demos_maps
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/ament_index/resource_index/parent_prefix_path/rmf_demos_maps
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/ament_prefix_path.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/ament_prefix_path.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/path.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/path.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.bash
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.sh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.zsh
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/package.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/ament_index/resource_index/packages/rmf_demos_maps
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/cmake/rmf_demos_mapsConfig.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/cmake/rmf_demos_mapsConfig-version.cmake
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/package.xml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/config_resource
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/4.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/2.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/1.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/TD.world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/config_resource
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/nav_graphs/1.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/config_resource
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/office.world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_2.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_2.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_4.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/blue_linoleum_high_contrast.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_4.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_3.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/black_concrete.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_3.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_4.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_2.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_3.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_white.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_4.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_3.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_2.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/concrete2.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/config_resource
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_2.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_2.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_3.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_3.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/model.sdf
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/simple.world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/config_resource
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/triple_H.world
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/default.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/wall_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/blue_linoleum.png
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/model.material
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/floor_1.mtl
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/wall_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/floor_1.obj
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/model.config
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/model.sdf

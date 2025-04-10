@@ -1,0 +1,84 @@
+# FLEET CONFIG =================================================================
+# RMF Fleet parameters
+
+rmf_fleet:
+  name: "cleanerBotA"
+  limits:
+    linear: [0.7, 0.5] # velocity, acceleration
+    angular: [0.4, 1.0] # velocity, acceleration
+  profile: # Robot profile is modelled as a circle
+    footprint: 1.0 # radius in m
+    vicinity: 1.2 # radius in m
+  reversible: False # whether robots in this fleet can reverse
+  # TODO Update battery parameters with actual specs
+  battery_system:
+    voltage: 24.0 # V
+    capacity: 20.0 # Ahr
+    charging_current: 10.0 # A
+  mechanical_system:
+    mass: 70.0 # kg
+    moment_of_inertia: 40.0 #kgm^2
+    friction_coefficient: 0.22
+  ambient_system:
+    power: 100.0 # W
+  tool_system:
+    power: 0.0 # W
+  recharge_threshold: 0.20 # Battery level below which robots in this fleet will not operate
+  recharge_soc: 1.0 # Battery level to which robots in this fleet should be charged up to during recharging tasks
+  max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+  publish_fleet_state: 10.0 # Publish frequency for fleet state, ensure that it is same as robot_state_update_frequency
+  account_for_battery_drain: True
+  task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
+    loop: False
+    delivery: False
+  actions: ["clean"]
+  finishing_request: "park" # [park, charge, nothing]
+  robots:
+    cleanerBotA_1:
+      charger: "cleanerbot_charger1"
+    cleanerBotA_2:
+      charger: "cleanerbot_charger2"
+    cleanerBotA_3:
+      charger: "cleanerbot_charger3"
+
+fleet_manager:
+  ip: "127.0.0.1"
+  port: 22013
+  user: "some_user"
+  password: "some_password"
+  robot_state_update_frequency: 10.0
+  action_paths:
+    clean:
+      clean_L01_A:
+        map_name: "L01"
+        path: [ [31.25, -20.19,  0.0],
+                [33.90, -20.27, 0.0],
+                [34.24, -23.03, 0.0],
+                [29.64, -23.26, 0.0],
+                [29.23, -20.23, 0.0] ]
+        finish_waypoint: "clean_L01_A"
+      clean_L01_B:
+        map_name: "L01"
+        path: [ [31.62, -28.41,  0.0],
+                [36.66, -28.37, 0.0],
+                [36.85, -32.15, 0.0],
+                [29.31, -32.22, 0.0],
+                [29.38, -28.63, 0.0] ]
+        finish_waypoint: "clean_L01_B"
+      clean_L02_A:
+        map_name: "L02"
+        path: [ [31.25, -20.19,  0.0],
+                [33.90, -20.27, 0.0],
+                [34.24, -23.03, 0.0],
+                [29.64, -23.26, 0.0],
+                [29.23, -20.23, 0.0] ]
+        finish_waypoint: "clean_L02_A"
+      clean_L02_B:
+        map_name: "L02"
+        path: [ [29.38, -28.63,  0.0],
+                [49.91, -40.47, 0.0],
+                [49.81, -45.77, 0.0],
+                [40.88, -45.77, 0.0],
+                [40.55, -40.92, 0.0] ]
+        finish_waypoint: "clean_L02_B"
+

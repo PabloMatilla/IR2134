@@ -1,0 +1,2 @@
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml[0m

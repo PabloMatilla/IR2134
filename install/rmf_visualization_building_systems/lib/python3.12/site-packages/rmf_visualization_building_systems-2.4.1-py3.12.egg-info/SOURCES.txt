@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/PKG-INFO
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/SOURCES.txt
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/dependency_links.txt
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/entry_points.txt
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/requires.txt
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/top_level.txt
+../../../build/rmf_visualization_building_systems/rmf_visualization_building_systems.egg-info/zip-safe
+resource/rmf_visualization_building_systems
+rmf_visualization_building_systems/__init__.py
+rmf_visualization_building_systems/rmf_visualization_building_systems.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,1107 @@
+[ 20%] [34m[1mGenerating maps/icc_kyoto/nav_graphs/phony[0m
+[ 20%] [34m[1mGenerating maps/triple_H/nav_graphs/phony[0m
+[ 20%] [34m[1mGenerating TD_crowdsim[0m
+[ 26%] [34m[1mGenerating office_crowdsim[0m
+[ 40%] [34m[1mGenerating triple_H_crowdsim[0m
+[ 40%] [34m[1mGenerating maps/TD/nav_graphs/phony[0m
+[ 46%] [34m[1mGenerating maps/simple/nav_graphs/phony[0m
+[ 66%] [34m[1mGenerating simple_crowdsim[0m
+[ 66%] [34m[1mGenerating maps/office/nav_graphs/phony[0m
+[ 66%] [34m[1mGenerating icc_kyoto_crowdsim[0m
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.008465494911979116
+generating nav data
+hooray, we found an intersection: t=0.341, u=0.45
+  (1052.727,-730.182),(769.867,-618.148) and (975.293,-648.826),(933.086,-744.676)
+found intersection with door coe_door!
+hooray, we found an intersection: t=0.312, u=0.463
+  (2220.121,-1225.257),(2468.096,-1217.693) and (2297.293,-1271.489),(2297.846,-1166.445)
+found intersection with door hardware_door!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/office/nav_graphs/0.yaml
+building name: simple
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.06666666666666667
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (150.0, -101.88) -> (150.0, -101.88)   P2
+    (0.002, -101.88) -> (0.002, -101.88)   P1
+    calc dist P2 <=> P1
+Bearings:
+[(-3.1415793201675712, -3.1415793201675712)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(149.99900001333341, 149.99900001333341)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+parsing lift lift1
+generating nav data
+hooray, we found an intersection: t=0.403, u=0.504
+  (115.0,-50.0),(14.464,-49.952) and (74.489,-40.073),(74.489,-59.713)
+found intersection with door door_L1!
+hooray, we found an intersection: t=0.403, u=0.534
+  (115.0,-50.0),(15.81,-50.12) and (75.0,-36.061),(75.0,-62.256)
+found intersection with door door_L2!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/simple/nav_graphs/0.yaml
+building name: building
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.044165709666377735
+generating nav data
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/triple_H/nav_graphs/0.yaml
+crowdsim unable to parse, not attempting to proceed
+building name: icc_kyoto
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.025543645966842197
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (738.44, -1233.7) -> (738.44, -1233.7)   P1
+    (865.51, -1240.2) -> (865.51, -1240.2)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(-0.05080104331260102, -0.05080104331260102)]
+  0.0
+  Circular mean: -0.0
+Distances:
+[(127.23714807398032, 127.23714807398032)]
+mean relative scale: 1.0
+translation: (-0.0, -0.0)
+parsing lift lift
+generating nav data
+hooray, we found an intersection: t=0.437, u=0.523
+  (883.509,-1171.325),(853.949,-1336.43) and (809.34,-1243.527),(926.443,-1243.527)
+found intersection with door D6!
+hooray, we found an intersection: t=0.407, u=0.532
+  (329.137,-956.297),(438.575,-956.297) and (373.67,-937.608),(373.624,-972.712)
+found intersection with door D12!
+hooray, we found an intersection: t=0.389, u=0.455
+  (327.687,-846.858),(445.823,-846.858) and (373.579,-829.782),(373.67,-867.288)
+found intersection with door D11!
+hooray, we found an intersection: t=0.408, u=0.591
+  (328.047,-747.562),(439.086,-747.562) and (373.034,-724.982),(373.579,-763.187)
+found intersection with door D10!
+hooray, we found an intersection: t=0.397, u=0.294
+  (329.909,-630.479),(439.356,-630.479) and (373.568,-619.867),(373.034,-655.902)
+found intersection with door D9!
+hooray, we found an intersection: t=0.378, u=0.547
+  (330.885,-534.486),(441.978,-534.486) and (372.163,-514.371),(373.568,-551.176)
+found intersection with door D8!
+hooray, we found an intersection: t=0.595, u=0.638
+  (266.263,-431.745),(445.19,-431.745) and (373.909,-409.099),(372.163,-444.601)
+found intersection with door D7!
+hooray, we found an intersection: t=0.604, u=0.471
+  (736.047,-1051.049),(736.047,-1375.032) and (681.54,-1246.124),(797.199,-1247.2)
+found intersection with door D21!
+hooray, we found an intersection: t=0.243, u=0.512
+  (736.047,-1375.032),(519.589,-1375.032) and (683.522,-1356.545),(683.522,-1392.618)
+found intersection with door door1!
+hooray, we found an intersection: t=0.499, u=0.503
+  (976.078,-282.647),(976.078,-242.273) and (938.74,-264.442),(1012.928,-260.592)
+found intersection with door D4!
+hooray, we found an intersection: t=0.48, u=0.481
+  (865.424,-242.273),(865.424,-116.666) and (843.301,-183.099),(889.271,-180.706)
+found intersection with door D2!
+hooray, we found an intersection: t=0.45, u=0.611
+  (871.405,-154.049),(871.405,-215.357) and (843.301,-183.099),(889.271,-180.706)
+found intersection with door D2!
+hooray, we found an intersection: t=0.257, u=0.486
+  (732.34,-215.357),(732.34,-91.245) and (713.725,-183.704),(752.005,-183.099)
+found intersection with door D1!
+hooray, we found an intersection: t=0.398, u=0.447
+  (730.845,-146.572),(730.845,-239.282) and (713.725,-183.704),(752.005,-183.099)
+found intersection with door D1!
+hooray, we found an intersection: t=0.227, u=0.614
+  (632.154,-239.282),(657.133,-347.701) and (593.604,-263.119),(665.673,-264.442)
+found intersection with door D3!
+hooray, we found an intersection: t=0.534, u=0.416
+  (729.141,-1037.134),(729.141,-1422.225) and (682.207,-1242.325),(794.903,-1243.527)
+found intersection with door D5!
+hooray, we found an intersection: t=0.213, u=0.574
+  (875.289,-1207.853),(875.289,-1373.846) and (810.141,-1243.268),(923.617,-1243.268)
+found intersection with door D22!
+hooray, we found an intersection: t=0.193, u=0.451
+  (875.289,-1373.846),(1129.021,-1373.846) and (923.535,-1354.673),(925.013,-1397.155)
+found intersection with door door2!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/nav_graphs/0.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/icc_kyoto/nav_graphs/1.yaml
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[ 66%] Built target generate_office_nav_graphs
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[ 66%] Built target generate_simple_nav_graphs
+crowdsim unable to parse, not attempting to proceed
+[ 66%] Built target generate_triple_H_nav_graphs
+[ 66%] Built target generate_icc_kyoto_nav_graphs
+[ 73%] Built target generate_triple_H_crowdsim
+[ 80%] Built target generate_simple_crowdsim
+[ 86%] Built target generate_office_crowdsim
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[ 93%] Built target generate_icc_kyoto_crowdsim
+building name: TD
+coordinate system: reference_image
+parsing level L0
+parsing level L1
+parsing level L2
+calculating levels relative to L0
+level L0 scale: 0.028047104275790352
+calculating level L1 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (651.99, -2786.0) -> (556.0, -2904.0)   P1
+    (4133.0, -2786.0) -> (4037.0, -2904.0)   P2
+    calc dist P1 <=> P2
+Bearings:
+[(2.8727212131758846e-07, -5.745467185345859e-07)]
+  -8.618188398521744e-07
+  Circular mean: 8.618188398521744e-07
+Distances:
+[(3481.020000000144, 3481.0050000005745)]
+mean relative scale: 0.9999956909183028
+translation: (2.6923, 3.3102)
+parsing lift lift_class
+parsing lift lift_lab
+parsing lift lift_lab2
+generating nav data
+hooray, we found an intersection: t=0.267, u=0.5
+  (2275.498,-1559.337),(2265.93,-1672.789) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.758, u=0.515
+  (956.572,-2467.159),(962.079,-2574.165) and (984.497,-2546.955),(938.414,-2549.491)
+found intersection with door null5!
+hooray, we found an intersection: t=0.845, u=0.507
+  (1194.363,-2467.066),(1194.363,-2557.983) and (1213.923,-2543.926),(1175.349,-2543.926)
+found intersection with door null6!
+hooray, we found an intersection: t=0.275, u=0.554
+  (956.718,-2467.066),(956.718,-2187.587) and (931.594,-2392.431),(976.94,-2388.663)
+found intersection with door null4!
+hooray, we found an intersection: t=0.077, u=0.311
+  (951.397,-2120.847),(685.513,-2120.847) and (931.091,-2112.914),(930.318,-2138.414)
+found intersection with door null1!
+hooray, we found an intersection: t=0.353, u=0.547
+  (951.397,-2082.013),(1078.158,-2082.013) and (996.182,-2107.22),(996.182,-2061.158)
+found intersection with door null2!
+hooray, we found an intersection: t=0.726, u=0.429
+  (1078.158,-2082.013),(1178.466,-2082.013) and (1150.472,-2061.81),(1151.729,-2108.943)
+found intersection with door null3!
+hooray, we found an intersection: t=0.638, u=0.51
+  (1194.363,-2467.066),(1194.363,-2346.531) and (1171.366,-2390.132),(1216.427,-2390.132)
+found intersection with door null7!
+hooray, we found an intersection: t=0.408, u=0.455
+  (1078.158,-2082.013),(1078.158,-1845.307) and (1103.811,-1985.768),(1047.418,-1984.788)
+found intersection with door null42!
+hooray, we found an intersection: t=0.598, u=0.484
+  (832.234,-1476.717),(723.978,-1476.717) and (767.765,-1455.724),(767.212,-1499.141)
+found intersection with door null13!
+hooray, we found an intersection: t=0.416, u=0.567
+  (723.978,-1714.183),(827.663,-1714.183) and (767.212,-1688.399),(767.074,-1733.885)
+found intersection with door null12!
+hooray, we found an intersection: t=0.651, u=0.586
+  (1081.456,-1325.683),(1081.456,-1227.485) and (1047.86,-1260.935),(1105.196,-1262.339)
+found intersection with door null41x!
+hooray, we found an intersection: t=0.512, u=0.552
+  (1110.401,-418.037),(1201.739,-418.037) and (1157.435,-394.961),(1156.937,-436.786)
+found intersection with door null38!
+hooray, we found an intersection: t=0.628, u=0.48
+  (1051.967,-418.037),(965.369,-418.037) and (997.484,-439.157),(997.711,-395.12)
+found intersection with door null37!
+hooray, we found an intersection: t=0.601, u=0.432
+  (1081.456,-1227.485),(1203.497,-1227.485) and (1155.169,-1206.472),(1154.321,-1255.062)
+found intersection with door null32!
+hooray, we found an intersection: t=0.745, u=0.531
+  (1081.456,-1227.485),(969.751,-1227.485) and (999.483,-1253.855),(997.118,-1204.193)
+found intersection with door null31!
+hooray, we found an intersection: t=0.579, u=0.487
+  (1081.456,-953.052),(1206.019,-953.052) and (1152.01,-930.57),(1155.169,-976.781)
+found intersection with door null34!
+hooray, we found an intersection: t=0.803, u=0.567
+  (1081.456,-953.052),(976.901,-953.052) and (997.118,-979.451),(997.836,-932.898)
+found intersection with door null33!
+hooray, we found an intersection: t=0.293, u=0.41
+  (1193.14,-842.725),(1193.14,-562.109) and (1173.126,-758.624),(1221.912,-763.412)
+found intersection with door null35!
+hooray, we found an intersection: t=0.339, u=0.633
+  (963.675,-861.195),(963.675,-560.689) and (933.015,-759.638),(981.448,-759.271)
+found intersection with door null36!
+hooray, we found an intersection: t=0.692, u=0.311
+  (1356.197,-1507.843),(1565.953,-1507.843) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.704, u=0.372
+  (1354.963,-1457.251),(1564.031,-1457.251) and (1501.563,-1474.134),(1503.293,-1428.783)
+found intersection with door AAA!
+hooray, we found an intersection: t=0.075, u=0.371
+  (2030.406,-1457.251),(2775.043,-1457.251) and (2086.537,-1473.652),(2086.18,-1429.492)
+found intersection with door CCC!
+hooray, we found an intersection: t=0.895, u=0.35
+  (2030.406,-1457.251),(2775.043,-1457.251) and (2697.531,-1473.533),(2695.488,-1427.072)
+found intersection with door W!
+hooray, we found an intersection: t=0.931, u=0.652
+  (2775.043,-1457.251),(3319.973,-1457.251) and (3281.809,-1426.462),(3282.559,-1473.681)
+found intersection with door A!
+hooray, we found an intersection: t=0.23, u=0.391
+  (2029.453,-1507.843),(2270.363,-1507.843) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.844, u=0.391
+  (2270.363,-1507.843),(2776.006,-1507.843) and (2696.687,-1526.76),(2697.531,-1478.378)
+found intersection with door B!
+hooray, we found an intersection: t=0.932, u=0.582
+  (2776.006,-1507.843),(3318.968,-1507.843) and (3282.559,-1478.868),(3281.768,-1528.651)
+found intersection with door Q!
+hooray, we found an intersection: t=0.592, u=0.467
+  (1011.942,-2201.156),(1084.875,-2200.679) and (1054.548,-2178.864),(1055.805,-2225.997)
+found intersection with door anull3!
+hooray, we found an intersection: t=0.467, u=0.575
+  (955.419,-2197.781),(837.312,-2197.781) and (900.258,-2224.274),(900.258,-2178.212)
+found intersection with door anull2!
+hooray, we found an intersection: t=0.819, u=0.651
+  (765.794,-2296.225),(765.794,-2328.289) and (785.086,-2322.5),(755.429,-2322.5)
+found intersection with door alga!
+hooray, we found an intersection: t=0.54, u=0.571
+  (837.312,-2223.09),(822.483,-2256.602) and (814.058,-2240.493),(840.759,-2241.71)
+found intersection with door ZS1!
+hooray, we found an intersection: t=0.458, u=0.537
+  (840.047,-2349.911),(840.047,-2425.106) and (856.891,-2384.37),(825.531,-2384.37)
+found intersection with door roa!
+hooray, we found an intersection: t=0.492, u=0.663
+  (857.972,-2467.403),(873.736,-2547.829) and (835.67,-2509.485),(881.016,-2505.717)
+found intersection with door anull4!
+hooray, we found an intersection: t=0.757, u=0.474
+  (849.628,-2588.512),(872.257,-2689.884) and (888.573,-2664.009),(842.49,-2666.545)
+found intersection with door anull5!
+hooray, we found an intersection: t=0.272, u=0.61
+  (1094.476,-2626.253),(1094.476,-2753.994) and (1117.999,-2660.98),(1079.425,-2660.98)
+found intersection with door anull6!
+hooray, we found an intersection: t=0.607, u=0.498
+  (1097.904,-2455.835),(1097.904,-2540.38) and (1075.442,-2507.186),(1120.503,-2507.186)
+found intersection with door anull7!
+hooray, we found an intersection: t=0.546, u=0.403
+  (837.312,-2197.781),(819.17,-2133.93) and (838.894,-2162.895),(810.394,-2162.895)
+found intersection with door ZS!
+hooray, we found an intersection: t=0.257, u=0.443
+  (982.903,-2152.619),(982.903,-1957.14) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door a3null!
+hooray, we found an intersection: t=0.746, u=0.53
+  (716.498,-1832.65),(623.301,-1832.65) and (647.0,-1809.593),(647.0,-1853.099)
+found intersection with door anull12!
+hooray, we found an intersection: t=0.311, u=0.533
+  (623.301,-1594.713),(699.553,-1594.713) and (647.0,-1569.584),(647.0,-1616.716)
+found intersection with door anull13!
+hooray, we found an intersection: t=0.742, u=0.73
+  (993.78,-1463.884),(993.78,-1349.462) and (951.936,-1377.989),(1009.272,-1379.393)
+found intersection with door anull!
+hooray, we found an intersection: t=0.791, u=0.432
+  (993.78,-1349.462),(878.406,-1349.462) and (903.559,-1370.909),(901.194,-1321.247)
+found intersection with door anull31!
+hooray, we found an intersection: t=0.594, u=0.534
+  (993.78,-1349.462),(1103.238,-1349.462) and (1059.245,-1323.526),(1058.397,-1372.116)
+found intersection with door anull32!
+hooray, we found an intersection: t=0.298, u=0.651
+  (1108.955,-966.189),(1108.955,-672.556) and (1077.202,-875.678),(1125.988,-880.466)
+found intersection with door anull35!
+hooray, we found an intersection: t=0.494, u=0.621
+  (1008.943,-1076.331),(1108.279,-1076.331) and (1056.086,-1047.624),(1059.245,-1093.835)
+found intersection with door anull34!
+hooray, we found an intersection: t=0.839, u=0.433
+  (1008.943,-1076.331),(880.87,-1076.331) and (901.194,-1096.505),(901.912,-1049.952)
+found intersection with door anull33!
+hooray, we found an intersection: t=0.306, u=0.551
+  (863.799,-963.735),(863.799,-678.565) and (837.091,-876.692),(885.524,-876.325)
+found intersection with door anull36!
+hooray, we found an intersection: t=0.565, u=0.616
+  (1008.943,-537.789),(1101.37,-537.789) and (1061.511,-512.015),(1061.013,-553.84)
+found intersection with door anull38!
+hooray, we found an intersection: t=0.36, u=0.519
+  (927.722,-533.354),(855.46,-533.354) and (901.56,-556.211),(901.787,-512.174)
+found intersection with door anull37!
+hooray, we found an intersection: t=0.527, u=0.506
+  (927.722,-533.354),(968.751,-462.722) and (964.836,-495.22),(934.212,-497.022)
+found intersection with door anull39!
+hooray, we found an intersection: t=0.437, u=0.487
+  (1013.889,-462.722),(1008.943,-537.789) and (1024.882,-495.821),(997.861,-495.22)
+found intersection with door anull51!
+hooray, we found an intersection: t=0.694, u=0.4
+  (1275.654,-1572.832),(1461.861,-1572.832) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door fdshd!
+hooray, we found an intersection: t=0.66, u=0.6
+  (1293.68,-1616.936),(1461.835,-1616.936) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door dsfr!
+hooray, we found an intersection: t=0.399, u=0.629
+  (1939.684,-1572.832),(2066.73,-1572.832) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door jk!
+hooray, we found an intersection: t=0.644, u=0.34
+  (2277.942,-1572.832),(2277.942,-1123.672) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door sliding1!
+hooray, we found an intersection: t=0.356, u=0.773
+  (2324.407,-1123.672),(2325.82,-1572.1) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door sliding1!
+hooray, we found an intersection: t=0.808, u=0.393
+  (2325.82,-1572.1),(2669.025,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door nmx!
+hooray, we found an intersection: t=0.583, u=0.59
+  (3109.729,-1572.1),(3243.474,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door m1!
+hooray, we found an intersection: t=0.227, u=0.541
+  (3489.088,-955.76),(3489.088,-1341.582) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door anullA10!
+hooray, we found an intersection: t=0.383, u=0.516
+  (3491.003,-1097.452),(3489.088,-955.76) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door anullA10!
+hooray, we found an intersection: t=0.668, u=0.679
+  (3734.176,-955.76),(3745.241,-835.981) and (3713.391,-875.719),(3754.913,-875.719)
+found intersection with door anullA8!
+hooray, we found an intersection: t=0.215, u=0.487
+  (3734.176,-955.76),(3734.176,-1349.416) and (3760.27,-1040.466),(3706.694,-1040.466)
+found intersection with door anullA9!
+hooray, we found an intersection: t=0.623, u=0.536
+  (3832.426,-1350.413),(3609.112,-1350.413) and (3693.3,-1328.437),(3693.449,-1369.447)
+found intersection with door anullA27!
+hooray, we found an intersection: t=0.682, u=0.416
+  (3784.573,-1598.65),(3981.967,-1598.65) and (3919.231,-1617.912),(3919.231,-1571.63)
+found intersection with door anullA20!
+hooray, we found an intersection: t=0.163, u=0.548
+  (3605.943,-2195.802),(3985.353,-2194.129) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door anullA18!
+hooray, we found an intersection: t=0.455, u=0.467
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door anullA17!
+hooray, we found an intersection: t=0.265, u=0.548
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door anullA18!
+hooray, we found an intersection: t=0.721, u=0.474
+  (3434.89,-2193.621),(3605.943,-2195.802) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door anullA17!
+hooray, we found an intersection: t=0.178, u=0.502
+  (3601.585,-2352.391),(3972.313,-2356.097) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door anullA16!
+hooray, we found an intersection: t=0.36, u=0.464
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door anullA15!
+hooray, we found an intersection: t=0.141, u=0.508
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door anullA16!
+hooray, we found an intersection: t=0.734, u=0.5
+  (3439.752,-2348.475),(3601.585,-2352.391) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door anullA15!
+hooray, we found an intersection: t=0.355, u=0.387
+  (3737.655,-2599.746),(3737.655,-2816.477) and (3756.273,-2675.693),(3708.212,-2678.056)
+found intersection with door anullA13!
+hooray, we found an intersection: t=0.32, u=0.488
+  (3490.993,-2599.746),(3490.993,-2835.979) and (3515.716,-2675.721),(3465.024,-2674.773)
+found intersection with door anullA11!
+hooray, we found an intersection: t=0.139, u=0.456
+  (1946.567,-1616.936),(2262.414,-1616.936) and (1990.354,-1596.529),(1990.354,-1641.307)
+found intersection with door los!
+hooray, we found an intersection: t=0.803, u=0.538
+  (2322.113,-1616.936),(2672.962,-1616.936) and (2604.694,-1642.588),(2603.309,-1594.926)
+found intersection with door mxv!
+hooray, we found an intersection: t=0.574, u=0.427
+  (3111.24,-1616.936),(3243.933,-1616.936) and (3187.712,-1596.316),(3187.132,-1644.564)
+found intersection with door m12!
+hooray, we found an intersection: t=0.135, u=0.592
+  (2262.414,-1616.936),(2262.414,-2042.456) and (2287.988,-1674.349),(2244.794,-1674.349)
+found intersection with door c1!
+hooray, we found an intersection: t=0.813, u=0.49
+  (2322.323,-1924.765),(2322.113,-1616.936) and (2343.607,-1674.349),(2299.822,-1674.349)
+found intersection with door c2!
+hooray, we found an intersection: t=0.12, u=0.539
+  (2262.414,-2042.456),(1921.622,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door c4!
+hooray, we found an intersection: t=0.723, u=0.522
+  (2115.37,-2045.211),(2262.414,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door c4!
+hooray, we found an intersection: t=0.119, u=0.389
+  (2262.414,-2118.681),(1920.137,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door c6!
+hooray, we found an intersection: t=0.665, u=0.391
+  (2140.61,-2118.454),(2262.414,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door c6!
+hooray, we found an intersection: t=0.127, u=0.374
+  (2262.414,-2354.828),(1942.002,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door c8!
+hooray, we found an intersection: t=0.69, u=0.361
+  (2130.819,-2356.714),(2262.414,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door c8!
+hooray, we found an intersection: t=0.127, u=0.442
+  (2262.414,-2590.107),(1941.033,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door c10!
+hooray, we found an intersection: t=0.683, u=0.432
+  (2133.729,-2591.641),(2262.414,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door c10!
+hooray, we found an intersection: t=0.522, u=0.609
+  (2322.323,-1924.765),(2414.412,-1938.77) and (2370.48,-1904.339),(2370.407,-1949.928)
+found intersection with door c3!
+hooray, we found an intersection: t=0.139, u=0.531
+  (2322.323,-2046.0),(2669.49,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door c5!
+hooray, we found an intersection: t=0.568, u=0.546
+  (2433.819,-2047.502),(2322.323,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door c5!
+hooray, we found an intersection: t=0.154, u=0.586
+  (2322.323,-2119.461),(2633.26,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door c7!
+hooray, we found an intersection: t=0.563, u=0.617
+  (2432.066,-2122.664),(2322.323,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door c7!
+hooray, we found an intersection: t=0.144, u=0.402
+  (2322.323,-2346.068),(2656.765,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door c9!
+hooray, we found an intersection: t=0.597, u=0.44
+  (2441.587,-2350.303),(2322.323,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door c9!
+hooray, we found an intersection: t=0.147, u=0.552
+  (2322.323,-2582.636),(2655.079,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door c11!
+hooray, we found an intersection: t=0.599, u=0.558
+  (2444.121,-2581.944),(2322.323,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door c11!
+hooray, we found an intersection: t=0.293, u=0.498
+  (2403.57,-1233.672),(2560.132,-1233.672) and (2449.595,-1261.745),(2449.326,-1205.374)
+found intersection with door anull46!
+hooray, we found an intersection: t=0.285, u=0.426
+  (2560.132,-1233.672),(2560.132,-987.163) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door DLOKF!
+hooray, we found an intersection: t=0.376, u=0.449
+  (2560.132,-1233.672),(2562.379,-1046.858) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door DLOKF!
+hooray, we found an intersection: t=0.248, u=0.475
+  (3489.088,-955.76),(3489.088,-633.107) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door KSLO!
+hooray, we found an intersection: t=0.463, u=0.481
+  (3489.57,-806.786),(3489.088,-955.76) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door KSLO!
+hooray, we found an intersection: t=0.591, u=0.552
+  (3820.613,-1828.273),(3989.728,-1828.273) and (3922.377,-1852.374),(3919.231,-1808.749)
+found intersection with door anullA19!
+hooray, we found an intersection: t=0.715, u=0.472
+  (1218.563,-1807.9),(1315.728,-1808.392) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.329, u=0.463
+  (1315.728,-1808.392),(1313.045,-1689.778) and (1335.771,-1769.318),(1290.53,-1769.526)
+found intersection with door anull15!
+hooray, we found an intersection: t=0.592, u=0.467
+  (1011.942,-2201.156),(1084.875,-2200.679) and (1054.548,-2178.864),(1055.805,-2225.997)
+found intersection with door 2anull3!
+hooray, we found an intersection: t=0.438, u=0.637
+  (955.419,-2197.781),(829.48,-2191.244) and (900.258,-2224.274),(900.258,-2178.212)
+found intersection with door 2anull2!
+hooray, we found an intersection: t=0.122, u=0.366
+  (822.483,-2256.602),(901.476,-2260.196) and (832.125,-2247.635),(832.125,-2273.309)
+found intersection with door nullxsd!
+hooray, we found an intersection: t=0.588, u=0.448
+  (901.476,-2260.196),(783.533,-2258.399) and (832.125,-2247.635),(832.125,-2273.309)
+found intersection with door nullxsd!
+hooray, we found an intersection: t=0.492, u=0.663
+  (857.972,-2467.403),(873.736,-2547.829) and (835.67,-2509.485),(881.016,-2505.717)
+found intersection with door 2anull4!
+hooray, we found an intersection: t=0.757, u=0.474
+  (849.628,-2588.512),(872.257,-2689.884) and (888.573,-2664.009),(842.49,-2666.545)
+found intersection with door 2anull5!
+hooray, we found an intersection: t=0.272, u=0.61
+  (1094.476,-2626.253),(1094.476,-2753.994) and (1117.999,-2660.98),(1079.425,-2660.98)
+found intersection with door 2anull6!
+hooray, we found an intersection: t=0.607, u=0.498
+  (1097.904,-2455.835),(1097.904,-2540.38) and (1075.442,-2507.186),(1120.503,-2507.186)
+found intersection with door 2anull7!
+hooray, we found an intersection: t=0.495, u=0.509
+  (829.48,-2191.244),(819.17,-2133.93) and (838.894,-2162.895),(810.394,-2162.895)
+found intersection with door 2ZS!
+hooray, we found an intersection: t=0.257, u=0.443
+  (982.903,-2152.619),(982.903,-1957.14) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door 2a3null!
+hooray, we found an intersection: t=0.746, u=0.53
+  (716.498,-1832.65),(623.301,-1832.65) and (647.0,-1809.593),(647.0,-1853.099)
+found intersection with door 2anull12!
+hooray, we found an intersection: t=0.311, u=0.533
+  (623.301,-1594.713),(699.553,-1594.713) and (647.0,-1569.584),(647.0,-1616.716)
+found intersection with door 2anull13!
+hooray, we found an intersection: t=0.742, u=0.73
+  (993.78,-1463.884),(993.78,-1349.462) and (951.936,-1377.989),(1009.272,-1379.393)
+found intersection with door 2anull!
+hooray, we found an intersection: t=0.791, u=0.432
+  (993.78,-1349.462),(878.406,-1349.462) and (903.559,-1370.909),(901.194,-1321.247)
+found intersection with door 2anull31!
+hooray, we found an intersection: t=0.594, u=0.534
+  (993.78,-1349.462),(1103.238,-1349.462) and (1059.245,-1323.526),(1058.397,-1372.116)
+found intersection with door 2anull32!
+hooray, we found an intersection: t=0.298, u=0.651
+  (1108.955,-966.189),(1108.955,-672.556) and (1077.202,-875.678),(1125.988,-880.466)
+found intersection with door 2anull35!
+hooray, we found an intersection: t=0.494, u=0.621
+  (1008.943,-1076.331),(1108.279,-1076.331) and (1056.086,-1047.624),(1059.245,-1093.835)
+found intersection with door 2anull34!
+hooray, we found an intersection: t=0.839, u=0.433
+  (1008.943,-1076.331),(880.87,-1076.331) and (901.194,-1096.505),(901.912,-1049.952)
+found intersection with door 2anull33!
+hooray, we found an intersection: t=0.306, u=0.551
+  (863.799,-963.735),(863.799,-678.565) and (837.091,-876.692),(885.524,-876.325)
+found intersection with door 2anull36!
+hooray, we found an intersection: t=0.565, u=0.616
+  (1008.943,-537.789),(1101.37,-537.789) and (1061.511,-512.015),(1061.013,-553.84)
+found intersection with door 2anull38!
+hooray, we found an intersection: t=0.36, u=0.519
+  (927.722,-533.354),(855.46,-533.354) and (901.56,-556.211),(901.787,-512.174)
+found intersection with door 2anull37!
+hooray, we found an intersection: t=0.527, u=0.506
+  (927.722,-533.354),(968.751,-462.722) and (964.836,-495.22),(934.212,-497.022)
+found intersection with door 2anull39!
+hooray, we found an intersection: t=0.437, u=0.487
+  (1013.889,-462.722),(1008.943,-537.789) and (1024.882,-495.821),(997.861,-495.22)
+found intersection with door 2anull51!
+hooray, we found an intersection: t=0.741, u=0.568
+  (1218.563,-1807.9),(1313.045,-1792.405) and (1288.436,-1826.839),(1288.737,-1773.294)
+found intersection with door 2anull14!
+hooray, we found an intersection: t=0.228, u=0.486
+  (1313.045,-1792.405),(1313.045,-1689.778) and (1323.465,-1768.546),(1302.012,-1769.459)
+found intersection with door 2anull15!
+hooray, we found an intersection: t=0.694, u=0.4
+  (1275.654,-1572.832),(1461.861,-1572.832) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door 2fdshd!
+hooray, we found an intersection: t=0.66, u=0.6
+  (1293.68,-1616.936),(1461.835,-1616.936) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door 2dsfr!
+hooray, we found an intersection: t=0.399, u=0.629
+  (1939.684,-1572.832),(2066.73,-1572.832) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door 2jk!
+hooray, we found an intersection: t=0.644, u=0.34
+  (2277.942,-1572.832),(2277.942,-1123.672) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door 2sliding1!
+hooray, we found an intersection: t=0.356, u=0.773
+  (2324.407,-1123.672),(2325.82,-1572.1) and (2241.059,-1283.457),(2349.534,-1283.457)
+found intersection with door 2sliding1!
+hooray, we found an intersection: t=0.808, u=0.393
+  (2325.82,-1572.1),(2669.025,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door 2nmx!
+hooray, we found an intersection: t=0.583, u=0.59
+  (3109.729,-1572.1),(3243.474,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door 2m1!
+hooray, we found an intersection: t=0.227, u=0.541
+  (3489.088,-955.76),(3489.088,-1341.582) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door 2anullA10!
+hooray, we found an intersection: t=0.383, u=0.516
+  (3491.003,-1097.452),(3489.088,-955.76) and (3514.743,-1043.178),(3467.297,-1043.178)
+found intersection with door 2anullA10!
+hooray, we found an intersection: t=0.668, u=0.679
+  (3734.176,-955.76),(3745.241,-835.981) and (3713.391,-875.719),(3754.913,-875.719)
+found intersection with door 2anullA8!
+hooray, we found an intersection: t=0.215, u=0.487
+  (3734.176,-955.76),(3734.176,-1349.416) and (3760.27,-1040.466),(3706.694,-1040.466)
+found intersection with door 2anullA9!
+hooray, we found an intersection: t=0.623, u=0.536
+  (3832.426,-1350.413),(3609.112,-1350.413) and (3693.3,-1328.437),(3693.449,-1369.447)
+found intersection with door 2anullA27!
+hooray, we found an intersection: t=0.682, u=0.416
+  (3784.573,-1598.65),(3981.967,-1598.65) and (3919.231,-1617.912),(3919.231,-1571.63)
+found intersection with door 2anullA20!
+hooray, we found an intersection: t=0.113, u=0.521
+  (3627.504,-2194.129),(3985.353,-2194.129) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door 2anullA18!
+hooray, we found an intersection: t=0.455, u=0.467
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door 2anullA17!
+hooray, we found an intersection: t=0.265, u=0.548
+  (3820.978,-2195.533),(3243.757,-2195.533) and (3667.302,-2167.566),(3668.403,-2218.587)
+found intersection with door 2anullA18!
+hooray, we found an intersection: t=0.64, u=0.502
+  (3434.89,-2193.621),(3627.504,-2194.129) and (3558.575,-2216.557),(3557.793,-2171.498)
+found intersection with door 2anullA17!
+hooray, we found an intersection: t=0.117, u=0.564
+  (3627.504,-2356.097),(3972.313,-2356.097) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door 2anullA16!
+hooray, we found an intersection: t=0.36, u=0.464
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door 2anullA15!
+hooray, we found an intersection: t=0.141, u=0.508
+  (3737.79,-2353.361),(3239.431,-2353.361) and (3667.73,-2328.252),(3667.73,-2377.646)
+found intersection with door 2anullA16!
+hooray, we found an intersection: t=0.633, u=0.466
+  (3439.752,-2348.475),(3627.504,-2356.097) and (3558.575,-2379.464),(3558.575,-2323.261)
+found intersection with door 2anullA15!
+hooray, we found an intersection: t=0.355, u=0.387
+  (3737.655,-2599.746),(3737.655,-2816.477) and (3756.273,-2675.693),(3708.212,-2678.056)
+found intersection with door 2anullA13!
+hooray, we found an intersection: t=0.32, u=0.488
+  (3490.993,-2599.746),(3490.993,-2835.979) and (3515.716,-2675.721),(3465.024,-2674.773)
+found intersection with door 2anullA11!
+hooray, we found an intersection: t=0.139, u=0.456
+  (1946.567,-1616.936),(2262.414,-1616.936) and (1990.354,-1596.529),(1990.354,-1641.307)
+found intersection with door 2los!
+hooray, we found an intersection: t=0.803, u=0.538
+  (2322.113,-1616.936),(2672.962,-1616.936) and (2604.694,-1642.588),(2603.309,-1594.926)
+found intersection with door 2mxv!
+hooray, we found an intersection: t=0.574, u=0.427
+  (3111.24,-1616.936),(3243.933,-1616.936) and (3187.712,-1596.316),(3187.132,-1644.564)
+found intersection with door 2m12!
+hooray, we found an intersection: t=0.135, u=0.592
+  (2262.414,-1616.936),(2262.414,-2042.456) and (2287.988,-1674.349),(2244.794,-1674.349)
+found intersection with door 2c1!
+hooray, we found an intersection: t=0.813, u=0.49
+  (2322.323,-1924.765),(2322.113,-1616.936) and (2343.607,-1674.349),(2299.822,-1674.349)
+found intersection with door 2c2!
+hooray, we found an intersection: t=0.12, u=0.539
+  (2262.414,-2042.456),(1921.622,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door 2c4!
+hooray, we found an intersection: t=0.723, u=0.522
+  (2115.37,-2045.211),(2262.414,-2042.456) and (2221.64,-2067.722),(2221.64,-2020.824)
+found intersection with door 2c4!
+hooray, we found an intersection: t=0.119, u=0.389
+  (2262.414,-2118.681),(1920.137,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door 2c6!
+hooray, we found an intersection: t=0.665, u=0.391
+  (2140.61,-2118.454),(2262.414,-2118.681) and (2221.64,-2135.75),(2221.64,-2091.927)
+found intersection with door 2c6!
+hooray, we found an intersection: t=0.127, u=0.374
+  (2262.414,-2354.828),(1942.002,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door 2c8!
+hooray, we found an intersection: t=0.69, u=0.361
+  (2130.819,-2356.714),(2262.414,-2354.828) and (2221.64,-2372.135),(2221.64,-2325.824)
+found intersection with door 2c8!
+hooray, we found an intersection: t=0.127, u=0.442
+  (2262.414,-2590.107),(1941.033,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door 2c10!
+hooray, we found an intersection: t=0.683, u=0.432
+  (2133.729,-2591.641),(2262.414,-2590.107) and (2221.64,-2611.456),(2221.64,-2563.118)
+found intersection with door 2c10!
+hooray, we found an intersection: t=0.522, u=0.609
+  (2322.323,-1924.765),(2414.412,-1938.77) and (2370.48,-1904.339),(2370.407,-1949.928)
+found intersection with door 2c3!
+hooray, we found an intersection: t=0.139, u=0.531
+  (2322.323,-2046.0),(2669.49,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door 2c5!
+hooray, we found an intersection: t=0.568, u=0.546
+  (2433.819,-2047.502),(2322.323,-2046.0) and (2370.489,-2023.268),(2370.407,-2066.113)
+found intersection with door 2c5!
+hooray, we found an intersection: t=0.154, u=0.586
+  (2322.323,-2119.461),(2633.26,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door 2c7!
+hooray, we found an intersection: t=0.563, u=0.617
+  (2432.066,-2122.664),(2322.323,-2119.461) and (2370.128,-2093.105),(2370.407,-2138.086)
+found intersection with door 2c7!
+hooray, we found an intersection: t=0.144, u=0.402
+  (2322.323,-2346.068),(2656.765,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door 2c9!
+hooray, we found an intersection: t=0.597, u=0.44
+  (2441.587,-2350.303),(2322.323,-2346.068) and (2370.407,-2328.301),(2370.407,-2372.513)
+found intersection with door 2c9!
+hooray, we found an intersection: t=0.147, u=0.552
+  (2322.323,-2582.636),(2655.079,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door 2c11!
+hooray, we found an intersection: t=0.599, u=0.558
+  (2444.121,-2581.944),(2322.323,-2582.636) and (2370.407,-2609.952),(2371.832,-2560.506)
+found intersection with door 2c11!
+hooray, we found an intersection: t=0.293, u=0.498
+  (2403.57,-1233.672),(2560.132,-1233.672) and (2449.595,-1261.745),(2449.326,-1205.374)
+found intersection with door 2anull46!
+hooray, we found an intersection: t=0.285, u=0.426
+  (2560.132,-1233.672),(2560.132,-987.163) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door 2DLOKF!
+hooray, we found an intersection: t=0.376, u=0.449
+  (2560.132,-1233.672),(2562.379,-1046.858) and (2544.354,-1163.151),(2581.376,-1163.576)
+found intersection with door 2DLOKF!
+hooray, we found an intersection: t=0.248, u=0.475
+  (3489.088,-955.76),(3489.088,-633.107) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door 2KSLO!
+hooray, we found an intersection: t=0.463, u=0.481
+  (3489.57,-806.786),(3489.088,-955.76) and (3468.302,-875.487),(3512.073,-876.12)
+found intersection with door 2KSLO!
+hooray, we found an intersection: t=0.591, u=0.552
+  (3820.613,-1828.273),(3989.728,-1828.273) and (3922.377,-1852.374),(3919.231,-1808.749)
+found intersection with door 2anullA19!
+hooray, we found an intersection: t=0.775, u=0.878
+  (1054.297,-2466.166),(1054.297,-1845.068) and (1103.811,-1985.768),(1047.418,-1984.788)
+found intersection with door null42!
+hooray, we found an intersection: t=0.177, u=0.536
+  (1335.784,-1496.188),(2271.561,-1499.875) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.801, u=0.568
+  (1335.784,-1496.188),(2271.561,-1499.875) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.38, u=0.57
+  (2271.561,-1499.875),(2267.128,-1735.688) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.359, u=0.546
+  (2271.54,-1499.857),(3455.561,-1501.25) and (2696.687,-1526.76),(2697.531,-1478.378)
+found intersection with door B!
+hooray, we found an intersection: t=0.854, u=0.445
+  (2271.54,-1499.857),(3455.561,-1501.25) and (3282.559,-1478.868),(3281.768,-1528.651)
+found intersection with door Q!
+hooray, we found an intersection: t=0.364, u=0.559
+  (1335.784,-1496.188),(1790.75,-1494.844) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.613, u=0.593
+  (1790.75,-1494.844),(2271.54,-1499.857) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.62, u=0.57
+  (2267.128,-1735.688),(2271.561,-1499.875) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.443, u=0.659
+  (2271.561,-1499.875),(1851.517,-1488.01) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.888, u=0.638
+  (1348.323,-1572.687),(3420.233,-1574.67) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door m1!
+hooray, we found an intersection: t=0.606, u=0.356
+  (1348.323,-1572.687),(3420.233,-1574.67) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door nmx!
+hooray, we found an intersection: t=0.31, u=0.638
+  (1348.323,-1572.687),(3420.233,-1574.67) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door jk!
+hooray, we found an intersection: t=0.027, u=0.402
+  (1348.323,-1572.687),(3420.233,-1574.67) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door fdshd!
+hooray, we found an intersection: t=0.292, u=0.442
+  (3325.684,-1793.56),(3260.183,-1793.56) and (3306.543,-1779.797),(3306.543,-1810.926)
+found intersection with door anullA21!
+hooray, we found an intersection: t=0.251, u=0.5
+  (973.073,-1923.523),(999.559,-2636.831) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door a3null!
+hooray, we found an intersection: t=0.554, u=0.619
+  (2898.972,-1572.1),(3420.233,-1574.67) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door m1!
+hooray, we found an intersection: t=0.595, u=0.423
+  (1205.774,-1807.666),(1344.006,-1813.121) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.642, u=0.516
+  (1698.096,-1618.269),(1241.13,-1622.785) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door dsfr!
+hooray, we found an intersection: t=0.715, u=0.5
+  (1218.632,-1802.716),(1315.728,-1808.392) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.138, u=0.462
+  (1313.045,-1792.405),(1136.351,-1862.229) and (1288.436,-1826.839),(1288.737,-1773.294)
+found intersection with door 2anull14!
+hooray, we found an intersection: t=0.898, u=0.585
+  (1312.641,-1569.496),(3400.356,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door 2m1!
+hooray, we found an intersection: t=0.618, u=0.413
+  (1312.641,-1569.496),(3400.356,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door 2nmx!
+hooray, we found an intersection: t=0.325, u=0.578
+  (1312.641,-1569.496),(3400.356,-1572.1) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door 2jk!
+hooray, we found an intersection: t=0.044, u=0.468
+  (1312.641,-1569.496),(3400.356,-1572.1) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door 2fdshd!
+hooray, we found an intersection: t=0.532, u=0.391
+  (3346.44,-1791.961),(3271.394,-1791.961) and (3306.543,-1779.797),(3306.543,-1810.926)
+found intersection with door 2anullA21!
+hooray, we found an intersection: t=0.155, u=0.484
+  (980.595,-2002.886),(980.595,-2646.252) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door 2a3null!
+hooray, we found an intersection: t=0.24, u=0.47
+  (1312.641,-1569.496),(1695.998,-1569.496) and (1404.94,-1591.963),(1404.65,-1544.194)
+found intersection with door 2fdshd!
+hooray, we found an intersection: t=0.754, u=0.406
+  (1695.998,-1569.496),(2898.972,-1572.1) and (2603.309,-1591.131),(2602.688,-1542.686)
+found intersection with door 2nmx!
+hooray, we found an intersection: t=0.245, u=0.574
+  (1695.998,-1569.496),(2898.972,-1572.1) and (1990.256,-1541.804),(1990.354,-1591.145)
+found intersection with door 2jk!
+hooray, we found an intersection: t=0.576, u=0.59
+  (2898.972,-1572.1),(3400.356,-1572.1) and (3187.712,-1543.274),(3187.712,-1592.114)
+found intersection with door 2m1!
+hooray, we found an intersection: t=0.375, u=0.448
+  (1090.604,-2199.968),(995.989,-2199.968) and (1054.548,-2178.864),(1055.805,-2225.997)
+found intersection with door anull3!
+hooray, we found an intersection: t=0.108, u=0.498
+  (1097.904,-2540.38),(1097.904,-2233.821) and (1075.442,-2507.186),(1120.503,-2507.186)
+found intersection with door anull7!
+hooray, we found an intersection: t=0.812, u=0.521
+  (1076.59,-2616.57),(1073.96,-1839.404) and (1103.811,-1985.768),(1047.418,-1984.788)
+found intersection with door null42!
+hooray, we found an intersection: t=0.177, u=0.536
+  (1335.784,-1496.188),(2271.561,-1499.875) and (1501.251,-1523.038),(1501.563,-1474.134)
+found intersection with door SSS!
+hooray, we found an intersection: t=0.801, u=0.568
+  (1335.784,-1496.188),(2271.561,-1499.875) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.38, u=0.57
+  (2271.561,-1499.875),(2267.128,-1735.688) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.557, u=0.659
+  (1851.517,-1488.01),(2271.561,-1499.875) and (2083.968,-1527.093),(2086.537,-1477.858)
+found intersection with door XXXX!
+hooray, we found an intersection: t=0.38, u=0.57
+  (2271.561,-1499.875),(2267.128,-1735.688) and (2294.847,-1590.105),(2251.049,-1589.105)
+found intersection with door null40!
+hooray, we found an intersection: t=0.859, u=0.422
+  (999.559,-2636.831),(981.572,-2014.726) and (1007.887,-2102.822),(951.494,-2101.842)
+found intersection with door a3null!
+hooray, we found an intersection: t=0.554, u=0.468
+  (1218.632,-1802.716),(1344.006,-1813.121) and (1287.978,-1833.567),(1288.131,-1779.984)
+found intersection with door anull14!
+hooray, we found an intersection: t=0.358, u=0.516
+  (1241.13,-1622.785),(1698.096,-1618.269) and (1404.246,-1646.927),(1404.94,-1596.981)
+found intersection with door dsfr!
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/0.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/1.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/2.yaml
+writing /home/ususario/IR2134/rmf_demos/build/rmf_demos_maps/maps/TD/nav_graphs/4.yaml
+[ 93%] Built target generate_TD_nav_graphs
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[100%] Built target generate_TD_crowdsim
+-- Install configuration: ""
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/triple_H
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/triple_H/triple_H.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/triple_H/triple_H.building.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office/office_scan.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office/office.building.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/office/office.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/simple
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/simple/simple.building.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/conference_room_b1_balcony.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/nav_graphs
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/nav_graphs/0.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/nav_graphs/1.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/sim_hall.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/icc_kyoto.building.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/icc_kyoto/conference_room_b1.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/UJI_TD_n2.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/UJI_TD_n0.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/UJI_TD_n1.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD.building.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD.world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/COLCON_IGNORE
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/latest_build
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/build_2025-02-24_13-19-12
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/build_2025-02-24_13-19-12/logger_all.log
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/build_2025-02-24_13-19-12/events.log
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/log/latest
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L0/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/TD_world/TD_L1/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/_local_setup_util_ps1.py
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.bash
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/COLCON_IGNORE
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/_local_setup_util_sh.py
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/.colcon_install_layout
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.zsh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.ps1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.ps1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.sh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/setup.zsh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.sh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/TD/install/local_setup.bash
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/ament_index/resource_index/package_run_dependencies/rmf_demos_maps
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/ament_index/resource_index/parent_prefix_path/rmf_demos_maps
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/path.sh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/environment/path.dsv
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.bash
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.sh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.zsh
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/local_setup.dsv
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/package.dsv
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/ament_index/resource_index/packages/rmf_demos_maps
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/cmake/rmf_demos_mapsConfig.cmake
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/cmake/rmf_demos_mapsConfig-version.cmake
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/package.xml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/config_resource
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/4.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/2.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/nav_graphs/1.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/TD.world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L0/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L1/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/TD/models/TD_L2/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/config_resource
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/nav_graphs/0.yaml
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/nav_graphs/1.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/icc_kyoto.world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/config_resource
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/nav_graphs/0.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/office.world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_2.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_2.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_4.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/blue_linoleum_high_contrast.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_4.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_3.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/black_concrete.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_3.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_4.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_2.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_3.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_white.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_4.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_3.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/wall_2.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/meshes/concrete2.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/models/building_L1/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/config_resource
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/nav_graphs/0.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_2.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_2.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_3.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_3.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L2/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/models/simple_L1/model.sdf
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/simple/simple.world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/config_resource
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/nav_graphs
+-- Installing: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/nav_graphs/0.yaml
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/triple_H.world
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/default.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/wall_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/blue_linoleum.png
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/model.material
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/floor_1.mtl
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/wall_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/meshes/floor_1.obj
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/model.config
+-- Up-to-date: /home/ususario/IR2134/rmf_demos/install/rmf_demos_maps/share/rmf_demos_maps/maps/triple_H/models/building_L1/model.sdf

@@ -1,0 +1,65 @@
+[2.292s] Invoking command in '/home/ususario/IR2134/exam_ws/src/rmf_library_fleet_adapter': PYTHONPATH=/home/ususario/IR2134/build/rmf_library_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rmf_library_fleet_adapter build --build-base /home/ususario/IR2134/build/rmf_library_fleet_adapter/build install --record /home/ususario/IR2134/build/rmf_library_fleet_adapter/install.log --single-version-externally-managed install_data
+[3.235s] running egg_info
+[3.236s] creating ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info
+[3.236s] writing ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/PKG-INFO
+[3.236s] writing dependency_links to ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/dependency_links.txt
+[3.236s] writing entry points to ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/entry_points.txt
+[3.236s] writing requirements to ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/requires.txt
+[3.236s] writing top-level names to ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/top_level.txt
+[3.236s] writing manifest file '../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/SOURCES.txt'
+[3.236s] reading manifest file '../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/SOURCES.txt'
+[3.236s] writing manifest file '../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info/SOURCES.txt'
+[3.236s] running build
+[3.236s] running build_py
+[3.236s] creating /home/ususario/IR2134/build/rmf_library_fleet_adapter/build
+[3.236s] creating /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib
+[3.236s] creating /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test
+[3.237s] copying test/test_flake8.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test
+[3.237s] copying test/test_pep257.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test
+[3.237s] copying test/test_copyright.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test
+[3.237s] copying test/__init__.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test
+[3.237s] creating /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter
+[3.237s] copying rmf_library_fleet_adapter/fleet_manager.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter
+[3.237s] copying rmf_library_fleet_adapter/manage_lane.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter
+[3.237s] copying rmf_library_fleet_adapter/RobotClientAPI.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter
+[3.237s] copying rmf_library_fleet_adapter/__init__.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter
+[3.237s] copying rmf_library_fleet_adapter/fleet_adapter.py -> /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter
+[3.237s] running install
+[3.237s] running install_lib
+[3.237s] creating /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test
+[3.237s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test/test_flake8.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test
+[3.238s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test/test_pep257.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test
+[3.238s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test/test_copyright.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test
+[3.238s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/test/__init__.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test
+[3.238s] creating /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter
+[3.238s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter/fleet_manager.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter
+[3.238s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter/manage_lane.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter
+[3.239s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter/RobotClientAPI.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter
+[3.240s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter/__init__.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter
+[3.240s] copying /home/ususario/IR2134/build/rmf_library_fleet_adapter/build/lib/rmf_library_fleet_adapter/fleet_adapter.py -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test/test_flake8.py to test_flake8.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test/test_pep257.py to test_pep257.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test/test_copyright.py to test_copyright.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/test/__init__.py to __init__.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter/fleet_manager.py to fleet_manager.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter/manage_lane.py to manage_lane.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter/RobotClientAPI.py to RobotClientAPI.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter/__init__.py to __init__.cpython-312.pyc
+[3.240s] byte-compiling /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter/fleet_adapter.py to fleet_adapter.cpython-312.pyc
+[3.240s] running install_data
+[3.240s] creating /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/ament_index
+[3.240s] creating /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/ament_index/resource_index
+[3.241s] creating /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/ament_index/resource_index/packages
+[3.241s] copying resource/rmf_library_fleet_adapter -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/ament_index/resource_index/packages
+[3.241s] copying package.xml -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/rmf_library_fleet_adapter
+[3.241s] copying config.yaml -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/rmf_library_fleet_adapter
+[3.241s] creating /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/rmf_library_fleet_adapter/launch
+[3.241s] copying launch/fleet_adapter.launch.xml -> /home/ususario/IR2134/install/rmf_library_fleet_adapter/share/rmf_library_fleet_adapter/launch
+[3.241s] running install_egg_info
+[3.241s] Copying ../../../build/rmf_library_fleet_adapter/rmf_library_fleet_adapter.egg-info to /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages/rmf_library_fleet_adapter-2.5.0-py3.12.egg-info
+[3.241s] running install_scripts
+[3.241s] Installing fleet_adapter script to /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/rmf_library_fleet_adapter
+[3.241s] Installing fleet_manager script to /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/rmf_library_fleet_adapter
+[3.241s] Installing manage_lane script to /home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/rmf_library_fleet_adapter
+[3.241s] writing list of installed files to '/home/ususario/IR2134/build/rmf_library_fleet_adapter/install.log'
+[3.253s] Invoked command in '/home/ususario/IR2134/exam_ws/src/rmf_library_fleet_adapter' returned '0': PYTHONPATH=/home/ususario/IR2134/build/rmf_library_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ususario/IR2134/install/rmf_library_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rmf_library_fleet_adapter build --build-base /home/ususario/IR2134/build/rmf_library_fleet_adapter/build install --record /home/ususario/IR2134/build/rmf_library_fleet_adapter/install.log --single-version-externally-managed install_data

@@ -1,0 +1,48 @@
+building_name: simple
+doors:
+  door_L1:
+    endpoints:
+    - [4.965933333333334, -2.6715333333333335]
+    - [4.965933333333334, -3.9808666666666666]
+    map: L1
+  door_L2:
+    endpoints:
+    - [5.0, -2.4040666666666666]
+    - [5.0, -4.1504]
+    map: L2
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: door_L1}
+    - - 1
+      - 0
+      - {door_name: door_L1}
+    vertices:
+    - - 7.666666666666667
+      - -3.3333333333333335
+      - {is_charger: false, lift: lift1, lift_cabin: lift1, name: waypoint_Lift1}
+    - - 0.9642666666666667
+      - -3.330133333333333
+      - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
+        spawn_robot_type: TinyRobot}
+  L2:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: door_L2}
+    - - 1
+      - 0
+      - {door_name: door_L2}
+    vertices:
+    - - 7.666666666666667
+      - -3.3333333333333335
+      - {lift: lift1, lift_cabin: lift1, name: waypoint_Lift2}
+    - - 1.054
+      - -3.341333333333333
+      - {is_parking_spot: true, name: waypoint_2}
+lifts:
+  lift1:
+    dims: [4.0, 4.0]
+    position: [7.666666666666667, -3.3333333333333335, 0.0]
