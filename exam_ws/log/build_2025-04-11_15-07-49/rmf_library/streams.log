@@ -1,0 +1,2058 @@
+[0.018s] Invoking command in '/home/ususario/IR2134/exam_ws/build/rmf_library': CMAKE_PREFIX_PATH=/home/ususario/IR2134/exam_ws/install/rmf_library:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/ususario/IR2134/exam_ws/src/rmf_library -DCMAKE_INSTALL_PREFIX=/home/ususario/IR2134/exam_ws/install/rmf_library
+[0.090s] -- The C compiler identification is GNU 13.3.0
+[0.153s] -- The CXX compiler identification is GNU 13.3.0
+[0.176s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.702s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.965s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models[0m
+[0.965s] [0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml[0m
+[0.965s] -- Configuring done (0.9s)
+[0.970s] -- Generating done (0.0s)
+[0.971s] -- Build files have been written to: /home/ususario/IR2134/exam_ws/build/rmf_library
+[0.978s] Invoked command in '/home/ususario/IR2134/exam_ws/build/rmf_library' returned '0': CMAKE_PREFIX_PATH=/home/ususario/IR2134/exam_ws/install/rmf_library:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/ususario/IR2134/exam_ws/src/rmf_library -DCMAKE_INSTALL_PREFIX=/home/ususario/IR2134/exam_ws/install/rmf_library
+[0.979s] Invoking command in '/home/ususario/IR2134/exam_ws/build/rmf_library': CMAKE_PREFIX_PATH=/home/ususario/IR2134/exam_ws/install/rmf_library:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/ususario/IR2134/exam_ws/build/rmf_library -- -j16 -l16
+[1.069s] [ 66%] [34m[1mGenerating maps/library/library.world[0m
+[1.070s] [ 66%] [34m[1mGenerating maps/library/nav_graphs/phony[0m
+[1.486s] generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world from /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml
+[2.767s] building name: library
+[2.767s] coordinate system: reference_image
+[2.767s] parsing level L01
+[2.769s] parsing level L02
+[2.772s] parsing level L1
+[2.775s] parsing level L2
+[2.776s] building name: library
+[2.776s] coordinate system: reference_image
+[2.776s] parsing level L01
+[2.778s] parsing level L3
+[2.779s] parsing level L02
+[2.780s] parsing level L4
+[2.780s] parsing level L5
+[2.783s] parsing level L1
+[2.783s] calculating levels relative to L01
+[2.783s] level L01 scale: 0.03733711682783853
+[2.783s] calculating level L02 offset and scale...
+[2.783s]   2 common fiducials:
+[2.783s] Transform.set_from_fiducials()
+[2.783s]   2 fiducial pairs:
+[2.783s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[2.783s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[2.783s]     calc dist fidu_2 <=> fidu_1
+[2.784s] Bearings:
+[2.784s] [(3.141592653589793, 3.141592653589793)]
+[2.784s]   0.0
+[2.784s]   Circular mean: -0.0
+[2.784s] Distances:
+[2.784s] [(1190.212, 1190.212)]
+[2.784s] mean relative scale: 1.0
+[2.784s] translation: (-0.0, -0.0)
+[2.784s] calculating level L1 offset and scale...
+[2.784s]   2 common fiducials:
+[2.784s] Transform.set_from_fiducials()
+[2.784s]   2 fiducial pairs:
+[2.784s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[2.784s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[2.784s]     calc dist fidu_2 <=> fidu_1
+[2.784s] Bearings:
+[2.784s] [(3.141592653589793, 3.141592653589793)]
+[2.784s]   0.0
+[2.784s]   Circular mean: -0.0
+[2.784s] Distances:
+[2.784s] [(1190.212, 1190.212)]
+[2.784s] mean relative scale: 1.0
+[2.784s] translation: (-0.0, -0.0)
+[2.784s] calculating level L2 offset and scale...
+[2.784s]   2 common fiducials:
+[2.785s] Transform.set_from_fiducials()
+[2.785s]   2 fiducial pairs:
+[2.785s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[2.785s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[2.785s]     calc dist fidu_2 <=> fidu_1
+[2.785s] Bearings:
+[2.785s] [(3.141592653589793, 3.141592653589793)]
+[2.785s]   0.0
+[2.785s]   Circular mean: -0.0
+[2.785s] Distances:
+[2.785s] [(1190.212, 1190.212)]
+[2.785s] mean relative scale: 1.0
+[2.785s] translation: (-0.0, -0.0)
+[2.785s] calculating level L3 offset and scale...
+[2.785s]   2 common fiducials:
+[2.785s] Transform.set_from_fiducials()
+[2.785s]   2 fiducial pairs:
+[2.785s]     (1591.8, -3001.4) -> (1617.4, -3000.8)   fidu_2
+[2.785s]     (401.59, -3001.4) -> (401.61, -3000.8)   fidu_1
+[2.785s]     calc dist fidu_2 <=> fidu_1
+[2.785s] Bearings:
+[2.785s] [(3.141592653589793, -3.1415507041068658)]
+[2.785s]   -6.283143357696659
+[2.786s]   Circular mean: -4.1949482927595274e-05
+[2.786s] Distances:
+[2.786s] [(1190.212, 1215.7480010697118)]
+[2.786s] mean relative scale: 1.0214550021926445
+[2.786s] translation: (0.31915, -2.374)
+[2.786s] calculating level L4 offset and scale...
+[2.786s]   2 common fiducials:
+[2.786s] Transform.set_from_fiducials()
+[2.786s]   2 fiducial pairs:
+[2.786s]     (1591.8, -3001.4) -> (1616.9, -3000.8)   fidu_2
+[2.786s]     (401.59, -3001.4) -> (401.69, -3000.8)   fidu_1
+[2.786s]     calc dist fidu_2 <=> fidu_1
+[2.786s] Bearings:
+[2.786s] [(3.141592653589793, -3.1415860703871643)]
+[2.786s]   -6.283178723976958
+[2.786s]   Circular mean: -6.583202628607913e-06
+[2.786s] Distances:
+[2.786s] [(1190.212, 1215.2140000263328)]
+[2.786s] mean relative scale: 1.0210063417494806
+[2.786s] translation: (0.3056, -2.3277)
+[2.786s] calculating level L5 offset and scale...
+[2.786s]   2 common fiducials:
+[2.786s] Transform.set_from_fiducials()
+[2.786s]   2 fiducial pairs:
+[2.786s]     (1591.8, -3001.4) -> (1617.4, -3000.6)   fidu_2
+[2.787s]     (401.59, -3001.4) -> (401.62, -3000.8)   fidu_1
+[2.787s]     calc dist fidu_2 <=> fidu_1
+[2.787s] Bearings:
+[2.787s] [(3.141592653589793, -3.141362344980323)]
+[2.787s]   -6.282954998570116
+[2.787s]   Circular mean: -0.00023030860947084245
+[2.787s] Distances:
+[2.787s] [(1190.212, 1215.7600322432056)]
+[2.787s] mean relative scale: 1.021465110621642
+[2.787s] translation: (0.33937, -2.3713)
+[2.787s] parsing level L2
+[2.788s] parsing level L3
+[2.790s] parsing level L4
+[2.790s] parsing level L5
+[2.793s] calculating levels relative to L01
+[2.793s] level L01 scale: 0.03733711682783853
+[2.793s] calculating level L02 offset and scale...
+[2.793s]   2 common fiducials:
+[2.793s] Transform.set_from_fiducials()
+[2.793s]   2 fiducial pairs:
+[2.794s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[2.794s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[2.794s]     calc dist fidu_2 <=> fidu_1
+[2.794s] Bearings:
+[2.794s] [(3.141592653589793, 3.141592653589793)]
+[2.794s]   0.0
+[2.794s]   Circular mean: -0.0
+[2.794s] Distances:
+[2.794s] [(1190.212, 1190.212)]
+[2.794s] mean relative scale: 1.0
+[2.794s] translation: (-0.0, -0.0)
+[2.794s] calculating level L1 offset and scale...
+[2.794s]   2 common fiducials:
+[2.794s] Transform.set_from_fiducials()
+[2.794s]   2 fiducial pairs:
+[2.794s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[2.794s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[2.794s]     calc dist fidu_2 <=> fidu_1
+[2.795s] Bearings:
+[2.795s] [(3.141592653589793, 3.141592653589793)]
+[2.795s]   0.0
+[2.795s]   Circular mean: -0.0
+[2.795s] Distances:
+[2.795s] [(1190.212, 1190.212)]
+[2.795s] mean relative scale: 1.0
+[2.795s] translation: (-0.0, -0.0)
+[2.795s] calculating level L2 offset and scale...
+[2.795s]   2 common fiducials:
+[2.795s] Transform.set_from_fiducials()
+[2.795s]   2 fiducial pairs:
+[2.795s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[2.795s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[2.795s]     calc dist fidu_2 <=> fidu_1
+[2.795s] Bearings:
+[2.795s] [(3.141592653589793, 3.141592653589793)]
+[2.795s]   0.0
+[2.795s]   Circular mean: -0.0
+[2.795s] Distances:
+[2.795s] [(1190.212, 1190.212)]
+[2.795s] mean relative scale: 1.0
+[2.795s] translation: (-0.0, -0.0)
+[2.795s] calculating level L3 offset and scale...
+[2.795s]   2 common fiducials:
+[2.796s] Transform.set_from_fiducials()
+[2.796s]   2 fiducial pairs:
+[2.796s]     (1591.8, -3001.4) -> (1617.4, -3000.8)   fidu_2
+[2.796s]     (401.59, -3001.4) -> (401.61, -3000.8)   fidu_1
+[2.796s]     calc dist fidu_2 <=> fidu_1
+[2.796s] Bearings:
+[2.796s] [(3.141592653589793, -3.1415507041068658)]
+[2.796s]   -6.283143357696659
+[2.796s]   Circular mean: -4.1949482927595274e-05
+[2.796s] Distances:
+[2.796s] [(1190.212, 1215.7480010697118)]
+[2.796s] mean relative scale: 1.0214550021926445
+[2.796s] translation: (0.31915, -2.374)
+[2.796s] calculating level L4 offset and scale...
+[2.796s]   2 common fiducials:
+[2.796s] Transform.set_from_fiducials()
+[2.796s]   2 fiducial pairs:
+[2.796s]     (1591.8, -3001.4) -> (1616.9, -3000.8)   fidu_2
+[2.796s]     (401.59, -3001.4) -> (401.69, -3000.8)   fidu_1
+[2.796s]     calc dist fidu_2 <=> fidu_1
+[2.796s] Bearings:
+[2.796s] [(3.141592653589793, -3.1415860703871643)]
+[2.796s]   -6.283178723976958
+[2.796s]   Circular mean: -6.583202628607913e-06
+[2.796s] Distances:
+[2.796s] [(1190.212, 1215.2140000263328)]
+[2.797s] mean relative scale: 1.0210063417494806
+[2.797s] translation: (0.3056, -2.3277)
+[2.797s] calculating level L5 offset and scale...
+[2.797s]   2 common fiducials:
+[2.797s] Transform.set_from_fiducials()
+[2.797s]   2 fiducial pairs:
+[2.797s]     (1591.8, -3001.4) -> (1617.4, -3000.6)   fidu_2
+[2.797s]     (401.59, -3001.4) -> (401.62, -3000.8)   fidu_1
+[2.797s]     calc dist fidu_2 <=> fidu_1
+[2.797s] Bearings:
+[2.797s] [(3.141592653589793, -3.141362344980323)]
+[2.797s]   -6.282954998570116
+[2.797s]   Circular mean: -0.00023030860947084245
+[2.797s] Distances:
+[2.797s] [(1190.212, 1215.7600322432056)]
+[2.797s] mean relative scale: 1.021465110621642
+[2.797s] translation: (0.33937, -2.3713)
+[2.820s] parsing lift C1
+[2.820s] parsing lift C2
+[2.821s] parsing lift P1
+[2.821s] parsing lift P2
+[2.825s] generating nav data
+[2.829s] parsing lift C1
+[2.830s] parsing lift C2
+[2.830s] parsing lift P1
+[2.830s] parsing lift P2
+[2.833s] hooray, we found an intersection: t=0.449, u=0.673
+[2.833s]   (1292.373,-520.895),(1539.117,-520.895) and (1403.211,-551.245),(1403.211,-506.125)
+[2.833s] found intersection with door Snull3!
+[2.834s] hooray, we found an intersection: t=0.201, u=0.501
+[2.834s]   (1539.117,-520.895),(1585.831,-321.262) and (1531.56,-477.201),(1565.351,-484.365)
+[2.834s] found intersection with door Snull4!
+[2.834s] hooray, we found an intersection: t=0.697, u=0.509
+[2.834s]   (776.638,-352.017),(980.857,-353.421) and (919.182,-370.231),(918.978,-336.355)
+[2.834s] found intersection with door Snull1!
+[2.834s] hooray, we found an intersection: t=0.173, u=0.5
+[2.834s]   (980.857,-353.421),(1292.373,-352.017) and (1034.607,-335.695),(1034.861,-370.63)
+[2.834s] found intersection with door Snull2!
+[2.834s] hooray, we found an intersection: t=0.282, u=0.498
+[2.834s]   (937.023,-410.627),(965.742,-519.519) and (928.587,-449.658),(961.775,-432.993)
+[2.834s] found intersection with door Snull10!
+[2.834s] hooray, we found an intersection: t=0.19, u=0.541
+[2.834s]   (1027.577,-613.431),(965.742,-519.519) and (1037.577,-582.795),(997.302,-606.405)
+[2.834s] found intersection with door Snull11!
+[2.834s] hooray, we found an intersection: t=0.732, u=0.422
+[2.834s]   (871.994,-687.581),(709.409,-687.581) and (753.451,-699.125),(752.323,-671.798)
+[2.834s] found intersection with door Snull13!
+[2.834s] hooray, we found an intersection: t=0.292, u=0.454
+[2.834s]   (659.001,-613.635),(659.001,-546.31) and (645.951,-593.975),(674.715,-593.975)
+[2.835s] found intersection with door Snull12!
+[2.835s] hooray, we found an intersection: t=0.343, u=0.534
+[2.835s]   (461.582,-765.428),(333.333,-765.428) and (416.854,-750.668),(418.123,-778.327)
+[2.835s] found intersection with door Snull14!
+[2.835s] hooray, we found an intersection: t=0.52, u=0.549
+[2.835s]   (1042.429,-1038.574),(1198.595,-1038.574) and (1123.672,-1011.468),(1123.672,-1060.814)
+[2.835s] found intersection with door Snull5!
+[2.835s] hooray, we found an intersection: t=0.523, u=0.443
+[2.835s]   (1042.429,-1038.574),(939.811,-1038.574) and (988.7,-1060.013),(988.859,-1011.565)
+[2.835s] found intersection with door Snull6!
+[2.835s] hooray, we found an intersection: t=0.303, u=0.559
+[2.835s]   (876.734,-1456.981),(998.184,-1453.92) and (913.477,-1471.498),(913.477,-1443.861)
+[2.835s] found intersection with door Snull7!
+[2.835s] hooray, we found an intersection: t=0.611, u=0.53
+[2.835s]   (998.184,-1453.92),(1151.055,-1461.663) and (1091.899,-1441.892),(1091.254,-1473.526)
+[2.835s] found intersection with door Snull8!
+[2.835s] hooray, we found an intersection: t=0.36, u=0.544
+[2.835s]   (998.184,-1453.92),(998.184,-1538.995) and (973.911,-1484.865),(1018.542,-1484.212)
+[2.835s] found intersection with door nueva!
+[2.835s] hooray, we found an intersection: t=0.219, u=0.447
+[2.835s]   (998.184,-1538.995),(801.608,-1538.995) and (955.375,-1559.159),(955.0,-1514.022)
+[2.835s] found intersection with door Snull9!
+[2.835s] hooray, we found an intersection: t=0.677, u=0.41
+[2.836s]   (851.023,-1742.642),(851.023,-1848.343) and (830.498,-1814.5),(880.607,-1813.751)
+[2.836s] found intersection with door Snull21!
+[2.836s] hooray, we found an intersection: t=0.121, u=0.478
+[2.836s]   (788.038,-2023.489),(490.656,-2023.489) and (752.032,-2007.279),(752.366,-2041.217)
+[2.836s] found intersection with door Snull15!
+[2.836s] hooray, we found an intersection: t=0.425, u=0.499
+[2.836s]   (945.164,-2600.875),(941.789,-2718.313) and (929.462,-2650.732),(958.051,-2650.732)
+[2.836s] found intersection with door Snull16!
+[2.836s] hooray, we found an intersection: t=0.256, u=0.444
+[2.836s]   (941.789,-2718.313),(941.789,-2842.827) and (928.368,-2750.197),(958.575,-2750.197)
+[2.836s] found intersection with door Snull17!
+[2.836s] hooray, we found an intersection: t=0.744, u=0.373
+[2.836s]   (1051.361,-2842.827),(1051.361,-2718.313) and (1062.868,-2750.197),(1032.025,-2750.197)
+[2.836s] found intersection with door Snull18!
+[2.836s] hooray, we found an intersection: t=0.573, u=0.487
+[2.836s]   (955.116,-482.959),(937.023,-410.627) and (928.587,-449.658),(961.775,-432.993)
+[2.836s] found intersection with door Snull10!
+[2.836s] generating model of level L01 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01
+[2.836s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/model.config
+[2.836s] generating floor polygon 1 on floor library_L01
+[2.837s] hole vertices: []
+[2.837s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[2.847s] hooray, we found an intersection: t=0.402, u=0.504
+[2.847s]   (920.412,-395.759),(979.572,-508.378) and (926.397,-450.649),(961.749,-431.676)
+[2.848s] found intersection with door 0null10!
+[2.848s] hooray, we found an intersection: t=0.655, u=0.461
+[2.848s]   (950.789,-542.205),(1015.104,-643.745) and (1012.503,-595.977),(969.961,-623.504)
+[2.848s] found intersection with door 0null11!
+[2.848s] hooray, we found an intersection: t=0.478, u=0.611
+[2.848s]   (1015.104,-643.745),(1150.593,-564.656) and (1064.238,-578.727),(1089.777,-623.294)
+[2.848s] found intersection with door nullh!
+[2.848s] hooray, we found an intersection: t=0.343, u=0.545
+[2.848s]   (1536.677,-564.656),(1573.954,-318.654) and (1529.555,-476.691),(1566.068,-483.366)
+[2.848s] found intersection with door 0null4!
+[2.849s] hooray, we found an intersection: t=0.43, u=0.488
+[2.849s]   (538.735,-428.535),(538.735,-550.851) and (563.156,-481.253),(513.137,-480.938)
+[2.849s] found intersection with door 0null22!
+[2.849s] hooray, we found an intersection: t=0.351, u=0.506
+[2.849s]   (538.735,-550.851),(446.522,-550.851) and (506.287,-568.92),(506.461,-533.207)
+[2.849s] found intersection with door 0null23!
+[2.849s] hooray, we found an intersection: t=0.257, u=0.491
+[2.849s]   (538.735,-550.851),(538.735,-773.06) and (562.28,-608.095),(514.358,-607.898)
+[2.849s] found intersection with door 0null24!
+[2.849s] hooray, we found an intersection: t=0.64, u=0.509
+[2.849s]   (803.021,-825.117),(751.335,-735.624) and (784.91,-760.038),(755.507,-775.328)
+[2.849s] found intersection with door nullb1!
+[2.849s] hooray, we found an intersection: t=0.169, u=0.572
+[2.849s]   (803.021,-910.414),(468.426,-910.414) and (746.305,-881.394),(746.356,-932.085)
+[2.849s] found intersection with door 0null34!
+[2.849s] hooray, we found an intersection: t=0.562, u=0.494
+[2.849s]   (1473.103,-1337.536),(1473.191,-1465.881) and (1489.775,-1409.767),(1456.158,-1409.604)
+[2.849s] found intersection with door 0null29!
+[2.849s] hooray, we found an intersection: t=0.604, u=0.507
+[2.849s]   (1512.111,-1337.536),(1512.111,-1456.942) and (1495.526,-1409.604),(1528.27,-1409.769)
+[2.850s] found intersection with door 0null30!
+[2.850s] hooray, we found an intersection: t=0.636, u=0.467
+[2.850s]   (1344.817,-1337.536),(1344.817,-1451.337) and (1330.265,-1409.785),(1361.445,-1409.944)
+[2.850s] found intersection with door 0null28!
+[2.850s] hooray, we found an intersection: t=0.615, u=0.497
+[2.850s]   (1305.848,-1337.536),(1305.848,-1455.157) and (1321.823,-1410.045),(1289.699,-1409.785)
+[2.850s] found intersection with door 0null27!
+[2.850s] hooray, we found an intersection: t=0.696, u=0.464
+[2.850s]   (1180.905,-1393.615),(1272.883,-1393.615) and (1244.724,-1378.254),(1245.099,-1411.359)
+[2.850s] found intersection with door 0null31!
+[2.850s] hooray, we found an intersection: t=0.233, u=0.509
+[2.850s]   (995.993,-1344.11),(995.993,-1532.471) and (971.09,-1387.954),(1020.032,-1387.903)
+[2.850s] found intersection with door 0null176!
+[2.850s] hooray, we found an intersection: t=0.656, u=0.501
+[2.850s]   (995.993,-1344.11),(995.993,-1532.471) and (971.714,-1467.807),(1020.218,-1467.614)
+[2.850s] found intersection with door 0null177!
+[2.851s] hooray, we found an intersection: t=0.096, u=0.548
+[2.851s]   (995.993,-1532.471),(1420.529,-1532.471) and (1036.954,-1502.122),(1036.954,-1557.512)
+[2.851s] found intersection with door 0null32!
+[2.851s] hooray, we found an intersection: t=0.3, u=0.473
+[2.851s]   (995.993,-1532.471),(860.434,-1532.471) and (955.213,-1557.206),(955.407,-1504.912)
+[2.851s] found intersection with door 0null9!
+[2.851s] hooray, we found an intersection: t=0.126, u=0.503
+[2.851s]   (790.99,-1505.72),(790.99,-1350.844) and (808.828,-1486.191),(773.342,-1486.191)
+[2.851s] found intersection with door 0null43!
+[2.851s] hooray, we found an intersection: t=0.381, u=0.477
+[2.851s]   (790.99,-1350.844),(883.416,-1350.844) and (825.805,-1333.332),(826.553,-1370.065)
+[2.851s] found intersection with door 0null42!
+[2.851s] hooray, we found an intersection: t=0.092, u=0.435
+[2.851s]   (778.104,-1350.844),(778.104,-1040.132) and (794.588,-1322.126),(756.721,-1322.126)
+[2.851s] found intersection with door 0null41!
+[2.851s] hooray, we found an intersection: t=0.252, u=0.668
+[2.851s]   (596.666,-1138.737),(596.666,-1036.252) and (613.526,-1112.9),(588.289,-1112.9)
+[2.851s] found intersection with door 0null35!
+[2.851s] hooray, we found an intersection: t=0.386, u=0.494
+[2.851s]   (596.666,-1299.179),(668.543,-1299.179) and (624.421,-1313.088),(624.421,-1284.934)
+[2.851s] found intersection with door 0null38!
+[2.852s] hooray, we found an intersection: t=0.186, u=0.391
+[2.852s]   (596.666,-1299.179),(450.997,-1299.179) and (569.603,-1309.434),(569.603,-1283.189)
+[2.852s] found intersection with door 0null37!
+[2.852s] hooray, we found an intersection: t=0.432, u=0.503
+[2.852s]   (596.666,-1138.737),(533.904,-1138.737) and (569.487,-1155.612),(569.592,-1122.043)
+[2.852s] found intersection with door 0null36!
+[2.852s] hooray, we found an intersection: t=0.341, u=0.578
+[2.852s]   (790.99,-1546.69),(628.652,-1546.69) and (735.688,-1515.4),(735.688,-1569.577)
+[2.852s] found intersection with door 0null50!
+[2.852s] hooray, we found an intersection: t=0.667, u=0.567
+[2.852s]   (628.652,-1770.362),(788.595,-1770.362) and (735.353,-1740.175),(735.353,-1793.445)
+[2.852s] found intersection with door 0null33!
+[2.852s] hooray, we found an intersection: t=0.441, u=0.52
+[2.852s]   (1088.601,-1737.236),(1000.769,-1824.769) and (1073.676,-1800.025),(1027.939,-1753.501)
+[2.852s] found intersection with door 0null178!
+[2.852s] hooray, we found an intersection: t=0.338, u=0.461
+[2.852s]   (788.595,-2035.579),(677.131,-2035.579) and (751.034,-2020.672),(750.869,-2053.014)
+[2.852s] found intersection with door 0null15!
+[2.852s] hooray, we found an intersection: t=0.448, u=0.473
+[2.852s]   (677.131,-2035.579),(530.331,-2035.579) and (611.301,-2052.124),(611.301,-2017.134)
+[2.852s] found intersection with door 0null57!
+[2.853s] hooray, we found an intersection: t=0.733, u=0.482
+[2.853s]   (1001.549,-2129.152),(861.135,-2129.152) and (898.927,-2146.465),(898.426,-2110.518)
+[2.853s] found intersection with door 0null58!
+[2.853s] hooray, we found an intersection: t=0.24, u=0.463
+[2.853s]   (1281.901,-2107.402),(1471.051,-2107.402) and (1326.905,-2089.94),(1327.732,-2127.636)
+[2.853s] found intersection with door 0null46!
+[2.853s] hooray, we found an intersection: t=0.637, u=0.432
+[2.853s]   (1471.051,-2107.402),(1471.051,-2182.459) and (1454.71,-2155.399),(1492.522,-2154.971)
+[2.853s] found intersection with door 0null47!
+[2.853s] hooray, we found an intersection: t=0.553, u=0.536
+[2.853s]   (1122.31,-2129.152),(1122.31,-2175.354) and (1148.148,-2154.698),(1099.935,-2154.698)
+[2.853s] found intersection with door 0null44!
+[2.853s] hooray, we found an intersection: t=0.456, u=0.461
+[2.853s]   (1282.34,-2176.117),(1281.901,-2129.152) and (1304.377,-2154.698),(1256.164,-2154.698)
+[2.853s] found intersection with door 0null45!
+[2.853s] hooray, we found an intersection: t=0.575, u=0.501
+[2.853s]   (1001.549,-2277.151),(823.183,-2277.151) and (898.819,-2295.926),(899.123,-2258.444)
+[2.853s] found intersection with door 0null59!
+[2.853s] hooray, we found an intersection: t=0.618, u=0.505
+[2.853s]   (642.379,-2291.975),(521.46,-2291.975) and (567.654,-2308.619),(567.654,-2275.674)
+[2.854s] found intersection with door 0null61!
+[2.854s] hooray, we found an intersection: t=0.751, u=0.508
+[2.854s]   (642.379,-2406.224),(506.594,-2406.224) and (540.46,-2423.613),(540.344,-2389.383)
+[2.854s] found intersection with door 0null62!
+[2.854s] hooray, we found an intersection: t=0.747, u=0.507
+[2.854s]   (642.379,-2516.706),(506.342,-2522.169) and (540.499,-2538.039),(540.903,-2503.995)
+[2.854s] found intersection with door 0null64!
+[2.854s] hooray, we found an intersection: t=0.414, u=0.497
+[2.854s]   (570.086,-2575.813),(498.893,-2573.356) and (540.431,-2558.086),(540.861,-2591.712)
+[2.854s] found intersection with door 0null63!
+[2.854s] hooray, we found an intersection: t=0.679, u=0.371
+[2.854s]   (570.086,-2575.813),(635.727,-2575.813) and (614.567,-2568.27),(614.781,-2588.604)
+[2.854s] found intersection with door 0null65!
+[2.854s] hooray, we found an intersection: t=0.52, u=0.486
+[2.854s]   (785.244,-2428.76),(1004.08,-2428.76) and (899.116,-2405.407),(899.116,-2453.443)
+[2.854s] found intersection with door 0null60!
+[2.854s] hooray, we found an intersection: t=0.482, u=0.567
+[2.854s]   (966.641,-2701.051),(848.428,-2701.051) and (909.608,-2673.076),(909.608,-2722.408)
+[2.854s] found intersection with door nullnueva4!
+[2.854s] hooray, we found an intersection: t=0.242, u=0.54
+[2.855s]   (848.428,-2701.051),(848.428,-2548.989) and (833.435,-2664.245),(861.187,-2664.245)
+[2.855s] found intersection with door 0null75!
+[2.855s] hooray, we found an intersection: t=0.331, u=0.5
+[2.855s]   (513.407,-2811.211),(513.407,-2704.162) and (530.187,-2775.682),(496.658,-2775.91)
+[2.855s] found intersection with door 0null66!
+[2.855s] hooray, we found an intersection: t=0.354, u=0.486
+[2.855s]   (486.953,-2811.211),(487.298,-2871.261) and (503.604,-2832.189),(469.597,-2832.739)
+[2.855s] found intersection with door 0null69!
+[2.855s] hooray, we found an intersection: t=0.344, u=0.495
+[2.855s]   (559.375,-2811.211),(559.055,-2871.856) and (575.469,-2832.145),(542.756,-2831.946)
+[2.855s] found intersection with door 0null70!
+[2.855s] hooray, we found an intersection: t=0.343, u=0.484
+[2.855s]   (612.647,-2811.211),(613.373,-2724.377) and (630.0,-2781.581),(594.633,-2781.308)
+[2.855s] found intersection with door 0null67!
+[2.855s] hooray, we found an intersection: t=0.321, u=0.483
+[2.855s]   (643.752,-2811.211),(643.02,-2876.025) and (660.129,-2832.22),(625.755,-2831.756)
+[2.855s] found intersection with door 0null71!
+[2.855s] hooray, we found an intersection: t=0.401, u=0.486
+[2.855s]   (660.102,-2811.211),(660.102,-2738.079) and (643.108,-2781.718),(678.065,-2782.127)
+[2.855s] found intersection with door 0null68!
+[2.855s] hooray, we found an intersection: t=0.313, u=0.497
+[2.855s]   (681.16,-2811.211),(681.16,-2877.921) and (664.774,-2832.22),(697.756,-2831.968)
+[2.856s] found intersection with door 0null72!
+[2.856s] hooray, we found an intersection: t=0.303, u=0.498
+[2.856s]   (811.81,-2811.211),(811.81,-2879.782) and (828.596,-2832.216),(794.89,-2831.749)
+[2.856s] found intersection with door 0null73!
+[2.856s] hooray, we found an intersection: t=0.34, u=0.5
+[2.856s]   (848.428,-2811.211),(848.428,-2872.423) and (831.495,-2832.214),(865.345,-2831.818)
+[2.856s] found intersection with door 0null74!
+[2.856s] hooray, we found an intersection: t=0.184, u=0.538
+[2.856s]   (944.606,-2735.557),(944.606,-2814.969) and (928.368,-2750.197),(958.575,-2750.197)
+[2.856s] found intersection with door 0null17!
+[2.856s] hooray, we found an intersection: t=0.573, u=0.513
+[2.856s]   (1047.039,-2814.969),(1047.039,-2701.858) and (1062.868,-2750.197),(1032.025,-2750.197)
+[2.856s] found intersection with door 0null18!
+[2.856s] hooray, we found an intersection: t=0.16, u=0.473
+[2.856s]   (1096.261,-2708.665),(1508.731,-2708.665) and (1162.129,-2731.515),(1162.129,-2683.252)
+[2.856s] found intersection with door 0null48!
+[2.856s] hooray, we found an intersection: t=0.348, u=0.461
+[2.856s]   (1122.838,-2751.638),(1122.838,-2905.6) and (1100.881,-2805.114),(1148.543,-2805.37)
+[2.856s] found intersection with door 0null49!
+[2.856s] hooray, we found an intersection: t=0.429, u=0.531
+[2.856s]   (702.492,-428.535),(702.492,-551.429) and (729.01,-481.253),(679.085,-481.253)
+[2.856s] found intersection with door 0null21!
+[2.856s] hooray, we found an intersection: t=0.364, u=0.705
+[2.856s]   (596.666,-1350.844),(522.299,-1350.844) and (569.603,-1332.895),(569.603,-1358.345)
+[2.856s] found intersection with door 0null39!
+[2.857s] hooray, we found an intersection: t=0.273, u=0.411
+[2.857s]   (596.666,-1350.844),(607.018,-1448.976) and (588.676,-1377.609),(615.012,-1377.609)
+[2.857s] found intersection with door 0null40!
+[2.857s] hooray, we found an intersection: t=0.421, u=0.55
+[2.857s]   (964.301,-472.54),(920.412,-395.759) and (926.397,-450.649),(961.749,-431.676)
+[2.857s] found intersection with door 0null10!
+[2.865s] hooray, we found an intersection: t=0.167, u=0.45
+[2.866s]   (689.821,-410.287),(926.124,-410.287) and (729.249,-432.867),(729.249,-382.684)
+[2.866s] found intersection with door 1null85!
+[2.866s] hooray, we found an intersection: t=0.037, u=0.505
+[2.866s]   (475.646,-450.409),(475.646,-1351.481) and (450.454,-483.873),(500.296,-483.873)
+[2.866s] found intersection with door 1null84!
+[2.866s] hooray, we found an intersection: t=0.54, u=0.661
+[2.866s]   (953.935,-563.713),(953.935,-752.308) and (986.89,-665.624),(937.056,-665.624)
+[2.866s] found intersection with door 1null81!
+[2.866s] hooray, we found an intersection: t=0.458, u=0.48
+[2.866s]   (1028.608,-751.891),(1027.702,-563.713) and (1004.077,-665.624),(1054.275,-665.624)
+[2.866s] found intersection with door 1null82!
+[2.866s] hooray, we found an intersection: t=0.435, u=0.517
+[2.867s]   (785.273,-791.301),(754.069,-735.331) and (784.088,-760.601),(760.104,-772.859)
+[2.867s] found intersection with door nullb3!
+[2.867s] hooray, we found an intersection: t=0.517, u=0.489
+[2.867s]   (556.402,-1351.481),(556.402,-1462.562) and (573.343,-1408.806),(538.717,-1409.046)
+[2.867s] found intersection with door 1null90!
+[2.867s] hooray, we found an intersection: t=0.501, u=0.5
+[2.867s]   (640.439,-1351.481),(640.439,-1466.586) and (657.264,-1409.287),(623.6,-1409.046)
+[2.867s] found intersection with door 1null91!
+[2.867s] hooray, we found an intersection: t=0.501, u=0.471
+[2.867s]   (681.896,-1351.666),(681.896,-1466.525) and (666.471,-1409.104),(699.239,-1409.231)
+[2.867s] found intersection with door 1null92!
+[2.867s] hooray, we found an intersection: t=0.49, u=0.482
+[2.867s]   (848.504,-1353.331),(848.504,-1468.711) and (832.675,-1409.941),(865.529,-1409.785)
+[2.867s] found intersection with door nullnuevo!
+[2.867s] hooray, we found an intersection: t=0.331, u=0.378
+[2.868s]   (989.691,-1351.481),(989.691,-1538.262) and (970.854,-1413.321),(1020.629,-1413.321)
+[2.868s] found intersection with door 1null75!
+[2.868s] hooray, we found an intersection: t=0.427, u=0.482
+[2.868s]   (1223.246,-1372.402),(1223.704,-1460.246) and (1239.068,-1409.918),(1206.648,-1409.918)
+[2.868s] found intersection with door 1null83!
+[2.868s] hooray, we found an intersection: t=0.399, u=0.492
+[2.868s]   (1309.027,-1372.246),(1306.987,-1465.442) and (1324.255,-1409.433),(1291.644,-1409.433)
+[2.868s] found intersection with door 1null27!
+[2.868s] hooray, we found an intersection: t=0.398, u=0.489
+[2.868s]   (1348.887,-1372.659),(1349.601,-1465.935) and (1331.54,-1409.78),(1367.621,-1409.78)
+[2.868s] found intersection with door 1ull28!
+[2.868s] hooray, we found an intersection: t=0.419, u=0.503
+[2.868s]   (1438.316,-1373.756),(1432.82,-1460.403) and (1418.589,-1410.127),(1453.203,-1410.06)
+[2.868s] found intersection with door 1null103!
+[2.868s] hooray, we found an intersection: t=0.838, u=0.631
+[2.868s]   (689.821,-410.287),(689.821,-495.068) and (721.862,-481.327),(671.094,-481.327)
+[2.868s] found intersection with door 1null21!
+[2.868s] hooray, we found an intersection: t=0.585, u=0.532
+[2.868s]   (791.048,-1414.968),(789.148,-1536.776) and (808.828,-1486.191),(773.342,-1486.191)
+[2.868s] found intersection with door 1null43!
+[2.868s] hooray, we found an intersection: t=0.828, u=0.367
+[2.869s]   (789.148,-1536.776),(989.691,-1538.262) and (955.213,-1557.206),(955.407,-1504.912)
+[2.869s] found intersection with door 1null9!
+[2.869s] hooray, we found an intersection: t=0.208, u=0.501
+[2.869s]   (476.055,-2852.072),(482.727,-2968.103) and (493.98,-2876.405),(460.998,-2876.043)
+[2.869s] found intersection with door 1null69!
+[2.869s] hooray, we found an intersection: t=0.217, u=0.505
+[2.869s]   (520.113,-2851.726),(512.412,-2966.601) and (535.75,-2876.766),(501.444,-2876.525)
+[2.869s] found intersection with door 1null70!
+[2.869s] hooray, we found an intersection: t=0.232, u=0.477
+[2.869s]   (643.251,-2851.792),(643.251,-2958.443) and (659.755,-2876.684),(625.171,-2876.381)
+[2.869s] found intersection with door 1null71!
+[2.869s] hooray, we found an intersection: t=0.235, u=0.509
+[2.869s]   (688.482,-2851.258),(679.196,-2959.463) and (670.179,-2876.789),(701.862,-2876.482)
+[2.869s] found intersection with door 1null72!
+[2.869s] hooray, we found an intersection: t=0.214, u=0.503
+[2.869s]   (814.152,-2851.792),(800.454,-2967.517) and (828.2,-2876.519),(794.464,-2876.519)
+[2.869s] found intersection with door 1null73!
+[2.869s] hooray, we found an intersection: t=0.209, u=0.492
+[2.869s]   (847.655,-2851.792),(847.655,-2969.031) and (831.831,-2876.334),(864.018,-2876.347)
+[2.869s] found intersection with door 1null74!
+[2.870s] hooray, we found an intersection: t=0.186, u=0.365
+[2.870s]   (789.148,-2032.462),(583.911,-2032.462) and (751.034,-2020.672),(750.869,-2053.014)
+[2.870s] found intersection with door 1null15!
+[2.870s] hooray, we found an intersection: t=0.867, u=0.562
+[2.870s]   (789.148,-2032.462),(583.911,-2032.462) and (611.301,-2052.124),(611.301,-2017.134)
+[2.870s] found intersection with door 1null57!
+[2.870s] hooray, we found an intersection: t=0.321, u=0.494
+[2.870s]   (1139.202,-2832.2),(1139.202,-2968.791) and (1155.941,-2875.825),(1122.023,-2876.226)
+[2.870s] found intersection with door 1null96!
+[2.870s] hooray, we found an intersection: t=0.325, u=0.504
+[2.870s]   (1185.845,-2832.273),(1183.249,-2968.128) and (1168.002,-2876.243),(1201.7,-2876.628)
+[2.870s] found intersection with door 1null93!
+[2.870s] hooray, we found an intersection: t=0.319, u=0.489
+[2.870s]   (1308.271,-2832.2),(1308.271,-2969.99) and (1324.548,-2876.134),(1291.273,-2876.059)
+[2.871s] found intersection with door 1null97!
+[2.871s] hooray, we found an intersection: t=0.33, u=0.495
+[2.871s]   (1351.024,-2832.2),(1351.024,-2965.633) and (1334.714,-2876.243),(1367.663,-2876.237)
+[2.871s] found intersection with door 1null94!
+[2.871s] hooray, we found an intersection: t=0.331, u=0.457
+[2.871s]   (1478.311,-2832.2),(1478.311,-2964.991) and (1493.443,-2876.26),(1460.354,-2876.133)
+[2.871s] found intersection with door 1null98!
+[2.871s] hooray, we found an intersection: t=0.329, u=0.476
+[2.871s]   (1515.234,-2832.2),(1515.234,-2966.276) and (1499.741,-2876.243),(1532.258,-2876.408)
+[2.872s] found intersection with door 1null95!
+[2.872s] hooray, we found an intersection: t=0.434, u=0.494
+[2.872s]   (1308.271,-2832.2),(1308.271,-2678.953) and (1325.439,-2765.617),(1290.657,-2765.727)
+[2.872s] found intersection with door 1null99!
+[2.872s] hooray, we found an intersection: t=0.431, u=0.493
+[2.872s]   (1351.024,-2832.2),(1351.024,-2678.492) and (1334.517,-2765.727),(1367.986,-2766.091)
+[2.872s] found intersection with door 1null100!
+[2.872s] hooray, we found an intersection: t=0.434, u=0.476
+[2.872s]   (1478.311,-2832.2),(1478.311,-2677.901) and (1495.03,-2765.161),(1459.912,-2765.161)
+[2.872s] found intersection with door 1null101!
+[2.872s] hooray, we found an intersection: t=0.438, u=0.469
+[2.872s]   (1515.234,-2832.2),(1515.234,-2679.675) and (1498.747,-2765.315),(1533.866,-2765.64)
+[2.872s] found intersection with door 1null102!
+[2.872s] hooray, we found an intersection: t=0.497, u=0.379
+[2.872s]   (926.124,-410.287),(958.775,-472.521) and (925.587,-450.84),(969.845,-425.494)
+[2.872s] found intersection with door 1null10!
+[2.881s] hooray, we found an intersection: t=0.505, u=0.458
+[2.881s]   (1122.013,-491.135),(956.628,-578.357) and (1026.37,-514.326),(1052.79,-559.844)
+[2.882s] found intersection with door nulljh!
+[2.882s] hooray, we found an intersection: t=0.735, u=0.607
+[2.882s]   (956.628,-578.357),(956.628,-697.035) and (986.89,-665.624),(937.056,-665.624)
+[2.882s] found intersection with door 2null76!
+[2.882s] hooray, we found an intersection: t=0.424, u=0.499
+[2.882s]   (786.453,-789.841),(752.112,-734.513) and (786.296,-758.641),(757.424,-774.122)
+[2.882s] found intersection with door nullb4!
+[2.883s] hooray, we found an intersection: t=0.654, u=0.494
+[2.883s]   (553.482,-1327.543),(553.482,-1452.441) and (570.729,-1409.288),(535.815,-1409.14)
+[2.883s] found intersection with door 2null83!
+[2.883s] hooray, we found an intersection: t=0.616, u=0.493
+[2.883s]   (642.284,-1327.668),(642.284,-1460.61) and (659.869,-1409.437),(624.213,-1409.586)
+[2.883s] found intersection with door 2null84!
+[2.883s] hooray, we found an intersection: t=0.601, u=0.502
+[2.883s]   (684.561,-1327.969),(684.561,-1463.565) and (667.149,-1409.437),(701.819,-1409.375)
+[2.883s] found intersection with door 2null85!
+[2.883s] hooray, we found an intersection: t=0.332, u=0.492
+[2.883s]   (852.334,-1381.017),(851.764,-1468.286) and (835.617,-1410.054),(869.234,-1409.837)
+[2.883s] found intersection with door nulln4!
+[2.883s] hooray, we found an intersection: t=0.471, u=0.485
+[2.883s]   (1309.203,-1362.027),(1309.203,-1463.417) and (1326.075,-1409.649),(1291.262,-1409.989)
+[2.883s] found intersection with door 2null27!
+[2.883s] hooray, we found an intersection: t=0.459, u=0.491
+[2.884s]   (1346.876,-1362.027),(1346.876,-1466.688) and (1330.491,-1409.989),(1363.837,-1410.135)
+[2.884s] found intersection with door 2null28!
+[2.884s] hooray, we found an intersection: t=0.459, u=0.499
+[2.884s]   (1429.376,-1362.178),(1429.376,-1465.95) and (1412.6,-1409.921),(1446.243,-1409.686)
+[2.884s] found intersection with door 2null96!
+[2.884s] hooray, we found an intersection: t=0.232, u=0.581
+[2.884s]   (999.19,-1373.128),(999.19,-1534.152) and (968.879,-1409.989),(1021.007,-1410.828)
+[2.884s] found intersection with door 2null75!
+[2.884s] hooray, we found an intersection: t=0.214, u=0.441
+[2.884s]   (999.19,-1534.152),(793.828,-1534.152) and (955.213,-1557.206),(955.407,-1504.912)
+[2.884s] found intersection with door 2null9!
+[2.884s] hooray, we found an intersection: t=0.319, u=0.423
+[2.884s]   (793.828,-1534.152),(793.828,-1383.929) and (808.828,-1486.191),(773.342,-1486.191)
+[2.884s] found intersection with door 2null43!
+[2.884s] hooray, we found an intersection: t=0.245, u=0.501
+[2.884s]   (477.708,-2847.985),(477.708,-2965.38) and (494.519,-2876.812),(460.947,-2876.703)
+[2.884s] found intersection with door 2null69!
+[2.884s] hooray, we found an intersection: t=0.241, u=0.482
+[2.885s]   (522.174,-2848.384),(519.352,-2966.587) and (539.111,-2876.965),(502.592,-2876.748)
+[2.885s] found intersection with door 2null70!
+[2.885s] hooray, we found an intersection: t=0.25, u=0.493
+[2.885s]   (640.257,-2847.985),(640.257,-2963.787) and (657.179,-2877.145),(622.834,-2876.77)
+[2.885s] found intersection with door 2null71!
+[2.885s] hooray, we found an intersection: t=0.237, u=0.497
+[2.885s]   (682.079,-2848.78),(682.079,-2967.27) and (665.437,-2877.145),(698.938,-2876.582)
+[2.885s] found intersection with door 2null72!
+[2.885s] hooray, we found an intersection: t=0.237, u=0.492
+[2.885s]   (810.253,-2849.45),(810.253,-2962.172) and (826.895,-2876.363),(793.096,-2875.889)
+[2.885s] found intersection with door 2null73!
+[2.885s] hooray, we found an intersection: t=0.237, u=0.496
+[2.885s]   (848.478,-2849.45),(848.478,-2963.471) and (831.638,-2876.482),(865.556,-2876.482)
+[2.885s] found intersection with door 2null74!
+[2.885s] hooray, we found an intersection: t=0.382, u=0.497
+[2.885s]   (1143.739,-2825.094),(1143.739,-2958.604) and (1160.527,-2876.148),(1126.749,-2876.036)
+[2.885s] found intersection with door 2null89!
+[2.885s] hooray, we found an intersection: t=0.238, u=0.5
+[2.885s]   (1183.666,-2847.379),(1183.666,-2967.967) and (1166.643,-2876.192),(1200.659,-2875.944)
+[2.886s] found intersection with door 2null86!
+[2.886s] hooray, we found an intersection: t=0.252, u=0.493
+[2.886s]   (1308.778,-2847.379),(1308.778,-2961.346) and (1325.448,-2876.276),(1291.667,-2875.909)
+[2.886s] found intersection with door 2null90!
+[2.886s] hooray, we found an intersection: t=0.477, u=0.497
+[2.886s]   (1308.778,-2847.379),(1308.778,-2675.852) and (1325.781,-2765.684),(1291.543,-2765.547)
+[2.886s] found intersection with door 2null92!
+[2.886s] hooray, we found an intersection: t=0.245, u=0.498
+[2.886s]   (1347.69,-2847.379),(1347.69,-2966.042) and (1331.048,-2876.185),(1364.465,-2876.74)
+[2.886s] found intersection with door 2null87!
+[2.886s] hooray, we found an intersection: t=0.471, u=0.494
+[2.886s]   (1347.69,-2847.379),(1347.69,-2674.122) and (1330.964,-2765.759),(1364.856,-2765.696)
+[2.886s] found intersection with door 2null93!
+[2.886s] hooray, we found an intersection: t=0.259, u=0.505
+[2.886s]   (1475.864,-2847.379),(1475.864,-2958.755) and (1492.964,-2876.243),(1459.129,-2876.101)
+[2.886s] found intersection with door 2null91!
+[2.886s] hooray, we found an intersection: t=0.483, u=0.501
+[2.886s]   (1475.864,-2847.379),(1475.864,-2678.445) and (1493.382,-2765.907),(1458.382,-2765.497)
+[2.886s] found intersection with door 2null94!
+[2.886s] hooray, we found an intersection: t=0.489, u=0.496
+[2.886s]   (1514.3,-2847.466),(1514.3,-2680.252) and (1497.49,-2765.885),(1531.362,-2765.468)
+[2.886s] found intersection with door 2null95!
+[2.886s] hooray, we found an intersection: t=0.244, u=0.498
+[2.886s]   (1514.3,-2847.466),(1514.3,-2964.188) and (1497.384,-2876.188),(1531.328,-2875.806)
+[2.886s] found intersection with door 2null88!
+[2.887s] hooray, we found an intersection: t=0.423, u=0.5
+[2.887s]   (1144.935,-1373.128),(1144.935,-1460.38) and (1161.904,-1410.161),(1127.962,-1409.889)
+[2.887s] found intersection with door null!
+[2.887s] hooray, we found an intersection: t=0.418, u=0.512
+[2.887s]   (1181.148,-1372.102),(1188.85,-1462.048) and (1201.392,-1409.64),(1168.126,-1409.759)
+[2.887s] found intersection with door 2null78!
+[2.887s] hooray, we found an intersection: t=0.454, u=0.229
+[2.887s]   (695.046,-440.451),(728.421,-530.391) and (721.862,-481.327),(671.094,-481.327)
+[2.887s] found intersection with door 2null21!
+[2.887s] hooray, we found an intersection: t=0.332, u=0.477
+[2.887s]   (577.109,-2035.431),(679.976,-2035.431) and (611.301,-2052.124),(611.301,-2017.134)
+[2.887s] found intersection with door 2null57!
+[2.887s] hooray, we found an intersection: t=0.622, u=0.494
+[2.887s]   (679.976,-2035.431),(793.828,-2035.554) and (750.634,-2018.386),(750.869,-2053.014)
+[2.887s] found intersection with door 2null15!
+[2.894s] hooray, we found an intersection: t=0.698, u=0.551
+[2.894s]   (694.995,-523.056),(694.995,-389.762) and (724.138,-430.059),(671.279,-430.059)
+[2.894s] found intersection with door wx5null!
+[2.894s] hooray, we found an intersection: t=0.255, u=0.598
+[2.895s]   (965.656,-644.77),(971.738,-526.767) and (998.994,-614.681),(945.81,-614.681)
+[2.895s] found intersection with door wx13null!
+[2.895s] hooray, we found an intersection: t=0.554, u=0.566
+[2.895s]   (971.738,-526.767),(1121.018,-455.601) and (1039.881,-461.548),(1065.692,-507.074)
+[2.895s] found intersection with door wx7null!
+[2.895s] hooray, we found an intersection: t=0.711, u=0.469
+[2.895s]   (684.915,-1443.79),(684.915,-1350.675) and (669.599,-1377.361),(702.23,-1377.829)
+[2.895s] found intersection with door wnullm24!
+[2.896s] hooray, we found an intersection: t=0.287, u=0.47
+[2.896s]   (654.561,-1350.675),(654.561,-1443.38) and (670.016,-1377.431),(637.138,-1377.02)
+[2.896s] found intersection with door wnullm23!
+[2.896s] hooray, we found an intersection: t=0.313, u=0.503
+[2.896s]   (562.677,-1350.675),(562.677,-1434.355) and (580.063,-1377.02),(545.494,-1376.66)
+[2.896s] found intersection with door wnullm22!
+[2.896s] hooray, we found an intersection: t=0.255, u=0.443
+[2.896s]   (1004.946,-1349.674),(1004.946,-1454.723) and (981.618,-1376.449),(1034.23,-1376.449)
+[2.896s] found intersection with door wnullm26!
+[2.896s] hooray, we found an intersection: t=0.298, u=0.445
+[2.896s]   (1021.383,-1502.11),(815.189,-1502.11) and (959.57,-1527.521),(960.518,-1470.439)
+[2.896s] found intersection with door nulBGFl!
+[2.896s] hooray, we found an intersection: t=0.354, u=0.503
+[2.896s]   (1159.005,-1349.674),(1159.005,-1425.785) and (1176.009,-1376.752),(1142.184,-1376.411)
+[2.896s] found intersection with door wnullm27!
+[2.897s] hooray, we found an intersection: t=0.336, u=0.487
+[2.897s]   (1195.616,-1349.674),(1195.616,-1429.595) and (1179.714,-1376.525),(1212.369,-1376.462)
+[2.897s] found intersection with door wnullm28!
+[2.897s] hooray, we found an intersection: t=0.377, u=0.489
+[2.897s]   (1329.112,-1349.674),(1329.112,-1421.259) and (1345.819,-1376.723),(1311.682,-1376.525)
+[2.897s] found intersection with door wnullm29!
+[2.897s] hooray, we found an intersection: t=0.365, u=0.496
+[2.897s]   (1367.264,-1349.674),(1367.264,-1423.878) and (1350.456,-1376.525),(1384.318,-1377.031)
+[2.897s] found intersection with door wnullm30!
+[2.897s] hooray, we found an intersection: t=0.649, u=0.487
+[2.897s]   (1449.836,-1426.437),(1449.836,-1349.674) and (1434.41,-1376.68),(1466.074,-1376.567)
+[2.897s] found intersection with door wnullm31!
+[2.897s] hooray, we found an intersection: t=0.74, u=0.538
+[2.897s]   (815.189,-2014.006),(542.483,-2014.006) and (613.508,-2032.677),(613.508,-1997.944)
+[2.897s] found intersection with door wnullm14!
+[2.897s] hooray, we found an intersection: t=0.19, u=0.549
+[2.897s]   (815.189,-2014.006),(542.483,-2014.006) and (763.288,-2035.537),(763.288,-1996.309)
+[2.897s] found intersection with door wnullm15!
+[2.897s] hooray, we found an intersection: t=0.44, u=0.493
+[2.897s]   (481.653,-2835.57),(481.653,-2922.523) and (498.0,-2874.049),(464.87,-2873.56)
+[2.897s] found intersection with door nulldfs!
+[2.897s] hooray, we found an intersection: t=0.556, u=0.465
+[2.897s]   (513.31,-2922.729),(513.31,-2835.57) and (498.816,-2874.213),(529.974,-2874.319)
+[2.898s] found intersection with door nullthr!
+[2.898s] hooray, we found an intersection: t=0.578, u=0.51
+[2.898s]   (649.693,-2926.942),(649.693,-2835.57) and (667.054,-2874.525),(632.987,-2873.749)
+[2.898s] found intersection with door nullth!
+[2.898s] hooray, we found an intersection: t=0.42, u=0.479
+[2.898s]   (684.528,-2835.57),(684.528,-2928.986) and (668.836,-2874.525),(701.625,-2875.026)
+[2.898s] found intersection with door nullhre!
+[2.898s] hooray, we found an intersection: t=0.391, u=0.506
+[2.898s]   (820.939,-2835.57),(820.939,-2933.874) and (837.997,-2874.161),(804.274,-2873.883)
+[2.898s] found intersection with door nullat!
+[2.898s] hooray, we found an intersection: t=0.372, u=0.495
+[2.898s]   (856.042,-2835.57),(856.042,-2938.349) and (839.757,-2873.697),(872.652,-2873.867)
+[2.898s] found intersection with door nullra!
+[2.898s] hooray, we found an intersection: t=0.355, u=0.479
+[2.898s]   (1157.323,-2834.488),(1157.323,-2950.146) and (1174.437,-2875.505),(1138.733,-2875.505)
+[2.898s] found intersection with door nullgr!
+[2.898s] hooray, we found an intersection: t=0.358, u=0.508
+[2.898s]   (1195.082,-2834.488),(1195.082,-2949.529) and (1177.569,-2875.818),(1212.019,-2875.505)
+[2.898s] found intersection with door nullARG!
+[2.898s] hooray, we found an intersection: t=0.332, u=0.507
+[2.898s]   (1327.848,-2834.488),(1327.848,-2958.202) and (1345.181,-2875.861),(1310.965,-2875.344)
+[2.898s] found intersection with door nullGR!
+[2.898s] hooray, we found an intersection: t=0.471, u=0.494
+[2.898s]   (1327.848,-2834.488),(1327.848,-2676.817) and (1344.718,-2760.549),(1310.576,-2759.95)
+[2.898s] found intersection with door nulHSl!
+[2.898s] hooray, we found an intersection: t=0.33, u=0.474
+[2.899s]   (1363.319,-2834.488),(1363.319,-2958.625) and (1347.931,-2875.571),(1380.397,-2875.446)
+[2.899s] found intersection with door nullDZG!
+[2.899s] hooray, we found an intersection: t=0.466, u=0.478
+[2.899s]   (1363.319,-2834.488),(1363.319,-2675.391) and (1347.713,-2760.249),(1380.357,-2760.549)
+[2.899s] found intersection with door nuSHll!
+[2.899s] hooray, we found an intersection: t=0.325, u=0.491
+[2.899s]   (1494.87,-2834.488),(1494.87,-2959.22) and (1511.591,-2875.025),(1477.541,-2875.025)
+[2.899s] found intersection with door nullGFDZB!
+[2.899s] hooray, we found an intersection: t=0.481, u=0.499
+[2.899s]   (1494.87,-2834.488),(1494.87,-2679.116) and (1512.175,-2759.528),(1477.482,-2759.909)
+[2.899s] found intersection with door nuNHll!
+[2.899s] hooray, we found an intersection: t=0.314, u=0.491
+[2.899s]   (1538.322,-2834.488),(1538.322,-2964.484) and (1521.729,-2875.381),(1555.526,-2875.275)
+[2.899s] found intersection with door nulDGl!
+[2.899s] hooray, we found an intersection: t=0.483, u=0.508
+[2.899s]   (1538.322,-2834.488),(1538.322,-2680.072) and (1520.944,-2759.528),(1555.129,-2760.291)
+[2.899s] found intersection with door nuSFGll!
+[2.905s] hooray, we found an intersection: t=0.498, u=0.539
+[2.905s]   (695.673,-514.702),(695.673,-344.892) and (724.138,-430.059),(671.279,-430.059)
+[2.905s] found intersection with door x5null!
+[2.906s] hooray, we found an intersection: t=0.639, u=0.554
+[2.906s]   (477.098,-344.892),(477.098,-478.128) and (448.446,-430.059),(500.208,-430.059)
+[2.906s] found intersection with door x6null!
+[2.906s] hooray, we found an intersection: t=0.446, u=0.493
+[2.906s]   (561.224,-1339.218),(561.224,-1423.938) and (578.689,-1377.101),(543.235,-1376.864)
+[2.906s] found intersection with door nullm22!
+[2.906s] hooray, we found an intersection: t=0.408, u=0.481
+[2.907s]   (651.562,-1339.218),(651.562,-1431.513) and (668.687,-1376.972),(633.116,-1376.746)
+[2.907s] found intersection with door nullm23!
+[2.907s] hooray, we found an intersection: t=0.402, u=0.486
+[2.907s]   (685.474,-1339.218),(685.474,-1433.069) and (668.71,-1376.869),(703.18,-1376.985)
+[2.907s] found intersection with door nullm24!
+[2.907s] hooray, we found an intersection: t=0.4, u=0.502
+[2.907s]   (858.083,-1339.218),(858.083,-1432.235) and (845.154,-1376.449),(870.912,-1376.449)
+[2.907s] found intersection with door nullm25!
+[2.907s] hooray, we found an intersection: t=0.407, u=0.491
+[2.907s]   (1157.702,-1339.218),(1157.702,-1430.679) and (1175.015,-1376.44),(1139.775,-1376.44)
+[2.907s] found intersection with door nullm27!
+[2.907s] hooray, we found an intersection: t=0.401, u=0.468
+[2.907s]   (1194.162,-1339.218),(1194.162,-1432.733) and (1178.979,-1376.761),(1211.434,-1376.761)
+[2.907s] found intersection with door nullm28!
+[2.907s] hooray, we found an intersection: t=0.405, u=0.492
+[2.907s]   (1331.878,-1339.218),(1331.878,-1432.374) and (1348.658,-1376.85),(1314.568,-1376.955)
+[2.908s] found intersection with door nullm29!
+[2.908s] hooray, we found an intersection: t=0.402, u=0.483
+[2.908s]   (1364.464,-1339.218),(1364.464,-1432.374) and (1348.239,-1376.955),(1381.851,-1376.281)
+[2.908s] found intersection with door nullm30!
+[2.908s] hooray, we found an intersection: t=0.433, u=0.489
+[2.908s]   (1449.93,-1339.218),(1449.93,-1427.309) and (1433.502,-1377.013),(1467.066,-1377.687)
+[2.908s] found intersection with door nullm31!
+[2.908s] hooray, we found an intersection: t=0.236, u=0.532
+[2.908s]   (970.719,-641.971),(970.719,-526.385) and (998.994,-614.681),(945.81,-614.681)
+[2.908s] found intersection with door x13null!
+[2.908s] hooray, we found an intersection: t=0.596, u=0.51
+[2.908s]   (970.719,-526.385),(1108.802,-456.567) and (1039.881,-461.548),(1065.692,-507.074)
+[2.908s] found intersection with door x7null!
+[2.908s] hooray, we found an intersection: t=0.534, u=0.461
+[2.908s]   (1189.48,-456.567),(1328.151,-456.567) and (1263.672,-438.926),(1263.379,-477.184)
+[2.908s] found intersection with door x4null!
+[2.908s] hooray, we found an intersection: t=0.402, u=0.496
+[2.908s]   (1328.151,-456.567),(1328.151,-357.964) and (1345.426,-417.053),(1310.577,-416.804)
+[2.908s] found intersection with door x3null!
+[2.908s] hooray, we found an intersection: t=0.394, u=0.475
+[2.909s]   (1366.807,-456.567),(1366.807,-357.175) and (1349.658,-417.053),(1385.751,-417.8)
+[2.909s] found intersection with door x2null!
+[2.909s] hooray, we found an intersection: t=0.281, u=0.494
+[2.909s]   (1567.873,-456.567),(1567.873,-316.772) and (1585.458,-417.187),(1549.867,-417.3)
+[2.909s] found intersection with door x1null!
+[2.909s] hooray, we found an intersection: t=0.218, u=0.46
+[2.909s]   (1005.813,-1339.218),(1005.813,-1510.366) and (981.618,-1376.449),(1034.23,-1376.449)
+[2.909s] found intersection with door nullm26!
+[2.909s] hooray, we found an intersection: t=0.218, u=0.251
+[2.909s]   (1005.813,-1510.366),(797.498,-1510.366) and (960.325,-1523.721),(960.518,-1470.439)
+[2.909s] found intersection with door nusafll!
+[2.909s] hooray, we found an intersection: t=0.707, u=0.429
+[2.909s]   (797.498,-2017.772),(537.378,-2017.772) and (613.508,-2032.677),(613.508,-1997.944)
+[2.909s] found intersection with door nullm14!
+[2.909s] hooray, we found an intersection: t=0.132, u=0.453
+[2.909s]   (797.498,-2017.772),(537.378,-2017.772) and (763.288,-2035.537),(763.288,-1996.309)
+[2.909s] found intersection with door nullm15!
+[2.909s] hooray, we found an intersection: t=0.428, u=0.499
+[2.909s]   (549.754,-2286.758),(447.207,-2286.758) and (505.815,-2303.77),(505.944,-2269.665)
+[2.910s] found intersection with door nullm13!
+[2.910s] hooray, we found an intersection: t=0.513, u=0.506
+[2.910s]   (549.754,-2370.16),(464.078,-2370.16) and (505.703,-2387.615),(505.968,-2353.096)
+[2.910s] found intersection with door nullm12!
+[2.910s] hooray, we found an intersection: t=0.513, u=0.502
+[2.910s]   (549.754,-2413.963),(464.355,-2413.963) and (505.999,-2396.431),(505.971,-2431.386)
+[2.910s] found intersection with door nullm11!
+[2.910s] hooray, we found an intersection: t=0.474, u=0.491
+[2.910s]   (549.754,-2539.784),(458.066,-2539.784) and (506.178,-2556.586),(506.418,-2522.341)
+[2.910s] found intersection with door nullm10!
+[2.910s] hooray, we found an intersection: t=0.432, u=0.5
+[2.910s]   (549.754,-2585.846),(448.748,-2585.846) and (506.178,-2568.37),(506.056,-2603.293)
+[2.910s] found intersection with door nullm9!
+[2.910s] hooray, we found an intersection: t=0.538, u=0.486
+[2.910s]   (531.575,-2610.093),(531.575,-2703.253) and (548.362,-2660.427),(513.825,-2660.018)
+[2.910s] found intersection with door nullm8!
+[2.910s] hooray, we found an intersection: t=0.492, u=0.445
+[2.910s]   (668.147,-2610.093),(668.147,-2710.76) and (652.795,-2659.632),(687.287,-2659.632)
+[2.910s] found intersection with door nullm7!
+[2.910s] hooray, we found an intersection: t=0.509, u=0.467
+[2.910s]   (835.347,-2610.093),(835.347,-2709.045) and (817.05,-2660.492),(856.255,-2660.518)
+[2.910s] found intersection with door nullm6!
+[2.910s] hooray, we found an intersection: t=0.133, u=0.507
+[2.910s]   (1178.075,-2688.317),(1178.075,-2880.483) and (1196.021,-2713.868),(1160.632,-2713.868)
+[2.911s] found intersection with door nullm3!
+[2.911s] hooray, we found an intersection: t=0.159, u=0.534
+[2.911s]   (1347.206,-2688.317),(1347.206,-2848.693) and (1366.807,-2713.868),(1330.116,-2713.868)
+[2.911s] found intersection with door nullm2!
+[2.911s] hooray, we found an intersection: t=0.224, u=0.516
+[2.911s]   (1399.015,-2693.93),(1552.999,-2693.93) and (1433.453,-2676.571),(1433.508,-2710.227)
+[2.911s] found intersection with door nullm1!
+[2.911s] hooray, we found an intersection: t=0.663, u=0.55
+[2.911s]   (987.357,-556.069),(1029.716,-615.993) and (1037.577,-582.795),(997.302,-606.405)
+[2.911s] found intersection with door Snull11!
+[2.911s] hooray, we found an intersection: t=0.554, u=0.362
+[2.911s]   (1046.196,-1042.467),(942.445,-1042.467) and (988.7,-1060.013),(988.859,-1011.565)
+[2.911s] found intersection with door Snull6!
+[2.911s] hooray, we found an intersection: t=0.251, u=0.462
+[2.911s]   (705.939,-513.725),(705.939,-384.398) and (729.01,-481.253),(679.085,-481.253)
+[2.911s] found intersection with door 0null21!
+[2.911s] hooray, we found an intersection: t=0.552, u=0.496
+[2.911s]   (914.597,-384.398),(967.682,-487.31) and (926.397,-450.649),(961.749,-431.676)
+[2.911s] found intersection with door 0null10!
+[2.911s] hooray, we found an intersection: t=0.519, u=0.551
+[2.912s]   (934.669,-525.501),(1039.533,-690.565) and (1012.503,-595.977),(969.961,-623.504)
+[2.912s] found intersection with door 0null11!
+[2.912s] hooray, we found an intersection: t=0.377, u=0.573
+[2.912s]   (966.019,-473.239),(914.597,-384.398) and (926.397,-450.649),(961.749,-431.676)
+[2.912s] found intersection with door 0null10!
+[2.914s] hooray, we found an intersection: t=0.477, u=0.45
+[2.914s]   (712.184,-533.229),(684.587,-424.378) and (721.862,-481.327),(671.094,-481.327)
+[2.914s] found intersection with door 1null21!
+[2.914s] hooray, we found an intersection: t=0.361, u=0.432
+[2.914s]   (684.587,-424.378),(808.451,-387.801) and (729.249,-432.867),(729.249,-382.684)
+[2.915s] found intersection with door 1null85!
+[2.915s] hooray, we found an intersection: t=0.436, u=0.441
+[2.915s]   (919.014,-387.801),(978.867,-506.677) and (925.587,-450.84),(969.845,-425.494)
+[2.915s] found intersection with door 1null10!
+[2.915s] hooray, we found an intersection: t=0.465, u=0.555
+[2.915s]   (789.148,-1684.965),(789.148,-1257.46) and (808.828,-1486.191),(773.342,-1486.191)
+[2.915s] found intersection with door 1null43!
+[2.915s] hooray, we found an intersection: t=0.316, u=0.482
+[2.915s]   (962.852,-713.357),(962.852,-562.518) and (986.89,-665.624),(937.056,-665.624)
+[2.915s] found intersection with door 1null81!
+[2.915s] hooray, we found an intersection: t=0.621, u=0.41
+[2.915s]   (919.014,-387.801),(958.775,-472.521) and (925.587,-450.84),(969.845,-425.494)
+[2.915s] found intersection with door 1null10!
+[2.916s] hooray, we found an intersection: t=0.603, u=0.526
+[2.916s]   (701.753,-579.866),(690.772,-416.369) and (721.862,-481.327),(671.094,-481.327)
+[2.916s] found intersection with door 2null21!
+[2.916s] hooray, we found an intersection: t=0.643, u=0.438
+[2.916s]   (1137.327,-476.876),(982.724,-566.141) and (1026.37,-514.326),(1052.79,-559.844)
+[2.916s] found intersection with door nulljh!
+[2.917s] hooray, we found an intersection: t=0.508, u=0.586
+[2.917s]   (787.833,-1697.016),(788.227,-1281.864) and (808.828,-1486.191),(773.342,-1486.191)
+[2.917s] found intersection with door 2null43!
+[2.917s] hooray, we found an intersection: t=0.308, u=0.594
+[2.917s]   (956.628,-697.035),(958.761,-595.103) and (986.89,-665.624),(937.056,-665.624)
+[2.917s] found intersection with door 2null76!
+[2.920s] writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/0.yaml
+[2.985s] writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/1.yaml
+[3.067s] [ 66%] Built target generate_library_nav_graphs
+[5.031s] [[2, 1, 4], [2, 4, 3], [37, 36, 38], [38, 36, 27], [38, 27, 47], [38, 47, 44], [38, 44, 42], [38, 42, 39], [39, 42, 40], [40, 42, 41], [42, 44, 43], [45, 44, 47], [45, 47, 46], [47, 27, 48], [48, 27, 51], [48, 51, 49], [49, 51, 50], [51, 27, 73], [51, 73, 56], [51, 56, 52], [52, 56, 53], [53, 56, 54], [54, 56, 55], [56, 73, 60], [56, 60, 58], [56, 58, 57], [184, 183, 185], [213, 212, 215], [213, 215, 214], [218, 217, 216], [218, 216, 219], [220, 219, 222], [220, 222, 221], [241, 240, 239], [241, 239, 243], [241, 243, 242], [260, 259, 261], [261, 259, 262], [265, 264, 263], [265, 263, 266], [0, 269, 1], [1, 269, 4], [4, 269, 5], [35, 34, 36], [36, 34, 27], [27, 34, 33], [27, 33, 32], [27, 32, 30], [27, 30, 29], [27, 29, 28], [27, 26, 73], [73, 26, 74], [73, 72, 71], [73, 71, 70], [73, 70, 68], [73, 68, 67], [73, 67, 65], [73, 65, 62], [73, 62, 60], [60, 62, 61], [60, 59, 58], [182, 181, 183], [183, 181, 180], [183, 180, 186], [183, 186, 185], [188, 187, 190], [188, 190, 189], [193, 192, 194], [209, 208, 211], [209, 211, 210], [212, 211, 206], [212, 206, 226], [212, 226, 223], [212, 223, 215], [215, 223, 222], [215, 222, 216], [216, 222, 219], [232, 231, 234], [232, 234, 233], [237, 236, 235], [237, 235, 238], [239, 238, 243], [243, 238, 145], [243, 145, 143], [243, 143, 270], [243, 270, 271], [272, 243, 271], [273, 272, 271], [273, 271, 274], [275, 273, 274], [256, 255, 257], [257, 255, 258], [259, 258, 245], [259, 245, 103], [259, 103, 262], [262, 103, 102], [262, 102, 263], [263, 102, 99], [263, 99, 266], [266, 99, 98], [266, 98, 267], [267, 98, 268], [268, 98, 95], [268, 95, 276], [268, 276, 8], [268, 8, 269], [269, 8, 5], [5, 8, 6], [6, 8, 7], [10, 9, 12], [10, 12, 11], [14, 13, 15], [32, 31, 30], [26, 25, 277], [26, 277, 75], [26, 75, 74], [70, 69, 68], [67, 66, 65], [65, 64, 63], [65, 63, 62], [125, 124, 126], [180, 179, 186], [186, 179, 187], [187, 179, 200], [187, 200, 190], [190, 200, 198], [190, 198, 191], [192, 191, 194], [194, 191, 197], [194, 197, 195], [195, 197, 196], [207, 206, 208], [208, 206, 211], [206, 205, 226], [226, 205, 227], [226, 225, 223], [223, 225, 224], [228, 227, 230], [228, 230, 229], [231, 230, 205], [231, 205, 234], [234, 205, 235], [235, 205, 238], [238, 205, 145], [145, 205, 204], [145, 204, 203], [145, 203, 202], [145, 202, 146], [145, 144, 143], [143, 142, 141], [143, 141, 278], [143, 278, 270], [274, 278, 279], [280, 275, 279], [279, 275, 274], [244, 280, 279], [249, 248, 251], [249, 251, 250], [252, 251, 253], [253, 251, 254], [255, 254, 247], [255, 247, 245], [255, 245, 258], [245, 247, 246], [245, 244, 281], [245, 281, 140], [245, 140, 103], [103, 140, 138], [103, 138, 137], [103, 137, 104], [102, 101, 100], [102, 100, 99], [98, 97, 95], [95, 97, 96], [95, 94, 276], [276, 94, 93], [276, 93, 282], [276, 283, 9], [276, 9, 8], [9, 283, 12], [12, 283, 13], [13, 283, 284], [13, 284, 15], [15, 284, 17], [15, 17, 16], [19, 18, 21], [19, 21, 20], [23, 22, 25], [23, 25, 24], [25, 22, 86], [25, 86, 84], [25, 84, 277], [277, 84, 285], [286, 81, 277], [277, 81, 79], [277, 79, 76], [277, 76, 75], [76, 79, 77], [77, 79, 78], [116, 115, 117], [117, 115, 118], [120, 119, 122], [120, 122, 121], [124, 123, 126], [126, 123, 129], [126, 129, 127], [127, 129, 128], [157, 156, 158], [158, 156, 159], [162, 161, 163], [169, 168, 170], [170, 168, 171], [173, 172, 174], [177, 176, 178], [178, 176, 179], [179, 176, 200], [200, 176, 201], [202, 201, 176], [202, 176, 175], [202, 175, 172], [202, 172, 171], [202, 171, 168], [202, 168, 167], [202, 167, 148], [202, 148, 146], [146, 148, 147], [141, 140, 281], [141, 281, 287], [141, 287, 278], [278, 287, 279], [279, 288, 244], [244, 288, 281], [140, 139, 138], [137, 136, 134], [137, 134, 104], [104, 134, 107], [104, 107, 105], [105, 107, 106], [93, 92, 90], [93, 90, 282], [282, 90, 21], [282, 21, 18], [282, 18, 284], [284, 18, 17], [21, 90, 22], [22, 90, 89], [22, 89, 86], [86, 89, 87], [86, 85, 84], [289, 285, 84], [290, 285, 289], [290, 291, 285], [292, 81, 286], [292, 293, 81], [81, 293, 82], [81, 294, 79], [294, 80, 79], [114, 113, 115], [115, 113, 112], [115, 112, 118], [118, 112, 119], [119, 112, 111], [119, 111, 108], [119, 108, 133], [119, 133, 122], [122, 133, 130], [122, 130, 123], [123, 130, 129], [154, 153, 156], [154, 156, 155], [156, 153, 159], [159, 153, 152], [159, 152, 160], [161, 160, 163], [163, 160, 149], [163, 149, 164], [165, 164, 166], [166, 164, 167], [167, 164, 148], [148, 164, 149], [150, 149, 152], [150, 152, 151], [132, 131, 130], [132, 130, 133], [135, 134, 136], [134, 133, 107], [107, 133, 108], [109, 108, 110], [91, 90, 92], [89, 88, 87], [290, 83, 291], [291, 83, 82], [291, 82, 293], [111, 110, 108], [152, 149, 160], [172, 175, 174], [247, 254, 248], [248, 254, 251], [205, 230, 227], [200, 199, 198], [198, 197, 191]]
+[5.038s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_1.obj
+[5.039s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/blue_linoleum.png
+[5.039s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_1.mtl
+[5.039s] generating floor polygon 2 on floor library_L01
+[5.039s] hole vertices: []
+[5.039s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[5.045s] [[0, 11, 1], [1, 11, 2], [2, 11, 9], [2, 9, 3], [3, 9, 6], [3, 6, 4], [4, 6, 5], [7, 6, 8], [10, 9, 11], [9, 8, 6]]
+[5.045s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_2.obj
+[5.046s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/blue_linoleum.png
+[5.046s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_2.mtl
+[5.047s] generating floor polygon 3 on floor library_L01
+[5.047s] hole vertices: []
+[5.047s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[5.051s] [[0, 10, 9], [0, 9, 1], [1, 9, 8], [1, 8, 2], [2, 8, 7], [2, 7, 4], [2, 4, 3], [5, 4, 6], [6, 4, 7]]
+[5.051s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_3.obj
+[5.052s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/blue_linoleum.png
+[5.052s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_3.mtl
+[5.052s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a894f1a90>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a894f1ac0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a894f1af0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a894f1b50>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a894f1b20>}]
+[5.053s] generating wall: 1 on floor: library_L01
+[5.053s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/default.png
+[5.053s] generate_wall_visual_mesh(library_L01, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01)
+[5.053s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/wall_1.obj
+[5.068s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/wall_1.mtl
+[5.068s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/model.sdf
+[5.068s] generating model of level L02 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02
+[5.068s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/model.config
+[5.068s] generating floor polygon 1 on floor library_L02
+[5.069s] hole vertices: []
+[5.069s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[6.213s] [[1, 0, 3], [1, 3, 2], [38, 37, 39], [39, 37, 27], [39, 27, 48], [39, 48, 45], [39, 45, 43], [39, 43, 40], [40, 43, 41], [41, 43, 42], [43, 45, 44], [46, 45, 48], [46, 48, 47], [48, 27, 49], [49, 27, 52], [49, 52, 50], [50, 52, 51], [52, 27, 26], [52, 26, 57], [52, 57, 53], [53, 57, 54], [54, 57, 55], [55, 57, 56], [57, 26, 61], [57, 61, 59], [57, 59, 58], [129, 128, 130], [147, 146, 149], [147, 149, 148], [152, 151, 150], [152, 150, 153], [154, 153, 156], [154, 156, 155], [166, 165, 168], [166, 168, 167], [175, 174, 173], [175, 173, 192], [175, 192, 193], [175, 193, 194], [175, 194, 176], [184, 183, 185], [185, 183, 186], [191, 190, 0], [0, 190, 3], [3, 190, 4], [36, 35, 37], [37, 35, 34], [37, 34, 27], [27, 34, 33], [27, 33, 32], [27, 32, 30], [27, 30, 29], [27, 29, 28], [26, 25, 195], [26, 195, 72], [26, 72, 63], [26, 63, 61], [61, 63, 62], [61, 60, 59], [127, 126, 128], [128, 126, 125], [128, 125, 131], [128, 131, 130], [133, 132, 135], [133, 135, 134], [138, 137, 139], [143, 142, 145], [143, 145, 144], [146, 145, 161], [146, 161, 160], [146, 160, 157], [146, 157, 149], [149, 157, 156], [149, 156, 150], [150, 156, 153], [162, 161, 164], [162, 164, 163], [165, 164, 141], [165, 141, 106], [165, 106, 168], [168, 106, 169], [171, 170, 169], [171, 169, 172], [173, 172, 105], [173, 105, 196], [173, 196, 192], [193, 197, 194], [194, 197, 198], [194, 199, 176], [176, 199, 178], [176, 178, 177], [180, 179, 181], [181, 179, 182], [183, 182, 102], [183, 102, 186], [186, 102, 187], [188, 187, 189], [189, 187, 200], [189, 200, 190], [190, 200, 7], [190, 7, 4], [4, 7, 5], [5, 7, 6], [9, 8, 11], [9, 11, 10], [32, 31, 30], [24, 23, 25], [25, 23, 22], [25, 22, 201], [25, 201, 195], [195, 202, 74], [195, 74, 72], [72, 74, 73], [72, 71, 70], [72, 70, 67], [72, 67, 63], [63, 67, 64], [87, 86, 88], [125, 124, 131], [131, 124, 132], [132, 124, 135], [135, 124, 121], [135, 121, 120], [135, 120, 136], [137, 136, 139], [139, 136, 120], [139, 120, 106], [139, 106, 140], [140, 106, 141], [106, 120, 118], [106, 118, 116], [106, 116, 115], [106, 115, 112], [106, 112, 111], [106, 111, 108], [106, 108, 107], [106, 105, 172], [106, 172, 169], [105, 104, 103], [105, 103, 197], [105, 197, 196], [197, 103, 198], [198, 103, 203], [203, 103, 102], [203, 102, 182], [203, 182, 179], [203, 179, 199], [199, 179, 178], [102, 101, 100], [102, 100, 200], [102, 200, 187], [200, 100, 204], [200, 204, 201], [200, 201, 205], [200, 206, 8], [200, 8, 7], [8, 206, 11], [11, 206, 12], [12, 206, 14], [12, 14, 13], [14, 206, 207], [14, 207, 15], [15, 207, 17], [15, 17, 16], [19, 18, 21], [19, 21, 20], [22, 21, 205], [22, 205, 201], [205, 21, 18], [205, 18, 207], [207, 18, 17], [204, 100, 76], [204, 76, 75], [204, 75, 202], [202, 75, 74], [70, 69, 68], [70, 68, 67], [67, 66, 64], [64, 66, 65], [78, 77, 79], [79, 77, 80], [82, 81, 84], [82, 84, 83], [86, 85, 88], [88, 85, 91], [88, 91, 89], [89, 91, 90], [109, 108, 110], [110, 108, 111], [114, 113, 115], [118, 117, 116], [115, 113, 112], [100, 99, 76], [76, 99, 77], [77, 99, 96], [77, 96, 80], [80, 96, 81], [81, 96, 95], [81, 95, 84], [84, 95, 92], [84, 92, 85], [85, 92, 91], [93, 92, 94], [94, 92, 95], [97, 96, 98], [98, 96, 99], [118, 120, 119], [122, 121, 123], [123, 121, 124], [141, 164, 142], [142, 164, 161], [142, 161, 145], [160, 159, 157], [157, 159, 158]]
+[6.218s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/floor_1.obj
+[6.219s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/blue_linoleum.png
+[6.219s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/floor_1.mtl
+[6.219s] generating floor polygon 2 on floor library_L02
+[6.219s] hole vertices: []
+[6.220s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[6.235s] [[0, 20, 1], [2, 1, 3], [6, 5, 8], [6, 8, 7], [12, 11, 10], [12, 10, 13], [15, 14, 16], [17, 16, 19], [17, 19, 18], [20, 19, 4], [20, 4, 1], [1, 4, 3], [5, 4, 19], [5, 19, 8], [8, 19, 9], [9, 19, 16], [9, 16, 10], [10, 16, 13], [13, 16, 14]]
+[6.235s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/floor_2.obj
+[6.236s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/blue_linoleum.png
+[6.236s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/floor_2.mtl
+[6.237s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a89473a10>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a89473a70>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a89473a40>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a89473aa0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a89473b00>}]
+[6.237s] generating wall: 1 on floor: library_L02
+[6.238s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/default.png
+[6.238s] generate_wall_visual_mesh(library_L02, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02)
+[6.238s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/wall_1.obj
+[6.258s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/wall_1.mtl
+[6.258s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/model.sdf
+[6.258s] generating model of level L1 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1
+[6.258s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/model.config
+[6.259s] generating floor polygon 1 on floor library_L1
+[6.259s] hole vertices: []
+[6.259s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[6.259s] [[0, 2, 1]]
+[6.259s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/floor_1.obj
+[6.260s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/blue_linoleum.png
+[6.260s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/floor_1.mtl
+[6.260s] generating floor polygon 2 on floor library_L1
+[6.261s] hole vertices: []
+[6.261s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[8.392s] [[2, 1, 4], [2, 4, 3], [36, 35, 37], [37, 35, 25], [37, 25, 46], [37, 46, 43], [37, 43, 41], [37, 41, 38], [38, 41, 39], [39, 41, 40], [41, 43, 42], [44, 43, 46], [44, 46, 45], [46, 25, 47], [47, 25, 50], [47, 50, 48], [48, 50, 49], [50, 25, 24], [50, 24, 55], [50, 55, 51], [51, 55, 52], [52, 55, 53], [53, 55, 54], [55, 24, 59], [55, 59, 57], [55, 57, 56], [177, 176, 178], [202, 201, 204], [202, 204, 203], [207, 206, 205], [207, 205, 208], [209, 208, 210], [222, 221, 224], [222, 224, 223], [231, 230, 229], [231, 229, 232], [263, 234, 264], [265, 263, 264], [252, 251, 253], [253, 251, 254], [257, 256, 255], [257, 255, 258], [0, 262, 1], [1, 262, 4], [4, 262, 5], [34, 33, 35], [35, 33, 32], [35, 32, 25], [25, 32, 31], [25, 31, 30], [25, 30, 28], [25, 28, 27], [25, 27, 26], [24, 23, 266], [24, 266, 71], [24, 71, 61], [24, 61, 59], [59, 61, 60], [59, 58, 57], [175, 174, 176], [176, 174, 173], [176, 173, 179], [176, 179, 178], [181, 180, 183], [181, 183, 182], [187, 186, 188], [198, 197, 200], [198, 200, 199], [201, 200, 195], [201, 195, 216], [201, 216, 213], [201, 213, 204], [204, 213, 212], [204, 212, 205], [205, 212, 210], [205, 210, 208], [210, 212, 211], [218, 217, 220], [218, 220, 219], [221, 220, 195], [221, 195, 163], [221, 163, 224], [224, 163, 225], [227, 226, 225], [227, 225, 228], [229, 228, 163], [229, 163, 232], [232, 163, 147], [232, 147, 146], [232, 146, 143], [232, 143, 267], [232, 267, 233], [234, 233, 268], [234, 268, 264], [264, 269, 270], [271, 265, 270], [270, 265, 264], [271, 270, 235], [241, 240, 243], [241, 243, 242], [244, 243, 245], [248, 247, 249], [249, 247, 250], [251, 250, 237], [251, 237, 100], [251, 100, 254], [254, 100, 255], [255, 100, 99], [255, 99, 96], [255, 96, 258], [258, 96, 95], [258, 95, 259], [259, 95, 92], [259, 92, 260], [260, 92, 272], [260, 272, 8], [260, 8, 5], [260, 5, 261], [261, 5, 262], [5, 8, 6], [6, 8, 7], [12, 11, 13], [30, 29, 28], [22, 21, 23], [23, 21, 20], [23, 20, 82], [23, 82, 80], [23, 80, 266], [266, 80, 273], [274, 76, 266], [266, 76, 74], [266, 74, 72], [266, 72, 71], [71, 70, 69], [71, 69, 66], [71, 66, 64], [71, 64, 61], [61, 64, 62], [122, 121, 123], [173, 172, 179], [179, 172, 180], [180, 172, 166], [180, 166, 183], [183, 166, 192], [183, 192, 184], [184, 192, 191], [184, 191, 185], [186, 185, 188], [188, 185, 191], [188, 191, 189], [189, 191, 190], [196, 195, 197], [197, 195, 200], [195, 194, 164], [195, 164, 163], [163, 162, 149], [163, 149, 147], [147, 149, 148], [146, 145, 144], [146, 144, 143], [143, 142, 141], [143, 141, 269], [143, 269, 267], [267, 268, 233], [269, 141, 275], [269, 275, 270], [270, 276, 235], [235, 276, 236], [238, 237, 239], [239, 237, 250], [239, 250, 247], [239, 247, 246], [239, 246, 240], [240, 246, 243], [243, 246, 245], [237, 236, 277], [237, 277, 140], [237, 140, 139], [237, 139, 138], [237, 138, 100], [100, 138, 136], [100, 136, 101], [99, 98, 97], [99, 97, 96], [95, 94, 92], [92, 94, 93], [92, 91, 272], [272, 91, 90], [272, 90, 278], [272, 279, 9], [272, 9, 8], [9, 279, 10], [10, 279, 11], [11, 279, 13], [13, 279, 280], [13, 280, 15], [13, 15, 14], [17, 16, 19], [17, 19, 18], [20, 19, 86], [20, 86, 85], [20, 85, 82], [82, 85, 83], [82, 81, 80], [281, 273, 80], [282, 273, 281], [282, 283, 273], [274, 284, 76], [284, 285, 76], [76, 285, 77], [286, 74, 76], [286, 287, 74], [287, 75, 74], [74, 73, 72], [69, 68, 67], [69, 67, 66], [66, 65, 64], [64, 63, 62], [113, 112, 114], [114, 112, 115], [117, 116, 119], [117, 119, 118], [121, 120, 123], [123, 120, 126], [123, 126, 124], [124, 126, 125], [152, 151, 153], [153, 151, 154], [157, 156, 158], [161, 160, 159], [161, 159, 162], [169, 168, 170], [170, 168, 166], [170, 166, 172], [170, 172, 171], [166, 168, 167], [162, 159, 149], [149, 159, 158], [149, 158, 155], [149, 155, 154], [149, 154, 151], [149, 151, 150], [141, 140, 277], [141, 277, 275], [138, 137, 136], [136, 135, 101], [101, 135, 132], [101, 132, 104], [101, 104, 103], [101, 103, 102], [90, 89, 88], [90, 88, 86], [90, 86, 278], [278, 86, 19], [278, 19, 16], [278, 16, 280], [280, 16, 15], [86, 88, 87], [85, 84, 83], [282, 79, 283], [283, 79, 78], [283, 78, 285], [285, 78, 77], [111, 110, 112], [112, 110, 109], [112, 109, 115], [115, 109, 116], [116, 109, 108], [116, 108, 129], [116, 129, 119], [119, 129, 127], [119, 127, 120], [120, 127, 126], [129, 128, 127], [129, 108, 105], [129, 105, 131], [129, 131, 130], [133, 132, 134], [134, 132, 135], [132, 131, 104], [104, 131, 105], [106, 105, 107], [108, 107, 105], [156, 155, 158], [277, 236, 276], [166, 165, 194], [166, 194, 192], [192, 194, 193], [194, 165, 164], [163, 228, 225], [195, 220, 217], [195, 217, 216], [216, 215, 213], [213, 215, 214]]
+[8.399s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/floor_2.obj
+[8.400s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/blue_linoleum.png
+[8.401s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/floor_2.mtl
+[8.401s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a89242870>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a892428a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a892428d0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a89242900>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a89242960>}]
+[8.402s] generating wall: 1 on floor: library_L1
+[8.402s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/default.png
+[8.402s] generate_wall_visual_mesh(library_L1, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1)
+[8.402s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/wall_1.obj
+[8.420s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/wall_1.mtl
+[8.421s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/model.sdf
+[8.421s] generating model of level L2 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2
+[8.421s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/model.config
+[8.421s] generating floor polygon 1 on floor library_L2
+[8.422s] hole vertices: []
+[8.422s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[10.041s] [[1, 0, 3], [1, 3, 2], [32, 31, 33], [33, 31, 21], [33, 21, 42], [33, 42, 39], [33, 39, 37], [33, 37, 34], [34, 37, 35], [35, 37, 36], [37, 39, 38], [40, 39, 42], [40, 42, 41], [42, 21, 43], [43, 21, 46], [43, 46, 44], [44, 46, 45], [46, 21, 20], [46, 20, 51], [46, 51, 47], [47, 51, 48], [48, 51, 49], [49, 51, 50], [51, 20, 55], [51, 55, 53], [51, 53, 52], [135, 134, 136], [162, 161, 163], [163, 161, 164], [166, 165, 164], [166, 164, 167], [168, 167, 170], [168, 170, 169], [189, 188, 187], [189, 187, 191], [189, 191, 190], [214, 213, 215], [215, 213, 216], [219, 218, 217], [219, 217, 220], [223, 222, 0], [0, 222, 3], [3, 222, 4], [30, 29, 31], [31, 29, 28], [31, 28, 21], [21, 28, 27], [21, 27, 26], [21, 26, 24], [21, 24, 23], [21, 23, 22], [20, 19, 224], [20, 224, 67], [20, 67, 66], [20, 66, 65], [20, 65, 60], [20, 60, 57], [20, 57, 55], [55, 57, 56], [55, 54, 53], [133, 132, 134], [134, 132, 131], [134, 131, 136], [136, 131, 138], [136, 138, 137], [140, 139, 141], [142, 141, 143], [146, 145, 147], [158, 157, 160], [158, 160, 159], [161, 160, 155], [161, 155, 174], [161, 174, 171], [161, 171, 164], [164, 171, 170], [164, 170, 167], [180, 179, 182], [180, 182, 181], [185, 184, 183], [185, 183, 186], [187, 186, 121], [187, 121, 120], [187, 120, 191], [191, 120, 192], [225, 196, 226], [227, 226, 228], [225, 226, 227], [227, 228, 229], [230, 229, 228], [210, 209, 211], [211, 209, 212], [213, 212, 91], [213, 91, 216], [216, 91, 90], [216, 90, 217], [217, 90, 89], [217, 89, 220], [220, 89, 221], [221, 89, 222], [222, 89, 4], [4, 89, 7], [4, 7, 5], [5, 7, 6], [9, 8, 11], [9, 11, 10], [26, 25, 24], [18, 17, 19], [19, 17, 16], [19, 16, 77], [19, 77, 75], [19, 75, 224], [224, 75, 231], [232, 72, 224], [224, 72, 70], [224, 70, 68], [224, 68, 67], [65, 64, 63], [65, 63, 62], [65, 62, 60], [60, 62, 61], [60, 59, 58], [60, 58, 57], [96, 95, 97], [131, 130, 138], [138, 130, 139], [139, 130, 125], [139, 125, 141], [141, 125, 143], [143, 125, 152], [143, 152, 144], [145, 144, 147], [147, 144, 149], [147, 149, 148], [156, 155, 157], [157, 155, 160], [155, 154, 123], [155, 123, 122], [155, 122, 175], [155, 175, 174], [174, 173, 171], [171, 173, 172], [176, 175, 178], [176, 178, 177], [179, 178, 122], [179, 122, 182], [182, 122, 121], [182, 121, 183], [183, 121, 186], [192, 120, 233], [192, 233, 119], [192, 119, 193], [193, 119, 194], [196, 195, 226], [226, 195, 234], [228, 235, 236], [237, 230, 236], [236, 230, 228], [237, 236, 197], [203, 202, 205], [203, 205, 204], [206, 205, 207], [207, 205, 208], [209, 208, 201], [209, 201, 212], [212, 201, 199], [212, 199, 92], [212, 92, 91], [92, 106, 238], [238, 106, 239], [239, 106, 105], [239, 105, 93], [89, 88, 7], [7, 88, 240], [7, 240, 8], [8, 240, 241], [8, 241, 11], [11, 241, 12], [13, 12, 15], [13, 15, 14], [16, 15, 81], [16, 81, 80], [16, 80, 77], [77, 80, 78], [77, 76, 75], [242, 231, 75], [243, 231, 242], [243, 244, 231], [245, 72, 232], [245, 246, 72], [72, 246, 73], [72, 247, 70], [247, 71, 70], [70, 69, 68], [95, 94, 97], [97, 94, 100], [97, 100, 98], [98, 100, 99], [116, 115, 117], [118, 117, 119], [119, 117, 115], [119, 115, 248], [119, 248, 249], [119, 249, 235], [119, 235, 234], [119, 234, 194], [194, 234, 195], [235, 249, 236], [236, 250, 197], [197, 250, 198], [200, 199, 201], [199, 198, 248], [199, 248, 114], [199, 114, 113], [199, 113, 92], [92, 113, 111], [92, 111, 110], [92, 110, 108], [92, 108, 106], [106, 108, 107], [105, 104, 103], [105, 103, 93], [93, 103, 101], [93, 101, 94], [94, 101, 100], [102, 101, 103], [108, 110, 109], [115, 114, 248], [113, 112, 111], [248, 198, 250], [74, 73, 244], [243, 74, 244], [82, 81, 83], [87, 86, 88], [88, 86, 251], [88, 251, 240], [241, 252, 12], [12, 252, 15], [15, 252, 81], [81, 252, 85], [81, 85, 83], [83, 85, 84], [86, 85, 251], [251, 85, 252], [80, 79, 78], [244, 73, 246], [201, 208, 202], [202, 208, 205], [126, 125, 127], [128, 127, 129], [129, 127, 130], [130, 127, 125], [125, 124, 154], [125, 154, 152], [152, 154, 153], [152, 151, 144], [144, 151, 149], [149, 151, 150], [154, 124, 123], [122, 178, 175]]
+[10.047s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/floor_1.obj
+[10.048s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/blue_linoleum.png
+[10.048s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/floor_1.mtl
+[10.049s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88ea0140>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88ea0170>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88ea01a0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88ea0200>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88ea0230>}]
+[10.049s] generating wall: 1 on floor: library_L2
+[10.050s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/default.png
+[10.050s] generate_wall_visual_mesh(library_L2, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2)
+[10.050s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/wall_1.obj
+[10.067s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/wall_1.mtl
+[10.067s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/model.sdf
+[10.067s] generating model of level L3 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3
+[10.068s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/model.config
+[10.068s] generating floor polygon 1 on floor library_L3
+[10.068s] hole vertices: []
+[10.068s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[10.595s] [[116, 1, 0], [2, 1, 117], [2, 117, 118], [2, 118, 119], [2, 119, 120], [2, 120, 3], [62, 61, 64], [62, 64, 63], [70, 69, 71], [71, 69, 72], [95, 94, 93], [95, 93, 96], [97, 96, 99], [97, 99, 98], [105, 104, 106], [106, 104, 107], [121, 109, 122], [123, 121, 122], [114, 113, 115], [116, 115, 1], [1, 115, 9], [1, 9, 124], [1, 124, 117], [118, 125, 7], [118, 7, 119], [119, 7, 6], [119, 6, 126], [120, 127, 3], [3, 127, 4], [128, 23, 13], [13, 23, 20], [13, 20, 19], [13, 19, 14], [55, 54, 56], [56, 54, 57], [60, 59, 58], [60, 58, 61], [61, 58, 64], [64, 58, 50], [64, 50, 65], [66, 65, 68], [66, 68, 67], [69, 68, 75], [69, 75, 72], [72, 75, 74], [72, 74, 73], [84, 83, 82], [84, 82, 85], [86, 85, 88], [86, 88, 87], [90, 89, 92], [90, 92, 91], [93, 92, 100], [93, 100, 99], [93, 99, 96], [102, 101, 100], [102, 100, 103], [104, 103, 38], [104, 38, 37], [104, 37, 107], [107, 37, 129], [107, 129, 130], [109, 131, 122], [122, 132, 133], [123, 133, 134], [123, 122, 133], [134, 133, 110], [113, 112, 115], [115, 112, 10], [115, 10, 9], [9, 8, 124], [124, 8, 125], [125, 8, 7], [6, 5, 126], [126, 5, 4], [126, 4, 127], [11, 10, 12], [12, 27, 135], [135, 27, 136], [136, 27, 24], [136, 24, 128], [128, 24, 23], [23, 22, 20], [20, 22, 21], [19, 18, 17], [19, 17, 16], [19, 16, 14], [14, 16, 15], [53, 52, 51], [53, 51, 54], [54, 51, 57], [57, 51, 50], [57, 50, 58], [50, 49, 65], [65, 49, 46], [65, 46, 68], [68, 46, 75], [75, 46, 76], [82, 81, 89], [82, 89, 88], [82, 88, 85], [89, 81, 92], [92, 81, 79], [92, 79, 100], [100, 79, 103], [103, 79, 38], [38, 79, 40], [38, 40, 39], [37, 36, 35], [37, 35, 129], [129, 35, 132], [132, 35, 33], [132, 33, 137], [132, 137, 133], [111, 138, 139], [140, 138, 111], [133, 140, 110], [110, 140, 111], [112, 111, 141], [112, 141, 31], [112, 31, 30], [112, 30, 12], [112, 12, 10], [12, 30, 28], [12, 28, 27], [27, 26, 25], [27, 25, 24], [32, 31, 33], [35, 34, 33], [33, 31, 137], [137, 31, 141], [111, 139, 141], [30, 29, 28], [48, 47, 49], [49, 47, 46], [46, 45, 76], [76, 45, 78], [76, 78, 77], [80, 79, 81], [79, 78, 41], [79, 41, 40], [44, 43, 45], [45, 43, 42], [45, 42, 78], [78, 42, 41]]
+[10.598s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/floor_1.obj
+[10.599s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/blue_linoleum.png
+[10.599s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/floor_1.mtl
+[10.600s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88de6f30>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88de6f90>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88de6fc0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88de6ff0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88de7020>}]
+[10.600s] generating wall: 1 on floor: library_L3
+[10.600s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/default.png
+[10.600s] generate_wall_visual_mesh(library_L3, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3)
+[10.600s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/wall_1.obj
+[10.612s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/wall_1.mtl
+[10.612s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/model.sdf
+[10.612s] generating model of level L4 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4
+[10.613s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/model.config
+[10.613s] generating floor polygon 1 on floor library_L4
+[10.613s] hole vertices: []
+[10.613s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[10.615s] [[6, 7, 5], [5, 7, 4], [4, 7, 2], [4, 2, 3], [1, 2, 0], [0, 2, 7]]
+[10.616s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/floor_1.obj
+[10.616s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/blue_linoleum.png
+[10.616s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/floor_1.mtl
+[10.617s] generating floor polygon 2 on floor library_L4
+[10.617s] hole vertices: []
+[10.617s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[10.622s] [[3, 2, 4], [6, 5, 7], [9, 8, 10], [10, 8, 4], [10, 4, 11], [0, 11, 1], [1, 11, 2], [2, 11, 4], [4, 8, 5], [5, 8, 7]]
+[10.623s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/floor_2.obj
+[10.623s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/blue_linoleum.png
+[10.624s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/floor_2.mtl
+[10.624s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88ca2bd0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88ca2c00>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88ca2c30>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88ca2c60>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88ca2c90>}]
+[10.624s] generating wall: 1 on floor: library_L4
+[10.624s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/default.png
+[10.624s] generate_wall_visual_mesh(library_L4, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4)
+[10.624s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/wall_1.obj
+[10.625s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/wall_1.mtl
+[10.625s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/model.sdf
+[10.625s] generating model of level L5 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5
+[10.625s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/model.config
+[10.625s] generating floor polygon 1 on floor library_L5
+[10.626s] hole vertices: []
+[10.626s] lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
+[11.158s] [[116, 1, 0], [2, 1, 117], [2, 117, 118], [2, 118, 119], [2, 119, 120], [2, 120, 3], [62, 61, 64], [62, 64, 63], [70, 69, 71], [71, 69, 72], [95, 94, 93], [95, 93, 96], [97, 96, 99], [97, 99, 98], [105, 104, 106], [106, 104, 107], [121, 109, 122], [121, 122, 123], [114, 113, 115], [116, 115, 1], [1, 115, 9], [1, 9, 124], [1, 124, 117], [118, 125, 7], [118, 7, 119], [119, 7, 6], [119, 6, 126], [120, 127, 3], [3, 127, 4], [128, 23, 13], [13, 23, 20], [13, 20, 19], [13, 19, 14], [55, 54, 56], [56, 54, 57], [60, 59, 58], [60, 58, 61], [61, 58, 64], [64, 58, 50], [64, 50, 65], [66, 65, 68], [66, 68, 67], [69, 68, 75], [69, 75, 72], [72, 75, 74], [72, 74, 73], [84, 83, 82], [84, 82, 85], [86, 85, 88], [86, 88, 87], [90, 89, 92], [90, 92, 91], [93, 92, 100], [93, 100, 99], [93, 99, 96], [102, 101, 100], [102, 100, 103], [104, 103, 38], [104, 38, 37], [104, 37, 107], [107, 37, 129], [107, 129, 130], [109, 131, 122], [122, 132, 133], [123, 133, 134], [123, 122, 133], [134, 133, 110], [113, 112, 115], [115, 112, 10], [115, 10, 9], [9, 8, 124], [124, 8, 125], [125, 8, 7], [6, 5, 126], [126, 5, 4], [126, 4, 127], [11, 10, 12], [12, 27, 135], [135, 27, 136], [136, 27, 24], [136, 24, 128], [128, 24, 23], [23, 22, 20], [20, 22, 21], [19, 18, 17], [19, 17, 16], [19, 16, 14], [14, 16, 15], [53, 52, 51], [53, 51, 54], [54, 51, 57], [57, 51, 50], [57, 50, 58], [50, 49, 65], [65, 49, 46], [65, 46, 68], [68, 46, 75], [75, 46, 76], [82, 81, 89], [82, 89, 88], [82, 88, 85], [89, 81, 92], [92, 81, 79], [92, 79, 100], [100, 79, 103], [103, 79, 38], [38, 79, 40], [38, 40, 39], [37, 36, 35], [37, 35, 129], [129, 35, 132], [132, 35, 33], [132, 33, 137], [132, 137, 133], [111, 138, 139], [140, 138, 111], [133, 140, 110], [110, 140, 111], [112, 111, 141], [112, 141, 31], [112, 31, 30], [112, 30, 12], [112, 12, 10], [12, 30, 28], [12, 28, 27], [27, 26, 25], [27, 25, 24], [32, 31, 33], [35, 34, 33], [33, 31, 137], [137, 31, 141], [111, 139, 141], [30, 29, 28], [48, 47, 49], [49, 47, 46], [46, 45, 76], [76, 45, 78], [76, 78, 77], [80, 79, 81], [79, 78, 41], [79, 41, 40], [44, 43, 45], [45, 43, 42], [45, 42, 78], [78, 42, 41]]
+[11.161s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/floor_1.obj
+[11.162s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/blue_linoleum.png
+[11.162s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/floor_1.mtl
+[11.163s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88d16750>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88d16780>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88d167e0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88d16810>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88d16840>}]
+[11.163s] generating wall: 1 on floor: library_L5
+[11.164s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/default.png
+[11.164s] generate_wall_visual_mesh(library_L5, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5)
+[11.164s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/wall_1.obj
+[11.175s]   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/wall_1.mtl
+[11.176s]   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/model.sdf
+[11.182s] spawning robot name cleanerBotA_5 of type CleanerBotA
+[11.182s] generate door name=Snull1 type=hinged
+[11.182s] Door(Snull1)
+[11.182s] generate door name=Snull2 type=hinged
+[11.182s] Door(Snull2)
+[11.182s] generate door name=Snull3 type=double_hinged
+[11.182s] Door(Snull3)
+[11.183s] generate door name=Snull4 type=hinged
+[11.183s] Door(Snull4)
+[11.183s] generate door name=Snull5 type=double_hinged
+[11.183s] Door(Snull5)
+[11.183s] generate door name=Snull6 type=double_hinged
+[11.183s] Door(Snull6)
+[11.183s] generate door name=Snull7 type=hinged
+[11.183s] Door(Snull7)
+[11.183s] generate door name=Snull8 type=hinged
+[11.183s] Door(Snull8)
+[11.184s] generate door name=Snull9 type=double_hinged
+[11.184s] Door(Snull9)
+[11.184s] generate door name=Snull10 type=hinged
+[11.184s] Door(Snull10)
+[11.184s] generate door name=Snull11 type=double_hinged
+[11.184s] Door(Snull11)
+[11.184s] generate door name=Snull12 type=hinged
+[11.184s] Door(Snull12)
+[11.184s] generate door name=Snull13 type=hinged
+[11.184s] Door(Snull13)
+[11.184s] generate door name=Snull14 type=hinged
+[11.184s] Door(Snull14)
+[11.184s] generate door name=Snull15 type=hinged
+[11.184s] Door(Snull15)
+[11.184s] generate door name=Snull16 type=hinged
+[11.184s] Door(Snull16)
+[11.184s] generate door name=Snull17 type=hinged
+[11.184s] Door(Snull17)
+[11.185s] generate door name=Snull18 type=hinged
+[11.185s] Door(Snull18)
+[11.185s] generate door name=Snull21 type=double_hinged
+[11.185s] Door(Snull21)
+[11.185s] generate door name=nueva type=double_hinged
+[11.185s] Door(nueva)
+[11.185s] spawning robot name cleanerBotA_4 of type CleanerBotA
+[11.185s] generate door name=0null3 type=double_hinged
+[11.185s] Door(0null3)
+[11.185s] generate door name=0null4 type=hinged
+[11.185s] Door(0null4)
+[11.185s] generate door name=0null9 type=double_hinged
+[11.185s] Door(0null9)
+[11.185s] generate door name=0null10 type=hinged
+[11.185s] Door(0null10)
+[11.185s] generate door name=0null11 type=double_hinged
+[11.185s] Door(0null11)
+[11.185s] generate door name=0null15 type=hinged
+[11.186s] Door(0null15)
+[11.186s] generate door name=0null17 type=hinged
+[11.186s] Door(0null17)
+[11.186s] generate door name=0null18 type=hinged
+[11.186s] Door(0null18)
+[11.186s] generate door name=0null21 type=double_hinged
+[11.186s] Door(0null21)
+[11.186s] generate door name=0null22 type=double_hinged
+[11.186s] Door(0null22)
+[11.186s] generate door name=0null23 type=hinged
+[11.186s] Door(0null23)
+[11.186s] generate door name=0null24 type=double_hinged
+[11.186s] Door(0null24)
+[11.186s] generate door name=0null25 type=hinged
+[11.186s] Door(0null25)
+[11.186s] generate door name=0null26 type=hinged
+[11.186s] Door(0null26)
+[11.186s] generate door name=0null27 type=hinged
+[11.186s] Door(0null27)
+[11.186s] generate door name=0null28 type=hinged
+[11.186s] Door(0null28)
+[11.187s] generate door name=0null29 type=hinged
+[11.187s] Door(0null29)
+[11.187s] generate door name=0null30 type=hinged
+[11.187s] Door(0null30)
+[11.187s] generate door name=0null31 type=hinged
+[11.187s] Door(0null31)
+[11.187s] generate door name=0null32 type=double_hinged
+[11.187s] Door(0null32)
+[11.187s] generate door name=0null33 type=double_hinged
+[11.187s] Door(0null33)
+[11.187s] generate door name=0null34 type=double_hinged
+[11.187s] Door(0null34)
+[11.187s] generate door name=0null35 type=hinged
+[11.187s] Door(0null35)
+[11.187s] generate door name=0null36 type=hinged
+[11.187s] Door(0null36)
+[11.187s] generate door name=0null37 type=hinged
+[11.187s] Door(0null37)
+[11.187s] generate door name=0null38 type=hinged
+[11.187s] Door(0null38)
+[11.187s] generate door name=0null39 type=hinged
+[11.187s] Door(0null39)
+[11.187s] generate door name=0null40 type=hinged
+[11.188s] Door(0null40)
+[11.188s] generate door name=0null41 type=double_hinged
+[11.188s] Door(0null41)
+[11.188s] generate door name=0null42 type=hinged
+[11.188s] Door(0null42)
+[11.188s] generate door name=0null43 type=double_hinged
+[11.188s] Door(0null43)
+[11.188s] generate door name=0null44 type=double_hinged
+[11.188s] Door(0null44)
+[11.188s] generate door name=0null45 type=double_hinged
+[11.188s] Door(0null45)
+[11.188s] generate door name=0null46 type=double_hinged
+[11.188s] Door(0null46)
+[11.188s] generate door name=0null47 type=hinged
+[11.188s] Door(0null47)
+[11.188s] generate door name=0null48 type=double_hinged
+[11.188s] Door(0null48)
+[11.188s] generate door name=0null49 type=double_hinged
+[11.188s] Door(0null49)
+[11.188s] generate door name=0null50 type=double_hinged
+[11.188s] Door(0null50)
+[11.188s] generate door name=0null51 type=hinged
+[11.188s] Door(0null51)
+[11.188s] generate door name=0null52 type=hinged
+[11.188s] Door(0null52)
+[11.189s] generate door name=0null53 type=hinged
+[11.189s] Door(0null53)
+[11.189s] generate door name=0null54 type=hinged
+[11.189s] Door(0null54)
+[11.189s] generate door name=0null55 type=hinged
+[11.189s] Door(0null55)
+[11.189s] generate door name=0null56 type=hinged
+[11.189s] Door(0null56)
+[11.189s] generate door name=0null57 type=hinged
+[11.189s] Door(0null57)
+[11.189s] generate door name=0null58 type=hinged
+[11.189s] Door(0null58)
+[11.189s] generate door name=0null59 type=hinged
+[11.189s] Door(0null59)
+[11.189s] generate door name=0null60 type=double_hinged
+[11.189s] Door(0null60)
+[11.189s] generate door name=0null61 type=hinged
+[11.189s] Door(0null61)
+[11.189s] generate door name=0null62 type=hinged
+[11.189s] Door(0null62)
+[11.189s] generate door name=0null63 type=hinged
+[11.189s] Door(0null63)
+[11.189s] generate door name=0null64 type=hinged
+[11.189s] Door(0null64)
+[11.190s] generate door name=0null65 type=hinged
+[11.190s] Door(0null65)
+[11.190s] generate door name=0null66 type=hinged
+[11.190s] Door(0null66)
+[11.190s] generate door name=0null67 type=hinged
+[11.190s] Door(0null67)
+[11.190s] generate door name=0null68 type=hinged
+[11.190s] Door(0null68)
+[11.190s] generate door name=0null69 type=hinged
+[11.190s] Door(0null69)
+[11.190s] generate door name=0null70 type=hinged
+[11.190s] Door(0null70)
+[11.190s] generate door name=0null71 type=hinged
+[11.190s] Door(0null71)
+[11.190s] generate door name=0null72 type=hinged
+[11.190s] Door(0null72)
+[11.190s] generate door name=0null73 type=hinged
+[11.190s] Door(0null73)
+[11.190s] generate door name=0null74 type=hinged
+[11.190s] Door(0null74)
+[11.190s] generate door name=0null75 type=hinged
+[11.190s] Door(0null75)
+[11.190s] generate door name=0null176 type=double_hinged
+[11.190s] Door(0null176)
+[11.190s] generate door name=0null177 type=double_hinged
+[11.190s] Door(0null177)
+[11.191s] generate door name=0null178 type=double_hinged
+[11.191s] Door(0null178)
+[11.191s] generate door name=nulln1 type=hinged
+[11.191s] Door(nulln1)
+[11.191s] generate door name=nulln2 type=hinged
+[11.191s] Door(nulln2)
+[11.191s] generate door name=nullh type=double_hinged
+[11.191s] Door(nullh)
+[11.191s] generate door name=nullb1 type=hinged
+[11.191s] Door(nullb1)
+[11.191s] generate door name=nullnueva4 type=double_hinged
+[11.191s] Door(nullnueva4)
+[11.191s] generate door name=nullZ1 type=hinged
+[11.191s] Door(nullZ1)
+[11.191s] generate door name=nullZ2 type=hinged
+[11.191s] Door(nullZ2)
+[11.191s] generate door name=nullZ3 type=hinged
+[11.191s] Door(nullZ3)
+[11.213s] spawning robot name cleanerBotA_2 of type CleanerBotA
+[11.214s] spawning robot name cleanerBotA_1 of type CleanerBotA
+[11.214s] generate door name=1null9 type=double_hinged
+[11.214s] Door(1null9)
+[11.214s] generate door name=1null10 type=double_hinged
+[11.214s] Door(1null10)
+[11.214s] generate door name=1null15 type=hinged
+[11.214s] Door(1null15)
+[11.214s] generate door name=1null17 type=hinged
+[11.214s] Door(1null17)
+[11.215s] generate door name=1null18 type=hinged
+[11.215s] Door(1null18)
+[11.215s] generate door name=1null21 type=double_hinged
+[11.215s] Door(1null21)
+[11.215s] generate door name=1null25 type=hinged
+[11.215s] Door(1null25)
+[11.215s] generate door name=1null26 type=hinged
+[11.215s] Door(1null26)
+[11.215s] generate door name=1null27 type=hinged
+[11.215s] Door(1null27)
+[11.215s] generate door name=1ull28 type=hinged
+[11.215s] Door(1ull28)
+[11.215s] generate door name=1null43 type=double_hinged
+[11.215s] Door(1null43)
+[11.215s] generate door name=1null51 type=hinged
+[11.215s] Door(1null51)
+[11.215s] generate door name=1null52 type=hinged
+[11.215s] Door(1null52)
+[11.215s] generate door name=1null53 type=hinged
+[11.215s] Door(1null53)
+[11.215s] generate door name=1null54 type=hinged
+[11.215s] Door(1null54)
+[11.215s] generate door name=1null55 type=hinged
+[11.215s] Door(1null55)
+[11.216s] generate door name=1null56 type=hinged
+[11.216s] Door(1null56)
+[11.216s] generate door name=1null57 type=hinged
+[11.216s] Door(1null57)
+[11.216s] generate door name=1null69 type=hinged
+[11.216s] Door(1null69)
+[11.216s] generate door name=1null70 type=hinged
+[11.216s] Door(1null70)
+[11.216s] generate door name=1null71 type=hinged
+[11.216s] Door(1null71)
+[11.216s] generate door name=1null72 type=hinged
+[11.216s] Door(1null72)
+[11.216s] generate door name=1null73 type=hinged
+[11.216s] Door(1null73)
+[11.216s] generate door name=1null74 type=hinged
+[11.216s] Door(1null74)
+[11.216s] generate door name=1null75 type=double_hinged
+[11.216s] Door(1null75)
+[11.216s] generate door name=1null76 type=double_sliding
+[11.216s] Door(1null76)
+[11.216s] generate door name=1ull77 type=double_hinged
+[11.216s] Door(1ull77)
+[11.216s] generate door name=1null78 type=double_hinged
+[11.216s] Door(1null78)
+[11.216s] generate door name=1null79 type=double_hinged
+[11.216s] Door(1null79)
+[11.217s] generate door name=1null80 type=double_hinged
+[11.217s] Door(1null80)
+[11.217s] generate door name=1null81 type=double_hinged
+[11.217s] Door(1null81)
+[11.217s] generate door name=1null82 type=double_hinged
+[11.217s] Door(1null82)
+[11.217s] generate door name=1null83 type=hinged
+[11.217s] Door(1null83)
+[11.217s] generate door name=1null84 type=double_hinged
+[11.217s] Door(1null84)
+[11.217s] generate door name=1null85 type=double_hinged
+[11.217s] Door(1null85)
+[11.217s] generate door name=1null86 type=hinged
+[11.217s] Door(1null86)
+[11.217s] generate door name=1null87 type=hinged
+[11.217s] Door(1null87)
+[11.217s] generate door name=1null88 type=hinged
+[11.217s] Door(1null88)
+[11.217s] generate door name=1null89 type=hinged
+[11.218s] Door(1null89)
+[11.218s] generate door name=1null90 type=hinged
+[11.218s] Door(1null90)
+[11.218s] generate door name=1null91 type=hinged
+[11.218s] Door(1null91)
+[11.218s] generate door name=1null92 type=hinged
+[11.218s] Door(1null92)
+[11.218s] generate door name=1null93 type=hinged
+[11.218s] Door(1null93)
+[11.218s] generate door name=1null94 type=hinged
+[11.218s] Door(1null94)
+[11.218s] generate door name=1null95 type=hinged
+[11.218s] Door(1null95)
+[11.218s] generate door name=1null96 type=hinged
+[11.218s] Door(1null96)
+[11.218s] generate door name=1null97 type=hinged
+[11.218s] Door(1null97)
+[11.218s] generate door name=1null98 type=hinged
+[11.218s] Door(1null98)
+[11.219s] generate door name=1null99 type=hinged
+[11.219s] Door(1null99)
+[11.219s] generate door name=1null100 type=hinged
+[11.219s] Door(1null100)
+[11.219s] generate door name=1null101 type=hinged
+[11.219s] Door(1null101)
+[11.219s] generate door name=1null102 type=hinged
+[11.219s] Door(1null102)
+[11.219s] generate door name=1null103 type=hinged
+[11.219s] Door(1null103)
+[11.219s] generate door name=nullnuevo type=hinged
+[11.219s] Door(nullnuevo)
+[11.219s] generate door name=nullb3 type=hinged
+[11.219s] Door(nullb3)
+[11.219s] spawning robot name tinyRobot1 of type TinyRobot
+[11.219s] spawning robot name cleanerBotA_3 of type CleanerBotA
+[11.219s] spawning robot name tinyRobot5 of type TinyRobot
+[11.219s] spawning robot name tinyRobot2 of type TinyRobot
+[11.219s] spawning robot name tinyRobot3 of type TinyRobot
+[11.219s] spawning robot name tinyRobot4 of type TinyRobot
+[11.219s] generate door name=2null9 type=double_hinged
+[11.219s] Door(2null9)
+[11.219s] generate door name=2null15 type=hinged
+[11.220s] Door(2null15)
+[11.220s] generate door name=2null17 type=hinged
+[11.220s] Door(2null17)
+[11.220s] generate door name=2null18 type=hinged
+[11.220s] Door(2null18)
+[11.220s] generate door name=2null21 type=double_hinged
+[11.220s] Door(2null21)
+[11.220s] generate door name=2null25 type=hinged
+[11.220s] Door(2null25)
+[11.220s] generate door name=2null26 type=hinged
+[11.220s] Door(2null26)
+[11.220s] generate door name=2null27 type=hinged
+[11.220s] Door(2null27)
+[11.220s] generate door name=2null28 type=hinged
+[11.220s] Door(2null28)
+[11.220s] generate door name=2null43 type=double_hinged
+[11.220s] Door(2null43)
+[11.220s] generate door name=2null51 type=hinged
+[11.220s] Door(2null51)
+[11.220s] generate door name=2null52 type=hinged
+[11.220s] Door(2null52)
+[11.220s] generate door name=2null53 type=hinged
+[11.220s] Door(2null53)
+[11.220s] generate door name=2null54 type=hinged
+[11.220s] Door(2null54)
+[11.220s] generate door name=2null55 type=hinged
+[11.221s] Door(2null55)
+[11.221s] generate door name=2null56 type=hinged
+[11.221s] Door(2null56)
+[11.221s] generate door name=2null57 type=hinged
+[11.221s] Door(2null57)
+[11.221s] generate door name=2null69 type=hinged
+[11.221s] Door(2null69)
+[11.221s] generate door name=2null70 type=hinged
+[11.221s] Door(2null70)
+[11.221s] generate door name=2null71 type=hinged
+[11.221s] Door(2null71)
+[11.221s] generate door name=2null72 type=hinged
+[11.221s] Door(2null72)
+[11.221s] generate door name=2null73 type=hinged
+[11.221s] Door(2null73)
+[11.221s] generate door name=2null74 type=hinged
+[11.221s] Door(2null74)
+[11.221s] generate door name=2null75 type=double_hinged
+[11.221s] Door(2null75)
+[11.221s] generate door name=2null76 type=double_hinged
+[11.221s] Door(2null76)
+[11.221s] generate door name=2null78 type=hinged
+[11.221s] Door(2null78)
+[11.222s] generate door name=2null79 type=hinged
+[11.222s] Door(2null79)
+[11.222s] generate door name=2null80 type=hinged
+[11.222s] Door(2null80)
+[11.222s] generate door name=2null83 type=hinged
+[11.222s] Door(2null83)
+[11.222s] generate door name=2null84 type=hinged
+[11.222s] Door(2null84)
+[11.222s] generate door name=2null85 type=hinged
+[11.222s] Door(2null85)
+[11.222s] generate door name=2null86 type=hinged
+[11.222s] Door(2null86)
+[11.222s] generate door name=2null87 type=hinged
+[11.222s] Door(2null87)
+[11.222s] generate door name=2null88 type=hinged
+[11.222s] Door(2null88)
+[11.222s] generate door name=2null89 type=hinged
+[11.222s] Door(2null89)
+[11.222s] generate door name=2null90 type=hinged
+[11.222s] Door(2null90)
+[11.222s] generate door name=2null91 type=hinged
+[11.223s] Door(2null91)
+[11.223s] generate door name=2null92 type=hinged
+[11.223s] Door(2null92)
+[11.223s] generate door name=2null93 type=hinged
+[11.223s] Door(2null93)
+[11.223s] generate door name=2null94 type=hinged
+[11.223s] Door(2null94)
+[11.223s] generate door name=2null95 type=hinged
+[11.223s] Door(2null95)
+[11.223s] generate door name=2null96 type=hinged
+[11.223s] Door(2null96)
+[11.223s] generate door name=nulln4 type=hinged
+[11.223s] Door(nulln4)
+[11.223s] generate door name=nullb4 type=hinged
+[11.223s] Door(nullb4)
+[11.223s] generate door name=nullh2 type=hinged
+[11.223s] Door(nullh2)
+[11.223s] generate door name=nullh3 type=hinged
+[11.223s] Door(nullh3)
+[11.223s] generate door name=nulljh type=double_hinged
+[11.223s] Door(nulljh)
+[11.223s] generate door name=null type=hinged
+[11.223s] Door(null)
+[11.223s] generate door name=wnullm4 type=hinged
+[11.223s] Door(wnullm4)
+[11.224s] generate door name=wnullm5 type=hinged
+[11.224s] Door(wnullm5)
+[11.224s] generate door name=wnullm14 type=hinged
+[11.224s] Door(wnullm14)
+[11.224s] generate door name=wnullm15 type=hinged
+[11.224s] Door(wnullm15)
+[11.224s] generate door name=wnullm16 type=hinged
+[11.224s] Door(wnullm16)
+[11.224s] generate door name=wnullm17 type=hinged
+[11.224s] Door(wnullm17)
+[11.224s] generate door name=wnullm18 type=hinged
+[11.224s] Door(wnullm18)
+[11.224s] generate door name=wnullm19 type=hinged
+[11.224s] Door(wnullm19)
+[11.224s] generate door name=wnullm20 type=hinged
+[11.224s] Door(wnullm20)
+[11.224s] generate door name=wnullm21 type=hinged
+[11.224s] Door(wnullm21)
+[11.224s] generate door name=wnullm22 type=hinged
+[11.224s] Door(wnullm22)
+[11.224s] generate door name=wnullm23 type=hinged
+[11.224s] Door(wnullm23)
+[11.224s] generate door name=wnullm24 type=hinged
+[11.224s] Door(wnullm24)
+[11.224s] generate door name=wnullm25 type=hinged
+[11.225s] Door(wnullm25)
+[11.225s] generate door name=wnullm26 type=double_hinged
+[11.225s] Door(wnullm26)
+[11.225s] generate door name=wnullm27 type=hinged
+[11.225s] Door(wnullm27)
+[11.225s] generate door name=wnullm28 type=hinged
+[11.225s] Door(wnullm28)
+[11.225s] generate door name=wnullm29 type=hinged
+[11.225s] Door(wnullm29)
+[11.225s] generate door name=wnullm30 type=hinged
+[11.225s] Door(wnullm30)
+[11.225s] generate door name=wnullm31 type=hinged
+[11.225s] Door(wnullm31)
+[11.225s] generate door name=wx13null type=double_hinged
+[11.225s] Door(wx13null)
+[11.225s] generate door name=wx12null type=hinged
+[11.225s] Door(wx12null)
+[11.225s] generate door name=wx11null type=hinged
+[11.225s] Door(wx11null)
+[11.225s] generate door name=wx9null type=hinged
+[11.225s] Door(wx9null)
+[11.225s] generate door name=wx8null type=hinged
+[11.225s] Door(wx8null)
+[11.226s] generate door name=wx7null type=double_hinged
+[11.226s] Door(wx7null)
+[11.226s] generate door name=wx5null type=double_hinged
+[11.226s] Door(wx5null)
+[11.226s] generate door name=nulldfs type=hinged
+[11.226s] Door(nulldfs)
+[11.226s] generate door name=nullthr type=hinged
+[11.226s] Door(nullthr)
+[11.226s] generate door name=nullth type=hinged
+[11.226s] Door(nullth)
+[11.226s] generate door name=nullhre type=hinged
+[11.226s] Door(nullhre)
+[11.226s] generate door name=nullat type=hinged
+[11.226s] Door(nullat)
+[11.226s] generate door name=nullra type=hinged
+[11.226s] Door(nullra)
+[11.226s] generate door name=nullgr type=hinged
+[11.226s] Door(nullgr)
+[11.226s] generate door name=nullARG type=hinged
+[11.226s] Door(nullARG)
+[11.226s] generate door name=nullGR type=hinged
+[11.227s] Door(nullGR)
+[11.227s] generate door name=nullDZG type=hinged
+[11.227s] Door(nullDZG)
+[11.227s] generate door name=nullGFDZB type=hinged
+[11.227s] Door(nullGFDZB)
+[11.227s] generate door name=nulDGl type=hinged
+[11.227s] Door(nulDGl)
+[11.227s] generate door name=nulHSl type=hinged
+[11.227s] Door(nulHSl)
+[11.227s] generate door name=nuSHll type=hinged
+[11.227s] Door(nuSHll)
+[11.227s] generate door name=nuNHll type=hinged
+[11.227s] Door(nuNHll)
+[11.227s] generate door name=nuSFGll type=hinged
+[11.227s] Door(nuSFGll)
+[11.227s] generate door name=nulBGFl type=double_hinged
+[11.227s] Door(nulBGFl)
+[11.227s] generate door name=dvdbss type=hinged
+[11.227s] Door(dvdbss)
+[11.227s] generate door name=bdfbnfd type=hinged
+[11.227s] Door(bdfbnfd)
+[11.227s] generate door name=nullm1 type=hinged
+[11.227s] Door(nullm1)
+[11.228s] generate door name=nullm2 type=hinged
+[11.228s] Door(nullm2)
+[11.228s] generate door name=nullm3 type=hinged
+[11.228s] Door(nullm3)
+[11.228s] generate door name=nullm4 type=hinged
+[11.228s] Door(nullm4)
+[11.228s] generate door name=nullm5 type=hinged
+[11.228s] Door(nullm5)
+[11.228s] generate door name=nullm6 type=hinged
+[11.228s] Door(nullm6)
+[11.228s] generate door name=nullm7 type=hinged
+[11.228s] Door(nullm7)
+[11.228s] generate door name=nullm8 type=hinged
+[11.228s] Door(nullm8)
+[11.228s] generate door name=nullm9 type=hinged
+[11.228s] Door(nullm9)
+[11.228s] generate door name=nullm10 type=hinged
+[11.228s] Door(nullm10)
+[11.228s] generate door name=nullm11 type=hinged
+[11.228s] Door(nullm11)
+[11.228s] generate door name=nullm12 type=hinged
+[11.228s] Door(nullm12)
+[11.228s] generate door name=nullm13 type=hinged
+[11.228s] Door(nullm13)
+[11.228s] generate door name=nullm14 type=hinged
+[11.229s] Door(nullm14)
+[11.229s] generate door name=nullm15 type=hinged
+[11.229s] Door(nullm15)
+[11.229s] generate door name=nullm16 type=hinged
+[11.229s] Door(nullm16)
+[11.229s] generate door name=nullm17 type=hinged
+[11.229s] Door(nullm17)
+[11.229s] generate door name=nullm18 type=hinged
+[11.229s] Door(nullm18)
+[11.229s] generate door name=nullm19 type=hinged
+[11.229s] Door(nullm19)
+[11.229s] generate door name=nullm20 type=hinged
+[11.229s] Door(nullm20)
+[11.229s] generate door name=nullm21 type=hinged
+[11.229s] Door(nullm21)
+[11.229s] generate door name=nullm22 type=hinged
+[11.229s] Door(nullm22)
+[11.229s] generate door name=nullm23 type=hinged
+[11.229s] Door(nullm23)
+[11.229s] generate door name=nullm24 type=hinged
+[11.229s] Door(nullm24)
+[11.229s] generate door name=nullm25 type=hinged
+[11.229s] Door(nullm25)
+[11.229s] generate door name=nullm26 type=double_hinged
+[11.229s] Door(nullm26)
+[11.230s] generate door name=nullm27 type=hinged
+[11.230s] Door(nullm27)
+[11.230s] generate door name=nullm28 type=hinged
+[11.230s] Door(nullm28)
+[11.230s] generate door name=nullm29 type=hinged
+[11.230s] Door(nullm29)
+[11.230s] generate door name=nullm30 type=hinged
+[11.230s] Door(nullm30)
+[11.230s] generate door name=nullm31 type=hinged
+[11.230s] Door(nullm31)
+[11.230s] generate door name=x13null type=double_hinged
+[11.230s] Door(x13null)
+[11.230s] generate door name=x12null type=hinged
+[11.230s] Door(x12null)
+[11.230s] generate door name=x11null type=hinged
+[11.230s] Door(x11null)
+[11.230s] generate door name=x9null type=hinged
+[11.230s] Door(x9null)
+[11.230s] generate door name=x8null type=hinged
+[11.230s] Door(x8null)
+[11.230s] generate door name=x7null type=double_hinged
+[11.230s] Door(x7null)
+[11.230s] generate door name=x6null type=double_hinged
+[11.230s] Door(x6null)
+[11.230s] generate door name=x5null type=double_hinged
+[11.230s] Door(x5null)
+[11.231s] generate door name=x4null type=hinged
+[11.231s] Door(x4null)
+[11.231s] generate door name=x3null type=hinged
+[11.231s] Door(x3null)
+[11.231s] generate door name=x2null type=hinged
+[11.231s] Door(x2null)
+[11.231s] generate door name=x1null type=hinged
+[11.231s] Door(x1null)
+[11.231s] generate door name=nusafll type=double_hinged
+[11.231s] Door(nusafll)
+[11.231s] generate door name=nullxsca type=hinged
+[11.231s] Door(nullxsca)
+[11.231s] generate door name=cdsvdsv type=hinged
+[11.231s] Door(cdsvdsv)
+[11.294s] 1460543 bytes written to /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world
+[12.949s] building name: library
+[12.949s] coordinate system: reference_image
+[12.949s] parsing level L01
+[12.950s] parsing level L02
+[12.953s] parsing level L1
+[12.956s] parsing level L2
+[12.959s] parsing level L3
+[12.961s] parsing level L4
+[12.961s] parsing level L5
+[12.964s] calculating levels relative to L01
+[12.964s] level L01 scale: 0.03733711682783853
+[12.964s] calculating level L02 offset and scale...
+[12.964s]   2 common fiducials:
+[12.964s] Transform.set_from_fiducials()
+[12.964s]   2 fiducial pairs:
+[12.964s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[12.964s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[12.965s]     calc dist fidu_2 <=> fidu_1
+[12.965s] Bearings:
+[12.965s] [(3.141592653589793, 3.141592653589793)]
+[12.965s]   0.0
+[12.965s]   Circular mean: -0.0
+[12.965s] Distances:
+[12.965s] [(1190.212, 1190.212)]
+[12.965s] mean relative scale: 1.0
+[12.965s] translation: (-0.0, -0.0)
+[12.965s] calculating level L1 offset and scale...
+[12.965s]   2 common fiducials:
+[12.965s] Transform.set_from_fiducials()
+[12.965s]   2 fiducial pairs:
+[12.965s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[12.965s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[12.966s]     calc dist fidu_2 <=> fidu_1
+[12.966s] Bearings:
+[12.966s] [(3.141592653589793, 3.141592653589793)]
+[12.966s]   0.0
+[12.966s]   Circular mean: -0.0
+[12.966s] Distances:
+[12.966s] [(1190.212, 1190.212)]
+[12.966s] mean relative scale: 1.0
+[12.966s] translation: (-0.0, -0.0)
+[12.966s] calculating level L2 offset and scale...
+[12.966s]   2 common fiducials:
+[12.966s] Transform.set_from_fiducials()
+[12.966s]   2 fiducial pairs:
+[12.966s]     (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2
+[12.966s]     (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1
+[12.966s]     calc dist fidu_2 <=> fidu_1
+[12.966s] Bearings:
+[12.966s] [(3.141592653589793, 3.141592653589793)]
+[12.966s]   0.0
+[12.966s]   Circular mean: -0.0
+[12.966s] Distances:
+[12.966s] [(1190.212, 1190.212)]
+[12.966s] mean relative scale: 1.0
+[12.966s] translation: (-0.0, -0.0)
+[12.966s] calculating level L3 offset and scale...
+[12.966s]   2 common fiducials:
+[12.967s] Transform.set_from_fiducials()
+[12.967s]   2 fiducial pairs:
+[12.967s]     (1591.8, -3001.4) -> (1617.4, -3000.8)   fidu_2
+[12.967s]     (401.59, -3001.4) -> (401.61, -3000.8)   fidu_1
+[12.967s]     calc dist fidu_2 <=> fidu_1
+[12.967s] Bearings:
+[12.967s] [(3.141592653589793, -3.1415507041068658)]
+[12.967s]   -6.283143357696659
+[12.967s]   Circular mean: -4.1949482927595274e-05
+[12.967s] Distances:
+[12.967s] [(1190.212, 1215.7480010697118)]
+[12.967s] mean relative scale: 1.0214550021926445
+[12.967s] translation: (0.31915, -2.374)
+[12.967s] calculating level L4 offset and scale...
+[12.967s]   2 common fiducials:
+[12.967s] Transform.set_from_fiducials()
+[12.967s]   2 fiducial pairs:
+[12.967s]     (1591.8, -3001.4) -> (1616.9, -3000.8)   fidu_2
+[12.967s]     (401.59, -3001.4) -> (401.69, -3000.8)   fidu_1
+[12.967s]     calc dist fidu_2 <=> fidu_1
+[12.967s] Bearings:
+[12.967s] [(3.141592653589793, -3.1415860703871643)]
+[12.967s]   -6.283178723976958
+[12.968s]   Circular mean: -6.583202628607913e-06
+[12.968s] Distances:
+[12.968s] [(1190.212, 1215.2140000263328)]
+[12.968s] mean relative scale: 1.0210063417494806
+[12.968s] translation: (0.3056, -2.3277)
+[12.968s] calculating level L5 offset and scale...
+[12.968s]   2 common fiducials:
+[12.968s] Transform.set_from_fiducials()
+[12.968s]   2 fiducial pairs:
+[12.968s]     (1591.8, -3001.4) -> (1617.4, -3000.6)   fidu_2
+[12.968s]     (401.59, -3001.4) -> (401.62, -3000.8)   fidu_1
+[12.968s]     calc dist fidu_2 <=> fidu_1
+[12.968s] Bearings:
+[12.968s] [(3.141592653589793, -3.141362344980323)]
+[12.968s]   -6.282954998570116
+[12.968s]   Circular mean: -0.00023030860947084245
+[12.968s] Distances:
+[12.968s] [(1190.212, 1215.7600322432056)]
+[12.968s] mean relative scale: 1.021465110621642
+[12.968s] translation: (0.33937, -2.3713)
+[13.000s] parsing lift C1
+[13.000s] parsing lift C2
+[13.000s] parsing lift P1
+[13.000s] parsing lift P2
+[16.500s] Models: [] are used in crowd_sim
+[16.517s] Load success!
+[16.517s] 
+[16.517s] Cache found! Model count: 2992 
+[16.517s] Updating cache...
+[16.517s] Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+[16.517s] Fetching page: 1
+[18.461s] Cached model found! Halting Fuel traversal...
+[18.461s] Writing to cache: /home/ususario/.pit_crew/model_cache.json
+[18.520s] New models cached: 0
+[18.520s] 
+[18.524s] WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model MonitorAndKeyboard in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model Fountain in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model DigitalKiosk in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model MopCart2 in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model Sofa in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model VendingMachine in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model OfficeChairGrey in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model BathroomSink in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model Nurse in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model Toilet in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model MopCart3 in local model directory is not by the requested author OpenRobotics!
+[18.525s] WARNING::pit_crew.get_missing_models():224: Model Pine Tree in local model directory is not by the requested author OpenRobotics!
+[18.526s] 
+[18.526s] == REQUESTED MODEL REPORT ==
+[18.526s] {'available': [('MonitorAndKeyboard',
+[18.526s]                 ['/home/ususario/.gazebo/models/MonitorAndKeyboard/']),
+[18.526s]                ('Fountain', ['/home/ususario/.gazebo/models/Fountain/']),
+[18.526s]                ('DigitalKiosk',
+[18.527s]                 ['/home/ususario/.gazebo/models/DigitalKiosk/']),
+[18.527s]                ('MopCart2', ['/home/ususario/.gazebo/models/MopCart2/']),
+[18.527s]                ('Sofa', ['/home/ususario/.gazebo/models/Sofa/']),
+[18.527s]                ('VendingMachine',
+[18.527s]                 ['/home/ususario/.gazebo/models/VendingMachine/']),
+[18.527s]                ('OfficeChairGrey',
+[18.527s]                 ['/home/ususario/.gazebo/models/OfficeChairGrey/']),
+[18.527s]                ('BathroomSink',
+[18.527s]                 ['/home/ususario/.gazebo/models/BathroomSink/']),
+[18.527s]                ('Nurse', ['/home/ususario/.gazebo/models/Nurse/']),
+[18.527s]                ('Toilet', ['/home/ususario/.gazebo/models/Toilet/']),
+[18.527s]                ('MopCart3', ['/home/ususario/.gazebo/models/MopCart3/']),
+[18.527s]                ('Pine Tree', ['/home/ususario/.gazebo/models/Pine Tree/'])],
+[18.527s]  'downloadable': [('Oak tree', ['OpenRobotics']),
+[18.527s]                   ('Desk', ['OpenRobotics']),
+[18.527s]                   ('Standing person', ['abmohit', 'OpenRobotics']),
+[18.527s]                   ('CleaningSection', ['OpenRobotics']),
+[18.527s]                   ('Bookshelf', ['OpenRobotics']),
+[18.527s]                   ('WhiteChipChair', ['OpenRobotics']),
+[18.527s]                   ('OfficeChairBlack', ['OpenRobotics']),
+[18.527s]                   ('OfficeChairBlue', ['OpenRobotics']),
+[18.528s]                   ('AdjTable', ['OpenRobotics']),
+[18.528s]                   ('Table', ['malbonico', 'OpenRobotics'])],
+[18.528s]  'missing': []}
+[18.528s] 
+[18.528s] == THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+[18.528s] {'adjtable': 'openrobotics',
+[18.528s]  'bathroomsink': 'openrobotics',
+[18.528s]  'bookshelf': 'openrobotics',
+[18.528s]  'cleaningsection': 'openrobotics',
+[18.528s]  'desk': 'openrobotics',
+[18.528s]  'digitalkiosk': 'openrobotics',
+[18.528s]  'fountain': 'openrobotics',
+[18.528s]  'monitorandkeyboard': 'openrobotics',
+[18.528s]  'mopcart2': 'openrobotics',
+[18.528s]  'mopcart3': 'openrobotics',
+[18.528s]  'nurse': 'openrobotics',
+[18.528s]  'oak tree': 'openrobotics',
+[18.528s]  'officechairblack': 'openrobotics',
+[18.528s]  'officechairblue': 'openrobotics',
+[18.528s]  'officechairgrey': 'openrobotics',
+[18.528s]  'pine tree': 'openrobotics',
+[18.528s]  'sofa': 'openrobotics',
+[18.528s]  'standing person': 'openrobotics',
+[18.528s]  'table': 'openrobotics',
+[18.529s]  'toilet': 'openrobotics',
+[18.529s]  'vendingmachine': 'openrobotics',
+[18.529s]  'whitechipchair': 'openrobotics'}
+[18.529s] 
+[18.529s] 
+[18.529s] Downloading Oak tree by openrobotics from Fuel
+[18.529s] Downloading model 1 / 10 : Oak tree
+[18.529s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[24.918s] Oak tree downloaded to: /home/ususario/.gazebo/models/Oak tree
+[24.921s] 
+[24.922s] Downloading Desk by openrobotics from Fuel
+[24.922s] Downloading model 2 / 10 : Desk
+[24.922s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[33.544s] ERROR::pit_crew.download_model():595: Could not download model 'Desk'! ('Connection broken: IncompleteRead(511520 bytes read, 707036 more expected)', IncompleteRead(511520 bytes read, 707036 more expected))
+[33.544s] 
+[33.545s] Downloading Standing person by openrobotics from Fuel
+[33.545s] Downloading model 3 / 10 : Standing person
+[33.545s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[45.698s] Standing person downloaded to: /home/ususario/.gazebo/models/Standing person
+[45.698s] WARNING::pit_crew.sync_sdf():939: Internal name reference for Standing person changed from model://person_standing/meshes/standing.dae to model://Standing person/meshes/standing.dae
+[45.699s] WARNING::pit_crew.sync_sdf():939: Internal name reference for Standing person changed from model://person_standing/meshes/standing.dae to model://Standing person/meshes/standing.dae
+[45.699s] WARNING::pit_crew.sync_sdf():944: Synced SDF names for Standing person! Changed from person_standing to Standing person
+[45.699s] WARNING::pit_crew.sync_sdf():987: Synced SDF names for Standing person! Changed from person_standing to Standing person
+[45.704s] 
+[45.704s] Downloading CleaningSection by openrobotics from Fuel
+[45.704s] Downloading model 4 / 10 : CleaningSection
+[45.704s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[48.326s] ERROR::pit_crew.download_model():595: Could not download model 'CleaningSection'! ('Connection broken: IncompleteRead(323591 bytes read, 2859997 more expected)', IncompleteRead(323591 bytes read, 2859997 more expected))
+[48.326s] 
+[48.326s] Downloading Bookshelf by openrobotics from Fuel
+[48.326s] Downloading model 5 / 10 : Bookshelf
+[48.326s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[50.788s] ERROR::pit_crew.download_model():595: Could not download model 'Bookshelf'! ('Connection broken: IncompleteRead(350439 bytes read, 489088 more expected)', IncompleteRead(350439 bytes read, 489088 more expected))
+[50.788s] 
+[50.788s] Downloading WhiteChipChair by openrobotics from Fuel
+[50.788s] Downloading model 6 / 10 : WhiteChipChair
+[50.788s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[53.266s] ERROR::pit_crew.download_model():595: Could not download model 'WhiteChipChair'! ('Connection broken: IncompleteRead(323592 bytes read, 468741 more expected)', IncompleteRead(323592 bytes read, 468741 more expected))
+[53.266s] 
+[53.266s] Downloading OfficeChairBlack by openrobotics from Fuel
+[53.266s] Downloading model 7 / 10 : OfficeChairBlack
+[53.266s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[62.242s] ERROR::pit_crew.download_model():595: Could not download model 'OfficeChairBlack'! ('Connection broken: IncompleteRead(350128 bytes read, 442968 more expected)', IncompleteRead(350128 bytes read, 442968 more expected))
+[62.242s] 
+[62.242s] Downloading OfficeChairBlue by openrobotics from Fuel
+[62.242s] Downloading model 8 / 10 : OfficeChairBlue
+[62.242s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[66.334s] ERROR::pit_crew.download_model():595: Could not download model 'OfficeChairBlue'! ('Connection broken: IncompleteRead(303112 bytes read, 261796 more expected)', IncompleteRead(303112 bytes read, 261796 more expected))
+[66.335s] 
+[66.335s] Downloading AdjTable by openrobotics from Fuel
+[66.335s] Downloading model 9 / 10 : AdjTable
+[66.335s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[74.116s] ERROR::pit_crew.download_model():595: Could not download model 'AdjTable'! ('Connection broken: IncompleteRead(328444 bytes read, 3772141 more expected)', IncompleteRead(328444 bytes read, 3772141 more expected))
+[74.117s] 
+[74.117s] Downloading Table by openrobotics from Fuel
+[74.117s] Downloading model 10 / 10 : Table
+[74.117s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
+[78.648s] ERROR::pit_crew.download_model():595: Could not download model 'Table'! ('Connection broken: IncompleteRead(547746 bytes read, 351476 more expected)', IncompleteRead(547746 bytes read, 351476 more expected))
+[78.648s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MonitorAndKeyboard already exists, skipping...
+[78.648s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Fountain already exists, skipping...
+[78.648s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/DigitalKiosk already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MopCart2 already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Sofa already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/VendingMachine already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairGrey already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/BathroomSink already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Nurse already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Toilet already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MopCart3 already exists, skipping...
+[78.649s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Pine Tree already exists, skipping...
+[78.752s] [100%] [34m[1mGenerating library_crowdsim[0m
+[79.239s] Creating output folder path:  /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/config_resource/
+[82.817s] crowdsim unable to parse, not attempting to proceed
+[86.290s] crowdsim unable to parse, not attempting to proceed
+[86.381s] [100%] Built target generate_library_crowdsim
+[86.399s] Invoked command in '/home/ususario/IR2134/exam_ws/build/rmf_library' returned '0': CMAKE_PREFIX_PATH=/home/ususario/IR2134/exam_ws/install/rmf_library:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/ususario/IR2134/exam_ws/build/rmf_library -- -j16 -l16
+[86.417s] Invoking command in '/home/ususario/IR2134/exam_ws/build/rmf_library': CMAKE_PREFIX_PATH=/home/ususario/IR2134/exam_ws/install/rmf_library:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/ususario/IR2134/exam_ws/build/rmf_library
+[86.432s] -- Install configuration: ""
+[86.432s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch
+[86.432s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library_gz.launch.xml
+[86.432s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/fleet_adapter.launch.xml
+[86.432s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/common.launch.xml
+[86.432s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/visualization.launch.xml
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library.launch.xml
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/simulation.launch.xml
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include/library.rviz
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/cleanerBotA_config.yaml
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/tinyRobot_config.yaml
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library
+[86.433s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n2.png
+[86.434s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n3.png
+[86.435s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n0.png
+[86.436s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n5.png
+[86.437s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.building.yaml
+[86.438s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n4.png
+[86.439s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_ns.png
+[86.439s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n1.png
+[86.440s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/package_run_dependencies/rmf_library
+[86.440s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/parent_prefix_path/rmf_library
+[86.440s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.sh
+[86.441s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.dsv
+[86.441s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.sh
+[86.441s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.dsv
+[86.441s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.bash
+[86.441s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.sh
+[86.441s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.zsh
+[86.442s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.dsv
+[86.442s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.dsv
+[86.442s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/packages/rmf_library
+[86.442s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig.cmake
+[86.442s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig-version.cmake
+[86.442s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.xml
+[86.443s] -- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library
+[86.443s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/config_resource
+[86.443s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs
+[86.443s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs/0.yaml
+[86.443s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs/1.yaml
+[86.443s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.world
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/default.png
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_2.mtl
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/wall_1.mtl
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_2.obj
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/blue_linoleum.png
+[86.446s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/model.material
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_1.mtl
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/wall_1.obj
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_1.obj
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/model.config
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/model.sdf
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5
+[86.447s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes
+[86.448s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/default.png
+[86.448s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/wall_1.mtl
+[86.448s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/blue_linoleum.png
+[86.448s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/model.material
+[86.448s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/floor_1.mtl
+[86.448s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/wall_1.obj
+[86.449s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/floor_1.obj
+[86.449s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/model.config
+[86.449s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/model.sdf
+[86.449s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01
+[86.449s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes
+[86.450s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/default.png
+[86.450s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_2.mtl
+[86.450s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/wall_1.mtl
+[86.450s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_2.obj
+[86.450s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/blue_linoleum.png
+[86.451s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/model.material
+[86.451s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_3.mtl
+[86.451s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_1.mtl
+[86.451s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/wall_1.obj
+[86.451s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_3.obj
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_1.obj
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/model.config
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/model.sdf
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/default.png
+[86.452s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_2.mtl
+[86.453s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/wall_1.mtl
+[86.453s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_2.obj
+[86.453s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/blue_linoleum.png
+[86.453s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/model.material
+[86.453s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_1.mtl
+[86.453s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/wall_1.obj
+[86.454s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_1.obj
+[86.454s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/model.config
+[86.454s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/model.sdf
+[86.454s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1
+[86.455s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes
+[86.455s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/default.png
+[86.455s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_2.mtl
+[86.455s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/wall_1.mtl
+[86.455s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_2.obj
+[86.455s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/blue_linoleum.png
+[86.456s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/model.material
+[86.456s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_1.mtl
+[86.456s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/wall_1.obj
+[86.456s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_1.obj
+[86.457s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/model.config
+[86.457s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/model.sdf
+[86.457s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3
+[86.457s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes
+[86.457s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/default.png
+[86.457s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/wall_1.mtl
+[86.458s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/blue_linoleum.png
+[86.458s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/model.material
+[86.458s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/floor_1.mtl
+[86.458s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/wall_1.obj
+[86.458s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/floor_1.obj
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/model.config
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/model.sdf
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/default.png
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/wall_1.mtl
+[86.459s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/blue_linoleum.png
+[86.460s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/model.material
+[86.460s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/floor_1.mtl
+[86.460s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/wall_1.obj
+[86.461s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/floor_1.obj
+[86.461s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/model.config
+[86.461s] -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/model.sdf
+[86.464s] Invoked command in '/home/ususario/IR2134/exam_ws/build/rmf_library' returned '0': CMAKE_PREFIX_PATH=/home/ususario/IR2134/exam_ws/install/rmf_library:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/ususario/IR2134/exam_ws/build/rmf_library

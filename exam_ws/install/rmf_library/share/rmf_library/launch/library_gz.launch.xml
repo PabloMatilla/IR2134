@@ -6,7 +6,7 @@
   <!-- Common launch -->
   <include file="$(find-pkg-share rmf_library)/launch/common.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
-    <arg name="viz_config_file" value ="$(find-pkg-share rmf_library)/launch/include/library/library.rviz"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share rmf_library)/launch/include/library.rviz"/>
     <arg name="config_file" value="$(find-pkg-share rmf_library)/maps/library/library.building.yaml"/>
     <arg name="use_reservation_node" value="true"/>
   </include>
@@ -16,7 +16,7 @@
     <include file="$(find-pkg-share rmf_library)/launch/fleet_adapter.launch.xml">
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="nav_graph_file" value="$(find-pkg-share rmf_library)/maps/library/nav_graphs/0.yaml" />
-      <arg name="config_file" value="$(find-pkg-share rmf_library)/config/library/tinyRobot_config.yaml"/>
+      <arg name="config_file" value="$(find-pkg-share rmf_library)/config/tinyRobot_config.yaml"/>
     </include>
   </group>
 
@@ -25,16 +25,7 @@
     <include file="$(find-pkg-share rmf_library)/launch/fleet_adapter.launch.xml">
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="nav_graph_file" value="$(find-pkg-share rmf_library)/maps/library/nav_graphs/1.yaml" />
-      <arg name="config_file" value="$(find-pkg-share rmf_library)/config/library/cleanerBotA_config.yaml"/>
-    </include>
-  </group>
-
-    <!-- DeliveryRobot fleet adapter -->
-  <group>
-    <include file="$(find-pkg-share rmf_library)/launch/fleet_adapter.launch.xml">
-      <arg name="use_sim_time" value="$(var use_sim_time)"/>
-      <arg name="nav_graph_file" value="$(find-pkg-share rmf_library)/maps/library/nav_graphs/0.yaml" />
-      <arg name="config_file" value="$(find-pkg-share rmf_library)/config/library/deliveryRobot_config.yaml"/>
+      <arg name="config_file" value="$(find-pkg-share rmf_library)/config/cleanerBotA_config.yaml"/>
     </include>
   </group>
 
