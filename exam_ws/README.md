@@ -81,7 +81,7 @@ At this point we will be able to send tasks to our fleet of robots.
 
 ### Terminal
 
-e instructions for running several patrol and clean tasks in the command line.
+The instructions for running several patrol and clean tasks in the command line.
 ```
 docker exec -it rmf_library bash
 ```
