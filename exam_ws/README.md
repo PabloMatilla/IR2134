@@ -42,7 +42,7 @@ rocker --nvidia --x11 --name rmf_library -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALH
 ```
 ```
 cd IR2134/exam_ws
-rm -rf /install /build /log
+sudo rm -rf /install /build /log
 colcon build
 source install/setup.bash
 ros2 launch rmf_library \
