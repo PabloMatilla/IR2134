@@ -1,0 +1,116 @@
+[0.020s] Invoking command in '/home/ususario/IR2134/exam_ws/build/rmf_library': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/ususario/IR2134/exam_ws/src/rmf_library -DCMAKE_INSTALL_PREFIX=/home/ususario/IR2134/exam_ws/install/rmf_library
+[0.154s] -- The C compiler identification is GNU 13.3.0
+[0.245s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.403s] -- Detecting C compiler ABI info - done
+[0.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.410s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.424s] -- Detecting CXX compiler ABI info
+[0.560s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.568s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.803s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.079s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models[0m
+[1.079s] [0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml[0m
+[1.079s] -- Configuring done (1.0s)
+[1.083s] -- Generating done (0.0s)
+[1.085s] -- Build files have been written to: /home/ususario/IR2134/exam_ws/build/rmf_library
+[1.090s] Invoked command in '/home/ususario/IR2134/exam_ws/build/rmf_library' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/ususario/IR2134/exam_ws/src/rmf_library -DCMAKE_INSTALL_PREFIX=/home/ususario/IR2134/exam_ws/install/rmf_library
+[1.091s] Invoking command in '/home/ususario/IR2134/exam_ws/build/rmf_library': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/ususario/IR2134/exam_ws/build/rmf_library -- -j16 -l16
+[1.173s] [ 33%] [34m[1mGenerating maps/library/nav_graphs/phony[0m
+[1.173s] [ 66%] [34m[1mGenerating maps/library/library.world[0m
+[1.512s] Traceback (most recent call last):
+[1.512s] Traceback (most recent call last):
+[1.512s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 33, in <module>
+[1.513s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 33, in <module>
+[1.513s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_map_generator')())
+[1.513s]     sys.exit(load_entry_point('rmf-building-map-tools==1.11.0', 'console_scripts', 'building_map_generator')())
+[1.513s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.513s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.513s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 25, in importlib_load_entry_point
+[1.513s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 25, in importlib_load_entry_point
+[1.513s]     return next(matches).load()
+[1.513s]     return next(matches).load()
+[1.513s]            ^^^^^^^^^^^^^^^^^^^^
+[1.513s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+[1.514s]            ^^^^^^^^^^^^^^^^^^^^
+[1.514s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+[1.514s]     module = import_module(match.group('module'))
+[1.514s]     module = import_module(match.group('module'))
+[1.514s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.514s]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+[1.514s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.514s]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+[1.514s]     return _bootstrap._gcd_import(name[level:], package, level)
+[1.514s]     return _bootstrap._gcd_import(name[level:], package, level)
+[1.514s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.514s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.514s]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[1.514s]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[1.514s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[1.514s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[1.514s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[1.514s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[1.514s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[1.514s]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+[1.514s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[1.515s]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[1.515s]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+[1.515s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_generator/building_map_generator.py", line 3, in <module>
+[1.515s]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[1.515s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_generator/building_map_generator.py", line 3, in <module>
+[1.515s]     from building_map.generator import Generator
+[1.515s]     from building_map.generator import Generator
+[1.515s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 4, in <module>
+[1.515s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 4, in <module>
+[1.515s]     from .building import Building
+[1.515s]     from .building import Building
+[1.515s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/building.py", line 1, in <module>
+[1.515s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/building.py", line 1, in <module>
+[1.515s]     import fiona
+[1.515s]   File "/usr/lib/python3/dist-packages/fiona/__init__.py", line 49, in <module>
+[1.515s]     import fiona
+[1.515s]   File "/usr/lib/python3/dist-packages/fiona/__init__.py", line 49, in <module>
+[1.515s]     from fiona.collection import BytesCollection, Collection
+[1.515s]     from fiona.collection import BytesCollection, Collection
+[1.515s]   File "/usr/lib/python3/dist-packages/fiona/collection.py", line 10, in <module>
+[1.515s]   File "/usr/lib/python3/dist-packages/fiona/collection.py", line 10, in <module>
+[1.515s]     from fiona.ogrext import Iterator, ItemsIterator, KeysIterator
+[1.516s]     from fiona.ogrext import Iterator, ItemsIterator, KeysIterator
+[1.516s]   File "fiona/ogrext.pyx", line 45, in init fiona.ogrext
+[1.516s]   File "fiona/ogrext.pyx", line 45, in init fiona.ogrext
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/drvsupport.py", line 209, in <module>
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/drvsupport.py", line 209, in <module>
+[1.516s]     _filter_supported_drivers()
+[1.516s]     _filter_supported_drivers()
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/drvsupport.py", line 199, in _filter_supported_drivers
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/drvsupport.py", line 199, in _filter_supported_drivers
+[1.516s]     with Env() as gdalenv:
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/env.py", line 284, in __enter__
+[1.516s]     with Env() as gdalenv:
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/env.py", line 284, in __enter__
+[1.516s]     defenv(**self.options)
+[1.516s]     defenv(**self.options)
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/env.py", line 315, in defenv
+[1.516s]   File "/usr/lib/python3/dist-packages/fiona/env.py", line 315, in defenv
+[1.516s]     local._env.start()
+[1.516s]   File "fiona/_env.pyx", line 405, in fiona._env.GDALEnv.start
+[1.516s]     local._env.start()
+[1.516s]   File "fiona/_env.pyx", line 405, in fiona._env.GDALEnv.start
+[1.516s]   File "fiona/_env.pyx", line 411, in fiona._env.GDALEnv.start
+[1.516s]   File "fiona/_env.pyx", line 411, in fiona._env.GDALEnv.start
+[1.517s]   File "<frozen _collections_abc>", line 811, in __contains__
+[1.517s] KeyboardInterrupt
+[1.517s]   File "<frozen _collections_abc>", line 811, in __contains__
+[1.517s] KeyboardInterrupt
+[1.532s] [ros2run]: Interrupt
+[1.532s] [ros2run]: Interrupt
+[1.550s] gmake[2]: *** [CMakeFiles/generate_library_crowdsim.dir/build.make:77: maps/library/library.world] Error 254
+[1.550s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/generate_library_crowdsim.dir/all] Interrupt
+[1.550s] gmake[2]: *** [CMakeFiles/generate_library_nav_graphs.dir/build.make:73: maps/library/nav_graphs/phony] Error 254
+[1.551s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/generate_library_nav_graphs.dir/all] Interrupt
+[1.551s] gmake: *** [Makefile:146: all] Interrupt
+[1.553s] Invoked command in '/home/ususario/IR2134/exam_ws/build/rmf_library' returned '-2': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/ususario/IR2134/exam_ws/build/rmf_library -- -j16 -l16

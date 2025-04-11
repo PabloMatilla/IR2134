@@ -1,0 +1,1027 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (rmf_library) JobQueued: {'identifier': 'rmf_library', 'dependencies': OrderedDict()}
+[0.000195] (rmf_library) JobStarted: {'identifier': 'rmf_library'}
+[0.021406] (rmf_library) JobProgress: {'identifier': 'rmf_library', 'progress': 'cmake'}
+[0.022634] (rmf_library) JobProgress: {'identifier': 'rmf_library', 'progress': 'build'}
+[0.022687] (rmf_library) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ususario/IR2134/exam_ws/build/rmf_library', '--', '-j16', '-l16'], 'cwd': '/home/ususario/IR2134/exam_ws/build/rmf_library', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_GUI_PLUGIN_PATH': '/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_SIM_RESOURCE_PATH': '/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ususario', 'ROS_PACKAGE_PATH': '/rmf_demos_ws/install/menge_vendor/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/rmf_demos_ws/install/rmf_workcell_msgs/lib:/rmf_demos_ws/install/rmf_fleet_adapter/lib:/rmf_demos_ws/install/rmf_task_ros2/lib:/rmf_demos_ws/install/rmf_websocket/lib:/rmf_demos_ws/install/rmf_visualization_schedule/lib:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins/lib:/rmf_demos_ws/install/rmf_visualization_obstacles/lib:/rmf_demos_ws/install/rmf_visualization_navgraphs/lib:/rmf_demos_ws/install/rmf_visualization_floorplans/lib:/rmf_demos_ws/install/rmf_visualization_fleet_states/lib:/rmf_demos_ws/install/rmf_visualization_msgs/lib:/rmf_demos_ws/install/rmf_traffic_ros2/lib:/rmf_demos_ws/install/rmf_task_sequence/lib:/rmf_demos_ws/install/rmf_task/lib:/rmf_demos_ws/install/rmf_battery/lib:/rmf_demos_ws/install/rmf_traffic/lib:/rmf_demos_ws/install/rmf_utils/lib:/rmf_demos_ws/install/rmf_traffic_msgs/lib:/rmf_demos_ws/install/rmf_task_msgs/lib:/rmf_demos_ws/install/rmf_site_map_msgs/lib:/rmf_demos_ws/install/rmf_scheduler_msgs/lib:/rmf_demos_ws/install/rmf_robot_sim_common/lib:/rmf_demos_ws/install/rmf_reservation_msgs/lib:/rmf_demos_ws/install/rmf_obstacle_msgs/lib:/rmf_demos_ws/install/rmf_lift_msgs/lib:/rmf_demos_ws/install/rmf_ingestor_msgs/lib:/rmf_demos_ws/install/rmf_fleet_msgs/lib:/rmf_demos_ws/install/rmf_door_msgs/lib:/rmf_demos_ws/install/rmf_dispenser_msgs/lib:/rmf_demos_ws/install/rmf_charger_msgs/lib:/rmf_demos_ws/install/rmf_building_map_msgs/lib:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/lib:/rmf_demos_ws/install/menge_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ususario', 'OLDPWD': '/home/ususario', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/rmf_demos_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/rmf_demos_ws/install/rmf_traffic_examples/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic_examples/lib/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PIP_BREAK_SYSTEM_PACKAGES': '1', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/rmf_demos_ws/install/rmf_traffic_editor/bin:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.dockerdq24_iya.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_charging_schedule:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/ususario/IR2134/exam_ws/build/rmf_library', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/rmf_demos_ws/install/rmf_workcell_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_adapter_python/lib/python/site-packages:/rmf_demos_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_visualization_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_bridges/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_traffic_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_tasks/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_task_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_site_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_scheduler_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_reservation_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_obstacle_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_lift_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_ingestor_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charging_schedule/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_door_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_dispenser_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charger_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_api_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099335] (-) TimerEvent: {}
+[0.138802] (rmf_library) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating library_crowdsim\x1b[0m\n'}
+[0.139906] (rmf_library) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating maps/library/nav_graphs/phony\x1b[0m\n'}
+[0.199655] (-) TimerEvent: {}
+[0.299948] (-) TimerEvent: {}
+[0.400445] (-) TimerEvent: {}
+[0.500729] (-) TimerEvent: {}
+[0.601347] (-) TimerEvent: {}
+[0.701817] (-) TimerEvent: {}
+[0.802245] (-) TimerEvent: {}
+[0.902833] (-) TimerEvent: {}
+[1.003316] (-) TimerEvent: {}
+[1.103797] (-) TimerEvent: {}
+[1.204214] (-) TimerEvent: {}
+[1.304644] (-) TimerEvent: {}
+[1.404948] (-) TimerEvent: {}
+[1.503160] (rmf_library) StdoutLine: {'line': b'building name: library\n'}
+[1.503424] (rmf_library) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[1.503546] (rmf_library) StdoutLine: {'line': b'parsing level L01\n'}
+[1.504257] (rmf_library) StdoutLine: {'line': b'parsing level L02\n'}
+[1.505019] (-) TimerEvent: {}
+[1.506740] (rmf_library) StdoutLine: {'line': b'parsing level L1\n'}
+[1.509145] (rmf_library) StdoutLine: {'line': b'parsing level L2\n'}
+[1.511361] (rmf_library) StdoutLine: {'line': b'parsing level L3\n'}
+[1.512782] (rmf_library) StdoutLine: {'line': b'parsing level L4\n'}
+[1.513007] (rmf_library) StdoutLine: {'line': b'parsing level L5\n'}
+[1.514744] (rmf_library) StdoutLine: {'line': b'calculating levels relative to L01\n'}
+[1.515285] (rmf_library) StdoutLine: {'line': b'level L01 scale: 0.03733711682783853\n'}
+[1.515432] (rmf_library) StdoutLine: {'line': b'calculating level L02 offset and scale...\n'}
+[1.515543] (rmf_library) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.515643] (rmf_library) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.515740] (rmf_library) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.515800] (rmf_library) StdoutLine: {'line': b'    (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2\n'}
+[1.515843] (rmf_library) StdoutLine: {'line': b'    (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1\n'}
+[1.515903] (rmf_library) StdoutLine: {'line': b'    calc dist fidu_2 <=> fidu_1\n'}
+[1.515945] (rmf_library) StdoutLine: {'line': b'Bearings:\n'}
+[1.515987] (rmf_library) StdoutLine: {'line': b'[(3.141592653589793, 3.141592653589793)]\n'}
+[1.516032] (rmf_library) StdoutLine: {'line': b'  0.0\n'}
+[1.516073] (rmf_library) StdoutLine: {'line': b'  Circular mean: -0.0\n'}
+[1.516113] (rmf_library) StdoutLine: {'line': b'Distances:\n'}
+[1.516155] (rmf_library) StdoutLine: {'line': b'[(1190.212, 1190.212)]\n'}
+[1.516195] (rmf_library) StdoutLine: {'line': b'mean relative scale: 1.0\n'}
+[1.516242] (rmf_library) StdoutLine: {'line': b'translation: (-0.0, -0.0)\n'}
+[1.516290] (rmf_library) StdoutLine: {'line': b'calculating level L1 offset and scale...\n'}
+[1.516341] (rmf_library) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.516383] (rmf_library) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.516426] (rmf_library) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.516468] (rmf_library) StdoutLine: {'line': b'    (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2\n'}
+[1.516509] (rmf_library) StdoutLine: {'line': b'    (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1\n'}
+[1.516549] (rmf_library) StdoutLine: {'line': b'    calc dist fidu_2 <=> fidu_1\n'}
+[1.516589] (rmf_library) StdoutLine: {'line': b'Bearings:\n'}
+[1.516629] (rmf_library) StdoutLine: {'line': b'[(3.141592653589793, 3.141592653589793)]\n'}
+[1.516671] (rmf_library) StdoutLine: {'line': b'  0.0\n'}
+[1.516712] (rmf_library) StdoutLine: {'line': b'  Circular mean: -0.0\n'}
+[1.516752] (rmf_library) StdoutLine: {'line': b'Distances:\n'}
+[1.516793] (rmf_library) StdoutLine: {'line': b'[(1190.212, 1190.212)]\n'}
+[1.516833] (rmf_library) StdoutLine: {'line': b'mean relative scale: 1.0\n'}
+[1.516873] (rmf_library) StdoutLine: {'line': b'translation: (-0.0, -0.0)\n'}
+[1.516912] (rmf_library) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[1.516952] (rmf_library) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.516992] (rmf_library) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.517031] (rmf_library) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.517070] (rmf_library) StdoutLine: {'line': b'    (1591.8, -3001.4) -> (1591.8, -3001.4)   fidu_2\n'}
+[1.517109] (rmf_library) StdoutLine: {'line': b'    (401.59, -3001.4) -> (401.59, -3001.4)   fidu_1\n'}
+[1.517149] (rmf_library) StdoutLine: {'line': b'    calc dist fidu_2 <=> fidu_1\n'}
+[1.517188] (rmf_library) StdoutLine: {'line': b'Bearings:\n'}
+[1.517227] (rmf_library) StdoutLine: {'line': b'[(3.141592653589793, 3.141592653589793)]\n'}
+[1.517267] (rmf_library) StdoutLine: {'line': b'  0.0\n'}
+[1.517320] (rmf_library) StdoutLine: {'line': b'  Circular mean: -0.0\n'}
+[1.517364] (rmf_library) StdoutLine: {'line': b'Distances:\n'}
+[1.517404] (rmf_library) StdoutLine: {'line': b'[(1190.212, 1190.212)]\n'}
+[1.517444] (rmf_library) StdoutLine: {'line': b'mean relative scale: 1.0\n'}
+[1.517484] (rmf_library) StdoutLine: {'line': b'translation: (-0.0, -0.0)\n'}
+[1.517526] (rmf_library) StdoutLine: {'line': b'calculating level L3 offset and scale...\n'}
+[1.517570] (rmf_library) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.517610] (rmf_library) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.517649] (rmf_library) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.517690] (rmf_library) StdoutLine: {'line': b'    (1591.8, -3001.4) -> (1617.4, -3000.8)   fidu_2\n'}
+[1.517731] (rmf_library) StdoutLine: {'line': b'    (401.59, -3001.4) -> (401.61, -3000.8)   fidu_1\n'}
+[1.517773] (rmf_library) StdoutLine: {'line': b'    calc dist fidu_2 <=> fidu_1\n'}
+[1.517813] (rmf_library) StdoutLine: {'line': b'Bearings:\n'}
+[1.517853] (rmf_library) StdoutLine: {'line': b'[(3.141592653589793, -3.1415507041068658)]\n'}
+[1.517893] (rmf_library) StdoutLine: {'line': b'  -6.283143357696659\n'}
+[1.517935] (rmf_library) StdoutLine: {'line': b'  Circular mean: -4.1949482927595274e-05\n'}
+[1.517977] (rmf_library) StdoutLine: {'line': b'Distances:\n'}
+[1.518024] (rmf_library) StdoutLine: {'line': b'[(1190.212, 1215.7480010697118)]\n'}
+[1.518065] (rmf_library) StdoutLine: {'line': b'mean relative scale: 1.0214550021926445\n'}
+[1.518106] (rmf_library) StdoutLine: {'line': b'translation: (0.31915, -2.374)\n'}
+[1.518146] (rmf_library) StdoutLine: {'line': b'calculating level L4 offset and scale...\n'}
+[1.518186] (rmf_library) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.518226] (rmf_library) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.518265] (rmf_library) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.518317] (rmf_library) StdoutLine: {'line': b'    (1591.8, -3001.4) -> (1616.9, -3000.8)   fidu_2\n'}
+[1.518360] (rmf_library) StdoutLine: {'line': b'    (401.59, -3001.4) -> (401.69, -3000.8)   fidu_1\n'}
+[1.518400] (rmf_library) StdoutLine: {'line': b'    calc dist fidu_2 <=> fidu_1\n'}
+[1.518440] (rmf_library) StdoutLine: {'line': b'Bearings:\n'}
+[1.518479] (rmf_library) StdoutLine: {'line': b'[(3.141592653589793, -3.1415860703871643)]\n'}
+[1.518518] (rmf_library) StdoutLine: {'line': b'  -6.283178723976958\n'}
+[1.518558] (rmf_library) StdoutLine: {'line': b'  Circular mean: -6.583202628607913e-06\n'}
+[1.518598] (rmf_library) StdoutLine: {'line': b'Distances:\n'}
+[1.518637] (rmf_library) StdoutLine: {'line': b'[(1190.212, 1215.2140000263328)]\n'}
+[1.518676] (rmf_library) StdoutLine: {'line': b'mean relative scale: 1.0210063417494806\n'}
+[1.518716] (rmf_library) StdoutLine: {'line': b'translation: (0.3056, -2.3277)\n'}
+[1.518756] (rmf_library) StdoutLine: {'line': b'calculating level L5 offset and scale...\n'}
+[1.518795] (rmf_library) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.518834] (rmf_library) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.518873] (rmf_library) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.518912] (rmf_library) StdoutLine: {'line': b'    (1591.8, -3001.4) -> (1617.4, -3000.6)   fidu_2\n'}
+[1.518951] (rmf_library) StdoutLine: {'line': b'    (401.59, -3001.4) -> (401.62, -3000.8)   fidu_1\n'}
+[1.518991] (rmf_library) StdoutLine: {'line': b'    calc dist fidu_2 <=> fidu_1\n'}
+[1.519030] (rmf_library) StdoutLine: {'line': b'Bearings:\n'}
+[1.519070] (rmf_library) StdoutLine: {'line': b'[(3.141592653589793, -3.141362344980323)]\n'}
+[1.519110] (rmf_library) StdoutLine: {'line': b'  -6.282954998570116\n'}
+[1.519150] (rmf_library) StdoutLine: {'line': b'  Circular mean: -0.00023030860947084245\n'}
+[1.519189] (rmf_library) StdoutLine: {'line': b'Distances:\n'}
+[1.519229] (rmf_library) StdoutLine: {'line': b'[(1190.212, 1215.7600322432056)]\n'}
+[1.519269] (rmf_library) StdoutLine: {'line': b'mean relative scale: 1.021465110621642\n'}
+[1.519320] (rmf_library) StdoutLine: {'line': b'translation: (0.33937, -2.3713)\n'}
+[1.549976] (rmf_library) StdoutLine: {'line': b'parsing lift C1\n'}
+[1.550161] (rmf_library) StdoutLine: {'line': b'parsing lift C2\n'}
+[1.550288] (rmf_library) StdoutLine: {'line': b'parsing lift P1\n'}
+[1.550405] (rmf_library) StdoutLine: {'line': b'parsing lift P2\n'}
+[1.553016] (rmf_library) StdoutLine: {'line': b'generating nav data\n'}
+[1.560791] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.449, u=0.673\n'}
+[1.561116] (rmf_library) StdoutLine: {'line': b'  (1292.373,-520.895),(1539.117,-520.895) and (1403.211,-551.245),(1403.211,-506.125)\n'}
+[1.561243] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull3!\n'}
+[1.561568] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.201, u=0.501\n'}
+[1.561745] (rmf_library) StdoutLine: {'line': b'  (1539.117,-520.895),(1585.831,-321.262) and (1531.56,-477.201),(1565.351,-484.365)\n'}
+[1.561855] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull4!\n'}
+[1.561952] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.697, u=0.509\n'}
+[1.562061] (rmf_library) StdoutLine: {'line': b'  (776.638,-352.017),(980.857,-353.421) and (919.182,-370.231),(918.978,-336.355)\n'}
+[1.562164] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull1!\n'}
+[1.562442] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.173, u=0.5\n'}
+[1.562499] (rmf_library) StdoutLine: {'line': b'  (980.857,-353.421),(1292.373,-352.017) and (1034.607,-335.695),(1034.861,-370.63)\n'}
+[1.562546] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull2!\n'}
+[1.562592] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.282, u=0.498\n'}
+[1.562637] (rmf_library) StdoutLine: {'line': b'  (937.023,-410.627),(965.742,-519.519) and (928.587,-449.658),(961.775,-432.993)\n'}
+[1.562681] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull10!\n'}
+[1.562729] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.19, u=0.541\n'}
+[1.562772] (rmf_library) StdoutLine: {'line': b'  (1027.577,-613.431),(965.742,-519.519) and (1037.577,-582.795),(997.302,-606.405)\n'}
+[1.562823] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull11!\n'}
+[1.562867] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.732, u=0.422\n'}
+[1.562908] (rmf_library) StdoutLine: {'line': b'  (871.994,-687.581),(709.409,-687.581) and (753.451,-699.125),(752.323,-671.798)\n'}
+[1.562949] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull13!\n'}
+[1.562990] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.292, u=0.454\n'}
+[1.563031] (rmf_library) StdoutLine: {'line': b'  (659.001,-613.635),(659.001,-546.31) and (645.951,-593.975),(674.715,-593.975)\n'}
+[1.563071] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull12!\n'}
+[1.563111] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.343, u=0.534\n'}
+[1.563151] (rmf_library) StdoutLine: {'line': b'  (461.582,-765.428),(333.333,-765.428) and (416.854,-750.668),(418.123,-778.327)\n'}
+[1.563192] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull14!\n'}
+[1.563233] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.52, u=0.549\n'}
+[1.563275] (rmf_library) StdoutLine: {'line': b'  (1042.429,-1038.574),(1198.595,-1038.574) and (1123.672,-1011.468),(1123.672,-1060.814)\n'}
+[1.563327] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull5!\n'}
+[1.563370] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.523, u=0.443\n'}
+[1.563410] (rmf_library) StdoutLine: {'line': b'  (1042.429,-1038.574),(939.811,-1038.574) and (988.7,-1060.013),(988.859,-1011.565)\n'}
+[1.563451] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull6!\n'}
+[1.563491] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.303, u=0.559\n'}
+[1.563531] (rmf_library) StdoutLine: {'line': b'  (876.734,-1456.981),(998.184,-1453.92) and (913.477,-1471.498),(913.477,-1443.861)\n'}
+[1.563571] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull7!\n'}
+[1.563610] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.611, u=0.53\n'}
+[1.563649] (rmf_library) StdoutLine: {'line': b'  (998.184,-1453.92),(1151.055,-1461.663) and (1091.899,-1441.892),(1091.254,-1473.526)\n'}
+[1.563688] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull8!\n'}
+[1.563726] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.36, u=0.544\n'}
+[1.563766] (rmf_library) StdoutLine: {'line': b'  (998.184,-1453.92),(998.184,-1538.995) and (973.911,-1484.865),(1018.542,-1484.212)\n'}
+[1.563807] (rmf_library) StdoutLine: {'line': b'found intersection with door nueva!\n'}
+[1.563846] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.219, u=0.447\n'}
+[1.563886] (rmf_library) StdoutLine: {'line': b'  (998.184,-1538.995),(801.608,-1538.995) and (955.375,-1559.159),(955.0,-1514.022)\n'}
+[1.563927] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull9!\n'}
+[1.563966] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.677, u=0.41\n'}
+[1.564018] (rmf_library) StdoutLine: {'line': b'  (851.023,-1742.642),(851.023,-1848.343) and (830.498,-1814.5),(880.607,-1813.751)\n'}
+[1.564058] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull21!\n'}
+[1.564098] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.121, u=0.478\n'}
+[1.564137] (rmf_library) StdoutLine: {'line': b'  (788.038,-2023.489),(490.656,-2023.489) and (752.032,-2007.279),(752.366,-2041.217)\n'}
+[1.564177] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull15!\n'}
+[1.564216] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.425, u=0.499\n'}
+[1.564254] (rmf_library) StdoutLine: {'line': b'  (945.164,-2600.875),(941.789,-2718.313) and (929.462,-2650.732),(958.051,-2650.732)\n'}
+[1.564304] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull16!\n'}
+[1.564352] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.256, u=0.444\n'}
+[1.564392] (rmf_library) StdoutLine: {'line': b'  (941.789,-2718.313),(941.789,-2842.827) and (928.368,-2750.197),(958.575,-2750.197)\n'}
+[1.564431] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull17!\n'}
+[1.564471] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.744, u=0.373\n'}
+[1.564510] (rmf_library) StdoutLine: {'line': b'  (1051.361,-2842.827),(1051.361,-2718.313) and (1062.868,-2750.197),(1032.025,-2750.197)\n'}
+[1.564549] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull18!\n'}
+[1.564589] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.573, u=0.487\n'}
+[1.564629] (rmf_library) StdoutLine: {'line': b'  (955.116,-482.959),(937.023,-410.627) and (928.587,-449.658),(961.775,-432.993)\n'}
+[1.564669] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull10!\n'}
+[1.575041] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.402, u=0.504\n'}
+[1.575294] (rmf_library) StdoutLine: {'line': b'  (920.412,-395.759),(979.572,-508.378) and (926.397,-450.649),(961.749,-431.676)\n'}
+[1.575444] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null10!\n'}
+[1.575562] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.655, u=0.461\n'}
+[1.575671] (rmf_library) StdoutLine: {'line': b'  (950.789,-542.205),(1015.104,-643.745) and (1012.503,-595.977),(969.961,-623.504)\n'}
+[1.575774] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null11!\n'}
+[1.575872] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.478, u=0.611\n'}
+[1.575974] (rmf_library) StdoutLine: {'line': b'  (1015.104,-643.745),(1150.593,-564.656) and (1064.238,-578.727),(1089.777,-623.294)\n'}
+[1.576071] (rmf_library) StdoutLine: {'line': b'found intersection with door nullh!\n'}
+[1.576171] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.343, u=0.545\n'}
+[1.576272] (rmf_library) StdoutLine: {'line': b'  (1536.677,-564.656),(1573.954,-318.654) and (1529.555,-476.691),(1566.068,-483.366)\n'}
+[1.576656] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null4!\n'}
+[1.576785] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.43, u=0.488\n'}
+[1.576839] (rmf_library) StdoutLine: {'line': b'  (538.735,-428.535),(538.735,-550.851) and (563.156,-481.253),(513.137,-480.938)\n'}
+[1.576900] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null22!\n'}
+[1.576951] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.351, u=0.506\n'}
+[1.576997] (rmf_library) StdoutLine: {'line': b'  (538.735,-550.851),(446.522,-550.851) and (506.287,-568.92),(506.461,-533.207)\n'}
+[1.577043] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null23!\n'}
+[1.577089] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.257, u=0.491\n'}
+[1.577136] (rmf_library) StdoutLine: {'line': b'  (538.735,-550.851),(538.735,-773.06) and (562.28,-608.095),(514.358,-607.898)\n'}
+[1.577181] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null24!\n'}
+[1.577262] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.64, u=0.509\n'}
+[1.577348] (rmf_library) StdoutLine: {'line': b'  (803.021,-825.117),(751.335,-735.624) and (784.91,-760.038),(755.507,-775.328)\n'}
+[1.577395] (rmf_library) StdoutLine: {'line': b'found intersection with door nullb1!\n'}
+[1.577436] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.169, u=0.572\n'}
+[1.577478] (rmf_library) StdoutLine: {'line': b'  (803.021,-910.414),(468.426,-910.414) and (746.305,-881.394),(746.356,-932.085)\n'}
+[1.577529] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null34!\n'}
+[1.577570] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.562, u=0.494\n'}
+[1.577610] (rmf_library) StdoutLine: {'line': b'  (1473.103,-1337.536),(1473.191,-1465.881) and (1489.775,-1409.767),(1456.158,-1409.604)\n'}
+[1.577651] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null29!\n'}
+[1.577690] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.604, u=0.507\n'}
+[1.577732] (rmf_library) StdoutLine: {'line': b'  (1512.111,-1337.536),(1512.111,-1456.942) and (1495.526,-1409.604),(1528.27,-1409.769)\n'}
+[1.577777] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null30!\n'}
+[1.577821] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.636, u=0.467\n'}
+[1.577867] (rmf_library) StdoutLine: {'line': b'  (1344.817,-1337.536),(1344.817,-1451.337) and (1330.265,-1409.785),(1361.445,-1409.944)\n'}
+[1.577913] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null28!\n'}
+[1.577959] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.615, u=0.497\n'}
+[1.578004] (rmf_library) StdoutLine: {'line': b'  (1305.848,-1337.536),(1305.848,-1455.157) and (1321.823,-1410.045),(1289.699,-1409.785)\n'}
+[1.578048] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null27!\n'}
+[1.578092] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.696, u=0.464\n'}
+[1.578136] (rmf_library) StdoutLine: {'line': b'  (1180.905,-1393.615),(1272.883,-1393.615) and (1244.724,-1378.254),(1245.099,-1411.359)\n'}
+[1.578180] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null31!\n'}
+[1.578224] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.233, u=0.509\n'}
+[1.578268] (rmf_library) StdoutLine: {'line': b'  (995.993,-1344.11),(995.993,-1532.471) and (971.09,-1387.954),(1020.032,-1387.903)\n'}
+[1.578510] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null176!\n'}
+[1.578669] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.656, u=0.501\n'}
+[1.578797] (rmf_library) StdoutLine: {'line': b'  (995.993,-1344.11),(995.993,-1532.471) and (971.714,-1467.807),(1020.218,-1467.614)\n'}
+[1.578917] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null177!\n'}
+[1.579030] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.096, u=0.548\n'}
+[1.579142] (rmf_library) StdoutLine: {'line': b'  (995.993,-1532.471),(1420.529,-1532.471) and (1036.954,-1502.122),(1036.954,-1557.512)\n'}
+[1.579186] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null32!\n'}
+[1.579227] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.3, u=0.473\n'}
+[1.579268] (rmf_library) StdoutLine: {'line': b'  (995.993,-1532.471),(860.434,-1532.471) and (955.213,-1557.206),(955.407,-1504.912)\n'}
+[1.579401] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null9!\n'}
+[1.579464] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.126, u=0.503\n'}
+[1.579517] (rmf_library) StdoutLine: {'line': b'  (790.99,-1505.72),(790.99,-1350.844) and (808.828,-1486.191),(773.342,-1486.191)\n'}
+[1.579567] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null43!\n'}
+[1.579614] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.381, u=0.477\n'}
+[1.579689] (rmf_library) StdoutLine: {'line': b'  (790.99,-1350.844),(883.416,-1350.844) and (825.805,-1333.332),(826.553,-1370.065)\n'}
+[1.579735] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null42!\n'}
+[1.579781] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.092, u=0.435\n'}
+[1.579826] (rmf_library) StdoutLine: {'line': b'  (778.104,-1350.844),(778.104,-1040.132) and (794.588,-1322.126),(756.721,-1322.126)\n'}
+[1.579870] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null41!\n'}
+[1.579916] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.252, u=0.668\n'}
+[1.579961] (rmf_library) StdoutLine: {'line': b'  (596.666,-1138.737),(596.666,-1036.252) and (613.526,-1112.9),(588.289,-1112.9)\n'}
+[1.580005] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null35!\n'}
+[1.580050] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.386, u=0.494\n'}
+[1.580094] (rmf_library) StdoutLine: {'line': b'  (596.666,-1299.179),(668.543,-1299.179) and (624.421,-1313.088),(624.421,-1284.934)\n'}
+[1.580138] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null38!\n'}
+[1.580182] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.186, u=0.391\n'}
+[1.580226] (rmf_library) StdoutLine: {'line': b'  (596.666,-1299.179),(450.997,-1299.179) and (569.603,-1309.434),(569.603,-1283.189)\n'}
+[1.580271] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null37!\n'}
+[1.580383] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.432, u=0.503\n'}
+[1.580446] (rmf_library) StdoutLine: {'line': b'  (596.666,-1138.737),(533.904,-1138.737) and (569.487,-1155.612),(569.592,-1122.043)\n'}
+[1.580505] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null36!\n'}
+[1.580554] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.341, u=0.578\n'}
+[1.580599] (rmf_library) StdoutLine: {'line': b'  (790.99,-1546.69),(628.652,-1546.69) and (735.688,-1515.4),(735.688,-1569.577)\n'}
+[1.580644] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null50!\n'}
+[1.580688] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.667, u=0.567\n'}
+[1.580732] (rmf_library) StdoutLine: {'line': b'  (628.652,-1770.362),(788.595,-1770.362) and (735.353,-1740.175),(735.353,-1793.445)\n'}
+[1.580776] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null33!\n'}
+[1.580819] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.441, u=0.52\n'}
+[1.580863] (rmf_library) StdoutLine: {'line': b'  (1088.601,-1737.236),(1000.769,-1824.769) and (1073.676,-1800.025),(1027.939,-1753.501)\n'}
+[1.580907] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null178!\n'}
+[1.580950] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.338, u=0.461\n'}
+[1.580994] (rmf_library) StdoutLine: {'line': b'  (788.595,-2035.579),(677.131,-2035.579) and (751.034,-2020.672),(750.869,-2053.014)\n'}
+[1.581038] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null15!\n'}
+[1.581082] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.448, u=0.473\n'}
+[1.581126] (rmf_library) StdoutLine: {'line': b'  (677.131,-2035.579),(530.331,-2035.579) and (611.301,-2052.124),(611.301,-2017.134)\n'}
+[1.581170] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null57!\n'}
+[1.581213] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.733, u=0.482\n'}
+[1.581257] (rmf_library) StdoutLine: {'line': b'  (1001.549,-2129.152),(861.135,-2129.152) and (898.927,-2146.465),(898.426,-2110.518)\n'}
+[1.581369] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null58!\n'}
+[1.581417] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.24, u=0.463\n'}
+[1.581461] (rmf_library) StdoutLine: {'line': b'  (1281.901,-2107.402),(1471.051,-2107.402) and (1326.905,-2089.94),(1327.732,-2127.636)\n'}
+[1.581528] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null46!\n'}
+[1.581583] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.637, u=0.432\n'}
+[1.581628] (rmf_library) StdoutLine: {'line': b'  (1471.051,-2107.402),(1471.051,-2182.459) and (1454.71,-2155.399),(1492.522,-2154.971)\n'}
+[1.581669] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null47!\n'}
+[1.581709] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.553, u=0.536\n'}
+[1.581747] (rmf_library) StdoutLine: {'line': b'  (1122.31,-2129.152),(1122.31,-2175.354) and (1148.148,-2154.698),(1099.935,-2154.698)\n'}
+[1.581798] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null44!\n'}
+[1.581841] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.456, u=0.461\n'}
+[1.581881] (rmf_library) StdoutLine: {'line': b'  (1282.34,-2176.117),(1281.901,-2129.152) and (1304.377,-2154.698),(1256.164,-2154.698)\n'}
+[1.581921] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null45!\n'}
+[1.581961] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.575, u=0.501\n'}
+[1.582001] (rmf_library) StdoutLine: {'line': b'  (1001.549,-2277.151),(823.183,-2277.151) and (898.819,-2295.926),(899.123,-2258.444)\n'}
+[1.582041] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null59!\n'}
+[1.582081] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.618, u=0.505\n'}
+[1.582121] (rmf_library) StdoutLine: {'line': b'  (642.379,-2291.975),(521.46,-2291.975) and (567.654,-2308.619),(567.654,-2275.674)\n'}
+[1.582160] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null61!\n'}
+[1.582200] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.751, u=0.508\n'}
+[1.582239] (rmf_library) StdoutLine: {'line': b'  (642.379,-2406.224),(506.594,-2406.224) and (540.46,-2423.613),(540.344,-2389.383)\n'}
+[1.582279] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null62!\n'}
+[1.582335] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.747, u=0.507\n'}
+[1.582377] (rmf_library) StdoutLine: {'line': b'  (642.379,-2516.706),(506.342,-2522.169) and (540.499,-2538.039),(540.903,-2503.995)\n'}
+[1.582417] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null64!\n'}
+[1.582456] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.414, u=0.497\n'}
+[1.582495] (rmf_library) StdoutLine: {'line': b'  (570.086,-2575.813),(498.893,-2573.356) and (540.431,-2558.086),(540.861,-2591.712)\n'}
+[1.582535] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null63!\n'}
+[1.582573] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.679, u=0.371\n'}
+[1.582613] (rmf_library) StdoutLine: {'line': b'  (570.086,-2575.813),(635.727,-2575.813) and (614.567,-2568.27),(614.781,-2588.604)\n'}
+[1.582653] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null65!\n'}
+[1.582694] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.52, u=0.486\n'}
+[1.582747] (rmf_library) StdoutLine: {'line': b'  (785.244,-2428.76),(1004.08,-2428.76) and (899.116,-2405.407),(899.116,-2453.443)\n'}
+[1.582787] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null60!\n'}
+[1.582827] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.482, u=0.567\n'}
+[1.582866] (rmf_library) StdoutLine: {'line': b'  (966.641,-2701.051),(848.428,-2701.051) and (909.608,-2673.076),(909.608,-2722.408)\n'}
+[1.582906] (rmf_library) StdoutLine: {'line': b'found intersection with door nullnueva4!\n'}
+[1.582945] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.242, u=0.54\n'}
+[1.582985] (rmf_library) StdoutLine: {'line': b'  (848.428,-2701.051),(848.428,-2548.989) and (833.435,-2664.245),(861.187,-2664.245)\n'}
+[1.583025] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null75!\n'}
+[1.583071] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.331, u=0.5\n'}
+[1.583111] (rmf_library) StdoutLine: {'line': b'  (513.407,-2811.211),(513.407,-2704.162) and (530.187,-2775.682),(496.658,-2775.91)\n'}
+[1.583150] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null66!\n'}
+[1.583196] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.354, u=0.486\n'}
+[1.583238] (rmf_library) StdoutLine: {'line': b'  (486.953,-2811.211),(487.298,-2871.261) and (503.604,-2832.189),(469.597,-2832.739)\n'}
+[1.583284] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null69!\n'}
+[1.583334] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.344, u=0.495\n'}
+[1.583375] (rmf_library) StdoutLine: {'line': b'  (559.375,-2811.211),(559.055,-2871.856) and (575.469,-2832.145),(542.756,-2831.946)\n'}
+[1.583415] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null70!\n'}
+[1.583455] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.343, u=0.484\n'}
+[1.583494] (rmf_library) StdoutLine: {'line': b'  (612.647,-2811.211),(613.373,-2724.377) and (630.0,-2781.581),(594.633,-2781.308)\n'}
+[1.583534] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null67!\n'}
+[1.583573] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.321, u=0.483\n'}
+[1.583612] (rmf_library) StdoutLine: {'line': b'  (643.752,-2811.211),(643.02,-2876.025) and (660.129,-2832.22),(625.755,-2831.756)\n'}
+[1.583651] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null71!\n'}
+[1.583690] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.401, u=0.486\n'}
+[1.583729] (rmf_library) StdoutLine: {'line': b'  (660.102,-2811.211),(660.102,-2738.079) and (643.108,-2781.718),(678.065,-2782.127)\n'}
+[1.583768] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null68!\n'}
+[1.583809] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.313, u=0.497\n'}
+[1.583850] (rmf_library) StdoutLine: {'line': b'  (681.16,-2811.211),(681.16,-2877.921) and (664.774,-2832.22),(697.756,-2831.968)\n'}
+[1.583889] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null72!\n'}
+[1.583929] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.303, u=0.498\n'}
+[1.583968] (rmf_library) StdoutLine: {'line': b'  (811.81,-2811.211),(811.81,-2879.782) and (828.596,-2832.216),(794.89,-2831.749)\n'}
+[1.584007] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null73!\n'}
+[1.584047] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.34, u=0.5\n'}
+[1.584086] (rmf_library) StdoutLine: {'line': b'  (848.428,-2811.211),(848.428,-2872.423) and (831.495,-2832.214),(865.345,-2831.818)\n'}
+[1.584124] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null74!\n'}
+[1.584163] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.184, u=0.538\n'}
+[1.584202] (rmf_library) StdoutLine: {'line': b'  (944.606,-2735.557),(944.606,-2814.969) and (928.368,-2750.197),(958.575,-2750.197)\n'}
+[1.584241] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null17!\n'}
+[1.584286] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.573, u=0.513\n'}
+[1.584334] (rmf_library) StdoutLine: {'line': b'  (1047.039,-2814.969),(1047.039,-2701.858) and (1062.868,-2750.197),(1032.025,-2750.197)\n'}
+[1.584375] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null18!\n'}
+[1.584415] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.16, u=0.473\n'}
+[1.584474] (rmf_library) StdoutLine: {'line': b'  (1096.261,-2708.665),(1508.731,-2708.665) and (1162.129,-2731.515),(1162.129,-2683.252)\n'}
+[1.584514] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null48!\n'}
+[1.584554] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.348, u=0.461\n'}
+[1.584599] (rmf_library) StdoutLine: {'line': b'  (1122.838,-2751.638),(1122.838,-2905.6) and (1100.881,-2805.114),(1148.543,-2805.37)\n'}
+[1.584639] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null49!\n'}
+[1.584678] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.429, u=0.531\n'}
+[1.584717] (rmf_library) StdoutLine: {'line': b'  (702.492,-428.535),(702.492,-551.429) and (729.01,-481.253),(679.085,-481.253)\n'}
+[1.584757] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null21!\n'}
+[1.584795] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.364, u=0.705\n'}
+[1.584834] (rmf_library) StdoutLine: {'line': b'  (596.666,-1350.844),(522.299,-1350.844) and (569.603,-1332.895),(569.603,-1358.345)\n'}
+[1.584872] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null39!\n'}
+[1.584910] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.273, u=0.411\n'}
+[1.584948] (rmf_library) StdoutLine: {'line': b'  (596.666,-1350.844),(607.018,-1448.976) and (588.676,-1377.609),(615.012,-1377.609)\n'}
+[1.584987] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null40!\n'}
+[1.585026] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.421, u=0.55\n'}
+[1.585065] (rmf_library) StdoutLine: {'line': b'  (964.301,-472.54),(920.412,-395.759) and (926.397,-450.649),(961.749,-431.676)\n'}
+[1.585103] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null10!\n'}
+[1.592971] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.167, u=0.45\n'}
+[1.593156] (rmf_library) StdoutLine: {'line': b'  (689.821,-410.287),(926.124,-410.287) and (729.249,-432.867),(729.249,-382.684)\n'}
+[1.593279] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null85!\n'}
+[1.593393] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.037, u=0.505\n'}
+[1.593502] (rmf_library) StdoutLine: {'line': b'  (475.646,-450.409),(475.646,-1351.481) and (450.454,-483.873),(500.296,-483.873)\n'}
+[1.593620] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null84!\n'}
+[1.593783] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.54, u=0.661\n'}
+[1.593903] (rmf_library) StdoutLine: {'line': b'  (953.935,-563.713),(953.935,-752.308) and (986.89,-665.624),(937.056,-665.624)\n'}
+[1.594007] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null81!\n'}
+[1.594152] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.458, u=0.48\n'}
+[1.594271] (rmf_library) StdoutLine: {'line': b'  (1028.608,-751.891),(1027.702,-563.713) and (1004.077,-665.624),(1054.275,-665.624)\n'}
+[1.594409] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null82!\n'}
+[1.594515] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.435, u=0.517\n'}
+[1.594614] (rmf_library) StdoutLine: {'line': b'  (785.273,-791.301),(754.069,-735.331) and (784.088,-760.601),(760.104,-772.859)\n'}
+[1.594808] (rmf_library) StdoutLine: {'line': b'found intersection with door nullb3!\n'}
+[1.594882] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.517, u=0.489\n'}
+[1.594935] (rmf_library) StdoutLine: {'line': b'  (556.402,-1351.481),(556.402,-1462.562) and (573.343,-1408.806),(538.717,-1409.046)\n'}
+[1.594983] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null90!\n'}
+[1.595029] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.501, u=0.5\n'}
+[1.595072] (rmf_library) StdoutLine: {'line': b'  (640.439,-1351.481),(640.439,-1466.586) and (657.264,-1409.287),(623.6,-1409.046)\n'}
+[1.595116] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null91!\n'}
+[1.595159] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.501, u=0.471\n'}
+[1.595200] (rmf_library) StdoutLine: {'line': b'  (681.896,-1351.666),(681.896,-1466.525) and (666.471,-1409.104),(699.239,-1409.231)\n'}
+[1.595241] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null92!\n'}
+[1.595299] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.49, u=0.482\n'}
+[1.595348] (rmf_library) StdoutLine: {'line': b'  (848.504,-1353.331),(848.504,-1468.711) and (832.675,-1409.941),(865.529,-1409.785)\n'}
+[1.595393] (rmf_library) StdoutLine: {'line': b'found intersection with door nullnuevo!\n'}
+[1.595438] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.331, u=0.378\n'}
+[1.595483] (rmf_library) StdoutLine: {'line': b'  (989.691,-1351.481),(989.691,-1538.262) and (970.854,-1413.321),(1020.629,-1413.321)\n'}
+[1.595527] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null75!\n'}
+[1.595571] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.427, u=0.482\n'}
+[1.595614] (rmf_library) StdoutLine: {'line': b'  (1223.246,-1372.402),(1223.704,-1460.246) and (1239.068,-1409.918),(1206.648,-1409.918)\n'}
+[1.595659] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null83!\n'}
+[1.595702] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.399, u=0.492\n'}
+[1.595745] (rmf_library) StdoutLine: {'line': b'  (1309.027,-1372.246),(1306.987,-1465.442) and (1324.255,-1409.433),(1291.644,-1409.433)\n'}
+[1.595789] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null27!\n'}
+[1.595832] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.398, u=0.489\n'}
+[1.595875] (rmf_library) StdoutLine: {'line': b'  (1348.887,-1372.659),(1349.601,-1465.935) and (1331.54,-1409.78),(1367.621,-1409.78)\n'}
+[1.595918] (rmf_library) StdoutLine: {'line': b'found intersection with door 1ull28!\n'}
+[1.595963] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.419, u=0.503\n'}
+[1.596008] (rmf_library) StdoutLine: {'line': b'  (1438.316,-1373.756),(1432.82,-1460.403) and (1418.589,-1410.127),(1453.203,-1410.06)\n'}
+[1.596052] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null103!\n'}
+[1.596096] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.838, u=0.631\n'}
+[1.596139] (rmf_library) StdoutLine: {'line': b'  (689.821,-410.287),(689.821,-495.068) and (721.862,-481.327),(671.094,-481.327)\n'}
+[1.596182] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null21!\n'}
+[1.596225] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.585, u=0.532\n'}
+[1.596268] (rmf_library) StdoutLine: {'line': b'  (791.048,-1414.968),(789.148,-1536.776) and (808.828,-1486.191),(773.342,-1486.191)\n'}
+[1.596371] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null43!\n'}
+[1.596417] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.828, u=0.367\n'}
+[1.596458] (rmf_library) StdoutLine: {'line': b'  (789.148,-1536.776),(989.691,-1538.262) and (955.213,-1557.206),(955.407,-1504.912)\n'}
+[1.596498] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null9!\n'}
+[1.596539] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.208, u=0.501\n'}
+[1.596582] (rmf_library) StdoutLine: {'line': b'  (476.055,-2852.072),(482.727,-2968.103) and (493.98,-2876.405),(460.998,-2876.043)\n'}
+[1.596657] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null69!\n'}
+[1.596706] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.217, u=0.505\n'}
+[1.596751] (rmf_library) StdoutLine: {'line': b'  (520.113,-2851.726),(512.412,-2966.601) and (535.75,-2876.766),(501.444,-2876.525)\n'}
+[1.596797] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null70!\n'}
+[1.596843] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.232, u=0.477\n'}
+[1.596888] (rmf_library) StdoutLine: {'line': b'  (643.251,-2851.792),(643.251,-2958.443) and (659.755,-2876.684),(625.171,-2876.381)\n'}
+[1.596933] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null71!\n'}
+[1.596977] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.235, u=0.509\n'}
+[1.597071] (rmf_library) StdoutLine: {'line': b'  (688.482,-2851.258),(679.196,-2959.463) and (670.179,-2876.789),(701.862,-2876.482)\n'}
+[1.597115] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null72!\n'}
+[1.597157] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.214, u=0.503\n'}
+[1.597198] (rmf_library) StdoutLine: {'line': b'  (814.152,-2851.792),(800.454,-2967.517) and (828.2,-2876.519),(794.464,-2876.519)\n'}
+[1.597240] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null73!\n'}
+[1.597297] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.209, u=0.492\n'}
+[1.597360] (rmf_library) StdoutLine: {'line': b'  (847.655,-2851.792),(847.655,-2969.031) and (831.831,-2876.334),(864.018,-2876.347)\n'}
+[1.597403] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null74!\n'}
+[1.597444] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.186, u=0.365\n'}
+[1.597485] (rmf_library) StdoutLine: {'line': b'  (789.148,-2032.462),(583.911,-2032.462) and (751.034,-2020.672),(750.869,-2053.014)\n'}
+[1.597526] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null15!\n'}
+[1.597566] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.867, u=0.562\n'}
+[1.597605] (rmf_library) StdoutLine: {'line': b'  (789.148,-2032.462),(583.911,-2032.462) and (611.301,-2052.124),(611.301,-2017.134)\n'}
+[1.597649] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null57!\n'}
+[1.597691] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.321, u=0.494\n'}
+[1.597731] (rmf_library) StdoutLine: {'line': b'  (1139.202,-2832.2),(1139.202,-2968.791) and (1155.941,-2875.825),(1122.023,-2876.226)\n'}
+[1.597773] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null96!\n'}
+[1.597813] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.325, u=0.504\n'}
+[1.597854] (rmf_library) StdoutLine: {'line': b'  (1185.845,-2832.273),(1183.249,-2968.128) and (1168.002,-2876.243),(1201.7,-2876.628)\n'}
+[1.597894] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null93!\n'}
+[1.597934] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.319, u=0.489\n'}
+[1.597974] (rmf_library) StdoutLine: {'line': b'  (1308.271,-2832.2),(1308.271,-2969.99) and (1324.548,-2876.134),(1291.273,-2876.059)\n'}
+[1.598014] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null97!\n'}
+[1.598054] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.33, u=0.495\n'}
+[1.598093] (rmf_library) StdoutLine: {'line': b'  (1351.024,-2832.2),(1351.024,-2965.633) and (1334.714,-2876.243),(1367.663,-2876.237)\n'}
+[1.598133] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null94!\n'}
+[1.598173] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.331, u=0.457\n'}
+[1.598213] (rmf_library) StdoutLine: {'line': b'  (1478.311,-2832.2),(1478.311,-2964.991) and (1493.443,-2876.26),(1460.354,-2876.133)\n'}
+[1.598252] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null98!\n'}
+[1.598303] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.329, u=0.476\n'}
+[1.598349] (rmf_library) StdoutLine: {'line': b'  (1515.234,-2832.2),(1515.234,-2966.276) and (1499.741,-2876.243),(1532.258,-2876.408)\n'}
+[1.598389] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null95!\n'}
+[1.598428] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.434, u=0.494\n'}
+[1.598467] (rmf_library) StdoutLine: {'line': b'  (1308.271,-2832.2),(1308.271,-2678.953) and (1325.439,-2765.617),(1290.657,-2765.727)\n'}
+[1.598506] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null99!\n'}
+[1.598546] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.431, u=0.493\n'}
+[1.598585] (rmf_library) StdoutLine: {'line': b'  (1351.024,-2832.2),(1351.024,-2678.492) and (1334.517,-2765.727),(1367.986,-2766.091)\n'}
+[1.598630] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null100!\n'}
+[1.598670] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.434, u=0.476\n'}
+[1.598710] (rmf_library) StdoutLine: {'line': b'  (1478.311,-2832.2),(1478.311,-2677.901) and (1495.03,-2765.161),(1459.912,-2765.161)\n'}
+[1.598749] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null101!\n'}
+[1.598788] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.438, u=0.469\n'}
+[1.598827] (rmf_library) StdoutLine: {'line': b'  (1515.234,-2832.2),(1515.234,-2679.675) and (1498.747,-2765.315),(1533.866,-2765.64)\n'}
+[1.598867] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null102!\n'}
+[1.598905] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.497, u=0.379\n'}
+[1.598943] (rmf_library) StdoutLine: {'line': b'  (926.124,-410.287),(958.775,-472.521) and (925.587,-450.84),(969.845,-425.494)\n'}
+[1.598983] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null10!\n'}
+[1.605112] (-) TimerEvent: {}
+[1.608319] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.505, u=0.458\n'}
+[1.608548] (rmf_library) StdoutLine: {'line': b'  (1122.013,-491.135),(956.628,-578.357) and (1026.37,-514.326),(1052.79,-559.844)\n'}
+[1.608669] (rmf_library) StdoutLine: {'line': b'found intersection with door nulljh!\n'}
+[1.608771] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.735, u=0.607\n'}
+[1.608872] (rmf_library) StdoutLine: {'line': b'  (956.628,-578.357),(956.628,-697.035) and (986.89,-665.624),(937.056,-665.624)\n'}
+[1.608971] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null76!\n'}
+[1.609061] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.424, u=0.499\n'}
+[1.609103] (rmf_library) StdoutLine: {'line': b'  (786.453,-789.841),(752.112,-734.513) and (786.296,-758.641),(757.424,-774.122)\n'}
+[1.609144] (rmf_library) StdoutLine: {'line': b'found intersection with door nullb4!\n'}
+[1.609218] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.654, u=0.494\n'}
+[1.609276] (rmf_library) StdoutLine: {'line': b'  (553.482,-1327.543),(553.482,-1452.441) and (570.729,-1409.288),(535.815,-1409.14)\n'}
+[1.609363] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null83!\n'}
+[1.609409] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.616, u=0.493\n'}
+[1.609454] (rmf_library) StdoutLine: {'line': b'  (642.284,-1327.668),(642.284,-1460.61) and (659.869,-1409.437),(624.213,-1409.586)\n'}
+[1.609500] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null84!\n'}
+[1.609544] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.601, u=0.502\n'}
+[1.609625] (rmf_library) StdoutLine: {'line': b'  (684.561,-1327.969),(684.561,-1463.565) and (667.149,-1409.437),(701.819,-1409.375)\n'}
+[1.609673] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null85!\n'}
+[1.609718] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.332, u=0.492\n'}
+[1.609763] (rmf_library) StdoutLine: {'line': b'  (852.334,-1381.017),(851.764,-1468.286) and (835.617,-1410.054),(869.234,-1409.837)\n'}
+[1.609811] (rmf_library) StdoutLine: {'line': b'found intersection with door nulln4!\n'}
+[1.609856] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.471, u=0.485\n'}
+[1.609899] (rmf_library) StdoutLine: {'line': b'  (1309.203,-1362.027),(1309.203,-1463.417) and (1326.075,-1409.649),(1291.262,-1409.989)\n'}
+[1.609944] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null27!\n'}
+[1.609987] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.459, u=0.491\n'}
+[1.610031] (rmf_library) StdoutLine: {'line': b'  (1346.876,-1362.027),(1346.876,-1466.688) and (1330.491,-1409.989),(1363.837,-1410.135)\n'}
+[1.610075] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null28!\n'}
+[1.610150] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.459, u=0.499\n'}
+[1.610194] (rmf_library) StdoutLine: {'line': b'  (1429.376,-1362.178),(1429.376,-1465.95) and (1412.6,-1409.921),(1446.243,-1409.686)\n'}
+[1.610236] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null96!\n'}
+[1.610278] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.232, u=0.581\n'}
+[1.610332] (rmf_library) StdoutLine: {'line': b'  (999.19,-1373.128),(999.19,-1534.152) and (968.879,-1409.989),(1021.007,-1410.828)\n'}
+[1.610374] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null75!\n'}
+[1.610414] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.214, u=0.441\n'}
+[1.610455] (rmf_library) StdoutLine: {'line': b'  (999.19,-1534.152),(793.828,-1534.152) and (955.213,-1557.206),(955.407,-1504.912)\n'}
+[1.610494] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null9!\n'}
+[1.610551] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.319, u=0.423\n'}
+[1.610593] (rmf_library) StdoutLine: {'line': b'  (793.828,-1534.152),(793.828,-1383.929) and (808.828,-1486.191),(773.342,-1486.191)\n'}
+[1.610637] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null43!\n'}
+[1.610681] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.245, u=0.501\n'}
+[1.610725] (rmf_library) StdoutLine: {'line': b'  (477.708,-2847.985),(477.708,-2965.38) and (494.519,-2876.812),(460.947,-2876.703)\n'}
+[1.610770] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null69!\n'}
+[1.610828] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.241, u=0.482\n'}
+[1.610879] (rmf_library) StdoutLine: {'line': b'  (522.174,-2848.384),(519.352,-2966.587) and (539.111,-2876.965),(502.592,-2876.748)\n'}
+[1.610959] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null70!\n'}
+[1.611006] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.25, u=0.493\n'}
+[1.611047] (rmf_library) StdoutLine: {'line': b'  (640.257,-2847.985),(640.257,-2963.787) and (657.179,-2877.145),(622.834,-2876.77)\n'}
+[1.611088] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null71!\n'}
+[1.611128] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.237, u=0.497\n'}
+[1.611168] (rmf_library) StdoutLine: {'line': b'  (682.079,-2848.78),(682.079,-2967.27) and (665.437,-2877.145),(698.938,-2876.582)\n'}
+[1.611209] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null72!\n'}
+[1.611261] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.237, u=0.492\n'}
+[1.611317] (rmf_library) StdoutLine: {'line': b'  (810.253,-2849.45),(810.253,-2962.172) and (826.895,-2876.363),(793.096,-2875.889)\n'}
+[1.611367] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null73!\n'}
+[1.611412] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.237, u=0.496\n'}
+[1.611456] (rmf_library) StdoutLine: {'line': b'  (848.478,-2849.45),(848.478,-2963.471) and (831.638,-2876.482),(865.556,-2876.482)\n'}
+[1.611500] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null74!\n'}
+[1.611543] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.382, u=0.497\n'}
+[1.611586] (rmf_library) StdoutLine: {'line': b'  (1143.739,-2825.094),(1143.739,-2958.604) and (1160.527,-2876.148),(1126.749,-2876.036)\n'}
+[1.611630] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null89!\n'}
+[1.611687] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.238, u=0.5\n'}
+[1.611779] (rmf_library) StdoutLine: {'line': b'  (1183.666,-2847.379),(1183.666,-2967.967) and (1166.643,-2876.192),(1200.659,-2875.944)\n'}
+[1.611825] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null86!\n'}
+[1.611871] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.252, u=0.493\n'}
+[1.611937] (rmf_library) StdoutLine: {'line': b'  (1308.778,-2847.379),(1308.778,-2961.346) and (1325.448,-2876.276),(1291.667,-2875.909)\n'}
+[1.611980] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null90!\n'}
+[1.612024] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.477, u=0.497\n'}
+[1.612068] (rmf_library) StdoutLine: {'line': b'  (1308.778,-2847.379),(1308.778,-2675.852) and (1325.781,-2765.684),(1291.543,-2765.547)\n'}
+[1.612113] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null92!\n'}
+[1.612157] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.245, u=0.498\n'}
+[1.612200] (rmf_library) StdoutLine: {'line': b'  (1347.69,-2847.379),(1347.69,-2966.042) and (1331.048,-2876.185),(1364.465,-2876.74)\n'}
+[1.612244] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null87!\n'}
+[1.612318] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.471, u=0.494\n'}
+[1.612371] (rmf_library) StdoutLine: {'line': b'  (1347.69,-2847.379),(1347.69,-2674.122) and (1330.964,-2765.759),(1364.856,-2765.696)\n'}
+[1.612414] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null93!\n'}
+[1.612454] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.259, u=0.505\n'}
+[1.612494] (rmf_library) StdoutLine: {'line': b'  (1475.864,-2847.379),(1475.864,-2958.755) and (1492.964,-2876.243),(1459.129,-2876.101)\n'}
+[1.612534] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null91!\n'}
+[1.612573] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.483, u=0.501\n'}
+[1.612613] (rmf_library) StdoutLine: {'line': b'  (1475.864,-2847.379),(1475.864,-2678.445) and (1493.382,-2765.907),(1458.382,-2765.497)\n'}
+[1.612653] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null94!\n'}
+[1.612693] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.489, u=0.496\n'}
+[1.612733] (rmf_library) StdoutLine: {'line': b'  (1514.3,-2847.466),(1514.3,-2680.252) and (1497.49,-2765.885),(1531.362,-2765.468)\n'}
+[1.612772] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null95!\n'}
+[1.612813] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.244, u=0.498\n'}
+[1.612854] (rmf_library) StdoutLine: {'line': b'  (1514.3,-2847.466),(1514.3,-2964.188) and (1497.384,-2876.188),(1531.328,-2875.806)\n'}
+[1.612902] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null88!\n'}
+[1.612943] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.423, u=0.5\n'}
+[1.612986] (rmf_library) StdoutLine: {'line': b'  (1144.935,-1373.128),(1144.935,-1460.38) and (1161.904,-1410.161),(1127.962,-1409.889)\n'}
+[1.613026] (rmf_library) StdoutLine: {'line': b'found intersection with door null!\n'}
+[1.613066] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.418, u=0.512\n'}
+[1.613106] (rmf_library) StdoutLine: {'line': b'  (1181.148,-1372.102),(1188.85,-1462.048) and (1201.392,-1409.64),(1168.126,-1409.759)\n'}
+[1.613145] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null78!\n'}
+[1.613184] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.454, u=0.229\n'}
+[1.613223] (rmf_library) StdoutLine: {'line': b'  (695.046,-440.451),(728.421,-530.391) and (721.862,-481.327),(671.094,-481.327)\n'}
+[1.613263] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null21!\n'}
+[1.613316] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.332, u=0.477\n'}
+[1.613360] (rmf_library) StdoutLine: {'line': b'  (577.109,-2035.431),(679.976,-2035.431) and (611.301,-2052.124),(611.301,-2017.134)\n'}
+[1.613400] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null57!\n'}
+[1.613439] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.622, u=0.494\n'}
+[1.613478] (rmf_library) StdoutLine: {'line': b'  (679.976,-2035.431),(793.828,-2035.554) and (750.634,-2018.386),(750.869,-2053.014)\n'}
+[1.613524] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null15!\n'}
+[1.620744] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.698, u=0.551\n'}
+[1.620932] (rmf_library) StdoutLine: {'line': b'  (694.995,-523.056),(694.995,-389.762) and (724.138,-430.059),(671.279,-430.059)\n'}
+[1.621059] (rmf_library) StdoutLine: {'line': b'found intersection with door wx5null!\n'}
+[1.621217] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.255, u=0.598\n'}
+[1.621353] (rmf_library) StdoutLine: {'line': b'  (965.656,-644.77),(971.738,-526.767) and (998.994,-614.681),(945.81,-614.681)\n'}
+[1.621466] (rmf_library) StdoutLine: {'line': b'found intersection with door wx13null!\n'}
+[1.621645] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.554, u=0.566\n'}
+[1.621830] (rmf_library) StdoutLine: {'line': b'  (971.738,-526.767),(1121.018,-455.601) and (1039.881,-461.548),(1065.692,-507.074)\n'}
+[1.622018] (rmf_library) StdoutLine: {'line': b'found intersection with door wx7null!\n'}
+[1.622175] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.711, u=0.469\n'}
+[1.622243] (rmf_library) StdoutLine: {'line': b'  (684.915,-1443.79),(684.915,-1350.675) and (669.599,-1377.361),(702.23,-1377.829)\n'}
+[1.622319] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm24!\n'}
+[1.622375] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.287, u=0.47\n'}
+[1.622423] (rmf_library) StdoutLine: {'line': b'  (654.561,-1350.675),(654.561,-1443.38) and (670.016,-1377.431),(637.138,-1377.02)\n'}
+[1.622470] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm23!\n'}
+[1.622517] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.313, u=0.503\n'}
+[1.622562] (rmf_library) StdoutLine: {'line': b'  (562.677,-1350.675),(562.677,-1434.355) and (580.063,-1377.02),(545.494,-1376.66)\n'}
+[1.622610] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm22!\n'}
+[1.622660] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.255, u=0.443\n'}
+[1.622710] (rmf_library) StdoutLine: {'line': b'  (1004.946,-1349.674),(1004.946,-1454.723) and (981.618,-1376.449),(1034.23,-1376.449)\n'}
+[1.622761] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm26!\n'}
+[1.622812] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.298, u=0.445\n'}
+[1.622862] (rmf_library) StdoutLine: {'line': b'  (1021.383,-1502.11),(815.189,-1502.11) and (959.57,-1527.521),(960.518,-1470.439)\n'}
+[1.622913] (rmf_library) StdoutLine: {'line': b'found intersection with door nulBGFl!\n'}
+[1.622963] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.354, u=0.503\n'}
+[1.623014] (rmf_library) StdoutLine: {'line': b'  (1159.005,-1349.674),(1159.005,-1425.785) and (1176.009,-1376.752),(1142.184,-1376.411)\n'}
+[1.623064] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm27!\n'}
+[1.623116] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.336, u=0.487\n'}
+[1.623166] (rmf_library) StdoutLine: {'line': b'  (1195.616,-1349.674),(1195.616,-1429.595) and (1179.714,-1376.525),(1212.369,-1376.462)\n'}
+[1.623216] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm28!\n'}
+[1.623265] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.377, u=0.489\n'}
+[1.623393] (rmf_library) StdoutLine: {'line': b'  (1329.112,-1349.674),(1329.112,-1421.259) and (1345.819,-1376.723),(1311.682,-1376.525)\n'}
+[1.623448] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm29!\n'}
+[1.623499] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.365, u=0.496\n'}
+[1.623549] (rmf_library) StdoutLine: {'line': b'  (1367.264,-1349.674),(1367.264,-1423.878) and (1350.456,-1376.525),(1384.318,-1377.031)\n'}
+[1.623599] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm30!\n'}
+[1.623682] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.649, u=0.487\n'}
+[1.623729] (rmf_library) StdoutLine: {'line': b'  (1449.836,-1426.437),(1449.836,-1349.674) and (1434.41,-1376.68),(1466.074,-1376.567)\n'}
+[1.623775] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm31!\n'}
+[1.623820] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.74, u=0.538\n'}
+[1.623865] (rmf_library) StdoutLine: {'line': b'  (815.189,-2014.006),(542.483,-2014.006) and (613.508,-2032.677),(613.508,-1997.944)\n'}
+[1.623911] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm14!\n'}
+[1.623955] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.19, u=0.549\n'}
+[1.624000] (rmf_library) StdoutLine: {'line': b'  (815.189,-2014.006),(542.483,-2014.006) and (763.288,-2035.537),(763.288,-1996.309)\n'}
+[1.624045] (rmf_library) StdoutLine: {'line': b'found intersection with door wnullm15!\n'}
+[1.624089] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.44, u=0.493\n'}
+[1.624133] (rmf_library) StdoutLine: {'line': b'  (481.653,-2835.57),(481.653,-2922.523) and (498.0,-2874.049),(464.87,-2873.56)\n'}
+[1.624181] (rmf_library) StdoutLine: {'line': b'found intersection with door nulldfs!\n'}
+[1.624226] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.556, u=0.465\n'}
+[1.624271] (rmf_library) StdoutLine: {'line': b'  (513.31,-2922.729),(513.31,-2835.57) and (498.816,-2874.213),(529.974,-2874.319)\n'}
+[1.624326] (rmf_library) StdoutLine: {'line': b'found intersection with door nullthr!\n'}
+[1.624370] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.578, u=0.51\n'}
+[1.624412] (rmf_library) StdoutLine: {'line': b'  (649.693,-2926.942),(649.693,-2835.57) and (667.054,-2874.525),(632.987,-2873.749)\n'}
+[1.624455] (rmf_library) StdoutLine: {'line': b'found intersection with door nullth!\n'}
+[1.624508] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.42, u=0.479\n'}
+[1.624549] (rmf_library) StdoutLine: {'line': b'  (684.528,-2835.57),(684.528,-2928.986) and (668.836,-2874.525),(701.625,-2875.026)\n'}
+[1.624588] (rmf_library) StdoutLine: {'line': b'found intersection with door nullhre!\n'}
+[1.624627] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.391, u=0.506\n'}
+[1.624667] (rmf_library) StdoutLine: {'line': b'  (820.939,-2835.57),(820.939,-2933.874) and (837.997,-2874.161),(804.274,-2873.883)\n'}
+[1.624707] (rmf_library) StdoutLine: {'line': b'found intersection with door nullat!\n'}
+[1.624747] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.372, u=0.495\n'}
+[1.624787] (rmf_library) StdoutLine: {'line': b'  (856.042,-2835.57),(856.042,-2938.349) and (839.757,-2873.697),(872.652,-2873.867)\n'}
+[1.624826] (rmf_library) StdoutLine: {'line': b'found intersection with door nullra!\n'}
+[1.624866] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.355, u=0.479\n'}
+[1.624905] (rmf_library) StdoutLine: {'line': b'  (1157.323,-2834.488),(1157.323,-2950.146) and (1174.437,-2875.505),(1138.733,-2875.505)\n'}
+[1.624945] (rmf_library) StdoutLine: {'line': b'found intersection with door nullgr!\n'}
+[1.624984] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.358, u=0.508\n'}
+[1.625023] (rmf_library) StdoutLine: {'line': b'  (1195.082,-2834.488),(1195.082,-2949.529) and (1177.569,-2875.818),(1212.019,-2875.505)\n'}
+[1.625062] (rmf_library) StdoutLine: {'line': b'found intersection with door nullARG!\n'}
+[1.625100] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.332, u=0.507\n'}
+[1.625139] (rmf_library) StdoutLine: {'line': b'  (1327.848,-2834.488),(1327.848,-2958.202) and (1345.181,-2875.861),(1310.965,-2875.344)\n'}
+[1.625178] (rmf_library) StdoutLine: {'line': b'found intersection with door nullGR!\n'}
+[1.625217] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.471, u=0.494\n'}
+[1.625261] (rmf_library) StdoutLine: {'line': b'  (1327.848,-2834.488),(1327.848,-2676.817) and (1344.718,-2760.549),(1310.576,-2759.95)\n'}
+[1.625310] (rmf_library) StdoutLine: {'line': b'found intersection with door nulHSl!\n'}
+[1.625354] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.33, u=0.474\n'}
+[1.625393] (rmf_library) StdoutLine: {'line': b'  (1363.319,-2834.488),(1363.319,-2958.625) and (1347.931,-2875.571),(1380.397,-2875.446)\n'}
+[1.625433] (rmf_library) StdoutLine: {'line': b'found intersection with door nullDZG!\n'}
+[1.625472] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.466, u=0.478\n'}
+[1.625511] (rmf_library) StdoutLine: {'line': b'  (1363.319,-2834.488),(1363.319,-2675.391) and (1347.713,-2760.249),(1380.357,-2760.549)\n'}
+[1.625550] (rmf_library) StdoutLine: {'line': b'found intersection with door nuSHll!\n'}
+[1.625588] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.325, u=0.491\n'}
+[1.625627] (rmf_library) StdoutLine: {'line': b'  (1494.87,-2834.488),(1494.87,-2959.22) and (1511.591,-2875.025),(1477.541,-2875.025)\n'}
+[1.625665] (rmf_library) StdoutLine: {'line': b'found intersection with door nullGFDZB!\n'}
+[1.625703] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.481, u=0.499\n'}
+[1.625742] (rmf_library) StdoutLine: {'line': b'  (1494.87,-2834.488),(1494.87,-2679.116) and (1512.175,-2759.528),(1477.482,-2759.909)\n'}
+[1.625781] (rmf_library) StdoutLine: {'line': b'found intersection with door nuNHll!\n'}
+[1.625820] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.314, u=0.491\n'}
+[1.625858] (rmf_library) StdoutLine: {'line': b'  (1538.322,-2834.488),(1538.322,-2964.484) and (1521.729,-2875.381),(1555.526,-2875.275)\n'}
+[1.625897] (rmf_library) StdoutLine: {'line': b'found intersection with door nulDGl!\n'}
+[1.625936] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.483, u=0.508\n'}
+[1.625974] (rmf_library) StdoutLine: {'line': b'  (1538.322,-2834.488),(1538.322,-2680.072) and (1520.944,-2759.528),(1555.129,-2760.291)\n'}
+[1.626014] (rmf_library) StdoutLine: {'line': b'found intersection with door nuSFGll!\n'}
+[1.632018] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.498, u=0.539\n'}
+[1.632307] (rmf_library) StdoutLine: {'line': b'  (695.673,-514.702),(695.673,-344.892) and (724.138,-430.059),(671.279,-430.059)\n'}
+[1.632452] (rmf_library) StdoutLine: {'line': b'found intersection with door x5null!\n'}
+[1.632565] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.639, u=0.554\n'}
+[1.632670] (rmf_library) StdoutLine: {'line': b'  (477.098,-344.892),(477.098,-478.128) and (448.446,-430.059),(500.208,-430.059)\n'}
+[1.632772] (rmf_library) StdoutLine: {'line': b'found intersection with door x6null!\n'}
+[1.632874] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.446, u=0.493\n'}
+[1.632966] (rmf_library) StdoutLine: {'line': b'  (561.224,-1339.218),(561.224,-1423.938) and (578.689,-1377.101),(543.235,-1376.864)\n'}
+[1.633012] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm22!\n'}
+[1.633087] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.408, u=0.481\n'}
+[1.633143] (rmf_library) StdoutLine: {'line': b'  (651.562,-1339.218),(651.562,-1431.513) and (668.687,-1376.972),(633.116,-1376.746)\n'}
+[1.633190] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm23!\n'}
+[1.633295] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.402, u=0.486\n'}
+[1.633378] (rmf_library) StdoutLine: {'line': b'  (685.474,-1339.218),(685.474,-1433.069) and (668.71,-1376.869),(703.18,-1376.985)\n'}
+[1.633441] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm24!\n'}
+[1.633489] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.4, u=0.502\n'}
+[1.633535] (rmf_library) StdoutLine: {'line': b'  (858.083,-1339.218),(858.083,-1432.235) and (845.154,-1376.449),(870.912,-1376.449)\n'}
+[1.633606] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm25!\n'}
+[1.633648] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.407, u=0.491\n'}
+[1.633690] (rmf_library) StdoutLine: {'line': b'  (1157.702,-1339.218),(1157.702,-1430.679) and (1175.015,-1376.44),(1139.775,-1376.44)\n'}
+[1.633734] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm27!\n'}
+[1.633778] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.401, u=0.468\n'}
+[1.633821] (rmf_library) StdoutLine: {'line': b'  (1194.162,-1339.218),(1194.162,-1432.733) and (1178.979,-1376.761),(1211.434,-1376.761)\n'}
+[1.633865] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm28!\n'}
+[1.633909] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.405, u=0.492\n'}
+[1.633952] (rmf_library) StdoutLine: {'line': b'  (1331.878,-1339.218),(1331.878,-1432.374) and (1348.658,-1376.85),(1314.568,-1376.955)\n'}
+[1.633997] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm29!\n'}
+[1.634040] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.402, u=0.483\n'}
+[1.634084] (rmf_library) StdoutLine: {'line': b'  (1364.464,-1339.218),(1364.464,-1432.374) and (1348.239,-1376.955),(1381.851,-1376.281)\n'}
+[1.634128] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm30!\n'}
+[1.634171] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.433, u=0.489\n'}
+[1.634265] (rmf_library) StdoutLine: {'line': b'  (1449.93,-1339.218),(1449.93,-1427.309) and (1433.502,-1377.013),(1467.066,-1377.687)\n'}
+[1.634340] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm31!\n'}
+[1.634385] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.236, u=0.532\n'}
+[1.634426] (rmf_library) StdoutLine: {'line': b'  (970.719,-641.971),(970.719,-526.385) and (998.994,-614.681),(945.81,-614.681)\n'}
+[1.634471] (rmf_library) StdoutLine: {'line': b'found intersection with door x13null!\n'}
+[1.634515] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.596, u=0.51\n'}
+[1.634559] (rmf_library) StdoutLine: {'line': b'  (970.719,-526.385),(1108.802,-456.567) and (1039.881,-461.548),(1065.692,-507.074)\n'}
+[1.634603] (rmf_library) StdoutLine: {'line': b'found intersection with door x7null!\n'}
+[1.634646] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.534, u=0.461\n'}
+[1.634689] (rmf_library) StdoutLine: {'line': b'  (1189.48,-456.567),(1328.151,-456.567) and (1263.672,-438.926),(1263.379,-477.184)\n'}
+[1.634733] (rmf_library) StdoutLine: {'line': b'found intersection with door x4null!\n'}
+[1.634777] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.402, u=0.496\n'}
+[1.634821] (rmf_library) StdoutLine: {'line': b'  (1328.151,-456.567),(1328.151,-357.964) and (1345.426,-417.053),(1310.577,-416.804)\n'}
+[1.634865] (rmf_library) StdoutLine: {'line': b'found intersection with door x3null!\n'}
+[1.634909] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.394, u=0.475\n'}
+[1.634952] (rmf_library) StdoutLine: {'line': b'  (1366.807,-456.567),(1366.807,-357.175) and (1349.658,-417.053),(1385.751,-417.8)\n'}
+[1.634994] (rmf_library) StdoutLine: {'line': b'found intersection with door x2null!\n'}
+[1.635038] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.281, u=0.494\n'}
+[1.635081] (rmf_library) StdoutLine: {'line': b'  (1567.873,-456.567),(1567.873,-316.772) and (1585.458,-417.187),(1549.867,-417.3)\n'}
+[1.635125] (rmf_library) StdoutLine: {'line': b'found intersection with door x1null!\n'}
+[1.635170] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.218, u=0.46\n'}
+[1.635214] (rmf_library) StdoutLine: {'line': b'  (1005.813,-1339.218),(1005.813,-1510.366) and (981.618,-1376.449),(1034.23,-1376.449)\n'}
+[1.635258] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm26!\n'}
+[1.635349] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.218, u=0.251\n'}
+[1.635394] (rmf_library) StdoutLine: {'line': b'  (1005.813,-1510.366),(797.498,-1510.366) and (960.325,-1523.721),(960.518,-1470.439)\n'}
+[1.635436] (rmf_library) StdoutLine: {'line': b'found intersection with door nusafll!\n'}
+[1.635478] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.707, u=0.429\n'}
+[1.635519] (rmf_library) StdoutLine: {'line': b'  (797.498,-2017.772),(537.378,-2017.772) and (613.508,-2032.677),(613.508,-1997.944)\n'}
+[1.635561] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm14!\n'}
+[1.635601] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.132, u=0.453\n'}
+[1.635642] (rmf_library) StdoutLine: {'line': b'  (797.498,-2017.772),(537.378,-2017.772) and (763.288,-2035.537),(763.288,-1996.309)\n'}
+[1.635682] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm15!\n'}
+[1.635722] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.428, u=0.499\n'}
+[1.635761] (rmf_library) StdoutLine: {'line': b'  (549.754,-2286.758),(447.207,-2286.758) and (505.815,-2303.77),(505.944,-2269.665)\n'}
+[1.635801] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm13!\n'}
+[1.635840] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.513, u=0.506\n'}
+[1.635881] (rmf_library) StdoutLine: {'line': b'  (549.754,-2370.16),(464.078,-2370.16) and (505.703,-2387.615),(505.968,-2353.096)\n'}
+[1.635921] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm12!\n'}
+[1.635961] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.513, u=0.502\n'}
+[1.636001] (rmf_library) StdoutLine: {'line': b'  (549.754,-2413.963),(464.355,-2413.963) and (505.999,-2396.431),(505.971,-2431.386)\n'}
+[1.636044] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm11!\n'}
+[1.636089] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.474, u=0.491\n'}
+[1.636132] (rmf_library) StdoutLine: {'line': b'  (549.754,-2539.784),(458.066,-2539.784) and (506.178,-2556.586),(506.418,-2522.341)\n'}
+[1.636176] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm10!\n'}
+[1.636220] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.432, u=0.5\n'}
+[1.636293] (rmf_library) StdoutLine: {'line': b'  (549.754,-2585.846),(448.748,-2585.846) and (506.178,-2568.37),(506.056,-2603.293)\n'}
+[1.636349] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm9!\n'}
+[1.636392] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.538, u=0.486\n'}
+[1.636433] (rmf_library) StdoutLine: {'line': b'  (531.575,-2610.093),(531.575,-2703.253) and (548.362,-2660.427),(513.825,-2660.018)\n'}
+[1.636474] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm8!\n'}
+[1.636514] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.492, u=0.445\n'}
+[1.636554] (rmf_library) StdoutLine: {'line': b'  (668.147,-2610.093),(668.147,-2710.76) and (652.795,-2659.632),(687.287,-2659.632)\n'}
+[1.636594] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm7!\n'}
+[1.636646] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.509, u=0.467\n'}
+[1.636688] (rmf_library) StdoutLine: {'line': b'  (835.347,-2610.093),(835.347,-2709.045) and (817.05,-2660.492),(856.255,-2660.518)\n'}
+[1.636729] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm6!\n'}
+[1.636768] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.133, u=0.507\n'}
+[1.636808] (rmf_library) StdoutLine: {'line': b'  (1178.075,-2688.317),(1178.075,-2880.483) and (1196.021,-2713.868),(1160.632,-2713.868)\n'}
+[1.636847] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm3!\n'}
+[1.636886] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.159, u=0.534\n'}
+[1.636925] (rmf_library) StdoutLine: {'line': b'  (1347.206,-2688.317),(1347.206,-2848.693) and (1366.807,-2713.868),(1330.116,-2713.868)\n'}
+[1.636971] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm2!\n'}
+[1.637010] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.224, u=0.516\n'}
+[1.637050] (rmf_library) StdoutLine: {'line': b'  (1399.015,-2693.93),(1552.999,-2693.93) and (1433.453,-2676.571),(1433.508,-2710.227)\n'}
+[1.637089] (rmf_library) StdoutLine: {'line': b'found intersection with door nullm1!\n'}
+[1.637129] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.663, u=0.55\n'}
+[1.637168] (rmf_library) StdoutLine: {'line': b'  (987.357,-556.069),(1029.716,-615.993) and (1037.577,-582.795),(997.302,-606.405)\n'}
+[1.637208] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull11!\n'}
+[1.637247] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.554, u=0.362\n'}
+[1.637301] (rmf_library) StdoutLine: {'line': b'  (1046.196,-1042.467),(942.445,-1042.467) and (988.7,-1060.013),(988.859,-1011.565)\n'}
+[1.637357] (rmf_library) StdoutLine: {'line': b'found intersection with door Snull6!\n'}
+[1.637524] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.251, u=0.462\n'}
+[1.637577] (rmf_library) StdoutLine: {'line': b'  (705.939,-513.725),(705.939,-384.398) and (729.01,-481.253),(679.085,-481.253)\n'}
+[1.637647] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null21!\n'}
+[1.637689] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.552, u=0.496\n'}
+[1.637732] (rmf_library) StdoutLine: {'line': b'  (914.597,-384.398),(967.682,-487.31) and (926.397,-450.649),(961.749,-431.676)\n'}
+[1.637776] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null10!\n'}
+[1.637870] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.519, u=0.551\n'}
+[1.637917] (rmf_library) StdoutLine: {'line': b'  (934.669,-525.501),(1039.533,-690.565) and (1012.503,-595.977),(969.961,-623.504)\n'}
+[1.637958] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null11!\n'}
+[1.638035] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.377, u=0.573\n'}
+[1.638081] (rmf_library) StdoutLine: {'line': b'  (966.019,-473.239),(914.597,-384.398) and (926.397,-450.649),(961.749,-431.676)\n'}
+[1.638122] (rmf_library) StdoutLine: {'line': b'found intersection with door 0null10!\n'}
+[1.639848] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.361, u=0.432\n'}
+[1.639905] (rmf_library) StdoutLine: {'line': b'  (684.587,-424.378),(808.451,-387.801) and (729.249,-432.867),(729.249,-382.684)\n'}
+[1.639953] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null85!\n'}
+[1.640024] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.436, u=0.441\n'}
+[1.640076] (rmf_library) StdoutLine: {'line': b'  (919.014,-387.801),(978.867,-506.677) and (925.587,-450.84),(969.845,-425.494)\n'}
+[1.640122] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null10!\n'}
+[1.640248] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.465, u=0.555\n'}
+[1.640370] (rmf_library) StdoutLine: {'line': b'  (789.148,-1684.965),(789.148,-1257.46) and (808.828,-1486.191),(773.342,-1486.191)\n'}
+[1.640513] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null43!\n'}
+[1.640614] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.316, u=0.482\n'}
+[1.640713] (rmf_library) StdoutLine: {'line': b'  (962.852,-713.357),(962.852,-562.518) and (986.89,-665.624),(937.056,-665.624)\n'}
+[1.640811] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null81!\n'}
+[1.640908] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.621, u=0.41\n'}
+[1.641008] (rmf_library) StdoutLine: {'line': b'  (919.014,-387.801),(958.775,-472.521) and (925.587,-450.84),(969.845,-425.494)\n'}
+[1.641112] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null10!\n'}
+[1.641269] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.807, u=0.585\n'}
+[1.641366] (rmf_library) StdoutLine: {'line': b'  (684.587,-424.378),(693.982,-494.979) and (721.862,-481.327),(671.094,-481.327)\n'}
+[1.641409] (rmf_library) StdoutLine: {'line': b'found intersection with door 1null21!\n'}
+[1.642298] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.643, u=0.438\n'}
+[1.642354] (rmf_library) StdoutLine: {'line': b'  (1137.327,-476.876),(982.724,-566.141) and (1026.37,-514.326),(1052.79,-559.844)\n'}
+[1.642397] (rmf_library) StdoutLine: {'line': b'found intersection with door nulljh!\n'}
+[1.642456] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.508, u=0.586\n'}
+[1.642505] (rmf_library) StdoutLine: {'line': b'  (787.833,-1697.016),(788.227,-1281.864) and (808.828,-1486.191),(773.342,-1486.191)\n'}
+[1.642552] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null43!\n'}
+[1.642619] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.308, u=0.594\n'}
+[1.642665] (rmf_library) StdoutLine: {'line': b'  (956.628,-697.035),(958.761,-595.103) and (986.89,-665.624),(937.056,-665.624)\n'}
+[1.642709] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null76!\n'}
+[1.642777] (rmf_library) StdoutLine: {'line': b'hooray, we found an intersection: t=0.368, u=0.612\n'}
+[1.642822] (rmf_library) StdoutLine: {'line': b'  (690.772,-416.369),(690.772,-593.074) and (721.862,-481.327),(671.094,-481.327)\n'}
+[1.642863] (rmf_library) StdoutLine: {'line': b'found intersection with door 2null21!\n'}
+[1.645509] (rmf_library) StdoutLine: {'line': b'writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/0.yaml\n'}
+[1.700610] (rmf_library) StdoutLine: {'line': b'writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/1.yaml\n'}
+[1.705208] (-) TimerEvent: {}
+[1.795874] (rmf_library) StdoutLine: {'line': b'[ 66%] Built target generate_library_nav_graphs\n'}
+[1.805316] (-) TimerEvent: {}
+[1.905597] (-) TimerEvent: {}
+[2.005875] (-) TimerEvent: {}
+[2.106114] (-) TimerEvent: {}
+[2.206347] (-) TimerEvent: {}
+[2.306616] (-) TimerEvent: {}
+[2.406872] (-) TimerEvent: {}
+[2.507151] (-) TimerEvent: {}
+[2.607702] (-) TimerEvent: {}
+[2.707939] (-) TimerEvent: {}
+[2.808176] (-) TimerEvent: {}
+[2.908464] (-) TimerEvent: {}
+[3.008761] (-) TimerEvent: {}
+[3.109091] (-) TimerEvent: {}
+[3.209338] (-) TimerEvent: {}
+[3.309580] (-) TimerEvent: {}
+[3.409813] (-) TimerEvent: {}
+[3.510080] (-) TimerEvent: {}
+[3.610403] (-) TimerEvent: {}
+[3.710708] (-) TimerEvent: {}
+[3.810988] (-) TimerEvent: {}
+[3.911230] (-) TimerEvent: {}
+[4.011503] (-) TimerEvent: {}
+[4.111813] (-) TimerEvent: {}
+[4.131943] (rmf_library) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[4.211918] (-) TimerEvent: {}
+[4.312182] (-) TimerEvent: {}
+[4.412432] (-) TimerEvent: {}
+[4.512689] (-) TimerEvent: {}
+[4.612924] (-) TimerEvent: {}
+[4.713179] (-) TimerEvent: {}
+[4.813489] (-) TimerEvent: {}
+[4.913723] (-) TimerEvent: {}
+[5.013959] (-) TimerEvent: {}
+[5.114191] (-) TimerEvent: {}
+[5.214428] (-) TimerEvent: {}
+[5.314661] (-) TimerEvent: {}
+[5.414860] (-) TimerEvent: {}
+[5.515062] (-) TimerEvent: {}
+[5.615309] (-) TimerEvent: {}
+[5.715550] (-) TimerEvent: {}
+[5.815858] (-) TimerEvent: {}
+[5.916141] (-) TimerEvent: {}
+[6.016405] (-) TimerEvent: {}
+[6.116640] (-) TimerEvent: {}
+[6.216913] (-) TimerEvent: {}
+[6.317254] (-) TimerEvent: {}
+[6.417570] (-) TimerEvent: {}
+[6.517848] (-) TimerEvent: {}
+[6.618066] (-) TimerEvent: {}
+[6.718312] (-) TimerEvent: {}
+[6.818524] (-) TimerEvent: {}
+[6.918737] (-) TimerEvent: {}
+[7.019066] (-) TimerEvent: {}
+[7.119368] (-) TimerEvent: {}
+[7.219583] (-) TimerEvent: {}
+[7.319763] (-) TimerEvent: {}
+[7.419974] (-) TimerEvent: {}
+[7.520240] (-) TimerEvent: {}
+[7.540592] (rmf_library) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[7.611613] (rmf_library) StdoutLine: {'line': b'[100%] Built target generate_library_crowdsim\n'}
+[7.620343] (-) TimerEvent: {}
+[7.628869] (rmf_library) CommandEnded: {'returncode': 0}
+[7.630169] (rmf_library) JobProgress: {'identifier': 'rmf_library', 'progress': 'install'}
+[7.643334] (rmf_library) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ususario/IR2134/exam_ws/build/rmf_library'], 'cwd': '/home/ususario/IR2134/exam_ws/build/rmf_library', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_GUI_PLUGIN_PATH': '/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_SIM_RESOURCE_PATH': '/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ususario', 'ROS_PACKAGE_PATH': '/rmf_demos_ws/install/menge_vendor/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/rmf_demos_ws/install/rmf_workcell_msgs/lib:/rmf_demos_ws/install/rmf_fleet_adapter/lib:/rmf_demos_ws/install/rmf_task_ros2/lib:/rmf_demos_ws/install/rmf_websocket/lib:/rmf_demos_ws/install/rmf_visualization_schedule/lib:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins/lib:/rmf_demos_ws/install/rmf_visualization_obstacles/lib:/rmf_demos_ws/install/rmf_visualization_navgraphs/lib:/rmf_demos_ws/install/rmf_visualization_floorplans/lib:/rmf_demos_ws/install/rmf_visualization_fleet_states/lib:/rmf_demos_ws/install/rmf_visualization_msgs/lib:/rmf_demos_ws/install/rmf_traffic_ros2/lib:/rmf_demos_ws/install/rmf_task_sequence/lib:/rmf_demos_ws/install/rmf_task/lib:/rmf_demos_ws/install/rmf_battery/lib:/rmf_demos_ws/install/rmf_traffic/lib:/rmf_demos_ws/install/rmf_utils/lib:/rmf_demos_ws/install/rmf_traffic_msgs/lib:/rmf_demos_ws/install/rmf_task_msgs/lib:/rmf_demos_ws/install/rmf_site_map_msgs/lib:/rmf_demos_ws/install/rmf_scheduler_msgs/lib:/rmf_demos_ws/install/rmf_robot_sim_common/lib:/rmf_demos_ws/install/rmf_reservation_msgs/lib:/rmf_demos_ws/install/rmf_obstacle_msgs/lib:/rmf_demos_ws/install/rmf_lift_msgs/lib:/rmf_demos_ws/install/rmf_ingestor_msgs/lib:/rmf_demos_ws/install/rmf_fleet_msgs/lib:/rmf_demos_ws/install/rmf_door_msgs/lib:/rmf_demos_ws/install/rmf_dispenser_msgs/lib:/rmf_demos_ws/install/rmf_charger_msgs/lib:/rmf_demos_ws/install/rmf_building_map_msgs/lib:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/lib:/rmf_demos_ws/install/menge_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ususario', 'OLDPWD': '/home/ususario', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/rmf_demos_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/rmf_demos_ws/install/rmf_traffic_examples/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic_examples/lib/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PIP_BREAK_SYSTEM_PACKAGES': '1', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/rmf_demos_ws/install/rmf_traffic_editor/bin:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.dockerdq24_iya.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_charging_schedule:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/ususario/IR2134/exam_ws/build/rmf_library', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/rmf_demos_ws/install/rmf_workcell_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_adapter_python/lib/python/site-packages:/rmf_demos_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_visualization_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_bridges/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_traffic_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_tasks/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_task_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_site_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_scheduler_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_reservation_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_obstacle_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_lift_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_ingestor_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charging_schedule/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_door_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_dispenser_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charger_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_api_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[7.657742] (rmf_library) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.658386] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch\n'}
+[7.658746] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library_gz.launch.xml\n'}
+[7.658879] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/fleet_adapter.launch.xml\n'}
+[7.659046] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/common.launch.xml\n'}
+[7.659114] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/visualization.launch.xml\n'}
+[7.659185] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library.launch.xml\n'}
+[7.659240] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/simulation.launch.xml\n'}
+[7.659397] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include\n'}
+[7.659550] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include/library.rviz\n'}
+[7.659686] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config\n'}
+[7.659808] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/cleanerBotA_config.yaml\n'}
+[7.659927] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/tinyRobot_config.yaml\n'}
+[7.660061] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps\n'}
+[7.660158] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library\n'}
+[7.660243] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n2.png\n'}
+[7.660371] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n3.png\n'}
+[7.660456] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n0.png\n'}
+[7.660543] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n5.png\n'}
+[7.660630] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.building.yaml\n'}
+[7.660716] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n4.png\n'}
+[7.660792] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_ns.png\n'}
+[7.660837] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n1.png\n'}
+[7.660881] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/package_run_dependencies/rmf_library\n'}
+[7.660925] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/parent_prefix_path/rmf_library\n'}
+[7.661003] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.sh\n'}
+[7.661050] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.dsv\n'}
+[7.661092] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.sh\n'}
+[7.661133] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.dsv\n'}
+[7.661173] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.bash\n'}
+[7.661212] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.sh\n'}
+[7.661251] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.zsh\n'}
+[7.661319] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.dsv\n'}
+[7.661448] (rmf_library) StdoutLine: {'line': b'-- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.dsv\n'}
+[7.661527] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/packages/rmf_library\n'}
+[7.661632] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig.cmake\n'}
+[7.661721] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig-version.cmake\n'}
+[7.661823] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.xml\n'}
+[7.661909] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library\n'}
+[7.661981] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/config_resource\n'}
+[7.662088] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs\n'}
+[7.662220] (rmf_library) StdoutLine: {'line': b'-- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs/0.yaml\n'}
+[7.662598] (rmf_library) StdoutLine: {'line': b'-- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs/1.yaml\n'}
+[7.662846] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.world\n'}
+[7.662955] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models\n'}
+[7.663183] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4\n'}
+[7.663437] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes\n'}
+[7.663633] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/default.png\n'}
+[7.663738] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_2.mtl\n'}
+[7.663838] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/wall_1.mtl\n'}
+[7.663943] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_2.obj\n'}
+[7.664033] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/blue_linoleum.png\n'}
+[7.664115] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/model.material\n'}
+[7.664216] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_1.mtl\n'}
+[7.664316] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/wall_1.obj\n'}
+[7.664414] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_1.obj\n'}
+[7.664484] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/model.config\n'}
+[7.664542] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/model.sdf\n'}
+[7.664624] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5\n'}
+[7.664710] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes\n'}
+[7.664800] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/default.png\n'}
+[7.664896] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/wall_1.mtl\n'}
+[7.664993] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/blue_linoleum.png\n'}
+[7.665081] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/model.material\n'}
+[7.665176] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/floor_1.mtl\n'}
+[7.665263] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/wall_1.obj\n'}
+[7.665405] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/floor_1.obj\n'}
+[7.665493] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/model.config\n'}
+[7.665572] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/model.sdf\n'}
+[7.665657] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01\n'}
+[7.665762] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes\n'}
+[7.665872] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/default.png\n'}
+[7.665962] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_2.mtl\n'}
+[7.666049] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/wall_1.mtl\n'}
+[7.666163] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_2.obj\n'}
+[7.666264] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/blue_linoleum.png\n'}
+[7.666384] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/model.material\n'}
+[7.666468] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_3.mtl\n'}
+[7.666548] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_1.mtl\n'}
+[7.666632] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/wall_1.obj\n'}
+[7.666734] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_3.obj\n'}
+[7.666784] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_1.obj\n'}
+[7.666859] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/model.config\n'}
+[7.666904] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/model.sdf\n'}
+[7.666947] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02\n'}
+[7.666992] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes\n'}
+[7.667059] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/default.png\n'}
+[7.667104] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_2.mtl\n'}
+[7.667148] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/wall_1.mtl\n'}
+[7.667192] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_2.obj\n'}
+[7.667237] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/blue_linoleum.png\n'}
+[7.667289] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/model.material\n'}
+[7.667363] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_1.mtl\n'}
+[7.667407] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/wall_1.obj\n'}
+[7.667449] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_1.obj\n'}
+[7.667493] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/model.config\n'}
+[7.667537] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/model.sdf\n'}
+[7.667580] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1\n'}
+[7.667641] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes\n'}
+[7.667708] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/default.png\n'}
+[7.667775] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_2.mtl\n'}
+[7.667823] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/wall_1.mtl\n'}
+[7.667884] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_2.obj\n'}
+[7.667935] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/blue_linoleum.png\n'}
+[7.667986] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/model.material\n'}
+[7.668031] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_1.mtl\n'}
+[7.668093] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/wall_1.obj\n'}
+[7.668142] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_1.obj\n'}
+[7.668194] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/model.config\n'}
+[7.668238] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/model.sdf\n'}
+[7.668301] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3\n'}
+[7.668367] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes\n'}
+[7.668542] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/default.png\n'}
+[7.668606] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/wall_1.mtl\n'}
+[7.668665] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/blue_linoleum.png\n'}
+[7.668727] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/model.material\n'}
+[7.668780] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/floor_1.mtl\n'}
+[7.668824] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/wall_1.obj\n'}
+[7.668886] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/floor_1.obj\n'}
+[7.668931] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/model.config\n'}
+[7.668976] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/model.sdf\n'}
+[7.669032] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2\n'}
+[7.669105] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes\n'}
+[7.669234] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/default.png\n'}
+[7.669293] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/wall_1.mtl\n'}
+[7.669360] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/blue_linoleum.png\n'}
+[7.669433] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/model.material\n'}
+[7.669480] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/floor_1.mtl\n'}
+[7.669541] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/wall_1.obj\n'}
+[7.669586] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/floor_1.obj\n'}
+[7.669644] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/model.config\n'}
+[7.669685] (rmf_library) StdoutLine: {'line': b'-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/model.sdf\n'}
+[7.671118] (rmf_library) CommandEnded: {'returncode': 0}
+[7.688311] (rmf_library) JobEnded: {'identifier': 'rmf_library', 'rc': 0}
+[7.688951] (-) EventReactorShutdown: {}

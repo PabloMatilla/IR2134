@@ -1,5 +1,5 @@
-[ 66%] [34m[1mGenerating maps/library/nav_graphs/phony[0m
 [ 66%] [34m[1mGenerating library_crowdsim[0m
+[ 66%] [34m[1mGenerating maps/library/nav_graphs/phony[0m
 building name: library
 coordinate system: reference_image
 parsing level L01
@@ -769,9 +769,6 @@ found intersection with door 0null11!
 hooray, we found an intersection: t=0.377, u=0.573
   (966.019,-473.239),(914.597,-384.398) and (926.397,-450.649),(961.749,-431.676)
 found intersection with door 0null10!
-hooray, we found an intersection: t=0.477, u=0.45
-  (712.184,-533.229),(684.587,-424.378) and (721.862,-481.327),(671.094,-481.327)
-found intersection with door 1null21!
 hooray, we found an intersection: t=0.361, u=0.432
   (684.587,-424.378),(808.451,-387.801) and (729.249,-432.867),(729.249,-382.684)
 found intersection with door 1null85!
@@ -787,9 +784,9 @@ found intersection with door 1null81!
 hooray, we found an intersection: t=0.621, u=0.41
   (919.014,-387.801),(958.775,-472.521) and (925.587,-450.84),(969.845,-425.494)
 found intersection with door 1null10!
-hooray, we found an intersection: t=0.603, u=0.526
-  (701.753,-579.866),(690.772,-416.369) and (721.862,-481.327),(671.094,-481.327)
-found intersection with door 2null21!
+hooray, we found an intersection: t=0.807, u=0.585
+  (684.587,-424.378),(693.982,-494.979) and (721.862,-481.327),(671.094,-481.327)
+found intersection with door 1null21!
 hooray, we found an intersection: t=0.643, u=0.438
   (1137.327,-476.876),(982.724,-566.141) and (1026.37,-514.326),(1052.79,-559.844)
 found intersection with door nulljh!
@@ -799,6 +796,9 @@ found intersection with door 2null43!
 hooray, we found an intersection: t=0.308, u=0.594
   (956.628,-697.035),(958.761,-595.103) and (986.89,-665.624),(937.056,-665.624)
 found intersection with door 2null76!
+hooray, we found an intersection: t=0.368, u=0.612
+  (690.772,-416.369),(690.772,-593.074) and (721.862,-481.327),(671.094,-481.327)
+found intersection with door 2null21!
 writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/0.yaml
 writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/1.yaml
 [ 66%] Built target generate_library_nav_graphs

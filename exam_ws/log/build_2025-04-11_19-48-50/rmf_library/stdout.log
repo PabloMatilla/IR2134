@@ -1,22 +1,3 @@
--- The C compiler identification is GNU 13.3.0
--- The CXX compiler identification is GNU 13.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
--- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
-[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models[0m
-[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml[0m
--- Configuring done (0.9s)
--- Generating done (0.0s)
--- Build files have been written to: /home/ususario/IR2134/exam_ws/build/rmf_library
 [ 66%] [34m[1mGenerating maps/library/library.world[0m
 [ 66%] [34m[1mGenerating maps/library/nav_graphs/phony[0m
 generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world from /home/ususario/IR2134/exam_ws/src/rmf_library/maps/library/library.building.yaml
@@ -25,15 +6,15 @@ coordinate system: reference_image
 parsing level L01
 parsing level L02
 parsing level L1
-parsing level L2
 building name: library
 coordinate system: reference_image
 parsing level L01
-parsing level L3
+parsing level L2
 parsing level L02
+parsing level L3
 parsing level L4
-parsing level L5
 parsing level L1
+parsing level L5
 calculating levels relative to L01
 level L01 scale: 0.03733711682783853
 calculating level L02 offset and scale...
@@ -222,15 +203,20 @@ Distances:
 [(1190.212, 1215.7600322432056)]
 mean relative scale: 1.021465110621642
 translation: (0.33937, -2.3713)
+parsing lift C1
+parsing lift C2
+parsing lift P1
+parsing lift P2
+generating model of level L01 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01
+  wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/model.config
+generating floor polygon 1 on floor library_L01
+hole vertices: []
+lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
 parsing lift C1
 parsing lift C2
 parsing lift P1
 parsing lift P2
 generating nav data
-parsing lift C1
-parsing lift C2
-parsing lift P1
-parsing lift P2
 hooray, we found an intersection: t=0.449, u=0.673
   (1292.373,-520.895),(1539.117,-520.895) and (1403.211,-551.245),(1403.211,-506.125)
 found intersection with door Snull3!
@@ -294,11 +280,6 @@ found intersection with door Snull18!
 hooray, we found an intersection: t=0.573, u=0.487
   (955.116,-482.959),(937.023,-410.627) and (928.587,-449.658),(961.775,-432.993)
 found intersection with door Snull10!
-generating model of level L01 in /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01
-  wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/model.config
-generating floor polygon 1 on floor library_L01
-hole vertices: []
-lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.59003285666279, -61.72281484523761), (27.690032856662793, -61.72281484523761), (27.690032856662793, -59.62281484523761)], 'C2': [(25.587792629653123, -61.9014990852406), (25.587792629653123, -64.0014990852406), (27.687792629653124, -64.0014990852406), (27.687792629653124, -61.9014990852406)], 'P1': [(36.54059093102519, -15.94275886155197), (37.683415248065785, -17.938742974810562), (39.679399361324386, -16.79591865776997), (38.53657504428379, -14.799934544511375)], 'P2': [(55.792892447417, -22.928104629499774), (53.97130367366957, -23.973003830072404), (55.0162028742422, -25.79459260381984), (56.83779164798963, -24.74969340324721)]}
 hooray, we found an intersection: t=0.402, u=0.504
   (920.412,-395.759),(979.572,-508.378) and (926.397,-450.649),(961.749,-431.676)
 found intersection with door 0null10!
@@ -899,9 +880,6 @@ found intersection with door 0null11!
 hooray, we found an intersection: t=0.377, u=0.573
   (966.019,-473.239),(914.597,-384.398) and (926.397,-450.649),(961.749,-431.676)
 found intersection with door 0null10!
-hooray, we found an intersection: t=0.477, u=0.45
-  (712.184,-533.229),(684.587,-424.378) and (721.862,-481.327),(671.094,-481.327)
-found intersection with door 1null21!
 hooray, we found an intersection: t=0.361, u=0.432
   (684.587,-424.378),(808.451,-387.801) and (729.249,-432.867),(729.249,-382.684)
 found intersection with door 1null85!
@@ -917,9 +895,9 @@ found intersection with door 1null81!
 hooray, we found an intersection: t=0.621, u=0.41
   (919.014,-387.801),(958.775,-472.521) and (925.587,-450.84),(969.845,-425.494)
 found intersection with door 1null10!
-hooray, we found an intersection: t=0.603, u=0.526
-  (701.753,-579.866),(690.772,-416.369) and (721.862,-481.327),(671.094,-481.327)
-found intersection with door 2null21!
+hooray, we found an intersection: t=0.807, u=0.585
+  (684.587,-424.378),(693.982,-494.979) and (721.862,-481.327),(671.094,-481.327)
+found intersection with door 1null21!
 hooray, we found an intersection: t=0.643, u=0.438
   (1137.327,-476.876),(982.724,-566.141) and (1026.37,-514.326),(1052.79,-559.844)
 found intersection with door nulljh!
@@ -929,6 +907,9 @@ found intersection with door 2null43!
 hooray, we found an intersection: t=0.308, u=0.594
   (956.628,-697.035),(958.761,-595.103) and (986.89,-665.624),(937.056,-665.624)
 found intersection with door 2null76!
+hooray, we found an intersection: t=0.368, u=0.612
+  (690.772,-416.369),(690.772,-593.074) and (721.862,-481.327),(671.094,-481.327)
+found intersection with door 2null21!
 writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/0.yaml
 writing /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/nav_graphs/1.yaml
 [ 66%] Built target generate_library_nav_graphs
@@ -950,7 +931,7 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_3.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/floor_3.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a894f1a90>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a894f1ac0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a894f1af0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a894f1b50>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a894f1b20>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa741c1df0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa741c1e50>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa741c1e20>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa741c1e80>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa741c1eb0>}]
 generating wall: 1 on floor: library_L01
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01/meshes/default.png
 generate_wall_visual_mesh(library_L01, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L01)
@@ -973,7 +954,7 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/floor_2.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/floor_2.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a89473a10>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a89473a70>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a89473a40>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a89473aa0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a89473b00>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa74143d70>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa74143dd0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa74143da0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa74143e00>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa74143e30>}]
 generating wall: 1 on floor: library_L02
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02/meshes/default.png
 generate_wall_visual_mesh(library_L02, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L02)
@@ -996,7 +977,7 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/floor_2.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/floor_2.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a89242870>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a892428a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a892428d0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a89242900>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a89242960>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa73f12ba0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa73f12bd0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa73f12c30>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa73f12c00>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa73f12c60>}]
 generating wall: 1 on floor: library_L1
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1/meshes/default.png
 generate_wall_visual_mesh(library_L1, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L1)
@@ -1012,7 +993,7 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/floor_1.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/floor_1.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88ea0140>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88ea0170>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88ea01a0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88ea0200>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88ea0230>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa73b84890>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa73b848c0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa73b848f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa73b84920>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa73b84950>}]
 generating wall: 1 on floor: library_L2
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2/meshes/default.png
 generate_wall_visual_mesh(library_L2, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L2)
@@ -1028,7 +1009,7 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/floor_1.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/floor_1.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88de6f30>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88de6f90>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88de6fc0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88de6ff0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88de7020>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa73acf620>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa73acf650>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa73acf680>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa73acf6b0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa73acf710>}]
 generating wall: 1 on floor: library_L3
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3/meshes/default.png
 generate_wall_visual_mesh(library_L3, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L3)
@@ -1051,7 +1032,7 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/floor_2.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/floor_2.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88ca2bd0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88ca2c00>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88ca2c30>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88ca2c60>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88ca2c90>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa7398b2c0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa7398b290>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa7398b2f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa7398b320>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa7398b350>}]
 generating wall: 1 on floor: library_L4
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4/meshes/default.png
 generate_wall_visual_mesh(library_L4, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L4)
@@ -1067,14 +1048,14 @@ lift vertices: {'C1': [(25.59003285666279, -59.62281484523761), (25.590032856662
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/floor_1.obj
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/blue_linoleum.png
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/floor_1.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7a1a88d16750>, 'texture_height': <building_map.param_value.ParamValue object at 0x7a1a88d16780>, 'texture_name': <building_map.param_value.ParamValue object at 0x7a1a88d167e0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7a1a88d16810>, 'texture_width': <building_map.param_value.ParamValue object at 0x7a1a88d16840>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7baa73a02e40>, 'texture_height': <building_map.param_value.ParamValue object at 0x7baa73a02e70>, 'texture_name': <building_map.param_value.ParamValue object at 0x7baa73a02ea0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7baa73a02ed0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7baa73a02f00>}]
 generating wall: 1 on floor: library_L5
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/default.png
 generate_wall_visual_mesh(library_L5, /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5)
   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/wall_1.obj
   generating /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/meshes/wall_1.mtl
   wrote /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/models/library_L5/model.sdf
-spawning robot name cleanerBotA_5 of type CleanerBotA
+spawning robot name cleanerBotA_2 of type CleanerBotA
 generate door name=Snull1 type=hinged
 Door(Snull1)
 generate door name=Snull2 type=hinged
@@ -1115,7 +1096,7 @@ generate door name=Snull21 type=double_hinged
 Door(Snull21)
 generate door name=nueva type=double_hinged
 Door(nueva)
-spawning robot name cleanerBotA_4 of type CleanerBotA
+spawning robot name cleanerBotA_1 of type CleanerBotA
 generate door name=0null3 type=double_hinged
 Door(0null3)
 generate door name=0null4 type=hinged
@@ -1264,8 +1245,6 @@ generate door name=nullZ2 type=hinged
 Door(nullZ2)
 generate door name=nullZ3 type=hinged
 Door(nullZ3)
-spawning robot name cleanerBotA_2 of type CleanerBotA
-spawning robot name cleanerBotA_1 of type CleanerBotA
 generate door name=1null9 type=double_hinged
 Door(1null9)
 generate door name=1null10 type=double_hinged
@@ -1377,7 +1356,6 @@ Door(nullnuevo)
 generate door name=nullb3 type=hinged
 Door(nullb3)
 spawning robot name tinyRobot1 of type TinyRobot
-spawning robot name cleanerBotA_3 of type CleanerBotA
 spawning robot name tinyRobot5 of type TinyRobot
 spawning robot name tinyRobot2 of type TinyRobot
 spawning robot name tinyRobot3 of type TinyRobot
@@ -1662,7 +1640,7 @@ generate door name=nullxsca type=hinged
 Door(nullxsca)
 generate door name=cdsvdsv type=hinged
 Door(cdsvdsv)
-1460543 bytes written to /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world
+1459676 bytes written to /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/library.world
 building name: library
 coordinate system: reference_image
 parsing level L01
@@ -1780,47 +1758,63 @@ Writing to cache: /home/ususario/.pit_crew/model_cache.json
 New models cached: 0
 
 WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
-WARNING::pit_crew.get_missing_models():224: Model MonitorAndKeyboard in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model Fountain in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model DigitalKiosk in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model MopCart2 in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model Sofa in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model VendingMachine in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model OfficeChairGrey in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model BathroomSink in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Oak tree in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairBlue in local model directory is not by the requested author OpenRobotics!
 WARNING::pit_crew.get_missing_models():224: Model Nurse in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model Toilet in local model directory is not by the requested author OpenRobotics!
-WARNING::pit_crew.get_missing_models():224: Model MopCart3 in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairGrey in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Desk in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model MonitorAndKeyboard in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model VendingMachine in local model directory is not by the requested author OpenRobotics!
 WARNING::pit_crew.get_missing_models():224: Model Pine Tree in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model WhiteChipChair in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Toilet in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Bookshelf in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model BathroomSink in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model DigitalKiosk in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model CleaningSection in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model AdjTable in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Standing person in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model MopCart2 in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Table in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model OfficeChairBlack in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Fountain in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Sofa in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model MopCart3 in local model directory is not by the requested author OpenRobotics!
 
 == REQUESTED MODEL REPORT ==
-{'available': [('MonitorAndKeyboard',
-                ['/home/ususario/.gazebo/models/MonitorAndKeyboard/']),
-               ('Fountain', ['/home/ususario/.gazebo/models/Fountain/']),
-               ('DigitalKiosk',
-                ['/home/ususario/.gazebo/models/DigitalKiosk/']),
-               ('MopCart2', ['/home/ususario/.gazebo/models/MopCart2/']),
-               ('Sofa', ['/home/ususario/.gazebo/models/Sofa/']),
-               ('VendingMachine',
-                ['/home/ususario/.gazebo/models/VendingMachine/']),
+{'available': [('Oak tree', ['/home/ususario/.gazebo/models/Oak tree/']),
+               ('OfficeChairBlue',
+                ['/home/ususario/.gazebo/models/OfficeChairBlue/']),
+               ('Nurse', ['/home/ususario/.gazebo/models/Nurse/']),
                ('OfficeChairGrey',
                 ['/home/ususario/.gazebo/models/OfficeChairGrey/']),
+               ('Desk', ['/home/ususario/.gazebo/models/Desk/']),
+               ('MonitorAndKeyboard',
+                ['/home/ususario/.gazebo/models/MonitorAndKeyboard/']),
+               ('VendingMachine',
+                ['/home/ususario/.gazebo/models/VendingMachine/']),
+               ('Pine Tree', ['/home/ususario/.gazebo/models/Pine Tree/']),
+               ('WhiteChipChair',
+                ['/home/ususario/.gazebo/models/WhiteChipChair/']),
+               ('Toilet', ['/home/ususario/.gazebo/models/Toilet/']),
+               ('Bookshelf', ['/home/ususario/.gazebo/models/Bookshelf/']),
                ('BathroomSink',
                 ['/home/ususario/.gazebo/models/BathroomSink/']),
-               ('Nurse', ['/home/ususario/.gazebo/models/Nurse/']),
-               ('Toilet', ['/home/ususario/.gazebo/models/Toilet/']),
-               ('MopCart3', ['/home/ususario/.gazebo/models/MopCart3/']),
-               ('Pine Tree', ['/home/ususario/.gazebo/models/Pine Tree/'])],
- 'downloadable': [('Oak tree', ['OpenRobotics']),
-                  ('Desk', ['OpenRobotics']),
-                  ('Standing person', ['abmohit', 'OpenRobotics']),
-                  ('CleaningSection', ['OpenRobotics']),
-                  ('Bookshelf', ['OpenRobotics']),
-                  ('WhiteChipChair', ['OpenRobotics']),
-                  ('OfficeChairBlack', ['OpenRobotics']),
-                  ('OfficeChairBlue', ['OpenRobotics']),
-                  ('AdjTable', ['OpenRobotics']),
-                  ('Table', ['malbonico', 'OpenRobotics'])],
+               ('DigitalKiosk',
+                ['/home/ususario/.gazebo/models/DigitalKiosk/']),
+               ('CleaningSection',
+                ['/home/ususario/.gazebo/models/CleaningSection/']),
+               ('AdjTable', ['/home/ususario/.gazebo/models/AdjTable/']),
+               ('Standing person',
+                ['/home/ususario/.gazebo/models/Standing person/']),
+               ('MopCart2', ['/home/ususario/.gazebo/models/MopCart2/']),
+               ('Table', ['/home/ususario/.gazebo/models/Table/']),
+               ('OfficeChairBlack',
+                ['/home/ususario/.gazebo/models/OfficeChairBlack/']),
+               ('Fountain', ['/home/ususario/.gazebo/models/Fountain/']),
+               ('Sofa', ['/home/ususario/.gazebo/models/Sofa/']),
+               ('MopCart3', ['/home/ususario/.gazebo/models/MopCart3/'])],
+ 'downloadable': [],
  'missing': []}
 
 == THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
@@ -1847,124 +1841,79 @@ WARNING::pit_crew.get_missing_models():224: Model Pine Tree in local model direc
  'vendingmachine': 'openrobotics',
  'whitechipchair': 'openrobotics'}
 
-
-Downloading Oak tree by openrobotics from Fuel
-Downloading model 1 / 10 : Oak tree
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-Oak tree downloaded to: /home/ususario/.gazebo/models/Oak tree
-
-Downloading Desk by openrobotics from Fuel
-Downloading model 2 / 10 : Desk
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'Desk'! ('Connection broken: IncompleteRead(511520 bytes read, 707036 more expected)', IncompleteRead(511520 bytes read, 707036 more expected))
-
-Downloading Standing person by openrobotics from Fuel
-Downloading model 3 / 10 : Standing person
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-Standing person downloaded to: /home/ususario/.gazebo/models/Standing person
-WARNING::pit_crew.sync_sdf():939: Internal name reference for Standing person changed from model://person_standing/meshes/standing.dae to model://Standing person/meshes/standing.dae
-WARNING::pit_crew.sync_sdf():939: Internal name reference for Standing person changed from model://person_standing/meshes/standing.dae to model://Standing person/meshes/standing.dae
-WARNING::pit_crew.sync_sdf():944: Synced SDF names for Standing person! Changed from person_standing to Standing person
-WARNING::pit_crew.sync_sdf():987: Synced SDF names for Standing person! Changed from person_standing to Standing person
-
-Downloading CleaningSection by openrobotics from Fuel
-Downloading model 4 / 10 : CleaningSection
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'CleaningSection'! ('Connection broken: IncompleteRead(323591 bytes read, 2859997 more expected)', IncompleteRead(323591 bytes read, 2859997 more expected))
-
-Downloading Bookshelf by openrobotics from Fuel
-Downloading model 5 / 10 : Bookshelf
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'Bookshelf'! ('Connection broken: IncompleteRead(350439 bytes read, 489088 more expected)', IncompleteRead(350439 bytes read, 489088 more expected))
-
-Downloading WhiteChipChair by openrobotics from Fuel
-Downloading model 6 / 10 : WhiteChipChair
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'WhiteChipChair'! ('Connection broken: IncompleteRead(323592 bytes read, 468741 more expected)', IncompleteRead(323592 bytes read, 468741 more expected))
-
-Downloading OfficeChairBlack by openrobotics from Fuel
-Downloading model 7 / 10 : OfficeChairBlack
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'OfficeChairBlack'! ('Connection broken: IncompleteRead(350128 bytes read, 442968 more expected)', IncompleteRead(350128 bytes read, 442968 more expected))
-
-Downloading OfficeChairBlue by openrobotics from Fuel
-Downloading model 8 / 10 : OfficeChairBlue
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'OfficeChairBlue'! ('Connection broken: IncompleteRead(303112 bytes read, 261796 more expected)', IncompleteRead(303112 bytes read, 261796 more expected))
-
-Downloading AdjTable by openrobotics from Fuel
-Downloading model 9 / 10 : AdjTable
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'AdjTable'! ('Connection broken: IncompleteRead(328444 bytes read, 3772141 more expected)', IncompleteRead(328444 bytes read, 3772141 more expected))
-
-Downloading Table by openrobotics from Fuel
-Downloading model 10 / 10 : Table
-WARNING::pit_crew.download_model():530: No path given! Downloading to /home/ususario/.gazebo/models instead!
-ERROR::pit_crew.download_model():595: Could not download model 'Table'! ('Connection broken: IncompleteRead(547746 bytes read, 351476 more expected)', IncompleteRead(547746 bytes read, 351476 more expected))
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MonitorAndKeyboard already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Fountain already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/DigitalKiosk already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MopCart2 already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Sofa already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/VendingMachine already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairGrey already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/BathroomSink already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Oak tree already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairBlue already exists, skipping...
 WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Nurse already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Toilet already exists, skipping...
-WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MopCart3 already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairGrey already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Desk already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MonitorAndKeyboard already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/VendingMachine already exists, skipping...
 WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Pine Tree already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/WhiteChipChair already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Toilet already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Bookshelf already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/BathroomSink already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/DigitalKiosk already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/CleaningSection already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/AdjTable already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Standing person already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MopCart2 already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Table already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/OfficeChairBlack already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Fountain already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/Sofa already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/ususario/.gazebo/models/MopCart3 already exists, skipping...
 [100%] [34m[1mGenerating library_crowdsim[0m
-Creating output folder path:  /home/ususario/IR2134/exam_ws/build/rmf_library/maps/library/config_resource/
 crowdsim unable to parse, not attempting to proceed
 crowdsim unable to parse, not attempting to proceed
 [100%] Built target generate_library_crowdsim
 -- Install configuration: ""
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library_gz.launch.xml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/fleet_adapter.launch.xml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/common.launch.xml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/visualization.launch.xml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library.launch.xml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/simulation.launch.xml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include/library.rviz
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/cleanerBotA_config.yaml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/tinyRobot_config.yaml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n2.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n3.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n0.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n5.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.building.yaml
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n4.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_ns.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n1.png
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/package_run_dependencies/rmf_library
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/parent_prefix_path/rmf_library
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.sh
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.dsv
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.sh
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.dsv
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.bash
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.sh
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.zsh
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.dsv
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.dsv
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/packages/rmf_library
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig.cmake
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig-version.cmake
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library_gz.launch.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/fleet_adapter.launch.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/common.launch.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/visualization.launch.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/library.launch.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/simulation.launch.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/launch/include/library.rviz
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/cleanerBotA_config.yaml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/config/tinyRobot_config.yaml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps
 -- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/config_resource
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n2.png
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n3.png
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n0.png
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n5.png
+-- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.building.yaml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n4.png
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_ns.png
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/CD_n1.png
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/package_run_dependencies/rmf_library
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/parent_prefix_path/rmf_library
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.sh
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/environment/path.dsv
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.bash
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.sh
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.zsh
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/local_setup.dsv
+-- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.dsv
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/ament_index/resource_index/packages/rmf_library
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig.cmake
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/cmake/rmf_libraryConfig-version.cmake
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/package.xml
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/config_resource
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs/0.yaml
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/nav_graphs/1.yaml
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/library.world
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_2.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/wall_1.mtl
@@ -1976,8 +1925,8 @@ crowdsim unable to parse, not attempting to proceed
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/meshes/floor_1.obj
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/model.config
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L4/model.sdf
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/wall_1.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/blue_linoleum.png
@@ -1987,8 +1936,8 @@ crowdsim unable to parse, not attempting to proceed
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/meshes/floor_1.obj
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/model.config
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L5/model.sdf
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_2.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/wall_1.mtl
@@ -2002,8 +1951,8 @@ crowdsim unable to parse, not attempting to proceed
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/meshes/floor_1.obj
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/model.config
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L01/model.sdf
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_2.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/wall_1.mtl
@@ -2015,8 +1964,8 @@ crowdsim unable to parse, not attempting to proceed
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/meshes/floor_1.obj
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/model.config
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L02/model.sdf
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_2.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/wall_1.mtl
@@ -2028,8 +1977,8 @@ crowdsim unable to parse, not attempting to proceed
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/meshes/floor_1.obj
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/model.config
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L1/model.sdf
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/wall_1.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/blue_linoleum.png
@@ -2039,8 +1988,8 @@ crowdsim unable to parse, not attempting to proceed
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/meshes/floor_1.obj
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/model.config
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L3/model.sdf
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2
--- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2
+-- Up-to-date: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/default.png
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/wall_1.mtl
 -- Installing: /home/ususario/IR2134/exam_ws/install/rmf_library/share/rmf_library/maps/library/models/library_L2/meshes/blue_linoleum.png

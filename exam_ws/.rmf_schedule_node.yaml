@@ -1,65 +1,5 @@
 - operation: Add
   participant_description:
-    name: tinyRobot4
-    group: tinyRobot
-    responsiveness: Responsive
-    profile:
-      footprint:
-        type: Circle
-        index: 0
-      vicinity:
-        type: Circle
-        index: 1
-      shape_context:
-        - 0.29999999999999999
-        - 0.5
-- operation: Add
-  participant_description:
-    name: cleanerBotA_2
-    group: cleanerBotA
-    responsiveness: Responsive
-    profile:
-      footprint:
-        type: Circle
-        index: 0
-      vicinity:
-        type: Circle
-        index: 1
-      shape_context:
-        - 1
-        - 1.2
-- operation: Add
-  participant_description:
-    name: tinyRobot3
-    group: tinyRobot
-    responsiveness: Responsive
-    profile:
-      footprint:
-        type: Circle
-        index: 0
-      vicinity:
-        type: Circle
-        index: 1
-      shape_context:
-        - 0.29999999999999999
-        - 0.5
-- operation: Add
-  participant_description:
-    name: cleanerBotA_1
-    group: cleanerBotA
-    responsiveness: Responsive
-    profile:
-      footprint:
-        type: Circle
-        index: 0
-      vicinity:
-        type: Circle
-        index: 1
-      shape_context:
-        - 1
-        - 1.2
-- operation: Add
-  participant_description:
     name: tinyRobot5
     group: tinyRobot
     responsiveness: Responsive
@@ -90,6 +30,51 @@
         - 1.2
 - operation: Add
   participant_description:
+    name: cleanerBotA_2
+    group: cleanerBotA
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1
+        - 1.2
+- operation: Add
+  participant_description:
+    name: cleanerBotA_1
+    group: cleanerBotA
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1
+        - 1.2
+- operation: Add
+  participant_description:
+    name: tinyRobot1
+    group: tinyRobot
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 0.29999999999999999
+        - 0.5
+- operation: Add
+  participant_description:
     name: tinyRobot2
     group: tinyRobot
     responsiveness: Responsive
@@ -105,7 +90,22 @@
         - 0.5
 - operation: Add
   participant_description:
-    name: tinyRobot1
+    name: tinyRobot3
+    group: tinyRobot
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 0.29999999999999999
+        - 0.5
+- operation: Add
+  participant_description:
+    name: tinyRobot4
     group: tinyRobot
     responsiveness: Responsive
     profile:

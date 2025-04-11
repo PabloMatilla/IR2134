@@ -1514,8 +1514,8 @@ levels:
       - {name: ''}
     - - 35.18817906881229
       - -38.922712168166356
-      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger5,
-        spawn_robot_name: cleanerBotA_5, spawn_robot_type: CleanerBotA}
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger2,
+        spawn_robot_name: cleanerBotA_2, spawn_robot_type: CleanerBotA}
     - - 30.358249635963094
       - -28.55180524959861
       - {is_cleaning_zone: true, name: clean_L01_B}
@@ -1608,8 +1608,8 @@ levels:
     vertices:
     - - 22.903520890116848
       - -19.18101034238135
-      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger4,
-        spawn_robot_name: cleanerBotA_4, spawn_robot_type: CleanerBotA}
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger1,
+        spawn_robot_name: cleanerBotA_1, spawn_robot_type: CleanerBotA}
     - - 24.807415151401994
       - -19.18101034238135
       - {name: ''}
@@ -1650,121 +1650,119 @@ levels:
     lanes:
     - - 0
       - 1
-      - {}
+      - {door_name: 1null85}
     - - 1
       - 0
-      - {}
+      - {door_name: 1null85}
     - - 1
       - 2
-      - {door_name: 1null21}
+      - {}
     - - 2
       - 1
-      - {door_name: 1null21}
+      - {}
     - - 2
       - 3
-      - {door_name: 1null85}
+      - {door_name: 1null10}
     - - 3
       - 2
-      - {door_name: 1null85}
+      - {door_name: 1null10}
     - - 3
       - 4
       - {}
     - - 4
       - 3
       - {}
-    - - 4
-      - 5
-      - {door_name: 1null10}
-    - - 5
-      - 4
-      - {door_name: 1null10}
     - - 5
       - 6
       - {}
     - - 6
       - 5
       - {}
-    - - 7
-      - 8
-      - {}
-    - - 8
+    - - 6
       - 7
       - {}
+    - - 7
+      - 6
+      - {}
+    - - 5
+      - 8
+      - {door_name: 1null43}
+    - - 8
+      - 5
+      - {door_name: 1null43}
     - - 8
       - 9
       - {}
     - - 9
       - 8
       - {}
-    - - 7
-      - 10
-      - {door_name: 1null43}
-    - - 10
-      - 7
-      - {door_name: 1null43}
-    - - 10
-      - 11
-      - {}
-    - - 11
-      - 10
-      - {}
-    - - 11
-      - 12
-      - {}
-    - - 12
-      - 11
-      - {}
-    - - 12
-      - 13
-      - {}
-    - - 13
-      - 12
-      - {}
-    - - 13
-      - 14
-      - {door_name: 1null81}
-    - - 14
-      - 13
-      - {door_name: 1null81}
-    - - 14
-      - 5
-      - {}
-    - - 5
-      - 14
-      - {}
     - - 9
+      - 10
+      - {}
+    - - 10
+      - 9
+      - {}
+    - - 10
+      - 11
+      - {}
+    - - 11
+      - 10
+      - {}
+    - - 11
+      - 12
+      - {door_name: 1null81}
+    - - 12
+      - 11
+      - {door_name: 1null81}
+    - - 12
+      - 3
+      - {}
+    - - 3
+      - 12
+      - {}
+    - - 7
+      - 13
+      - {}
+    - - 13
+      - 7
+      - {}
+    - - 3
+      - 14
+      - {}
+    - - 14
+      - 3
+      - {}
+    - - 14
       - 15
       - {}
     - - 15
-      - 9
+      - 14
       - {}
-    - - 5
+    - - 2
+      - 14
+      - {door_name: 1null10}
+    - - 14
+      - 2
+      - {door_name: 1null10}
+    - - 0
       - 16
-      - {}
+      - {door_name: 1null21}
     - - 16
-      - 5
-      - {}
+      - 0
+      - {door_name: 1null21}
     - - 16
       - 17
       - {}
     - - 17
       - 16
       - {}
-    - - 4
-      - 16
-      - {door_name: 1null10}
-    - - 16
-      - 4
-      - {door_name: 1null10}
+    - - 17
+      - 18
+      - {}
+    - - 18
+      - 17
+      - {}
     vertices:
-    - - 26.60568270918118
-      - -22.62401523354365
-      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger2,
-        spawn_robot_name: cleanerBotA_2, spawn_robot_type: CleanerBotA}
-    - - 26.590897210917355
-      - -19.909233468991513
-      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger1,
-        spawn_robot_name: cleanerBotA_1, spawn_robot_type: CleanerBotA}
     - - 25.560504797819494
       - -15.845050965164459
       - {name: ''}
@@ -1813,14 +1811,23 @@ levels:
     - - 38.10999514617479
       - -16.36933875966097
       - {lift: P1, lift_cabin: P1, name: ''}
+    - - 25.911287010417038
+      - -18.481088750326688
+      - {name: ''}
+    - - 27.078295933987963
+      - -19.130157189261833
+      - {name: ''}
+    - - 27.078295933987963
+      - -22.856849494082052
+      - {name: ''}
   L2:
     lanes:
     - - 0
       - 1
-      - {door_name: 2null21}
+      - {}
     - - 1
       - 0
-      - {door_name: 2null21}
+      - {}
     - - 1
       - 2
       - {}
@@ -1835,21 +1842,21 @@ levels:
       - {}
     - - 3
       - 4
-      - {}
+      - {door_name: nulljh}
     - - 4
       - 3
-      - {}
+      - {door_name: nulljh}
     - - 4
       - 5
-      - {door_name: nulljh}
+      - {}
     - - 5
       - 4
-      - {door_name: nulljh}
-    - - 5
-      - 6
       - {}
     - - 6
-      - 5
+      - 7
+      - {}
+    - - 7
+      - 6
       - {}
     - - 7
       - 8
@@ -1863,29 +1870,29 @@ levels:
     - - 9
       - 8
       - {}
-    - - 9
+    - - 6
       - 10
+      - {door_name: 2null43}
+    - - 10
+      - 6
+      - {door_name: 2null43}
+    - - 11
+      - 4
+      - {}
+    - - 4
+      - 11
       - {}
     - - 10
-      - 9
-      - {}
-    - - 7
-      - 11
-      - {door_name: 2null43}
-    - - 11
-      - 7
-      - {door_name: 2null43}
-    - - 12
-      - 5
-      - {}
-    - - 5
       - 12
       - {}
-    - - 11
+    - - 12
+      - 10
+      - {}
+    - - 12
       - 13
       - {}
     - - 13
-      - 11
+      - 12
       - {}
     - - 13
       - 14
@@ -1894,34 +1901,30 @@ levels:
       - 13
       - {}
     - - 14
-      - 15
-      - {}
-    - - 15
+      - 11
+      - {door_name: 2null76}
+    - - 11
       - 14
+      - {door_name: 2null76}
+    - - 4
+      - 15
       - {}
     - - 15
-      - 12
-      - {door_name: 2null76}
-    - - 12
-      - 15
-      - {door_name: 2null76}
-    - - 5
+      - 4
+      - {}
+    - - 15
       - 16
       - {}
     - - 16
-      - 5
+      - 15
       - {}
-    - - 16
+    - - 0
       - 17
-      - {}
+      - {door_name: 2null21}
     - - 17
-      - 16
-      - {}
+      - 0
+      - {door_name: 2null21}
     vertices:
-    - - 26.201433745286174
-      - -21.650524586491418
-      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleanerbot_charger3,
-        spawn_robot_name: cleanerBotA_3, spawn_robot_type: CleanerBotA}
     - - 25.79143486539968
       - -15.546017996490303
       - {name: ''}
@@ -1973,6 +1976,9 @@ levels:
     - - 38.11040585445989
       - -16.36930142254414
       - {lift: P1, name: ''}
+    - - 25.79143486539968
+      - -22.143673225553506
+      - {name: ''}
   L3:
     lanes: []
     vertices: []
