@@ -52,7 +52,9 @@ ros2 launch rmf_library \
 
 
 If an error appears due to lack of gazebo models, run the following command.
-```sudo cp -R /root/.gazebo ~
+
+```
+sudo cp -R /root/.gazebo ~
 ```
 
 By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` with the latest task and robot states. User can then monitor on-going states and initiate rmf task with an interactive web dashboard.
