@@ -61,42 +61,55 @@ By specifying `server_uri`, the fleetadapter will update `rmf-web` `api-server` 
 
 At this point Gazebo will open with our `library` model.
 
-![Captura desde 2025-02-19 11-18-58](https://github.com/user-attachments/assets/bfb16650-a14d-4cff-84d3-a143d4c17407)
+![Screenshot from 2025-04-11 23-40-59](https://github.com/user-attachments/assets/c68c5319-980c-4f07-a297-478acc84b5ef)
+
+
 
 And Rviz also opens.
 
-![Captura desde 2025-02-19 11-21-11](https://github.com/user-attachments/assets/1ee4adba-376b-4b4a-9b50-66c91ba8e193)
+![Screenshot from 2025-04-11 23-29-16](https://github.com/user-attachments/assets/54372c91-c311-463a-8ecd-dde9e5e2d070)
+
+
+
 
 At this point we will be able to send tasks to our fleet of robots.
 ### Open-RMF Web
-![Captura desde 2025-02-19 11-27-06](https://github.com/user-attachments/assets/743e0af3-cd53-4e0a-87d7-87e18c313664)
+![Screenshot from 2025-04-11 23-41-55](https://github.com/user-attachments/assets/b3fa0eeb-6325-4639-a920-fafbb326ba73)
 
-![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/dbcc61c0-07fc-4f69-9b1c-ad6eb640c060)
 
-More information:
-https://drive.google.com/file/d/12B-m7i5CvB2sQT7TLPZYJX88ZqvPHae-/view?usp=sharing
+
 
 ### Terminal
 
-We must observe in which docker we have executed rmf_library.
+e instructions for running several patrol and clean tasks in the command line.
 ```
-docker ps 
-```
-In our case it is `infallible_nobel`.
-
-```
- docker exec -it infallible_nobel bash
+docker exec -it rmf_library bash
 ```
 
 ```
 source /opt/ros/jazzy/setup.bash
-cd rmf_library
-colcon build
-source install/setup.bash
-ros2 run rmf_library_tasks dispatch_patrol  -p carga_22 -n 3 --use_sim_time
+source /rmf_demos_ws/install/setup.bash
 
+ros2 run rmf_demos_tasks dispatch_clean \
+    -cs clean_L01_A --use_sim_time
+
+ros2 run rmf_demos_tasks dispatch_clean \
+    -cs clean_L02_A --use_sim_time
+
+
+ros2 run rmf_demos_tasks dispatch_patrol \
+  -p CD1S04BX CD1S05CP CD1108BE -n 1 --use_sim_time
+
+
+ros2 run rmf_demos_tasks dispatch_patrol \
+  -p CD1207BL CD1201CP CD1517BL -n 1 --use_sim_time
 ```
 
+![Screenshot from 2025-04-11 22-38-32](https://github.com/user-attachments/assets/c2b3d191-4b6b-4b53-8cc7-5bd8aaa6c431)
+
+![Screenshot from 2025-04-11 23-05-24](https://github.com/user-attachments/assets/9b2be6f6-0761-44b5-8c69-75ca043ff846)
+
+![Screenshot from 2025-04-11 23-04-27](https://github.com/user-attachments/assets/763a724f-4343-40ed-92f5-55cdd9325c02)
 
 
 
